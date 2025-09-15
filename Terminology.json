@@ -1,0 +1,133 @@
+[
+  {
+    "question": "Which of the following best describes the term 'chord' in an aerofoil?",
+    "topic": "Lift & Drag Terms",
+    "options": [
+      "The distance from wingtip to wingtip",
+      "The straight line joining the leading and trailing edges",
+      "The maximum thickness of the aerofoil",
+      "The curvature of the upper surface"
+    ],
+    "answer": "B",
+    "brief": "Chord is the straight line joining the leading and trailing edges of an aerofoil.",
+    "detailed": "The chord line is a fundamental reference line in aerodynamics. It is used to define the angle of attack and helps in calculating lift and drag parameters."
+  },
+  {
+    "question": "What does camber in an aerofoil primarily affect?",
+    "topic": "Lift & Drag Terms",
+    "options": [
+      "Lift characteristics",
+      "Thrust production",
+      "Structural strength",
+      "Aircraft weight"
+    ],
+    "answer": "A",
+    "brief": "Camber is the curvature of the aerofoil and primarily influences lift.",
+    "detailed": "An aerofoil with higher camber generates more lift at lower angles of attack. Camber modifies airflow, increasing pressure differences between upper and lower surfaces."
+  },
+  {
+    "question": "What is the thickness-to-chord ratio of an aerofoil?",
+    "topic": "Lift & Drag Terms",
+    "options": [
+      "Span divided by camber",
+      "Maximum thickness divided by chord length",
+      "Lift divided by drag",
+      "Aspect ratio of the wing"
+    ],
+    "answer": "B",
+    "brief": "The thickness-to-chord ratio is defined as the maximum thickness of the aerofoil divided by the chord length.",
+    "detailed": "This ratio influences both lift and drag properties. A thicker aerofoil increases drag but may also improve stall characteristics and structural strength."
+  },
+  {
+    "question": "Relative airflow is defined as:",
+    "topic": "Lift & Drag Terms",
+    "options": [
+      "The direction of airflow parallel to the horizon",
+      "The airflow caused by the aircraft's forward motion",
+      "The difference between IAS and TAS",
+      "Airflow parallel to the aircraft fuselage"
+    ],
+    "answer": "B",
+    "brief": "Relative airflow is the airflow experienced due to the aircraft's forward motion.",
+    "detailed": "It is the direction of the air relative to the wing, opposite to the flight path. The angle between chord line and relative airflow is the angle of attack."
+  },
+  {
+    "question": "What is angle of attack?",
+    "topic": "Lift & Drag Terms",
+    "options": [
+      "The angle between lift and drag vectors",
+      "The angle between the chord line and relative airflow",
+      "The angle between the wing and horizon",
+      "The angle of camber curvature"
+    ],
+    "answer": "B",
+    "brief": "Angle of attack is the angle between the chord line and relative airflow.",
+    "detailed": "It directly influences lift and drag. Increasing angle of attack increases lift up to a point, beyond which stall occurs."
+  },
+  {
+    "question": "In the diagram below, what does the marked angle represent?",
+    "topic": "Lift & Drag Terms",
+    "image": "angle_of_attack.png",
+    "options": [
+      "The angle between the chord line and relative airflow",
+      "The angle between wingtip and wing root",
+      "The angle of camber curvature",
+      "The dihedral angle of the wing"
+    ],
+    "answer": "A",
+    "brief": "The diagram represents the angle of attack.",
+    "detailed": "This is a fundamental aerodynamic concept: the angle formed between the chord line of the wing and the direction of relative airflow."
+  },
+  {
+    "question": "What happens to the boundary layer as it flows toward the trailing edge of the wing?",
+    "topic": "Lift & Drag Terms",
+    "options": [
+      "It becomes thinner",
+      "It becomes progressively thicker",
+      "It disappears",
+      "It remains unchanged"
+    ],
+    "answer": "B",
+    "brief": "The boundary layer becomes progressively thicker as it flows along the wing.",
+    "detailed": "Viscous forces cause airflow near the surface to slow, thickening the boundary layer. Depending on conditions, it may transition from laminar to turbulent."
+  },
+  {
+    "question": "Which type of drag is caused by the production of lift?",
+    "topic": "Types of Drag",
+    "options": [
+      "Form drag",
+      "Induced drag",
+      "Skin friction drag",
+      "Wave drag"
+    ],
+    "answer": "B",
+    "brief": "Induced drag is the result of lift production and wingtip vortices.",
+    "detailed": "When wings generate lift, pressure differences cause vortices at the tips, tilting the lift vector rearwards, creating induced drag."
+  },
+  {
+    "question": "What happens to parasite drag as IAS increases?",
+    "topic": "Types of Drag",
+    "options": [
+      "It decreases",
+      "It remains constant",
+      "It increases with the square of airspeed",
+      "It is unaffected by IAS"
+    ],
+    "answer": "C",
+    "brief": "Parasite drag increases with the square of IAS.",
+    "detailed": "Parasite drag depends on dynamic pressure, which is proportional to the square of velocity. Higher IAS leads to significantly more parasite drag."
+  },
+  {
+    "question": "What is the effect of increasing aircraft weight on total drag at a constant IAS?",
+    "topic": "Types of Drag",
+    "options": [
+      "No effect on drag",
+      "It decreases total drag",
+      "It increases induced drag component",
+      "It reduces parasite drag"
+    ],
+    "answer": "C",
+    "brief": "Higher weight increases induced drag at a given IAS.",
+    "detailed": "To maintain level flight with greater weight, the wing must produce more lift, requiring higher angles of attack, which increases induced drag."
+  }
+]

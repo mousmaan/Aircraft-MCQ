@@ -1,0 +1,5 @@
+[
+  { "id": "Term", "title": "Terminology", "file": "questions/Terminology.json" },
+  { "id": "Bern", "title": "Bernoulli’s & Coanda theory", "file": "questions/navigation.json" },
+  { "id": "power", "title": "Power requirements", "file": "questions/meteorology.json" }
+]
