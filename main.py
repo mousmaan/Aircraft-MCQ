@@ -2,25 +2,14 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
-import random
+import random # ✅ Hum 'random' ka istemal questions ko mix karne ke liye karenge
 import json
 import os
 
 app = FastAPI()
 
-# CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# Static files
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-# Load topics
 TOPICS_FILE = "topics.json"
 with open(TOPICS_FILE, "r") as f:
     topics = json.load(f)
@@ -31,33 +20,43 @@ def root():
 
 @app.get("/api/topics")
 def get_topics():
-    """Return list of topics"""
     return topics
 
-@app.get("/api/generate_question/{topic_id}")
-def generate_question(topic_id: str):
-    """Return random question from given topic"""
+# ✅✅✅ BADLAV YAHAN HAI ✅✅✅
+# Humne purane 'generate_question' function ko is naye function se badal diya hai.
+@app.get("/api/start_quiz/{topic_id}")
+def start_quiz(topic_id: str):
+    """
+    Yeh function ek topic ke saare questions dhoondhta hai, 
+    unhe mix (shuffle) karta hai, aur poori list browser ko bhej deta hai.
+    """
 
-    # Find the topic by ID
-    topic = next((t for t in topics if t["id"] == topic_id), None)
-    if not topic:
-        return {"error": "Topic not found"}
+    # Step 1: Topic ki file dhoondo (yeh code waisa hi hai)
+    all_sub_topics = []
+    for category in topics:
+        all_sub_topics.extend(category.get('sub_topics', []))
 
-    # Check if topic file exists
-    if not os.path.exists(topic["file"]):
-        return {"error": f"File {topic['file']} not found"}
+    topic_info = next((t for t in all_sub_topics if t["id"] == topic_id), None)
+    
+    if not topic_info:
+        return {"error": "Topic (Chapter) not found in topics.json"}
 
-    # Load questions from topic file
-    with open(topic["file"], "r") as f:
-        questions = json.load(f)
+    question_file_path = topic_info.get("file")
+    if not question_file_path or not os.path.exists(question_file_path):
+        return {"error": f"File not found at path: {question_file_path}"}
 
-    # Pick random question
-    question = random.choice(questions)
-    return {
-        "question": question["question"],
-        "image": question.get("image"),
-        "options": question["options"],
-        "correct_answer": question["answer"],
-        "brief_solution": question["brief"],
-        "detailed_explanation": question["detailed"]
-    }
+    # Step 2: Saare questions load karo (yeh code waisa hi hai)
+    try:
+        with open(question_file_path, "r") as f:
+            questions = json.load(f)
+    except json.JSONDecodeError:
+        return {"error": f"File is empty or not a valid JSON: {question_file_path}"}
+
+    if not questions:
+        return {"error": f"No questions found in file: {question_file_path}"}
+        
+    # ✅ Step 3: ASLI LOGIC - Poori list ko shuffle (mix) karo
+    random.shuffle(questions)
+    
+    # Step 4: Poori shuffled list frontend ko bhej do
+    return questions
