@@ -1,0 +1,559 @@
+[
+    {
+      "question": "If the Centre of Gravity (CG) is moved further aft, how does this affect the aircraft's longitudinal stability?",
+      "topic": "Longitudinal Stability - CG Position",
+      "options": [
+        "Stability increases because the tailplane has more leverage",
+        "Stability is not affected by the CG position",
+        "Stability decreases and the aircraft may become unstable",
+        "Stability increases but control effectiveness is reduced"
+      ],
+      "answer": "C",
+      "brief": "Moving the Centre of Gravity aft reduces the moment arm between the CG and the tailplane. This decreases the tailplane's ability to counteract pitching moments, making the aircraft less longitudinally stable and potentially unstable if moved beyond the aft limit.",
+      "detailed": "Longitudinal stability is the aircraft's ability to resist pitching up or down. This is primarily provided by the downward force from the tailplane, which acts like a lever to balance the aircraft. The length of this lever is the distance from the CG to the tailplane. When the CG is moved aft, this lever arm becomes shorter, reducing the tailplane's effectiveness. If the CG moves too far aft, the tailplane may not have enough authority to counteract any nose-up tendencies, making the aircraft longitudinally unstable and extremely dangerous to fly. An aft CG also makes stall recovery more difficult. From Topic: Stability (Section 11.3 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "What is the primary purpose of designing a wing with dihedral?",
+      "topic": "Lateral Stability - Dihedral",
+      "options": [
+        "To increase the wing's strength and reduce bending loads",
+        "To provide positive lateral (roll) stability",
+        "To decrease induced drag at high angles of attack",
+        "To improve the aircraft's longitudinal stability"
+      ],
+      "answer": "B",
+      "brief": "Dihedral is the upward angle of the wings from the root to the tip. Its primary function is to give the aircraft positive lateral stability, creating a natural tendency for the wings to return to a level position after being disturbed by a roll.",
+      "detailed": "Dihedral enhances roll stability through its effect during a sideslip. When a disturbance causes a wing to drop, the aircraft begins to slip towards that low wing. Due to the dihedral angle, the lower wing meets the relative airflow at a higher angle of attack than the raised wing. This increased angle of attack generates more lift on the low wing, creating a rolling moment that raises it back towards the level position. This self-correcting tendency is a key feature of a laterally stable aircraft, making it easier for the pilot to fly. From Topic: Stability (Section 11.5 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "An aircraft's directional stability, or 'weathercock stability', is primarily provided by the:",
+      "topic": "Directional Stability - Fin Moment",
+      "options": [
+        "horizontal tailplane",
+        "wing dihedral",
+        "engine torque",
+        "vertical fin and rudder"
+      ],
+      "answer": "D",
+      "brief": "Directional stability is the aircraft's tendency to yaw and align itself with the relative airflow, much like a weathercock points into the wind. This is primarily achieved by the large surface area of the vertical fin located at the rear of the aircraft.",
+      "detailed": "When an aircraft yaws, it momentarily sideslips, and the relative airflow strikes the side of the fuselage and vertical fin. Because the fin has a large surface area and is located far behind the Centre of Gravity, it acts like the feather on an arrow. The pressure of the airflow on the side of the fin creates a powerful turning moment that pushes the tail back into alignment, causing the nose to point straight into the relative airflow. The size of the fin and its distance from the CG (its moment arm) are the most significant factors in determining the strength of an aircraft's directional stability. From Topic: Stability (Section 11.6 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "How does sweepback contribute to an aircraft's lateral stability?",
+      "topic": "Lateral Stability - Sweepback",
+      "options": [
+        "It reduces the effectiveness of the ailerons",
+        "It creates a restoring roll moment during a sideslip",
+        "It increases the stalling speed of the wingtips",
+        "It has no effect on lateral stability"
+      ],
+      "answer": "B",
+      "brief": "Sweepback has a strong positive effect on lateral stability, similar to dihedral. When a swept-wing aircraft sideslips, the forward-going wing becomes 'less swept' to the airflow, effectively increasing its lift and causing it to rise, which levels the wings.",
+      "detailed": "When an aircraft with swept wings sideslips (for example, to the left), the left wing becomes more perpendicular to the relative airflow, while the right wing becomes even more swept. The left (forward-going) wing now behaves like a wing with a lower sweep angle, which makes it more effective at producing lift. Conversely, the right wing becomes less effective. This difference in lift between the two wings creates a powerful rolling moment that tries to raise the left wing, restoring the aircraft to a wings-level attitude. This is known as the 'dihedral effect' of sweepback. From Topic: Stability (Section 11.6 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "A high-wing aircraft design generally has more natural lateral stability than a low-wing design due to the:",
+      "topic": "Lateral Stability - High vs Low Wing",
+      "options": [
+        "keel effect and pendulum effect",
+        "smaller vertical fin required",
+        "increased effectiveness of the ailerons",
+        "reduced interference drag"
+      ],
+      "answer": "A",
+      "brief": "A high-wing aircraft has its weight (fuselage) suspended below the source of lift (the wings). This creates a natural pendulum effect, where the weight of the fuselage tends to pull the wings back to a level position after a disturbance, enhancing lateral stability.",
+      "detailed": "High-wing aircraft benefit from two sources of natural lateral stability. The first is the pendulum effect: because the aircraft's Centre of Gravity is below the wing's Centre of Lift, gravity will naturally try to pull the fuselage back to the lowest point, restoring the wings to level flight. The second is the keel effect: during a sideslip, the large side area of the fuselage below the wing acts like the keel of a boat, creating a force that helps to level the wings. Because of these strong inherent stability characteristics, high-wing aircraft often require less dihedral than their low-wing counterparts. From Topic: Stability (Section 11.5 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "What is the primary role of the horizontal tailplane in providing longitudinal stability?",
+      "topic": "Longitudinal Stability - Tailplane Moment",
+      "options": [
+        "To generate a large upward force to assist the main wing with lift",
+        "To counteract the nose-down pitching moment from the wing by providing a downward force",
+        "To act as the primary control surface for yaw",
+        "To reduce the overall drag of the aircraft"
+      ],
+      "answer": "B",
+      "brief": "The main wing's Centre of Pressure is typically ahead of the Centre of Gravity, creating a nose-down tendency. The horizontal tailplane counteracts this by creating a downward aerodynamic force, which produces a balancing nose-up moment.",
+      "detailed": "For an aircraft to be stable, its Centre of Gravity (CG) is typically placed ahead of the wing's Centre of Pressure (CP). This arrangement creates a natural nose-down pitching moment, which makes the aircraft want to enter a dive. The horizontal tailplane is designed to counteract this. It is essentially a small, upside-down wing that generates a downward force (a down-load). This downward force, acting on a long moment arm at the rear of the aircraft, creates a powerful nose-up pitching moment that perfectly balances the wing's nose-down moment, resulting in stable, level flight. This is the essence of longitudinal stability. From Topic: Stability (Section 11.3, Figure 11.6 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "tailplane_moment.png"
+    },
+    {
+      "question": "In a typical training aircraft, an increase in engine power will often cause the nose to pitch up. This is primarily because:",
+      "topic": "Longitudinal Stability - Changes in Thrust",
+      "options": [
+        "the propeller slipstream pushes the tail down",
+        "the engine is mounted with a high thrust line",
+        "the aircraft becomes lighter as fuel is burned",
+        "the gyroscopic effect of the propeller"
+      ],
+      "answer": "A",
+      "brief": "When power is increased, the propeller pushes a high-speed spiral of air (the slipstream) back over the fuselage. This slipstream strikes the top of the horizontal tailplane, creating a downward force that pushes the tail down and the nose up.",
+      "detailed": "One of the most noticeable effects of a power change on longitudinal trim is the effect of the propeller slipstream. When the pilot increases power, the propeller accelerates a large mass of air rearwards. This high-velocity air flows over the top of the horizontal stabilizer. Because this airflow is faster than the surrounding air, it creates a lower static pressure on top of the tailplane, effectively increasing its downward force. This stronger down-load on the tail creates a nose-up pitching moment, which the pilot must counteract by pushing forward on the control column or adjusting the trim. From Topic: Stalling (Section 10.4, Figure 10.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "propeller_slipstream_pitch.png"
+    },
+    {
+      "question": "A forward Centre of Gravity position will:",
+      "topic": "Directional Stability - CG Position",
+      "options": [
+        "decrease directional stability",
+        "have no effect on directional stability",
+        "increase directional stability",
+        "make the rudder less effective"
+      ],
+      "answer": "C",
+      "brief": "Moving the Centre of Gravity forward increases the length of the moment arm between the CG and the vertical fin. This gives the fin more leverage to counteract any yawing motion, thus increasing the aircraft's directional stability.",
+      "detailed": "Directional, or 'weathercock', stability is the aircraft's ability to resist yawing and is primarily provided by the vertical fin. The effectiveness of the fin is determined by its surface area and its moment arm—the distance between it and the Centre of Gravity. By moving the CG forward, this moment arm is lengthened. A longer moment arm means that any aerodynamic force generated by the fin during a sideslip will have a greater leverage, creating a stronger restoring moment. This makes the aircraft more directionally stable and more resistant to unwanted yawing motions.",
+      "detailed_image": "fin_moment_arm.png"
+    },
+    {
+      "question": "The effect of a larger vertical fin on an aircraft's design is:",
+      "topic": "Directional Stability - Fin Moment",
+      "options": [
+        "decreased directional stability and increased lateral stability",
+        "increased directional stability and decreased lateral stability",
+        "increased directional stability and increased lateral stability",
+        "decreased directional stability and decreased lateral stability"
+      ],
+      "answer": "C",
+      "brief": "A larger vertical fin provides a larger surface area for the relative airflow to act upon during a yaw. This increases the restoring moment, which strengthens the aircraft's directional stability, helping it fly straight.",
+      "detailed": "The vertical fin acts like the feather on an arrow, providing directional stability. A larger fin has a greater surface area, which means that during a sideslip, it will generate a much stronger aerodynamic force to push the tail back into alignment with the relative airflow. This results in a significant increase in directional stability. A larger fin also contributes to lateral stability through the 'keel effect', where the side force generated by the fin during a slip can also induce a helpful rolling motion to level the wings.",
+      "detailed_image": "large_fin_stability.png"
+    },
+    {
+      "question": "An aircraft that is longitudinally stable will:",
+      "topic": "Longitudinal Stability",
+      "options": [
+        "tend to roll back to wings-level after a disturbance",
+        "tend to yaw into the relative wind",
+        "tend to return to its trimmed airspeed after being pitched up or down",
+        "require constant pilot input to maintain altitude"
+      ],
+      "answer": "C",
+      "brief": "Longitudinal stability refers to the aircraft's stability around the lateral (pitch) axis. A stable aircraft, if disturbed from its trimmed airspeed by pitching up or down, will have a natural tendency to return to that original speed and attitude without pilot input.",
+      "detailed": "Positive static longitudinal stability means that if the aircraft is disturbed from its trimmed state (e.g., by turbulence that pitches the nose up), it will generate aerodynamic forces that automatically try to return it to that state. When the nose pitches up, the aircraft slows down, and the tailplane's downward force decreases, allowing the nose to drop back down. This creates a series of gentle, decreasing oscillations around the trimmed airspeed until the aircraft settles back into stable flight. This self-correcting tendency greatly reduces the pilot's workload.",
+      "detailed_image": "longitudinal_stability_oscillation.png"
+    },
+    {
+      "question": "What is the primary reason for the forward movement of the Centre of Pressure as the angle of attack increases?",
+      "topic": "Longitudinal Stability - Centre of Pressure",
+      "image": "centre_of_pressure_movement.png",
+      "options": [
+        "The airflow over the wing becomes turbulent",
+        "The low-pressure 'suction' peak on the upper surface moves towards the leading edge",
+        "The tailplane generates a stronger downward force",
+        "The aircraft's Centre of Gravity shifts forward"
+      ],
+      "answer": "B",
+      "brief": "As the angle of attack increases, the point of lowest static pressure on the wing's curved upper surface shifts closer to the leading edge. This causes the average location of the pressure forces, the Centre of Pressure, to also move forward.",
+      "detailed": "The distribution of pressure over a wing is not uniform. The area of lowest pressure (strongest suction) contributes the most to the total lift. At a low angle of attack, this suction peak is located somewhere near the middle of the chord. As the pilot increases the angle of attack, the airflow is forced to accelerate more sharply around the leading edge, causing this suction peak to move forward. Since the Centre of Pressure is the effective point through which the total lift force acts, this forward shift in the pressure distribution causes the CP to also move forward, creating an unstable nose-up pitching moment that the tailplane must counteract. From Topic: Aerofoils (Section 3.7, Figure 3.15 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "centre_of_pressure_movement1.png"
+    },
+    {
+      "question": "An aircraft with its Centre of Gravity at the forward limit will exhibit:",
+      "topic": "Longitudinal Stability - CG Position",
+      "image": "cg_stability.png",
+      "options": [
+        "decreased stability and light elevator control forces",
+        "increased stability and heavy elevator control forces",
+        "increased stability and light elevator control forces",
+        "decreased stability and heavy elevator control forces"
+      ],
+      "answer": "B",
+      "brief": "A forward CG position increases the moment arm to the tailplane, which makes the aircraft very stable in pitch. However, this also means the pilot must apply larger elevator inputs and heavier control forces to overcome this stability and manoeuvre the aircraft.",
+      "detailed": "Placing the Centre of Gravity (CG) towards the forward limit has a significant effect on stability and control. The increased distance between the CG and the tailplane (the moment arm) makes the tailplane more effective at resisting any changes in pitch, thus increasing longitudinal stability. While this makes for a very stable ride, it comes at the cost of control authority. The pilot will find that they need to use larger elevator deflections and apply more force to the control column to raise the nose, especially during takeoff and landing flare, because they have to overcome this strong stabilizing tendency. From Topic: Stability (Section 11.3 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "cg_stability.png"
+    },
+    {
+      "question": "The diagram shows an aircraft in a sideslip. What aerodynamic principle does this illustrate?",
+      "topic": "Lateral Stability - Dihedral",
+      "image": "dihedral_effect.png",
+      "options": [
+        "Longitudinal stability",
+        "The effect of dihedral on lateral stability",
+        "The function of the rudder in directional control",
+        "The overbanking tendency in a turn"
+      ],
+      "answer": "B",
+      "brief": "The diagram shows that in a sideslip, the lower wing has a greater angle of attack than the upper wing due to the dihedral angle. This creates more lift on the lower wing, generating a restoring roll moment that levels the aircraft.",
+      "detailed": "This diagram perfectly illustrates how dihedral works to provide lateral (roll) stability. When the aircraft is in a sideslip (moving forward but also sideways), the relative airflow strikes the wings from the side. Because of the upward angle of the wings (dihedral), the lower, or into-slip, wing meets this airflow at a higher angle of attack. Conversely, the raised wing meets it at a lower angle of attack. According to the lift formula, a higher angle of attack produces more lift. This lift imbalance between the two wings creates a rolling force that raises the low wing, automatically returning the aircraft to a wings-level attitude. From Topic: Stability (Section 11.5, Figure 11.11 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "dihedral_effect.png"
+    },
+    {
+      "question": "A large fin and rudder relative to the aircraft's size will result in:",
+      "topic": "Directional Stability - Fin Moment",
+      "image": "large_fin_stability.png",
+      "options": [
+        "strong directional stability",
+        "weak directional stability",
+        "strong lateral stability",
+        "weak longitudinal stability"
+      ],
+      "answer": "A",
+      "brief": "A larger vertical fin provides a greater surface area at the rear of the aircraft. This increases the 'weathercock' effect, creating a stronger restoring moment during a yaw and resulting in strong positive directional stability.",
+      "detailed": "Directional stability is the aircraft's ability to automatically align itself with the relative airflow, preventing unwanted yawing motions. This is achieved primarily by the vertical fin. A larger fin presents a greater side area to the airflow during a sideslip. This generates a more powerful aerodynamic force that pushes the tail back into alignment, similar to how a larger feather makes an arrow fly straighter. This strong restoring moment means the aircraft will be very stable directionally, but it might also require more rudder force from the pilot to intentionally yaw the aircraft when needed. From Topic: Stability (Section 11.6 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "large_fin_stability.png"
+    },
+    {
+      "question": "Which design feature is sometimes used on high-speed jets to reduce what would otherwise be excessive lateral stability from sweepback?",
+      "topic": "Lateral Stability - Anhedral",
+      "image": "anhedral_wing.png",
+      "options": [
+        "Dihedral",
+        "Anhedral",
+        "Wash-out",
+        "Vortex generators"
+      ],
+      "answer": "B",
+      "brief": "Swept wings create a strong dihedral effect, which can lead to excessive roll stability. To counteract this and improve manoeuvrability, designers often use anhedral, which is a downward angle of the wings, to intentionally reduce the lateral stability.",
+      "detailed": "While stability is desirable, too much of it can make an aircraft difficult to handle. Swept-wing and high-wing aircraft often have so much inherent lateral stability that they can feel 'stiff' and unresponsive in roll. To combat this, designers incorporate anhedral, which is a negative dihedral angle (wings pointing down). Anhedral works in the opposite way to dihedral; during a sideslip, it causes the lower wing to lose lift, which creates a destabilizing rolling moment. This carefully calculated reduction in stability makes the aircraft more agile and responsive to the pilot's control inputs. From Topic: Stability (Section 11.6 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "anhedral_wing.png"
+    },
+    {
+      "question": "If the Centre of Gravity is at the aft limit, the aircraft will be:",
+      "topic": "Longitudinal Stability - CG Position",
+      "options": [
+        "Very stable but difficult to flare for landing",
+        "Unstable and have a tendency to pitch up",
+        "Stable and highly responsive",
+        "Less stable but have lighter control forces"
+      ],
+      "answer": "D",
+      "brief": "An aft Centre of Gravity reduces longitudinal stability, making the aircraft more sensitive to pitch inputs. This results in lighter control forces but also makes the aircraft more challenging to fly, with a reduced ability to recover from stalls.",
+      "detailed": "Flying with the CG at its aft limit significantly changes an aircraft's handling. The reduced distance between the CG and the tailplane makes the aircraft less longitudinally stable. While this makes the controls feel lighter and more responsive, it also reduces the aircraft's natural tendency to correct for disturbances. It can make stall recovery very difficult, as the reduced leverage of the tailplane may not be sufficient to lower the nose. Therefore, while not necessarily unstable, an aircraft at its aft CG limit is much less forgiving than one with a forward CG. From Topic: Control (Exercise A6, Question 7 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "The primary purpose of a tailplane is to",
+      "topic": "Longitudinal Stability - Tailplane Moment",
+      "options": [
+        "generate an upwards force to help the wing lift the aeroplane",
+        "generate a downwards force to counteract the wing's pitching moment",
+        "steer the aeroplane in yaw",
+        "provide a mounting point for the rudder"
+      ],
+      "answer": "B",
+      "brief": "In a conventional aircraft design, the wing's lift creates a nose-down pitching moment. The horizontal tailplane's primary job is to generate a balancing downward force, creating a nose-up moment that results in stable flight.",
+      "detailed": "For an aircraft to be longitudinally stable, its Centre of Gravity is placed ahead of the wing's Centre of Pressure. This configuration creates a constant tendency for the aircraft's nose to pitch down. The horizontal stabilizer, or tailplane, is designed to counteract this. It is essentially a small, upside-down aerofoil that produces a downward aerodynamic force. This downward force, acting on the long moment arm of the empennage, creates a nose-up pitching moment that perfectly balances the wing's nose-down moment, allowing the aircraft to fly in equilibrium. From Topic: Stability (Section 11.3 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "Spiral instability is a result of an interaction between -",
+      "topic": "Lateral & Directional Stability",
+      "options": [
+        "strong lateral stability and weak directional stability.",
+        "strong directional stability and weak lateral stability.",
+        "yawing and pitching",
+        "low speed and high speed"
+      ],
+      "answer": "B",
+      "brief": "Spiral instability occurs when an aircraft has very strong directional stability but weak lateral stability. A small disturbance can lead to a tightening spiral dive because the strong fin keeps the nose pointed into the turn while the weak wing stability cannot level the wings.",
+      "detailed": "A spiral dive can result from an imbalance between directional and lateral stability. If an aircraft with strong directional stability is disturbed and begins to sideslip, the fin will powerfully yaw the nose into the slip to straighten it out. However, this yawing motion causes the outer wing to speed up and generate more lift, increasing the bank angle. If the lateral stability (dihedral effect) is too weak to counteract this rolling motion, the bank will continue to increase. The strong fin will keep yawing the aircraft into the ever-steepening turn, locking it into a spiral dive with increasing airspeed. From Topic: Stability (Progress Test Section 10 & 11, Question 4 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "A forward movement in the centre of gravity during flight will produce",
+      "topic": "Longitudinal Stability - CG Position",
+      "options": [
+        "increased longitudinal and directional stability",
+        "decreased longitudinal and directional stability",
+        "a decrease in longitudinal stability",
+        "a decrease in lateral stability"
+      ],
+      "answer": "A",
+      "brief": "Moving the Centre of Gravity forward increases the moment arm to both the horizontal tailplane and the vertical fin. This increases the effectiveness of both surfaces, resulting in an increase in both longitudinal (pitch) and directional (yaw) stability.",
+      "detailed": "The stability of an aircraft about its pitch and yaw axes is heavily dependent on the leverage provided by the tail surfaces. This leverage, or moment arm, is the distance from the Centre of Gravity to the aerodynamic center of the tailplane and fin. By moving the CG forward, a pilot increases this distance for both surfaces. A longer moment arm for the tailplane makes it more effective at resisting pitch changes, thus increasing longitudinal stability. Similarly, a longer moment arm for the vertical fin makes it more effective at resisting yaw changes, increasing directional stability. From Topic: Aerodynamics Final Test No 2, Question 5."
+    },
+    {
+      "question": "One effect of moving the centre of gravity of an aircraft further forward is that",
+      "topic": "Longitudinal Stability - CG Position",
+      "options": [
+        "the stalling angle will increase",
+        "the stalling speed will increase",
+        "the longitudinal stability will decrease",
+        "the directional stability will decrease"
+      ],
+      "answer": "B",
+      "brief": "A forward CG requires a larger downward force from the tailplane to maintain level flight. This means the main wing must produce more total lift to support both the aircraft's weight and this extra tail-down force, which results in a higher stalling speed.",
+      "detailed": "When the Centre of Gravity is moved forward, the nose-down pitching moment increases. To counteract this and maintain level flight, the pilot must trim for a larger tailplane down-load. The main wings must now generate enough lift to support not only the aircraft's weight but also this additional downward force from the tail. Because the total lift required is higher, the wing will reach its critical angle of attack at a higher indicated airspeed. Therefore, a forward CG position increases longitudinal stability but also leads to a higher stalling speed. From Topic: Control (Exercise A6, Question 9 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+        "question": "Static stability is the quality which an aircraft has to",
+        "topic": "Static Stability",
+        "options": [
+          "develop forces that tend to restore it to its original position after it has been disturbed",
+          "remain in its new position after it has been disturbed",
+          "continue to move further away from its original position after it has been disturbed",
+          "oscillate back towards its original position with the oscillations gradually reducing"
+        ],
+        "answer": "A",
+        "brief": "Static stability refers to the initial tendency of an aircraft. If it is positively stable, it will immediately develop forces that start to bring it back to its original flight attitude right after a disturbance.",
+        "detailed": "Static stability is the first response of an aircraft after being displaced from equilibrium. There are three types: Positive, Neutral, and Negative. Positive static stability, which is desirable in most aircraft, means that if the nose is pitched up, forces are created that will immediately start to push the nose back down. It's the 'desire' to return to its trimmed position. This initial tendency is crucial for a pilot, as it makes the aircraft easier to fly and more forgiving of small control errors or turbulence. It does not describe the long-term motion, only the immediate reaction. From Topic: Stability (Section 11.1 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "Dynamic stability is concerned with",
+        "topic": "Dynamic Stability",
+        "options": [
+          "the tendency of the aircraft to return to its original position after being disturbed",
+          "the way the aircraft oscillates and settles after being disturbed",
+          "the stability of the aircraft at very high speeds",
+          "the stability of the aircraft with a forward centre of gravity"
+        ],
+        "answer": "B",
+        "brief": "Dynamic stability describes the motion of an aircraft over time after a disturbance. Positive dynamic stability means the oscillations that occur after the initial disturbance will gradually dampen out and the aircraft will settle back to its original state.",
+        "detailed": "While static stability is the initial tendency, dynamic stability is what happens next. A statically stable aircraft will try to return to its original position, but it may overshoot, creating an oscillation. If these oscillations get progressively smaller and eventually stop, the aircraft has positive dynamic stability. If the oscillations remain constant, it has neutral dynamic stability. If the oscillations become progressively larger, the aircraft has negative dynamic stability (it is dynamically unstable), which can be very dangerous. A good aircraft design aims for both positive static and positive dynamic stability. From Topic: Stability (Section 11.1 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "The primary purpose of mass balance on a control surface (e.g., an aileron) is to",
+        "topic": "Mass Balance",
+        "options": [
+          "make the controls feel heavier to the pilot",
+          "help prevent control surface flutter at high speeds",
+          "increase the authority of the control surface",
+          "act as an aerodynamic balance to reduce control forces"
+        ],
+        "answer": "B",
+        "brief": "Mass balance involves adding weights to the leading edge of a control surface. Its critical purpose is to move the surface's Centre of Gravity onto its hinge line, which helps to prevent the rapid, destructive oscillations known as control surface flutter.",
+        "detailed": "Control surface flutter is a dangerous aerodynamic phenomenon where, at high speeds, a control surface can begin to oscillate back and forth with increasing violence. This is caused by an interaction between the aerodynamic forces and the inertia of the control surface. By adding a weight (a mass balance) ahead of the hinge line, designers ensure that the control surface's Centre of Gravity (CG) is located directly on the hinge line. This eliminates the inertial moment that can initiate flutter. If the CG were behind the hinge, any small deflection would create an inertial force that causes it to 'overshoot,' leading to self-exciting and potentially catastrophic vibrations. From Topic: Control (Section 12.5 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "An anti-balance tab is a tab that moves in the:",
+        "topic": "Anti-Balance Tabs",
+        "options": [
+          "same direction as the main control surface to make the controls feel heavier",
+          "opposite direction to the main control surface to make the controls feel lighter",
+          "same direction as the main control surface to make the controls feel lighter",
+          "opposite direction to the main control surface to make the controls feel heavier"
+        ],
+        "answer": "A",
+        "brief": "An anti-balance tab moves in the same direction as the main control surface. This creates an aerodynamic force that resists the pilot's input, making the controls feel heavier and more solid, which prevents over-controlling.",
+        "detailed": "Some aircraft, particularly those with all-moving tailplanes (stabilators), can have very light and sensitive controls. This can lead to the pilot making overly large control inputs, especially at high speeds. An anti-balance tab is designed to provide artificial 'feel' and resistance. It is linked to move in the same direction as the control surface. For example, when the pilot moves the stabilator up, the anti-balance tab also moves up. The airflow striking the tab creates a downward force that tries to push the stabilator back down. The pilot must overcome this resistance, which makes the controls feel heavier and more stable. From Topic: Control (Section 12.3 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "Spiral instability is a tendency for an aircraft to",
+        "topic": "Spiral Instability",
+        "options": [
+          "enter a spin after a stall",
+          "oscillate violently in pitch and yaw",
+          "slowly increase its bank angle into a steepening spiral dive",
+          "yaw from side to side during cruise flight"
+        ],
+        "answer": "C",
+        "brief": "Spiral instability occurs when strong directional stability overpowers weak lateral stability. After a small disturbance, the aircraft will tend to slowly and progressively increase its bank angle, tightening into a spiral dive if not corrected by the pilot.",
+        "detailed": "This instability is a result of an imbalance between the two horizontal stability types. It typically begins with a small disturbance that causes the aircraft to roll and sideslip. The strong directional stability (from the fin) will yaw the nose into the slip, but the weak lateral stability (from dihedral/sweepback) is not strong enough to level the wings. In fact, the yawing motion causes the outer wing to speed up and generate more lift, which actually increases the bank angle. This creates a vicious cycle: the increasing bank leads to more slip, which leads to more yaw into the turn, which leads to an even steeper bank, resulting in a spiral dive. From Topic: Stability (Section 11.7 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "The diagram shows an aircraft's response to a disturbance. This represents:",
+        "topic": "Static and Dynamic Stability",
+        "image": "dynamic_stability_diagram.png",
+        "options": [
+          "Negative static stability",
+          "Positive static and positive dynamic stability",
+          "Positive static but neutral dynamic stability",
+          "Positive static but negative dynamic stability (unstable)"
+        ],
+        "answer": "B",
+        "brief": "The diagram shows that after the initial disturbance, the aircraft tries to return to its original position (positive static stability). The oscillations that follow become progressively smaller until they disappear, which is the definition of positive dynamic stability.",
+        "detailed": "This diagram illustrates the ideal stability characteristics for an aircraft. The first movement after the 'displacement' is back towards the 'rest position', which shows positive static stability. However, due to inertia, the aircraft overshoots this position, creating an oscillation. The key feature to observe is that each successive oscillation is smaller in amplitude than the previous one. This dampening of the oscillations shows that the aircraft has positive dynamic stability. It will, if left alone, eventually settle back into its original, trimmed state of flight. This combination makes an aircraft safe and easy to fly.",
+        "detailed_image": "dynamic_stability_diagram.png"
+      },
+      {
+        "question": "Which of these is a significant controllability problem when flying in the region of reverse command?",
+        "topic": "Region of Reverse Command",
+        "options": [
+          "The aircraft will tend to pitch up uncontrollably",
+          "The ailerons become ineffective, preventing turns",
+          "A decrease in airspeed will cause an increased rate of descent unless power is added",
+          "The aircraft will accelerate even with the power at idle"
+        ],
+        "answer": "C",
+        "brief": "The main danger in the region of reverse command is that the relationship between pitch and altitude is reversed. If the pilot raises the nose to slow down without adding power, the massive increase in induced drag will cause the aircraft to sink rapidly.",
+        "detailed": "On the 'back of the power curve', induced drag is the dominant force. As the pilot slows the aircraft by raising the nose (increasing the angle of attack), the induced drag increases sharply. This increased drag requires more power to overcome. If the pilot does not add a significant amount of power to counteract this drag, the aircraft will have a power deficit (power required will be greater than power available). This deficit will result in a loss of energy, causing the aircraft to descend. This is particularly hazardous on a final approach, where a pilot might instinctively raise the nose to correct a low approach path, which would only make the sink rate worse.",
+        "detailed_image": "reverse_command_region.png"
+      },
+      {
+        "question": "The diagram shows a horn balance on a rudder. Its purpose is to:",
+        "topic": "Aerodynamic Balance",
+        "image": "horn_balance.png",
+        "options": [
+          "act as a mass balance to prevent flutter",
+          "increase the surface area of the rudder",
+          "make the rudder more difficult to move at high speeds",
+          "use airflow to assist the pilot in deflecting the rudder, making it feel lighter"
+        ],
+        "answer": "D",
+        "brief": "A horn balance is a form of aerodynamic balance. The part of the rudder that extends forward of the hinge line ('the horn') catches the airflow, creating a force that helps the pilot move the control surface in the desired direction.",
+        "detailed": "On larger or faster aircraft, the force required to deflect a control surface like a rudder can be very high. An aerodynamic balance, such as the horn balance shown, is designed to reduce these control forces. When the pilot deflects the rudder, the horn portion forward of the hinge line moves out into the airstream on the opposite side. The airflow striking this horn creates a force that pushes it, assisting the pilot's input. This makes the rudder feel much lighter and more responsive, reducing pilot fatigue and improving control harmony without the need for complex hydraulic systems.",
+        "detailed_image": "horn_balance.png"
+      },
+      {
+        "question": "A fixed trim tab is a small metal tab on the trailing edge of a control surface that is:",
+        "topic": "Trim Tabs",
+        "options": [
+          "controlled by the pilot via a trim wheel in the cockpit",
+          "adjusted by a mechanic on the ground to correct a flight tendency",
+          "designed to automatically adjust itself based on airspeed",
+          "used to prevent control surface flutter"
+        ],
+        "answer": "B",
+        "brief": "A fixed trim tab is a small, bendable metal tab on a control surface. It cannot be adjusted by the pilot in flight but is bent on the ground by maintenance personnel to correct any consistent, long-term trimming issues, such as a tendency to always fly one wing low.",
+        "detailed": "Sometimes, due to minor imperfections in rigging or airframe symmetry, an aircraft might have a persistent tendency to, for example, roll slightly to the left in cruise flight. A fixed trim tab on an aileron can be used to correct this. A mechanic will bend the tab slightly downwards. In flight, the airflow striking this bent tab creates a constant upward force on the aileron, which is just enough to counteract the aircraft's natural rolling tendency. It is a simple, effective, and permanent way to 'trim' the aircraft for hands-off flight, but it lacks the flexibility of a cockpit-controlled trim tab.",
+        "detailed_image": "fixed_trim_tab.png"
+      },
+      {
+        "question": "The diagram shows three types of stability. Which panel represents neutral static stability?",
+        "topic": "Static and Dynamic Stability",
+        "image": "static_stability_types.png",
+        "options": [
+          "Panel A (Stable)",
+          "Panel B (Unstable)",
+          "Panel C (Neutral)",
+          "None of the above"
+        ],
+        "answer": "C",
+        "brief": "Panel C shows that after the ball is displaced from its original position, it comes to rest in a new position and shows no tendency to move further away or return. This is the definition of neutral static stability.",
+        "detailed": "This diagram provides a simple analogy for the three types of static stability. Panel A shows positive stability: when the ball is displaced, gravity creates a force that restores it to its original position. Panel B shows negative stability: when the ball is displaced, gravity creates a force that causes it to move even further away from its original position. Panel C represents neutral stability: when the ball is displaced and released, it is perfectly balanced in its new position. It has no tendency to return to where it was, nor does it have a tendency to move further away. An aircraft with neutral stability will simply adopt a new attitude after a disturbance. From Topic: Stability (Section 11.2, Figure 11.3 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "static_stability_types.png"
+      },
+      {
+        "question": "An aircraft that is dynamically unstable will exhibit which type of motion after a disturbance?",
+        "topic": "Static and Dynamic Stability",
+        "options": [
+          "A single, smooth return to the original attitude",
+          "Oscillations that progressively get smaller",
+          "Oscillations that remain at a constant amplitude",
+          "Oscillations that progressively get larger"
+        ],
+        "answer": "D",
+        "brief": "A dynamically unstable aircraft is very dangerous. After a disturbance, it will begin to oscillate, but each oscillation will be larger than the previous one, leading to a divergent and potentially uncontrollable flight path.",
+        "detailed": "Dynamic instability occurs when an aircraft has insufficient damping forces. Even if the aircraft is statically stable and tries to return to its original position, its oscillations will grow over time. For example, if the nose pitches up, the static stability will push it back down, but it will overshoot to a nose-low attitude that is more severe than the initial disturbance. The next nose-up oscillation will be even larger, and so on. This divergent oscillation, if not corrected by the pilot, can quickly lead to a loss of control or structural failure. From Topic: Stability (Section 11.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "dynamic_instability.png"
+      },
+      {
+        "question": "What is the primary difference between a balance tab and an anti-balance tab?",
+        "topic": "Balance vs Anti-Balance Tabs",
+        "options": [
+          "A balance tab moves in the same direction as the control surface, while an anti-balance tab moves in the opposite direction.",
+          "A balance tab is used on the rudder, while an anti-balance tab is used on the elevator.",
+          "A balance tab moves in the opposite direction to the control surface, while an anti-balance tab moves in the same direction.",
+          "A balance tab is controlled by the pilot, while an anti-balance tab is automatic."
+        ],
+        "answer": "C",
+        "brief": "The key difference is their direction of movement. A balance tab moves opposite to the main surface to make the controls feel lighter, while an anti-balance tab moves in the same direction to make the controls feel heavier.",
+        "detailed": "These two tabs have opposite functions. A balance tab is designed to reduce high control forces. It is linked to move in the opposite direction to the main control surface, creating an aerodynamic force that assists the pilot's input. An anti-balance tab is designed to increase control feel on surfaces that are too light. It is linked to move in the same direction as the main control surface, creating an aerodynamic force that resists the pilot's input, thus providing artificial feel and preventing the pilot from over-controlling the aircraft. From Topic: Control (Section 12.3, Figure 12.10 & 12.11 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "balance_vs_anti-balance.png"
+      },
+      {
+        "question": "A pilot is flying slowly on approach and notices that initiating a roll to the right with aileron causes the nose to initially yaw to the left. This is an example of:",
+        "topic": "Region of Reverse Command",
+        "options": [
+          "Spiral instability",
+          "The overbanking tendency",
+          "Aileron drag (adverse yaw)",
+          "P-factor"
+        ],
+        "answer": "C",
+        "brief": "This describes the classic effect of adverse yaw, which is a form of aileron drag. The downward deflected aileron on the rising (right) wing creates more drag, pulling the nose to the left, opposite the direction of the intended turn.",
+        "detailed": "Adverse yaw is a common controllability issue, especially at low speeds where larger control deflections are required. When the pilot moves the stick to the right, the right aileron goes down to increase lift on that wing. A byproduct of this increased lift is a large increase in induced drag. This extra drag on the right wing acts like a brake, pulling the right wing back and causing the aircraft's nose to yaw to the left. This is 'adverse' because it is opposite to the direction of the turn. Pilots must use coordinated rudder to counteract this yaw and keep the nose aligned. From Topic: Control (Section 12.4 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "aileron_drag.png"
+      },
+      {
+        "question": "Which of these is a form of aerodynamic balance?",
+        "topic": "Aerodynamic Balance",
+        "options": [
+          "A weight attached to the leading edge of the aileron",
+          "A horn balance protruding forward of the hinge line",
+          "A spring connected to the control cables",
+          "Using lightweight materials in the control surface"
+        ],
+        "answer": "B",
+        "brief": "Aerodynamic balance uses the force of the airflow itself to help the pilot move a control surface. A horn balance is a classic example, where a part of the surface extends ahead of the hinge to 'catch' the air and reduce control effort.",
+        "detailed": "Aerodynamic balance is any design feature that uses the pressure of the moving air to assist the pilot. A horn balance is a simple and effective method. By extending a portion of the control surface forward of the hinge line, designers create an area that will be exposed to the airflow when the control is deflected. This airflow creates a force that pushes the 'horn', which in turn helps to move the entire control surface in the desired direction. This reduces the amount of stick or rudder pressure the pilot needs to apply, making the aircraft easier to fly. From Topic: Control (Section 12.5, Figure 12.15 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "horn_balance.png"
+      },
+      {
+        "question": "A cockpit-controlled elevator trim tab is used by the pilot to:",
+        "topic": "Trim Tabs",
+        "options": [
+          "Increase the maximum speed of the aircraft",
+          "Remove the need to apply constant pressure on the control column to maintain an attitude",
+          "Prevent the control surface from fluttering at high speeds",
+          "Act as a secondary elevator in case of a control failure"
+        ],
+        "answer": "B",
+        "brief": "The purpose of a cockpit-controlled trim tab is to relieve the pilot of the need to hold continuous forward or backward pressure on the controls. It allows the pilot to set an attitude and have the aircraft maintain it 'hands-off'.",
+        "detailed": "Flying an aircraft requires maintaining specific attitudes for climbing, cruising, or descending, which often requires a constant pressure on the control column. To eliminate this fatiguing workload, the pilot can adjust the trim tab via a wheel or switch in the cockpit. The tab deflects and creates a small aerodynamic force that holds the main control surface (like the elevator) in the desired position. This effectively 'trims' the aircraft to fly at a specific speed or attitude without any further input from the pilot, greatly enhancing stability and reducing workload. From Topic: Control (Section 12.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "trim_tab_action.png"
+      },
+      {
+        "question": "The diagram shows a mass balance. Its Centre of Gravity (CG) is located:",
+        "topic": "Mass Balance",
+        "image": "mass_balance_diagram.png",
+        "options": [
+          "behind the hinge line",
+          "above the hinge line",
+          "on the hinge line",
+          "below the hinge line"
+        ],
+        "answer": "C",
+        "brief": "The diagram illustrates the principle of mass balancing. The weight is positioned ahead of the hinge so that the Centre of Gravity of the entire control surface assembly lies directly on the hinge line to prevent flutter.",
+        "detailed": "The purpose of a mass balance is to prevent the destructive aerodynamic phenomenon of control surface flutter. Flutter is an unstable oscillation caused by the interaction of aerodynamic forces and the inertia of the control surface. By strategically placing a weight (the mass balance) forward of the hinge line, engineers ensure that the Centre of Gravity of the entire control surface lies exactly on the axis of rotation (the hinge line). This eliminates the inertial coupling that can cause flutter, ensuring the control surface remains stable and free from oscillations even at very high airspeeds. From Topic: Control (Section 12.5, Figure 12.17 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "mass_balance_diagram.png"
+      },
+      {
+        "question": "An aircraft is disturbed and its nose pitches up. The aircraft then continues to pitch up even further. This is an example of:",
+        "topic": "Static and Dynamic Stability",
+        "image": "unstable_aircraft.png",
+        "options": [
+          "Positive static stability",
+          "Neutral static stability",
+          "Negative static stability (unstable)",
+          "Positive dynamic stability"
+        ],
+        "answer": "C",
+        "brief": "This describes negative static stability. The aircraft has no tendency to return to its original position; instead, the forces created by the disturbance actually cause it to move further away from its original state, making it unstable.",
+        "detailed": "Negative static stability is a highly dangerous characteristic in an aircraft. It means that if the aircraft is disturbed from its trimmed flight path, it will not try to return. Instead, the aerodynamic forces generated will push it even further away from its original attitude. For example, if the nose pitches up, an unstable aircraft will generate forces that cause the nose to pitch up even more aggressively. This divergent tendency would require constant and immediate correction from the pilot and makes the aircraft extremely difficult, if not impossible, to fly safely. From Topic: Stability (Section 11.2, Figure 11.3b - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "unstable_aircraft.png"
+      },
+      {
+        "question": "Which of the following statements about the 'region of reverse command' is true?",
+        "topic": "Region of Reverse Command",
+        "image": "power_required_curve.png",
+        "options": [
+          "It is also known as the 'front side' of the power curve",
+          "In this region, a higher angle of attack requires less power",
+          "It is the range of speeds between the minimum power speed and the maximum speed",
+          "It is the range of speeds below the minimum power speed"
+        ],
+        "answer": "D",
+        "brief": "The region of reverse command is specifically defined as the range of speeds on the 'back side' of the power curve. This includes all speeds lower than the speed for minimum power required (maximum endurance).",
+        "detailed": "The power required curve is U-shaped. The lowest point on this curve corresponds to the minimum power speed. All speeds to the right of this point are in the 'region of normal command'. All speeds to the left of this point are in the 'region of reverse command'. This region is characterized by high induced drag, which means that in order to fly slower while maintaining altitude, the pilot must increase the power setting. This is the opposite, or 'reverse,' of what a pilot would experience in the normal cruise speed range. From Topic: Power Required - Level Flight (Section 6.3, Figure 6.6 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "reverse_command_region.png"
+      },
+      {
+        "question": "The diagram shows a balance tab. It helps the pilot by:",
+        "topic": "Balance Tabs",
+        "image": "balance_tab_action.png",
+        "options": [
+          "moving in the same direction as the elevator to increase control feel",
+          "moving in the opposite direction to the elevator to help move it",
+          "adding weight to the front of the elevator to prevent flutter",
+          "locking the elevator in place for cruise flight"
+        ],
+        "answer": "B",
+        "brief": "A balance tab is linked to move in the opposite direction of the main control surface. As shown, when the elevator moves up, the tab moves down, catching the air and creating a force that helps push the elevator up, making it feel lighter.",
+        "detailed": "A balance tab is a device designed to reduce high control forces and make an aircraft easier to fly. It is linked via a mechanism so that its movement is opposite to that of the main control surface it is attached to. As the diagram illustrates, when the pilot pulls back to raise the elevator, the linkage forces the balance tab to deflect downwards. The airflow then strikes this tab, creating an upward aerodynamic force on the tab itself. This force, acting at the trailing edge, assists the pilot in moving and holding the entire elevator in the desired upward position. From Topic: Control (Section 12.3, Figure 12.10 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "balance_tab_action.png"
+      },
+      {
+        "question": "Which of these design features has the most significant influence on directional stability?",
+        "topic": "Directional Stability - Fin Moment",
+        "options": [
+          "Wing Dihedral",
+          "The horizontal tailplane",
+          "The vertical fin",
+          "The position of the Centre of Gravity"
+        ],
+        "answer": "C",
+        "brief": "Directional stability, the aircraft's ability to fly straight without yawing, is almost entirely provided by the vertical fin. It acts like a weathercock, keeping the aircraft aligned with the relative airflow.",
+        "detailed": "An aircraft's tendency to resist yaw and maintain a straight path is known as directional stability. This is achieved by creating a restoring moment whenever the aircraft yaws. The largest and most effective surface for creating this moment is the vertical fin. Its large surface area, combined with its long moment arm from the Centre of Gravity, ensures that any sideslip will generate a powerful aerodynamic force on the fin that pushes the tail back into alignment. While the CG position affects the fin's leverage, the fin itself is the primary component responsible for providing this stability. From Topic: Stability (Section 11.6 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "fin_moment_arm.png"
+      }
+  ]

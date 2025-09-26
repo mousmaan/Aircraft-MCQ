@@ -1,0 +1,630 @@
+[
+    {
+      "question": "On a power curve graph, the 'power-on' stall speed is represented by:",
+      "topic": "Stall Speed (Power On)",
+      "options": [
+        "the highest point on the power required curve",
+        "the lowest point on the power required curve",
+        "the low-speed intersection of the power available and power required curves",
+        "the high-speed intersection of the power available and power required curves"
+      ],
+      "answer": "C",
+      "brief": "The power-on stall speed is the minimum speed at which level flight can be sustained. On the graph, this is the point on the far left where the power required to fly equals the maximum power available from the engine.",
+      "detailed": "The power required curve shows how much power is needed to fly at different speeds. At very low speeds, this power requirement is very high due to induced drag. The aircraft can only maintain a speed if the power available from the engine is greater than or equal to the power required. The absolute minimum speed the aircraft can maintain in level flight occurs at the point where the rising 'back side' of the power required curve intersects the power available line. Any attempt to fly slower than this speed would require more power than the engine can provide, resulting in a stall or descent. This is the theoretical power-on stalling speed. From Topic: Power Required - Level Flight (Section 6.3 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "The 'region of reverse command' is the flight regime where:",
+      "topic": "Region of Reverse Command",
+      "options": [
+        "more power is required to fly faster",
+        "the aircraft controls operate in the opposite direction",
+        "more power is required to fly slower while maintaining altitude",
+        "the aircraft is most fuel efficient"
+      ],
+      "answer": "C",
+      "brief": "The region of reverse command, or 'back of the power curve,' is a low-speed flight regime where induced drag is dominant. In this region, a decrease in airspeed requires an increase in power to maintain level flight.",
+      "detailed": "In normal flight, if a pilot wants to slow down, they reduce power. However, on the 'back of the power curve'—the part of the curve to the left of the minimum power speed—the opposite is true. As the aircraft slows down, induced drag increases so dramatically that the total power required to stay level also increases. Therefore, to fly slower in this region, the pilot must add more power. This is a critical concept for pilots, especially during a landing approach, as reducing speed without adding power will lead to an increased rate of descent, which can be hazardous at low altitudes. From Topic: Power Required - Level Flight (Section 6.3 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "Load factor is defined as the ratio of:",
+      "topic": "Load Factor",
+      "options": [
+        "the total lift being produced by the wings to the aircraft's weight",
+        "the aircraft's weight to its wing area",
+        "the engine's thrust to the aircraft's total drag",
+        "the aircraft's airspeed to its stalling speed"
+      ],
+      "answer": "A",
+      "brief": "Load factor is a measure of the total load the wings are supporting compared to the aircraft's normal weight. It is calculated by dividing the total lift by the weight and is often expressed in 'G's'.",
+      "detailed": "Load factor is a crucial concept for understanding the stresses on an aircraft structure. In straight and level flight, lift is equal to weight, so the load factor is 1 G. However, during any manoeuvre that involves acceleration, such as a turn, a pull-up, or flying through turbulence, the wings must produce a lift force greater than the weight. The ratio of this total lift to the aircraft's weight is the load factor. For example, in a 60-degree banked turn, the wings must produce lift equal to twice the aircraft's weight to maintain altitude, resulting in a load factor of 2 G. From Topic: Turning (Section 9.3 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "An aircraft with a high wing loading will typically:",
+      "topic": "Wing Loading",
+      "options": [
+        "have a very low stalling speed",
+        "be very manoeuvrable at low speeds",
+        "perform better in turbulent conditions and have a higher stalling speed",
+        "be able to take off from very short runways"
+      ],
+      "answer": "C",
+      "brief": "Wing loading is the aircraft's weight divided by its wing area. A high wing loading means each square foot of the wing must support more weight, which results in a higher stalling speed but a smoother ride in turbulence.",
+      "detailed": "Wing loading is a key design parameter that significantly influences an aircraft's flight characteristics. A high wing loading (found on airliners and jets) means the aircraft is heavy for its wing size. This requires flying at higher speeds to generate the necessary lift, resulting in a higher stalling speed and longer takeoff and landing distances. However, a major advantage is that a high wing loading makes the aircraft less susceptible to being disturbed by gusts and turbulence, providing a much smoother ride for passengers. In contrast, an aircraft with low wing loading (like a glider) is very sensitive to turbulence but can fly very slowly. From Topic: Turning - Wing Loading (Section 9.4 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "The term 'g' is a measure of:",
+      "topic": "'g' (Gravitational Force)",
+      "options": [
+        "airspeed",
+        "altitude",
+        "accelerative force",
+        "engine power"
+      ],
+      "answer": "C",
+      "brief": "The term 'g' refers to the acceleration due to gravity. In aviation, it is used as a standard unit to measure the accelerative forces experienced by an aircraft and its occupants, which is the same as the load factor.",
+      "detailed": "'G' is a standard unit of acceleration, where 1 G is the normal force of gravity we feel on the surface of the Earth. When an aircraft manoeuvres, it creates accelerations that are felt as an increase or decrease in apparent weight. This is the load factor. A pilot pulling a '2 G' turn is experiencing an accelerative force equal to twice the force of gravity, and they will feel as though they weigh twice their normal weight. Aircraft are designed with specific 'G' limits that must not be exceeded to avoid structural failure. From Topic: Turning - 'G' Loading (Section 9.4 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "In which of these situations would an aircraft be most likely to exceed its load factor limits?",
+      "topic": "Exceeding Load Factor",
+      "options": [
+        "A steady, constant-airspeed climb",
+        "A normal, gentle descent for landing",
+        "An abrupt pull-up from a high-speed dive",
+        "A standard Rate 1 turn"
+      ],
+      "answer": "C",
+      "brief": "Exceeding the load factor limit typically involves a combination of high speed and an abrupt control input. Pulling out of a dive sharply at a high airspeed will impose a very large 'G' force on the airframe.",
+      "detailed": "An aircraft's structural limits are defined by a maximum load factor (e.g., +3.8 G for a normal category aircraft). This limit can be exceeded if the wings are forced to generate a lift force many times the aircraft's weight. While a steep turn increases the load factor, the most dangerous situation is an abrupt pull-up at high speed. The high speed provides a large amount of dynamic pressure, and a sudden, large increase in the angle of attack can cause the lift to increase almost instantaneously to a value that may exceed the structural strength of the wings before the aircraft even has a chance to stall."
+    },
+    {
+      "question": "From the power curve graph, the region to the left of the lowest point on the curve is known as:",
+      "topic": "Region of Reverse Command",
+      "image": "power_required_curve.png",
+      "options": [
+        "the region of normal command",
+        "the high-speed cruise region",
+        "the region of reverse command",
+        "the region of maximum lift"
+      ],
+      "answer": "C",
+      "brief": "The lowest point on the power curve is the minimum power speed. The area to the left of this point, where speed is lower, is the region of reverse command, also known as the 'back of the power curve'.",
+      "detailed": "The power required curve is U-shaped. The speed at the very bottom of the 'U' is the point of minimum power required for level flight. The flight regime to the right of this point is 'normal command,' where more power is needed to fly faster. The regime to the left of this point is the 'region of reverse command.' Here, due to the high induced drag associated with low-speed flight, more power is actually required to fly slower while maintaining altitude. This is a critical area of flight that pilots must understand for safe low-speed handling.",
+      "detailed_image": "reverse_command_region.png"
+    },
+    {
+      "question": "How is an aircraft's wing loading calculated?",
+      "topic": "Wing Loading",
+      "options": [
+        "By multiplying the wingspan by the average chord",
+        "By dividing the total lift by the aircraft's weight",
+        "By dividing the aircraft's gross weight by the wing's surface area",
+        "By multiplying the engine horsepower by the propeller efficiency"
+      ],
+      "answer": "C",
+      "brief": "Wing loading is a simple but important performance metric. It is calculated by taking the total weight of the aircraft and dividing it by the total surface area of its wings, typically expressed in pounds per square foot or kilograms per square meter.",
+      "detailed": "Wing loading provides a useful measure of how 'heavy' an aircraft is relative to the size of its wings. A high wing loading indicates that each square foot of the wing must support a large amount of weight, which requires higher airspeeds to generate sufficient lift. For example, a heavy airliner might have a high wing loading, while a light training aircraft or a glider will have a very low wing loading. This value directly influences stalling speed, turning performance, and the aircraft's response to turbulence. It should not be confused with load factor, which is a measure of 'G' force.",
+      "detailed_image": "wing_surface_area.png"
+    },
+    {
+      "question": "A load factor of 1 G is experienced during which phase of flight?",
+      "topic": "'g' (Gravitational Force)",
+      "options": [
+        "A 45-degree banked turn",
+        "A steady climb",
+        "An abrupt pull-up",
+        "Straight and level, unaccelerated flight"
+      ],
+      "answer": "D",
+      "brief": "A load factor of 1 G represents the normal force of gravity. An aircraft and its occupants experience 1 G only during unaccelerated flight, such as straight and level flight at a constant airspeed.",
+      "detailed": "Load factor, measured in 'G's', is the ratio of lift to weight. In steady, straight and level flight, the aircraft is not accelerating, and the forces are in equilibrium. In this state, the lift produced by the wings is exactly equal to the aircraft's weight. Therefore, the ratio of Lift/Weight is 1. Any manoeuvre that involves acceleration, including turning, pulling up, or even flying through a strong updraft, will cause the lift to become greater than the weight, and the load factor will increase to a value greater than 1 G.",
+      "detailed_image": "four_forces_equilibrium.png"
+    },
+    {
+      "question": "Flying on the 'back of the power curve' is most common during which phase of flight?",
+      "topic": "Region of Reverse Command",
+      "options": [
+        "High-speed cruise at altitude",
+        "The final approach to landing",
+        "A steep, high-speed dive",
+        "Aerobatic manoeuvres"
+      ],
+      "answer": "B",
+      "brief": "The region of reverse command is a low-speed flight regime. Pilots are most likely to be operating in this region during the final stages of the approach to landing, where the airspeed is low and power is used to control the rate of descent.",
+      "detailed": "The final approach is a phase of flight that requires precise control of both airspeed and descent rate at low speeds. As the pilot slows the aircraft towards its target approach speed, they are often flying on the 'back side' of the power curve. In this regime, pitch is used to control airspeed, and power is used to control the rate of descent. If the aircraft gets too low, the pilot must add power to decrease the sink rate. If they get too slow, they must lower the nose and may also need to add power to compensate for the increased drag. Understanding this relationship is fundamental to executing a safe and stable approach.",
+      "detailed_image": "reverse_command_region.png"
+    },
+    {
+      "question": "An aircraft is in a 60-degree bank level turn. What is the load factor ('g') being experienced?",
+      "topic": "Load Factor",
+      "image": "load_factor_turn1.png",
+      "options": [
+        "1 G",
+        "1.5 G",
+        "2 G",
+        "4 G"
+      ],
+      "answer": "C",
+      "brief": "In a mathematically correct, 60-degree banked level turn, the total lift required to maintain altitude is exactly twice the aircraft's weight. This results in a load factor of 2 G.",
+      "detailed": "The load factor in a turn is determined by the angle of bank. The formula is Load Factor = 1 / cos(bank angle). The cosine of 60 degrees is 0.5. Therefore, the load factor is 1 / 0.5, which equals 2. This means that in a 60-degree bank, the wings must produce a lift force equal to twice the aircraft's weight to both counteract gravity and provide the necessary centripetal force for the turn. The pilot and the aircraft structure would experience a force of 2 G's. From Topic: Turning (Section 9.3, Figure 9.8 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "load_factor_turn1.png"
+    },
+    {
+      "question": "Which of the following would cause a significant increase in an aircraft's wing loading?",
+      "topic": "Wing Loading",
+      "options": [
+        "Burning off fuel during a long flight",
+        "Loading heavy baggage into the cargo hold",
+        "Extending the flaps for landing",
+        "Flying at a higher altitude"
+      ],
+      "answer": "B",
+      "brief": "Wing loading is the total weight divided by the wing area. Since the wing area is constant, any significant increase in the aircraft's gross weight, such as by adding heavy baggage or passengers, will directly increase the wing loading.",
+      "detailed": "Wing loading is a direct measure of how much weight each unit of the wing's area must support. The wing area ('S') is a fixed design feature of the aircraft and does not change. Therefore, the only way to change the wing loading is to change the aircraft's total weight. Loading heavy items like baggage, passengers, or extra fuel will increase the gross weight of the aircraft. Since the wing area remains the same, the ratio of Weight/Area must increase. This higher wing loading will result in a higher stalling speed and require a longer takeoff roll."
+    },
+    {
+      "question": "Referring to the power curve, a pilot wishing to fly slower than the speed for maximum endurance must:",
+      "topic": "Region of Reverse Command",
+      "image": "power_required_curve.png",
+      "options": [
+        "reduce power",
+        "increase power",
+        "maintain the same power setting",
+        "lower the flaps"
+      ],
+      "answer": "B",
+      "brief": "The speed for maximum endurance is the lowest point on the power curve. To fly at any speed to the left of this point (slower), a pilot must move up the 'back side' of the curve, which requires an increase in power to maintain altitude.",
+      "detailed": "The power required curve is U-shaped, with the bottom of the 'U' representing the minimum power speed (max endurance). The left side of this curve is the region of reverse command. If a pilot is flying at the minimum power speed and wishes to slow down further while maintaining level flight, they must increase the angle of attack. This higher AoA creates a large amount of induced drag, which in turn requires more power to overcome. Therefore, counter-intuitively, flying slower in this regime requires the pilot to add power.",
+      "detailed_image": "reverse_command_region.png"
+    },
+    {
+      "question": "Which of these factors directly increases the load factor on an aircraft?",
+      "topic": "Load Factor",
+      "options": [
+        "An increase in aircraft weight",
+        "Flying at a higher altitude",
+        "Flying at a higher airspeed",
+        "Increasing the angle of bank in a turn"
+      ],
+      "answer": "D",
+      "brief": "Load factor is a direct consequence of manoeuvring. While weight and speed can affect the potential for high G-loads, it is the act of increasing the angle of bank in a turn that directly and mathematically increases the load factor.",
+      "detailed": "Load factor is the ratio of lift to weight. In a turn, the lift vector is tilted to provide the turning force. As the angle of bank increases, a larger proportion of the lift is directed horizontally, and less is available to counteract weight. To maintain altitude, the pilot must increase the total lift, which directly increases the load factor. While a high airspeed can make it easier to pull high G's, and a high weight increases the stress for a given G, it is the bank angle itself that is the primary determinant of the load factor in a balanced turn.",
+      "detailed_image": "turn_forces_components.png"
+    },
+    {
+      "question": "The theoretical minimum speed in level flight (power-on stall) is found where:",
+      "topic": "Stall Speed (Power On)",
+      "image": "power_curve_stall_speed.png",
+      "options": [
+        "The power required curve is at its lowest point",
+        "The power available curve is at its highest point",
+        "The power available and power required curves intersect at a low airspeed",
+        "The thrust and drag curves intersect"
+      ],
+      "answer": "C",
+      "brief": "The absolute minimum speed an aircraft can maintain in level flight occurs at the point where the high power required for low-speed flight becomes equal to the maximum power the engine can provide. This is the low-speed intersection of the two curves.",
+      "detailed": "An aircraft can only maintain level flight if the power available from its engine is greater than or equal to the power required to overcome drag. On a performance graph, this means flight is only possible in the region where the power available line is above the power required curve. There are two points where these lines intersect. The intersection on the right side (S3) represents the maximum level flight speed. The intersection on the far left side, at a very low airspeed, represents the theoretical minimum speed, or power-on stall speed. Flying any slower would require more power than is available.",
+      "detailed_image": "power_curve_stall_speed.png"
+    },
+    {
+    "question": "If an aircraft's weight is increased, how must the pilot adjust the Angle of Attack to maintain a constant IAS in level flight?",
+    "topic": "Effect of Weight on AoA & IAS",
+    "options": [
+      "Angle of attack must be decreased",
+      "Angle of attack must be increased",
+      "Angle of attack remains the same, but power must be increased",
+      "Angle of attack remains the same, but IAS must be increased"
+    ],
+    "answer": "B",
+    "brief": "To support a heavier weight at the same Indicated Airspeed, the wings must produce more lift. To create this extra lift without changing speed, the pilot's only option is to increase the angle of attack.",
+    "detailed": "The lift formula is Lift = CL x ½ρV² x S. In level flight, Lift must equal Weight. If the weight increases, the lift must also increase to maintain altitude. If the pilot wishes to maintain a constant Indicated Airspeed (which means ½ρV² is constant), the only way to increase lift is by increasing the Coefficient of Lift (CL). The pilot controls the CL directly by changing the angle of attack. Therefore, to support the higher weight, a higher angle of attack is required, which in turn will also result in more induced drag. From Topic: Straight and Level Flight (Exercise A4, Question 10 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "What is the effect of increased weight on an aircraft's maximum glide range and glide endurance?",
+    "topic": "Effect of Weight on Glide Performance",
+    "options": [
+      "Glide range decreases and endurance increases",
+      "Glide range increases and endurance decreases",
+      "Glide range is unaffected but endurance decreases",
+      "Both glide range and endurance are decreased"
+    ],
+    "answer": "C",
+    "brief": "Increased weight does not affect the maximum possible glide range (the glide angle remains the same). However, the aircraft must fly at a higher speed to achieve this angle, which means it will descend faster and stay in the air for less time, thus decreasing glide endurance.",
+    "detailed": "An aircraft's best glide angle is achieved at the angle of attack that produces the best lift/drag ratio. This angle of attack is an aerodynamic property and does not change with weight. Therefore, a heavy aircraft and a light aircraft will have the same maximum possible glide range in still air. However, to generate the extra lift needed to support its weight, the heavier aircraft must fly at a significantly higher true airspeed. Because it is flying faster along the same glide path, it will cover the distance and reach the ground in less time. This reduction in time means its glide endurance is decreased. From Topic: Descending (Section 8.6 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "How does a tailwind component affect an aircraft's glide range?",
+    "topic": "Effect of Wind on Glide Range",
+    "options": [
+      "It decreases the glide range",
+      "It has no effect on the glide range",
+      "It increases the glide range",
+      "The effect depends on the aircraft's weight"
+    ],
+    "answer": "C",
+    "brief": "A tailwind increases the aircraft's ground speed. Since the aircraft is descending at the same rate through the air, this higher ground speed allows it to cover more horizontal distance before it reaches the ground, thus increasing the glide range.",
+    "detailed": "An aircraft's glide performance (its glide angle and rate of descent) is determined by its movement through the airmass it is in. A tailwind is simply a movement of that entire airmass over the ground. While the aircraft glides at the same speed through the air and descends at the same rate, the tailwind adds to its forward speed over the ground. For example, if the aircraft glides at 70 knots TAS and has a 20-knot tailwind, its ground speed will be 90 knots. Because it is covering the ground much faster but descending at the same rate, it will travel a significantly greater horizontal distance. From Topic: Descending (Section 8.6 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "If power is increased during a turn while maintaining a constant angle of bank, the radius of turn will:",
+    "topic": "Effect of Power on Turn",
+    "options": [
+      "decrease because the rate of turn increases",
+      "remain the same because the bank angle is constant",
+      "increase because the airspeed increases",
+      "decrease because the lift increases"
+    ],
+    "answer": "C",
+    "brief": "Adding power in a turn while holding a constant bank angle will cause the aircraft to accelerate. The radius of a turn is proportional to the square of the airspeed, so this increase in speed will result in a larger turn radius.",
+    "detailed": "When a pilot adds power in a turn, the thrust becomes greater than the drag, causing the aircraft to accelerate to a higher airspeed. The radius of a turn is determined by two main factors: bank angle and true airspeed. Since the bank angle is being held constant, the increase in true airspeed is the deciding factor. According to the turn performance formulae, the radius is proportional to the velocity squared (Radius ∝ V²). Therefore, a higher airspeed will always result in a wider turn radius for any given angle of bank. The rate of turn, conversely, would decrease as the aircraft now has a larger circle to fly. From Topic: Turning (Exercise A5, Question 25 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "A pilot is descending from a high altitude to a lower altitude at a constant Indicated Airspeed (IAS). How is the aircraft's energy state changing?",
+    "topic": "Energy State",
+    "options": [
+      "Both kinetic and potential energy are decreasing",
+      "Kinetic energy is increasing and potential energy is decreasing",
+      "Potential energy is decreasing while kinetic energy remains constant",
+      "Kinetic energy is decreasing while potential energy remains constant"
+    ],
+    "answer": "C",
+    "brief": "The aircraft's altitude represents its potential energy, so descending means potential energy is decreasing. Maintaining a constant Indicated Airspeed (IAS) means the aircraft's dynamic pressure, which represents its kinetic energy, is being held constant.",
+    "detailed": "An aircraft's total energy is a combination of its potential energy (due to height) and its kinetic energy (due to speed). In this scenario, the aircraft is descending, so its altitude is decreasing, which means its store of potential energy is being reduced. The pilot is maintaining a constant Indicated Airspeed. Since IAS is a direct measure of dynamic pressure (½ρV²), which is the air's kinetic energy, holding a constant IAS means the aircraft's kinetic energy state is being held constant. The pilot is managing this descent by dissipating the potential energy as drag rather than converting it into extra speed. From Topic: Kinetic Energy (Section 1.9 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "To maintain level flight at a higher altitude, a pilot must fly at a higher True Airspeed (TAS) to achieve the same Indicated Airspeed (IAS). Why?",
+    "topic": "Effect of Altitude on IAS",
+    "options": [
+      "Because the engine produces more power at higher altitudes",
+      "Because the air is less dense, so a higher speed is needed for the same dynamic pressure",
+      "Because the aircraft's weight is lower at higher altitudes",
+      "Because the wings are more efficient in colder air"
+    ],
+    "answer": "B",
+    "brief": "Indicated Airspeed (IAS) is a measure of dynamic pressure. At higher altitudes, the air density is lower, so the aircraft must fly faster (higher TAS) through the thin air to generate the same dynamic pressure and the same IAS.",
+    "detailed": "The lift an aircraft produces is proportional to the dynamic pressure, which is calculated as ½ρV² (half density times true airspeed squared). An aircraft's wing needs a specific amount of dynamic pressure to fly at a certain angle of attack, and the IAS is what displays this dynamic pressure to the pilot. As the aircraft climbs, the air density (ρ) decreases significantly. In order for the dynamic pressure (and thus the IAS) to remain the same, the true airspeed (V) must increase to compensate for the lower density. This is why an aircraft's TAS is always higher than its IAS at any altitude above sea level.",
+    "detailed_image": "ias_vs_tas_altitude.png"
+  },
+  {
+    "question": "How does an increase in aircraft weight affect the turn rate and turn radius, if the same Indicated Airspeed and angle of bank are maintained?",
+    "topic": "Effect of Weight on Turn Performance",
+    "options": [
+      "Turn rate decreases and turn radius increases",
+      "Turn rate increases and turn radius decreases",
+      "Both the turn rate and turn radius are unaffected by weight",
+      "Both the turn rate and turn radius will increase"
+    ],
+    "answer": "C",
+    "brief": "Surprisingly, for a given Indicated Airspeed and angle of bank, an aircraft's weight has no effect on its rate or radius of turn. Both a heavy and a light aircraft will have the same turning performance under these conditions.",
+    "detailed": "The formulae for calculating the rate and radius of a turn depend only on two variables: the aircraft's true airspeed and its angle of bank. While a heavier aircraft must use a higher angle of attack to generate the extra lift needed for the turn, this does not change the geometry of the turn itself. If two aircraft—one heavy and one light—are flying at the same Indicated Airspeed (which means their True Airspeed is also the same at the same altitude) and they both maintain a 30-degree bank, they will have exactly the same rate of turn and the same turn radius. This is a key concept in understanding flight performance.",
+    "detailed_image": "turn_radius_formula.png"
+  },
+  {
+    "question": "How does a strong headwind affect an aircraft's maximum glide endurance?",
+    "topic": "Effect of Wind on Glide Endurance",
+    "options": [
+      "It significantly increases glide endurance",
+      "It significantly decreases glide endurance",
+      "It has no effect on glide endurance",
+      "The effect depends on the aircraft's weight"
+    ],
+    "answer": "C",
+    "brief": "Glide endurance is the total time an aircraft can stay in the air during a glide. Since this depends only on the aircraft's rate of descent through the airmass, a steady headwind (which moves the airmass) has no effect on it.",
+    "detailed": "Endurance, whether powered or gliding, is a measure of time. An aircraft's glide endurance is determined by its starting altitude and its rate of descent (sink rate). The rate of descent depends on the aircraft's aerodynamic characteristics (its L/D ratio) and its speed through the air. A headwind is simply the movement of the airmass over the ground. It does not change how the aircraft performs *within* that airmass. Therefore, the aircraft's rate of descent remains the same, and the total time it can stay airborne in a glide is completely unaffected by a steady headwind.",
+    "detailed_image": "gliding_range.png"
+  },
+  {
+    "question": "When a pilot performs a 'zoom climb', they trade airspeed for altitude. This is an example of converting:",
+    "topic": "Energy State",
+    "options": [
+      "potential energy into kinetic energy",
+      "kinetic energy into potential energy",
+      "thrust into lift",
+      "drag into weight"
+    ],
+    "answer": "B",
+    "brief": "In a zoom climb, a pilot pulls the nose up and allows the aircraft to climb steeply, sacrificing speed. This is a direct conversion of the aircraft's kinetic energy (from its high speed) into potential energy (in the form of increased height).",
+    "detailed": "An aircraft in flight possesses two main types of energy: kinetic energy, which is its energy of motion (represented by its airspeed), and potential energy, which is its stored energy due to its height above the ground (represented by its altitude). A pilot can trade one form of energy for the other. By lowering the nose and diving, a pilot converts potential energy (altitude) into kinetic energy (airspeed). Conversely, by raising the nose in a 'zoom climb', the pilot uses the aircraft's momentum to gain height, converting kinetic energy (airspeed) into potential energy (altitude).",
+    "detailed_image": "energy_tradeoff.png"
+  },
+  {
+    "question": "If power is increased while maintaining a constant rate of turn, what must the pilot do to the bank angle?",
+    "topic": "Effect of Power on Turn",
+    "options": [
+      "The bank angle must be increased",
+      "The bank angle must be decreased",
+      "The bank angle must remain the same",
+      "The bank angle must be increased to 90 degrees"
+    ],
+    "answer": "A",
+    "brief": "Adding power will cause the aircraft to speed up. To maintain the same rate of turn at this new, higher airspeed, the pilot must increase the angle of bank to provide a greater turning force.",
+    "detailed": "The rate of turn (degrees per second) is a function of both airspeed and bank angle. If a pilot adds power, the aircraft will accelerate to a higher true airspeed. If the bank angle were kept constant, this higher speed would result in a slower rate of turn (and a wider radius). To counteract this and maintain the original rate of turn, the pilot must increase the angle of bank. The steeper bank provides a larger horizontal component of lift, which is the necessary turning force to pull the faster-moving aircraft around at the same angular velocity.",
+    "detailed_image": "rate_turn_comparison.png"
+  },
+  {
+    "question": "An aircraft glides into a strong headwind. To achieve the maximum glide range over the ground, the pilot should fly at an Indicated Airspeed that is:",
+    "topic": "Effect of Wind on Glide Range",
+    "image": "gliding_into_headwind.png",
+    "options": [
+      "the same as the best still-air glide speed",
+      "slightly lower than the best still-air glide speed",
+      "slightly higher than the best still-air glide speed",
+      "as low as possible without stalling"
+    ],
+    "answer": "C",
+    "brief": "To maximize ground distance when gliding into a headwind, the pilot must increase their indicated airspeed. This gets the aircraft to its destination faster, spending less time being pushed backward by the wind.",
+    "detailed": "While the best L/D ratio speed gives the best glide angle through the air, it may not be the best speed for covering ground in a headwind. A strong headwind significantly reduces ground speed. By flying at a slightly higher indicated airspeed, the pilot increases their true airspeed. Although this moves the aircraft away from its absolute best L/D ratio and slightly increases its rate of descent, the increase in forward speed is more beneficial. It reduces the time the aircraft is exposed to the retarding effect of the headwind, resulting in a net gain in the distance covered over the ground. From Topic: Descending (Section 8.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "gliding_into_headwind.png"
+  },
+  {
+    "question": "Two aircraft, A and B, are identical in every respect except that A is much heavier than B. If both aircraft establish a glide at their respective best glide speeds, which is true?",
+    "topic": "Effect of Weight on Glide Performance",
+    "image": "heavy_vs_light_glide.png",
+    "options": [
+      "Aircraft A will have a steeper glide angle",
+      "Aircraft B will have a longer glide range",
+      "Both aircraft will have the same glide angle, but A will fly faster",
+      "Aircraft B will have a faster rate of descent"
+    ],
+    "answer": "C",
+    "brief": "Both the heavy and light aircraft will achieve the same best glide angle because the L/D ratio is unaffected by weight. However, the heavier aircraft (A) must fly at a higher airspeed to generate the required lift, and will therefore descend faster.",
+    "detailed": "An aircraft's best glide angle is determined by its maximum lift-to-drag ratio, which is an aerodynamic property of its shape and is not affected by weight. Therefore, both the heavy and light aircraft can achieve the same shallowest glide angle and will have the same maximum still-air range. However, to achieve this, the heavier aircraft must generate more lift. To do so at the same efficient angle of attack, it must fly at a higher true airspeed. Because the heavier aircraft is flying faster down the same glide slope, it will have a higher rate of descent and will reach the ground in less time. From Topic: Descending (Section 8.6, Figure 8.16 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "heavy_vs_light_glide.png"
+  },
+  {
+    "question": "What is the effect of an increase in altitude on an aircraft's maximum endurance for a normally aspirated engine?",
+    "topic": "Effect of Altitude on Endurance",
+    "image": "power_curves_altitude.png",
+    "options": [
+      "Endurance increases significantly",
+      "Endurance remains the same",
+      "Endurance decreases",
+      "The effect is unpredictable"
+    ],
+    "answer": "C",
+    "brief": "For a normally aspirated (non-turbocharged) engine, maximum endurance is achieved at low altitudes. As altitude increases, the engine becomes less efficient in the thinner air, leading to a higher fuel flow for the same power, thus decreasing endurance.",
+    "detailed": "Maximum endurance is about achieving the lowest possible fuel flow (e.g., litres per hour). A normally aspirated engine is most efficient at producing power in the dense air found at sea level. As the aircraft climbs, the air becomes less dense, and the engine must work harder (higher throttle setting) to produce the power required to fly. This less efficient operation results in a higher specific fuel consumption. Even though the power required to fly at a given IAS might be slightly less, the penalty in engine efficiency is greater, leading to a net decrease in the total time the aircraft can stay airborne. From Topic: Straight and Level Flight (Section 7.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "power_available_altitude_effect.png"
+  },
+  {
+    "question": "If an aircraft maintains a constant angle of attack and bank angle, what is the effect of an increase in power?",
+    "topic": "Effect of Power on Turn",
+    "image": "climbing_turn.png",
+    "options": [
+      "The aircraft will enter a balanced level turn",
+      "The aircraft will begin to descend",
+      "The aircraft will enter a climbing turn",
+      "The aircraft's bank angle will decrease"
+    ],
+    "answer": "C",
+    "brief": "If the angle of attack and bank are held constant, adding power will increase thrust. Since the lift and drag are fixed by the constant AoA and speed, this excess thrust will cause the aircraft to start climbing in a spiral path.",
+    "detailed": "In a stable turn, all forces are balanced. If a pilot adds power, the thrust will now be greater than the drag, causing the aircraft to accelerate. However, if the pilot also maintains the same angle of attack, the increasing airspeed will cause the lift to increase significantly (Lift ∝ V²). With lift now greater than the forces required for a level turn, and thrust greater than drag, the excess energy will be converted into a gain in altitude. The aircraft will therefore begin to fly in an ascending spiral, or a climbing turn. From Topic: Turning (Section 9.10 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "climbing_turn_forces.png"
+  },
+  {
+    "question": "An aircraft's energy state is a combination of its:",
+    "topic": "Energy State",
+    "image": "energy_tradeoff.png",
+    "options": [
+      "Thrust and Drag",
+      "Lift and Weight",
+      "Potential Energy (Altitude) and Kinetic Energy (Airspeed)",
+      "Engine Power and Fuel Flow"
+    ],
+    "answer": "C",
+    "brief": "The total mechanical energy of an aircraft in flight is the sum of its potential energy, which is determined by its altitude, and its kinetic energy, which is determined by its airspeed. Pilots can manage flight by trading one form of energy for the other.",
+    "detailed": "Thinking in terms of energy management is a key piloting skill. An aircraft's potential energy is its 'height bank account'—the higher it is, the more stored energy it has. Its kinetic energy is its 'speed bank account'—the faster it is, the more energy of motion it has. A pilot can make a 'withdrawal' from the height account to 'deposit' into the speed account by diving. Conversely, they can use excess speed (kinetic energy) to gain height (potential energy) in a climb. The engine's purpose is to add energy to this system to counteract the energy lost to drag. From Topic: Kinetic Energy (Section 1.9 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "energy_tradeoff.png"
+  },
+  {
+    "question": "If an aircraft's weight is increased, how must the pilot adjust the Angle of Attack to maintain a constant IAS in level flight?",
+    "topic": "Effect of Weight on AoA & IAS",
+    "options": [
+      "Angle of attack must be decreased",
+      "Angle of attack must be increased",
+      "Angle of attack remains the same, but power must be increased",
+      "Angle of attack remains the same, but IAS must be increased"
+    ],
+    "answer": "B",
+    "brief": "To support a heavier weight at the same Indicated Airspeed, the wings must produce more lift. To create this extra lift without changing speed, the pilot's only option is to increase the angle of attack.",
+    "detailed": "The lift formula is Lift = CL x ½ρV² x S. In level flight, Lift must equal Weight. If the weight increases, the lift must also increase to maintain altitude. If the pilot wishes to maintain a constant Indicated Airspeed (which means ½ρV² is constant), the only way to increase lift is by increasing the Coefficient of Lift (CL). The pilot controls the CL directly by changing the angle of attack. Therefore, to support the higher weight, a higher angle of attack is required, which in turn will also result in more induced drag. From Topic: Straight and Level Flight (Exercise A4, Question 10 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "What is the effect of increased weight on an aircraft's maximum glide range and glide endurance?",
+    "topic": "Effect of Weight on Glide Performance",
+    "options": [
+      "Glide range decreases and endurance increases",
+      "Glide range increases and endurance decreases",
+      "Glide range is unaffected but endurance decreases",
+      "Both glide range and endurance are decreased"
+    ],
+    "answer": "C",
+    "brief": "Increased weight does not affect the maximum possible glide range (the glide angle remains the same). However, the aircraft must fly at a higher speed to achieve this angle, which means it will descend faster and stay in the air for less time, thus decreasing glide endurance.",
+    "detailed": "An aircraft's best glide angle is achieved at the angle of attack that produces the best lift/drag ratio. This angle of attack is an aerodynamic property and does not change with weight. Therefore, a heavy aircraft and a light aircraft will have the same maximum possible glide range in still air. However, to generate the extra lift needed to support its weight, the heavier aircraft must fly at a significantly higher true airspeed. Because it is flying faster along the same glide path, it will cover the distance and reach the ground in less time. This reduction in time means its glide endurance is decreased. From Topic: Descending (Section 8.6 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "How does a tailwind component affect an aircraft's glide range?",
+    "topic": "Effect of Wind on Glide Range",
+    "options": [
+      "It decreases the glide range",
+      "It has no effect on the glide range",
+      "It increases the glide range",
+      "The effect depends on the aircraft's weight"
+    ],
+    "answer": "C",
+    "brief": "A tailwind increases the aircraft's ground speed. Since the aircraft is descending at the same rate through the air, this higher ground speed allows it to cover more horizontal distance before it reaches the ground, thus increasing the glide range.",
+    "detailed": "An aircraft's glide performance (its glide angle and rate of descent) is determined by its movement through the airmass it is in. A tailwind is simply a movement of that entire airmass over the ground. While the aircraft glides at the same speed through the air and descends at the same rate, the tailwind adds to its forward speed over the ground. For example, if the aircraft glides at 70 knots TAS and has a 20-knot tailwind, its ground speed will be 90 knots. Because it is covering the ground much faster but descending at the same rate, it will travel a significantly greater horizontal distance. From Topic: Descending (Section 8.6 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "If power is increased during a turn while maintaining a constant angle of bank, the radius of turn will:",
+    "topic": "Effect of Power on Turn",
+    "options": [
+      "decrease because the rate of turn increases",
+      "remain the same because the bank angle is constant",
+      "increase because the airspeed increases",
+      "decrease because the lift increases"
+    ],
+    "answer": "C",
+    "brief": "Adding power in a turn while holding a constant bank angle will cause the aircraft to accelerate. The radius of a turn is proportional to the square of the airspeed, so this increase in speed will result in a larger turn radius.",
+    "detailed": "When a pilot adds power in a turn, the thrust becomes greater than the drag, causing the aircraft to accelerate to a higher airspeed. The radius of a turn is determined by two main factors: bank angle and true airspeed. Since the bank angle is being held constant, the increase in true airspeed is the deciding factor. According to the turn performance formulae, the radius is proportional to the velocity squared (Radius ∝ V²). Therefore, a higher airspeed will always result in a wider turn radius for any given angle of bank. The rate of turn, conversely, would decrease as the aircraft now has a larger circle to fly. From Topic: Turning (Exercise A5, Question 25 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "A pilot is descending from a high altitude to a lower altitude at a constant Indicated Airspeed (IAS). How is the aircraft's energy state changing?",
+    "topic": "Energy State",
+    "options": [
+      "Both kinetic and potential energy are decreasing",
+      "Kinetic energy is increasing and potential energy is decreasing",
+      "Potential energy is decreasing while kinetic energy remains constant",
+      "Kinetic energy is decreasing while potential energy remains constant"
+    ],
+    "answer": "C",
+    "brief": "The aircraft's altitude represents its potential energy, so descending means potential energy is decreasing. Maintaining a constant Indicated Airspeed (IAS) means the aircraft's dynamic pressure, which represents its kinetic energy, is being held constant.",
+    "detailed": "An aircraft's total energy is a combination of its potential energy (due to height) and its kinetic energy (due to speed). In this scenario, the aircraft is descending, so its altitude is decreasing, which means its store of potential energy is being reduced. The pilot is maintaining a constant Indicated Airspeed. Since IAS is a direct measure of dynamic pressure (½ρV²), which is the air's kinetic energy, holding a constant IAS means the aircraft's kinetic energy state is being held constant. The pilot is managing this descent by dissipating the potential energy as drag rather than converting it into extra speed. From Topic: Kinetic Energy (Section 1.9 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "To maintain level flight at a higher altitude, a pilot must fly at a higher True Airspeed (TAS) to achieve the same Indicated Airspeed (IAS). Why?",
+    "topic": "Effect of Altitude on IAS",
+    "options": [
+      "Because the engine produces more power at higher altitudes",
+      "Because the air is less dense, so a higher speed is needed for the same dynamic pressure",
+      "Because the aircraft's weight is lower at higher altitudes",
+      "Because the wings are more efficient in colder air"
+    ],
+    "answer": "B",
+    "brief": "Indicated Airspeed (IAS) is a measure of dynamic pressure. At higher altitudes, the air density is lower, so the aircraft must fly faster (higher TAS) through the thin air to generate the same dynamic pressure and the same IAS.",
+    "detailed": "The lift an aircraft produces is proportional to the dynamic pressure, which is calculated as ½ρV² (half density times true airspeed squared). An aircraft's wing needs a specific amount of dynamic pressure to fly at a certain angle of attack, and the IAS is what displays this dynamic pressure to the pilot. As the aircraft climbs, the air density (ρ) decreases significantly. In order for the dynamic pressure (and thus the IAS) to remain the same, the true airspeed (V) must increase to compensate for the lower density. This is why an aircraft's TAS is always higher than its IAS at any altitude above sea level.",
+    "detailed_image": "ias_vs_tas_altitude.png"
+  },
+  {
+    "question": "How does an increase in aircraft weight affect the turn rate and turn radius, if the same Indicated Airspeed and angle of bank are maintained?",
+    "topic": "Effect of Weight on Turn Performance",
+    "options": [
+      "Turn rate decreases and turn radius increases",
+      "Turn rate increases and turn radius decreases",
+      "Both the turn rate and turn radius are unaffected by weight",
+      "Both the turn rate and turn radius will increase"
+    ],
+    "answer": "C",
+    "brief": "Surprisingly, for a given Indicated Airspeed and angle of bank, an aircraft's weight has no effect on its rate or radius of turn. Both a heavy and a light aircraft will have the same turning performance under these conditions.",
+    "detailed": "The formulae for calculating the rate and radius of a turn depend only on two variables: the aircraft's true airspeed and its angle of bank. While a heavier aircraft must use a higher angle of attack to generate the extra lift needed for the turn, this does not change the geometry of the turn itself. If two aircraft—one heavy and one light—are flying at the same Indicated Airspeed (which means their True Airspeed is also the same at the same altitude) and they both maintain a 30-degree bank, they will have exactly the same rate of turn and the same turn radius. This is a key concept in understanding flight performance.",
+    "detailed_image": "turn_radius_formula.png"
+  },
+  {
+    "question": "How does a strong headwind affect an aircraft's maximum glide endurance?",
+    "topic": "Effect of Wind on Glide Endurance",
+    "options": [
+      "It significantly increases glide endurance",
+      "It significantly decreases glide endurance",
+      "It has no effect on glide endurance",
+      "The effect depends on the aircraft's weight"
+    ],
+    "answer": "C",
+    "brief": "Glide endurance is the total time an aircraft can stay in the air during a glide. Since this depends only on the aircraft's rate of descent through the airmass, a steady headwind (which moves the airmass) has no effect on it.",
+    "detailed": "Endurance, whether powered or gliding, is a measure of time. An aircraft's glide endurance is determined by its starting altitude and its rate of descent (sink rate). The rate of descent depends on the aircraft's aerodynamic characteristics (its L/D ratio) and its speed through the air. A headwind is simply the movement of the airmass over the ground. It does not change how the aircraft performs *within* that airmass. Therefore, the aircraft's rate of descent remains the same, and the total time it can stay airborne in a glide is completely unaffected by a steady headwind.",
+    "detailed_image": "gliding_range.png"
+  },
+  {
+    "question": "When a pilot performs a 'zoom climb', they trade airspeed for altitude. This is an example of converting:",
+    "topic": "Energy State",
+    "options": [
+      "potential energy into kinetic energy",
+      "kinetic energy into potential energy",
+      "thrust into lift",
+      "drag into weight"
+    ],
+    "answer": "B",
+    "brief": "In a zoom climb, a pilot pulls the nose up and allows the aircraft to climb steeply, sacrificing speed. This is a direct conversion of the aircraft's kinetic energy (from its high speed) into potential energy (in the form of increased height).",
+    "detailed": "An aircraft in flight possesses two main types of energy: kinetic energy, which is its energy of motion (represented by its airspeed), and potential energy, which is its stored energy due to its height above the ground (represented by its altitude). A pilot can trade one form of energy for the other. By lowering the nose and diving, a pilot converts potential energy (altitude) into kinetic energy (airspeed). Conversely, by raising the nose in a 'zoom climb', the pilot uses the aircraft's momentum to gain height, converting kinetic energy (airspeed) into potential energy (altitude).",
+    "detailed_image": "energy_tradeoff.png"
+  },
+  {
+    "question": "If power is increased while maintaining a constant rate of turn, what must the pilot do to the bank angle?",
+    "topic": "Effect of Power on Turn",
+    "options": [
+      "The bank angle must be increased",
+      "The bank angle must be decreased",
+      "The bank angle must remain the same",
+      "The bank angle must be increased to 90 degrees"
+    ],
+    "answer": "A",
+    "brief": "Adding power will cause the aircraft to speed up. To maintain the same rate of turn at this new, higher airspeed, the pilot must increase the angle of bank to provide a greater turning force.",
+    "detailed": "The rate of turn (degrees per second) is a function of both airspeed and bank angle. If a pilot adds power, the aircraft will accelerate to a higher true airspeed. If the bank angle were kept constant, this higher speed would result in a slower rate of turn (and a wider radius). To counteract this and maintain the original rate of turn, the pilot must increase the angle of bank. The steeper bank provides a larger horizontal component of lift, which is the necessary turning force to pull the faster-moving aircraft around at the same angular velocity.",
+    "detailed_image": "rate_turn_comparison.png"
+  },
+  {
+    "question": "An aircraft glides into a strong headwind. To achieve the maximum glide range over the ground, the pilot should fly at an Indicated Airspeed that is:",
+    "topic": "Effect of Wind on Glide Range",
+    "image": "gliding_into_headwind.png",
+    "options": [
+      "the same as the best still-air glide speed",
+      "slightly lower than the best still-air glide speed",
+      "slightly higher than the best still-air glide speed",
+      "as low as possible without stalling"
+    ],
+    "answer": "C",
+    "brief": "To maximize ground distance when gliding into a headwind, the pilot must increase their indicated airspeed. This gets the aircraft to its destination faster, spending less time being pushed backward by the wind.",
+    "detailed": "While the best L/D ratio speed gives the best glide angle through the air, it may not be the best speed for covering ground in a headwind. A strong headwind significantly reduces ground speed. By flying at a slightly higher indicated airspeed, the pilot increases their true airspeed. Although this moves the aircraft away from its absolute best L/D ratio and slightly increases its rate of descent, the increase in forward speed is more beneficial. It reduces the time the aircraft is exposed to the retarding effect of the headwind, resulting in a net gain in the distance covered over the ground. From Topic: Descending (Section 8.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "gliding_into_headwind.png"
+  },
+  {
+    "question": "Two aircraft, A and B, are identical in every respect except that A is much heavier than B. If both aircraft establish a glide at their respective best glide speeds, which is true?",
+    "topic": "Effect of Weight on Glide Performance",
+    "image": "heavy_vs_light_glide.png",
+    "options": [
+      "Aircraft A will have a steeper glide angle",
+      "Aircraft B will have a longer glide range",
+      "Both aircraft will have the same glide angle, but A will fly faster",
+      "Aircraft B will have a faster rate of descent"
+    ],
+    "answer": "C",
+    "brief": "Both the heavy and light aircraft will achieve the same best glide angle because the L/D ratio is unaffected by weight. However, the heavier aircraft (A) must fly at a higher airspeed to generate the required lift, and will therefore descend faster.",
+    "detailed": "An aircraft's best glide angle is determined by its maximum lift-to-drag ratio, which is an aerodynamic property of its shape and is not affected by weight. Therefore, both the heavy and light aircraft can achieve the same shallowest glide angle and will have the same maximum still-air range. However, to achieve this, the heavier aircraft must generate more lift. To do so at the same efficient angle of attack, it must fly at a higher true airspeed. Because the heavier aircraft is flying faster down the same glide slope, it will have a higher rate of descent and will reach the ground in less time. From Topic: Descending (Section 8.6, Figure 8.16 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "heavy_vs_light_glide.png"
+  },
+  {
+    "question": "What is the effect of an increase in altitude on an aircraft's maximum endurance for a normally aspirated engine?",
+    "topic": "Effect of Altitude on Endurance",
+    "image": "power_curves_altitude.png",
+    "options": [
+      "Endurance increases significantly",
+      "Endurance remains the same",
+      "Endurance decreases",
+      "The effect is unpredictable"
+    ],
+    "answer": "C",
+    "brief": "For a normally aspirated (non-turbocharged) engine, maximum endurance is achieved at low altitudes. As altitude increases, the engine becomes less efficient in the thinner air, leading to a higher fuel flow for the same power, thus decreasing endurance.",
+    "detailed": "Maximum endurance is about achieving the lowest possible fuel flow (e.g., litres per hour). A normally aspirated engine is most efficient at producing power in the dense air found at sea level. As the aircraft climbs, the air becomes less dense, and the engine must work harder (higher throttle setting) to produce the power required to fly. This less efficient operation results in a higher specific fuel consumption. Even though the power required to fly at a given IAS might be slightly less, the penalty in engine efficiency is greater, leading to a net decrease in the total time the aircraft can stay airborne. From Topic: Straight and Level Flight (Section 7.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "power_available_altitude_effect.png"
+  },
+  {
+    "question": "If an aircraft maintains a constant angle of attack and bank angle, what is the effect of an increase in power?",
+    "topic": "Effect of Power on Turn",
+    "image": "climbing_turn.png",
+    "options": [
+      "The aircraft will enter a balanced level turn",
+      "The aircraft will begin to descend",
+      "The aircraft will enter a climbing turn",
+      "The aircraft's bank angle will decrease"
+    ],
+    "answer": "C",
+    "brief": "If the angle of attack and bank are held constant, adding power will increase thrust. Since the lift and drag are fixed by the constant AoA and speed, this excess thrust will cause the aircraft to start climbing in a spiral path.",
+    "detailed": "In a stable turn, all forces are balanced. If a pilot adds power, the thrust will now be greater than the drag, causing the aircraft to accelerate. However, if the pilot also maintains the same angle of attack, the increasing airspeed will cause the lift to increase significantly (Lift ∝ V²). With lift now greater than the forces required for a level turn, and thrust greater than drag, the excess energy will be converted into a gain in altitude. The aircraft will therefore begin to fly in an ascending spiral, or a climbing turn. From Topic: Turning (Section 9.10 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "climbing_turn_forces.png"
+  },
+  {
+    "question": "An aircraft's energy state is a combination of its:",
+    "topic": "Energy State",
+    "image": "energy_tradeoff.png",
+    "options": [
+      "Thrust and Drag",
+      "Lift and Weight",
+      "Potential Energy (Altitude) and Kinetic Energy (Airspeed)",
+      "Engine Power and Fuel Flow"
+    ],
+    "answer": "C",
+    "brief": "The total mechanical energy of an aircraft in flight is the sum of its potential energy, which is determined by its altitude, and its kinetic energy, which is determined by its airspeed. Pilots can manage flight by trading one form of energy for the other.",
+    "detailed": "Thinking in terms of energy management is a key piloting skill. An aircraft's potential energy is its 'height bank account'—the higher it is, the more stored energy it has. Its kinetic energy is its 'speed bank account'—the faster it is, the more energy of motion it has. A pilot can make a 'withdrawal' from the height account to 'deposit' into the speed account by diving. Conversely, they can use excess speed (kinetic energy) to gain height (potential energy) in a climb. The engine's purpose is to add energy to this system to counteract the energy lost to drag. From Topic: Kinetic Energy (Section 1.9 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "energy_tradeoff.png"
+  }
+
+  ]

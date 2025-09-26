@@ -1,0 +1,641 @@
+[
+  {
+    "question": "According to Bernoulli's theorem, what happens to static pressure and dynamic pressure in the narrowest part (throat) of a venturi?",
+    "topic": "Bernoulli's Theorem in a Venturi",
+    "image": "venturi_diagram.png",
+    "options": [
+      "Static pressure decreases while dynamic pressure increases",
+      "Both static and dynamic pressure increase",
+      "Static pressure increases while dynamic pressure decreases",
+      "Both static and dynamic pressure remain constant"
+    ],
+    "answer": "A",
+    "brief": "In the narrowest section (throat) of a venturi, air is forced to accelerate, which increases its speed (dynamic pressure). To maintain a constant total energy, its static pressure (potential energy) must decrease as a result.",
+    "detailed": "Consider the total energy of the air as a constant value, composed of both Static Pressure and Dynamic Pressure. When air flows through a constricted passage like a venturi's throat, it must speed up. This increase in speed means its Dynamic Pressure (the energy of motion) increases. Since the total energy must remain constant, the Static Pressure (potential energy) must decrease to compensate for this increased speed. This same 'suction' effect is what helps generate lift over a wing.",
+    "detailed_image": "venturi_pressure_changes.png"
+  },
+  {
+    "question": "The Coanda effect is best described as the tendency of a fluid jet to:",
+    "topic": "Coanda Theory",
+    "options": [
+      "Stay attached to a nearby curved surface",
+      "Bounce off a flat surface at an equal angle",
+      "Become turbulent when its speed increases",
+      "Separate from a surface when pressure increases"
+    ],
+    "answer": "A",
+    "brief": "The Coanda effect is a natural tendency where a moving fluid, such as air, 'sticks' to a nearby curved surface and follows its contour. Instead of flowing in a straight line, the fluid stream bends to follow the curve.",
+    "detailed": "When a fast-moving jet of air flows, it pulls the surrounding still air along with it (a process called 'entrainment'), which creates a low-pressure area. When this occurs near a curved surface, the pressure between the jet and the surface becomes even lower. The higher atmospheric pressure from the outside then pushes the jet stream against the surface, causing it to adhere and follow the curve. This is the essence of the Coanda effect.",
+    "detailed_image": "coanda_effect_on_surface.png"
+  },
+  {
+    "question": "How does the Coanda effect contribute to the generation of lift on an aerofoil?",
+    "topic": "Coanda Effect on Lift",
+    "options": [
+      "It causes airflow to follow the wing's curved upper surface, deflecting the air downwards",
+      "It increases the density of the air above the wing, increasing pressure",
+      "It creates a vacuum bubble at the trailing edge that pulls the wing up",
+      "It makes the boundary layer laminar, reducing drag"
+    ],
+    "answer": "A",
+    "brief": "The Coanda effect is crucial because it forces the airflow to adhere to the curved upper surface of the wing. This action causes the air to be deflected downwards, and according to Newton's laws, this creates an opposite upward reaction force (lift).",
+    "detailed": "The Coanda effect is the reason why airflow, after passing over the top of the wing, doesn't just continue in a straight line but follows the wing's shape. This downward turning of the air (known as 'downwash') is an action. According to Newton's Third Law, for every action, there is an equal and opposite reaction. Therefore, the reaction to pushing a mass of air downwards is an upward force on the wing, which we define as lift.",
+    "detailed_image": "newtons_lift_reaction.png"
+  },
+  {
+    "question": "On a typical lifting aerofoil, where is the point of lowest static pressure and highest velocity located?",
+    "topic": "Bernoulli's Theorem on an Aerofoil",
+    "options": [
+      "On the upper surface, near the point of maximum thickness/camber",
+      "At the stagnation point on the leading edge",
+      "On the flat lower surface of the wing",
+      "At the trailing edge where the airflows meet"
+    ],
+    "answer": "A",
+    "brief": "The lowest pressure on a wing is found on its curved upper surface, typically near the point of maximum thickness. This is because the air must travel a longer distance at a faster speed in this region to meet the air from the lower surface.",
+    "detailed": "When airflow splits at the leading edge of a wing, the air traveling over the top has a longer, curved path to follow than the air below. To cover this longer distance in roughly the same amount of time, it must accelerate to a higher speed. According to Bernoulli's principle, where the speed is higher, the static pressure is lower. This low-pressure 'suction' area on the upper surface is the largest single contributor to the total lift force.",
+    "detailed_image": "aerofoil_pressure_distribution.png"
+  },
+  {
+    "question": "What does Bernoulli's theorem state about the 'total energy' of an ideal fluid in a steady flow?",
+    "topic": "Bernoulli's Theorem - Constant Energy",
+    "options": [
+      "The total energy remains constant at all points along its path",
+      "The total energy increases as the fluid's velocity increases",
+      "The total energy is converted entirely into kinetic energy",
+      "The total energy decreases as friction slows the fluid down"
+    ],
+    "answer": "A",
+    "brief": "Bernoulli's principle is a form of the law of conservation of energy as applied to moving fluids. It states that the total energy of the airflow, which is the sum of its static pressure and dynamic pressure, remains constant.",
+    "detailed": "You can think of the total energy in the air as a fixed budget. This budget is divided into two parts: Static Pressure (the air's potential energy) and Dynamic Pressure (the air's energy of motion). If the air increases its speed, its Dynamic Pressure increases. To balance this increase and keep the budget constant, the Static Pressure must decrease.",
+    "detailed_image": "bernoulli_total_energy.png"
+  },
+  {
+    "question": "A simple experiment of holding a piece of paper under your lower lip and blowing over the top demonstrates lift. This is a practical example of:",
+    "topic": "Applying Bernoulli's Theorem",
+    "image": "paper_lift_experiment.png",
+    "options": [
+      "Bernoulli's theorem, where fast-moving air creates low pressure above the paper",
+      "The Coanda effect, as the paper is a curved surface",
+      "Newton's First Law of inertia",
+      "The effects of induced drag"
+    ],
+    "answer": "A",
+    "brief": "This works because blowing over the paper creates a region of fast-moving air. This fast-moving air has lower static pressure, while the higher-pressure, still air underneath the paper pushes it upwards.",
+    "detailed": "The air you blow over the top of the paper has a higher speed (dynamic pressure), and therefore a lower static pressure. The still air underneath the paper has a higher static pressure, equal to the normal atmospheric pressure. Because the pressure below the paper is now greater than the pressure above it, this pressure differential creates a net upward force on the paper, causing it to lift. This is a perfect, simple demonstration of lift generation.",
+    "detailed_image": "paper_lift_experiment_explained.png"
+  },
+  {
+    "question": "While Bernoulli's principle focuses on pressure differences, an alternative explanation for lift based on Newton's laws focuses on:",
+    "topic": "Bernoulli vs. Newton on Lift",
+    "options": [
+      "The wing deflecting a mass of air downwards, creating an opposite upward reaction",
+      "The 'equal transit time' of air particles over and under the wing",
+      "The temperature difference between the upper and lower wing surfaces",
+      "The conservation of energy within the airstream"
+    ],
+    "answer": "A",
+    "brief": "Bernoulli's principle explains lift by analyzing pressure differences. In contrast, Newton's laws explain lift as a reaction force: the wing pushes air down (the action), and in response, the air pushes the wing up (the reaction).",
+    "detailed": "Both explanations of lift are correct and describe two facets of the same phenomenon. The shape of the wing forces air to travel faster over the top, creating low pressure (the Bernoulli perspective). This same process of accelerating the air also turns the airflow downwards (the Newtonian perspective). When a large mass of air is directed downwards by the wing, its reaction pushes the wing upwards.",
+    "detailed_image": "newtons_lift_reaction.png"
+  },
+  {
+    "question": "In the context of Coanda theory, what is 'air entrainment'?",
+    "topic": "Coanda Theory - Entrainment",
+    "options": [
+      "The process where a moving airstream drags surrounding still air along with it",
+      "The separation of the boundary layer from the wing surface",
+      "The mixing of fuel and air inside a carburetor",
+      "The absorption of moisture by the air"
+    ],
+    "answer": "A",
+    "brief": "'Entrainment' is the process where a fast-moving jet of fluid, like air, pulls the surrounding stationary fluid along into its flow. This phenomenon is a fundamental part of how the Coanda effect works.",
+    "detailed": "A fast-moving jet of air has low internal pressure. Because of this low pressure, the surrounding higher-pressure still air is 'pulled' or 'dragged' into the jet. This pulling action is called 'entrainment.' When this happens near a surface, the entrainment creates a vacuum-like effect between the air and the surface, which forces the jet to stick to it.",
+    "detailed_image": "coanda_effect_on_surface.png"
+  },
+  {
+    "question": "If you blow air between two ping-pong balls hanging on strings, they will move towards each other. This is because:",
+    "topic": "Applying Bernoulli's Theorem",
+    "image": "ping_pong_ball_experiment.png",
+    "options": [
+      "The fast-moving air between the balls creates a low-pressure zone",
+      "The balls become magnetically attracted to each other",
+      "The air pushes them together due to the Coanda effect",
+      "The static electricity in the airflow pulls them together"
+    ],
+    "answer": "A",
+    "brief": "When you blow between the two balls, you create a channel of fast-moving, low-pressure air. The normal, higher-pressure air on the outside surfaces of the balls then pushes them into this low-pressure channel.",
+    "detailed": "This is a classic demonstration of Bernoulli's principle. The space between the balls becomes an area of low static pressure because the air is moving quickly through it. In contrast, the still air on the outer surfaces of the balls has a higher static pressure. This pressure differential creates a net force that pushes both balls inwards, towards each other, into the low-pressure region.",
+    "detailed_image": "ping_pong_ball_experiment_explained.png"
+  },
+  {
+    "question": "Which statement correctly links Bernoulli's theorem and the shape of an aerofoil?",
+    "topic": "Bernoulli's Theorem on an Aerofoil",
+    "options": [
+      "The curved upper surface forces air to accelerate, leading to lower static pressure",
+      "The flat lower surface is designed to maximize the air's static pressure",
+      "The sharp trailing edge ensures the total energy of the airflow is increased",
+      "The rounded leading edge is designed to split the airflow into two equal halves"
+    ],
+    "answer": "A",
+    "brief": "The curved upper shape is the most important feature of an aerofoil for generating lift. This shape forces the air to flow faster, and according to Bernoulli's principle, this increased speed reduces static pressure, creating lift.",
+    "detailed": "An aerofoil's design is a practical application of Bernoulli's principle. The curved upper surface acts like the top half of a venturi, forcing the airflow to accelerate. In this region of high-speed air, the static pressure becomes significantly lower than the surrounding atmosphere. Below the wing, the air moves slower and the pressure remains relatively higher. This pressure difference between the top and bottom surfaces is what generates the upward lift force.",
+    "detailed_image": "aerofoil_pressure_distribution.png"
+  },
+  {
+    "question": "The Coanda effect explains the production of lift on a wing in terms of -",
+    "topic": "Coanda Effect and Lift",
+    "options": [
+      "increased speed of the airflow as it passes over the curved top surface of the wing",
+      "impact of air against the bottom surface of the wing producing an upward force",
+      "Isaac Newton's laws of motion",
+      "reduction in static pressure over the top surface of the wing"
+    ],
+    "answer": "C",
+    "brief": "The Coanda effect causes airflow to follow the wing's curve, deflecting it downwards. According to Newton's Third Law of Motion, this downward action on the air results in an equal and opposite upward reaction on the wing, which is lift.",
+    "detailed": "The Coanda effect is the principle that makes airflow 'stick' to the curved upper surface of the wing. This forces a large mass of air to be directed downwards as it leaves the trailing edge (this is the 'action'). Isaac Newton's Third Law states that every action has an equal and opposite reaction. Therefore, the downward force exerted on the air by the wing results in an equal upward force exerted on the wing by the air. This upward reaction force is what we call lift.",
+    "detailed_image": "newtons_lift_reaction.png"
+  },
+  {
+    "question": "Pressure exerted on a surface exposed to fluid such as air is best explained by -",
+    "topic": "Static Pressure",
+    "options": [
+      "the bombardment of individual molecules against the surface",
+      "the speed of the airflow passing over the surface",
+      "the change in velocity of the air as it passes over the surface",
+      "Isaac Newton's laws relating every action to an equal and opposite reaction"
+    ],
+    "answer": "A",
+    "brief": "Static pressure is the force created by countless individual air molecules constantly colliding with a surface. Each tiny impact exerts a small force, and their combined effect over an area is what we measure as pressure.",
+    "detailed": "Air is composed of billions of molecules in constant, random motion. When these molecules strike a surface, they bounce off, transferring a small amount of momentum. The cumulative effect of these countless tiny impacts, or bombardments, over a given area creates a force. This force per unit area is defined as static pressure. It is not related to the overall speed of the airflow (which is dynamic pressure) but rather the random motion of the molecules themselves.",
+    "detailed_image": "static_pressure_molecules.png"
+  },
+  {
+    "question": "Bernoulli's principle states that as an airstream passes through a venturi -",
+    "topic": "Bernoulli's Principle - Constant Energy",
+    "options": [
+      "pressure energy remains constant while kinetic energy increases",
+      "pressure energy increases while kinetic energy remains constant",
+      "both pressure energy and kinetic energy increase",
+      "the sum of pressure energy and kinetic energy remains constant"
+    ],
+    "answer": "D",
+    "brief": "Bernoulli's principle is a statement of energy conservation. It states that for a steady flow, the sum of the air's pressure energy (static pressure) and its kinetic energy (dynamic pressure) will always remain constant.",
+    "detailed": "Imagine the total energy of an airflow as a fixed budget. This budget is made up of two main components: pressure energy (static pressure) and kinetic energy (dynamic pressure). If the airflow speeds up, its kinetic energy increases, so its pressure energy must decrease to keep the total sum the same. Conversely, if the flow slows down, kinetic energy decreases and pressure energy increases. The total energy itself doesn't change; it just converts between these two forms.",
+    "detailed_image": "bernoulli_total_energy.png"
+  },
+  {
+    "question": "As sub-sonic air passes through the narrowest part of a venturi -",
+    "topic": "Bernoulli's Principle in a Venturi",
+    "options": [
+      "pressure energy decreases and kinetic energy increases",
+      "pressure energy increases and kinetic energy decreases",
+      "pressure energy and kinetic energy remain constant",
+      "pressure energy and kinetic energy both increase"
+    ],
+    "answer": "A",
+    "brief": "In the narrow throat of a venturi, the air must accelerate to pass through the smaller area. This increase in speed means its kinetic energy (energy of motion) increases, which causes a corresponding drop in its pressure energy (static pressure).",
+    "detailed": "When air flows into the constricted throat of a venturi, the same amount of air must pass through a smaller space in the same amount of time. To do this, it must accelerate. According to Bernoulli's principle, an increase in kinetic energy (from the higher speed) must be balanced by a decrease in pressure energy to keep the total energy constant. Therefore, static pressure drops significantly in the narrowest part.",
+    "detailed_image": "venturi_pressure_changes.png"
+  },
+  {
+    "question": "As the airstream passes through the venturi at left, the lowest static pressure would occur at point -",
+    "topic": "Applying Bernoulli's Principle",
+    "image": "venturi_question_diagram.png",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "brief": "The lowest static pressure will be found at point C. This is the narrowest part of the venturi (the throat), where the airflow's velocity is at its maximum, causing the greatest drop in static pressure.",
+    "detailed": "Following Bernoulli's principle, there is an inverse relationship between airflow velocity and static pressure. As the airstream is forced through the venturi, it accelerates, reaching its highest speed at the narrowest point, which is point C. This maximum velocity corresponds to the maximum kinetic energy and therefore the minimum static pressure in the entire system. After point C, as the venturi widens, the flow decelerates and static pressure begins to recover.",
+    "detailed_image": "venturi_pressure_changes.png"
+  },
+  {
+    "question": "Subsonic airflow passing through a venturi's throat experiences which changes to its energy forms?",
+    "topic": "Bernoulli's Principle in a Venturi",
+    "options": [
+      "Pressure energy increases, kinetic energy decreases",
+      "Both pressure and kinetic energy increase",
+      "Pressure energy decreases, kinetic energy increases",
+      "Both pressure and kinetic energy remain constant"
+    ],
+    "answer": "C",
+    "brief": "As air is forced through the narrow throat of a venturi, it must accelerate. This increase in speed represents an increase in kinetic energy (dynamic pressure), which must be balanced by a corresponding decrease in pressure energy (static pressure).",
+    "detailed": "This question is a direct application of Bernoulli's principle, which states that the total energy of a fluid in motion remains constant. The total energy is the sum of pressure energy (static pressure) and kinetic energy (dynamic pressure). In the converging section of the venturi, the airflow speeds up, so its kinetic energy increases. To keep the total energy constant, the pressure energy must decrease. Therefore, in the narrowest part, kinetic energy is at its maximum while pressure energy is at its minimum. This is a manipulated version of Exercise Question No 4 on Page 2.4.",
+    "detailed_image": "venturi_pressure_changes.png"
+  },
+  {
+    "question": "According to Bernoulli's principle, what is the relationship between kinetic energy and pressure energy in a closed system like a venturi?",
+    "topic": "Bernoulli's Principle - Constant Energy",
+    "options": [
+      "The sum of both energies remains constant",
+      "As kinetic energy increases, pressure energy also increases",
+      "Kinetic energy is always greater than pressure energy",
+      "Pressure energy remains constant regardless of kinetic energy changes"
+    ],
+    "answer": "A",
+    "brief": "Bernoulli's principle is fundamentally a statement of the conservation of energy. It dictates that in a steady flow, the total energy, which is the sum of the pressure energy and the kinetic energy, remains constant at all points.",
+    "detailed": "Think of the energy in an airstream as a fixed total amount. This total is composed of two main types: pressure energy (static pressure, or potential energy) and kinetic energy (dynamic pressure, or the energy of motion). If the conditions change to increase one form of energy, the other must decrease by a proportional amount to keep the total sum constant. For example, when air speeds up in a venturi, its kinetic energy increases, so its pressure energy must fall. This principle is the core of understanding how lift is generated. This is a manipulated version of Exercise Question No 3 on Page 2.4.",
+    "detailed_image": "bernoulli_total_energy.png"
+  },
+  {
+    "question": "In the venturi diagram, at which point would the airflow have the highest velocity?",
+    "topic": "Applying Bernoulli's Principle",
+    "image": "venturi_question_diagram.png",
+    "options": [
+      "Point A",
+      "Point B",
+      "Point C",
+      "Point D"
+    ],
+    "answer": "C",
+    "brief": "The airflow must accelerate to pass through the narrowest section of the venturi. Therefore, the velocity, and thus the kinetic energy (dynamic pressure), will be at its absolute maximum at point C, the throat of the venturi.",
+    "detailed": "The principle of continuity states that for a fluid in motion, the mass flow rate must be constant. This means that as the cross-sectional area of the tube decreases, the velocity of the fluid must increase to maintain the same flow rate. In the given diagram, the tube is narrowest at point C. Consequently, the airflow will be travelling at its highest speed at this point. According to Bernoulli's principle, this point of highest velocity will also be the point of the lowest static pressure, as kinetic energy is converted from pressure energy. This is a manipulated version of Exercise Question No 5 on Page 2.4.",
+    "detailed_image": "venturi_pressure_changes.png"
+  },
+  {
+    "question": "The tendency of an airstream to follow the curve of a wing's upper surface is best explained by:",
+    "topic": "Coanda Theory",
+    "options": [
+      "Bernoulli's Principle",
+      "Newton's First Law",
+      "The Coanda Effect",
+      "The Venturi Effect"
+    ],
+    "answer": "C",
+    "brief": "The Coanda effect is the specific aerodynamic principle that describes the tendency of a moving fluid jet to become attached to and follow the contour of a nearby curved surface, which is crucial for lift production on a wing.",
+    "detailed": "While Bernoulli's principle explains the pressure changes that result from airflow, it is the Coanda effect that explains *why* the airflow follows the curved upper surface of the wing in the first place. A moving stream of air entrains (pulls along) the air next to it. When this happens next to a curved surface, it creates a low-pressure area that causes the airstream to 'stick' to the surface. This turning of the air is the 'action' that, according to Newton's laws, produces the 'reaction' of lift. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "coanda_effect_on_surface.png"
+  },
+  {
+    "question": "Lift is produced when the speed of the airflow over the top surface of a wing increases, resulting in a reduction in static pressure. This phenomenon is explained by:",
+    "topic": "Bernoulli's Theorem on an Aerofoil",
+    "options": [
+      "The Coanda Effect",
+      "Newton's Third Law",
+      "Bernoulli's Principle",
+      "The Law of Conservation of Mass"
+    ],
+    "answer": "C",
+    "brief": "Bernoulli's principle directly links the speed of a fluid to its pressure. The increased velocity of the air flowing over the wing's curved upper surface leads to a decrease in static pressure, creating the pressure differential that generates lift.",
+    "detailed": "The cambered shape of an aerofoil forces the air that travels over the top surface to move faster than the air travelling underneath. Bernoulli's principle states that where the speed of a fluid is high, its pressure is low. This creates an area of lower static pressure (suction) on top of the wing compared to the higher static pressure below it. This pressure imbalance results in a net upward force on the wing, which we call lift. This principle is a cornerstone of aerodynamic theory and explains the primary mechanism of lift generation. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "aerofoil_pressure_distribution.png"
+  },
+  {
+    "question": "Which law of motion provides the 'action-reaction' explanation for lift, which is facilitated by the Coanda effect?",
+    "topic": "Coanda Effect and Lift",
+    "options": [
+      "Bernoulli's Principle",
+      "Newton's Second Law",
+      "The principle of constant energy",
+      "Isaac Newton's laws of motion"
+    ],
+    "answer": "D",
+    "brief": "The Coanda effect causes the wing to deflect air downwards (the 'action'). Isaac Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction. This upward reaction on the wing is lift.",
+    "detailed": "The Coanda effect ensures that the airflow follows the curved upper surface of the wing, causing a large mass of air to be directed downwards behind the wing. This downward deflection of air is the 'action'. According to Isaac Newton's Third Law, this action must be accompanied by an equal and opposite reaction. The reaction is an upward force exerted by the air on the wing. This upward force is lift. Therefore, the Coanda effect provides the mechanism, and Newton's laws provide the fundamental principle for this explanation of lift. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "newtons_lift_reaction.png"
+  },
+  {
+    "question": "The force known as static pressure, which is exerted by air on a surface, is a result of:",
+    "topic": "Static Pressure",
+    "options": [
+      "the weight of the air molecules",
+      "the speed of the airflow over the surface",
+      "the constant, random collision of air molecules against the surface",
+      "the chemical reaction between air and the surface"
+    ],
+    "answer": "C",
+    "brief": "Static pressure is the result of the constant, chaotic motion of billions of air molecules. The force we measure as pressure is the cumulative effect of these molecules bombarding and colliding with a surface.",
+    "detailed": "Air, like any gas, is composed of countless individual molecules that are in a state of continuous, random motion. These molecules are constantly colliding with each other and with any surface they are exposed to. Each individual collision exerts a tiny force. Static pressure is the macroscopic effect of these billions of bombardments averaged out over a given area. It is a measure of the air's internal potential energy and is distinct from dynamic pressure, which is related to the orderly, directional movement of the airflow. This is a manipulated version of Exercise Question No 2 on Page 2.4.",
+    "detailed_image": "static_pressure_molecules.png"
+  },
+  {
+    "question": "As air flows from the wide section to the narrow section of a venturi, what energy conversion takes place?",
+    "topic": "Bernoulli's Principle in a Venturi",
+    "options": [
+      "Kinetic energy is converted to pressure energy",
+      "Pressure energy is converted to kinetic energy",
+      "Potential energy is converted to heat energy",
+      "No energy conversion takes place"
+    ],
+    "answer": "B",
+    "brief": "To move through the narrow section, the air must speed up, increasing its kinetic energy. To conserve total energy as stated by Bernoulli's principle, this gain in kinetic energy must come from a conversion of the air's pressure energy.",
+    "detailed": "Bernoulli's principle is essentially a statement about the conservation of energy in a moving fluid. As the air enters the converging part of the venturi, it is forced to accelerate. This acceleration means its energy of motion (kinetic energy) is increasing. Since energy cannot be created, this increase must come from the other form of energy present in the airflow: its pressure energy (static pressure). Therefore, a direct conversion of pressure energy into kinetic energy takes place, resulting in a low-pressure, high-velocity flow in the venturi's throat. This is a manipulated version of Exercise Question No 4 on Page 2.4.",
+    "detailed_image": "venturi_pressure_changes.png"
+  },
+  {
+    "question": "The Coanda effect is responsible for which of the following actions on an aerofoil?",
+    "topic": "Coanda Effect and Lift",
+    "options": [
+      "Causing the boundary layer to become turbulent",
+      "Making the airflow stick to and follow the wing's curved upper surface",
+      "Reducing the static pressure on the lower surface of the wing",
+      "Increasing the density of the air"
+    ],
+    "answer": "B",
+    "brief": "The primary role of the Coanda effect in lift production is to ensure that the airflow does not simply travel in a straight line, but instead adheres to the curved upper surface of the aerofoil, which is necessary to create lift.",
+    "detailed": "If air did not adhere to the wing's surface, it would separate at the point of maximum thickness, and very little lift would be produced. The Coanda effect is the name given to the tendency of a fluid jet to be attracted to a nearby surface. It is this effect that causes the layer of air flowing over the wing to 'stick' to the cambered upper surface, forcing it to follow the curve down towards the trailing edge. This turning of the air is what creates the pressure differential (Bernoulli) and the downward deflection of air (Newton) that both result in lift. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "coanda_effect_on_surface.png"
+  },
+  {
+    "question": "At which point in the venturi shown would static pressure be at its minimum value?",
+    "topic": "Applying Bernoulli's Principle",
+    "image": "venturi_question_diagram.png",
+    "options": [
+      "Point A, where the airstream enters",
+      "Point B, in the converging section",
+      "Point C, in the narrowest section (throat)",
+      "Point D, in the diverging section"
+    ],
+    "answer": "C",
+    "brief": "According to Bernoulli's principle, where velocity is highest, static pressure is lowest. The airflow velocity is at its maximum in the narrowest part of the venturi, which is at point C.",
+    "detailed": "The flow of air through the venturi demonstrates a direct trade-off between static pressure and dynamic pressure (velocity). As the air is funnelled from the wide opening at point A into the narrow throat at point C, it must accelerate to its highest speed. This point of maximum velocity corresponds to the point of maximum kinetic energy. To conserve total energy, this must also be the point of minimum pressure energy, or the lowest static pressure. As the tube widens again at point D, the air decelerates, and static pressure begins to recover. This is the exact principle that creates suction on top of a wing. This is Exercise Question No 5 on Page 2.4.",
+    "detailed_image": "venturi_pressure_changes.png"
+  },
+  {
+    "question": "What is the primary cause of the reduction in static pressure that occurs as air flows over the top of a wing?",
+    "topic": "Bernoulli's Theorem on an Aerofoil",
+    "options": [
+      "The change in air temperature",
+      "The increased speed of the airflow",
+      "The viscosity of the air",
+      "The impact of air on the leading edge"
+    ],
+    "answer": "B",
+    "brief": "The reduction in static pressure above the wing is a direct consequence of the increased speed of the airflow in that region. This relationship is the core of Bernoulli's principle: higher velocity equals lower static pressure.",
+    "detailed": "The curved upper surface of a cambered aerofoil forces the air to travel a longer distance than the air flowing underneath. To do this, the air on top must accelerate to a higher velocity. Bernoulli's principle states that for a fluid in motion, the sum of its static pressure and dynamic pressure (related to its velocity) is constant. Therefore, where the velocity is high, the static pressure must be low. This area of reduced static pressure, or 'suction', on the upper surface is the primary contributor to the total lift force generated by the wing. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "aerofoil_pressure_distribution.png"
+  },
+  {
+    "question": "Bernoulli's principle describes how lift is generated in terms of:",
+    "topic": "Bernoulli's Principle - Constant Energy",
+    "options": [
+      "a pressure differential between the upper and lower surfaces",
+      "an equal and opposite reaction to deflecting air downwards",
+      "the temperature difference between the wing and the air",
+      "the friction of the air against the wing's skin"
+    ],
+    "answer": "A",
+    "brief": "Bernoulli's principle explains lift as the result of a pressure difference. The fast-moving air over the top of the wing creates a lower static pressure, while the slower-moving air below creates a higher static pressure, resulting in an upward force.",
+    "detailed": "The Bernoulli explanation for lift is entirely focused on the relationship between pressure and velocity. The shape of the aerofoil is designed to make air flow faster over its upper surface than its lower surface. According to Bernoulli's theorem, this velocity difference creates a pressure difference. The lower pressure on the top surface and the relatively higher pressure on the bottom surface result in a net force that pushes the wing upwards. This pressure differential, integrated over the entire area of the wing, is the total lift force. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "aerofoil_pressure_distribution.png"
+  },
+  {
+    "question": "Which of the following is a direct consequence of the Coanda effect on a wing?",
+    "topic": "Coanda Effect and Lift",
+    "options": [
+      "The airflow is deflected downwards by the wing",
+      "The static pressure increases above the wing",
+      "The boundary layer becomes laminar",
+      "The kinetic energy of the airflow is reduced"
+    ],
+    "answer": "A",
+    "brief": "The Coanda effect is the phenomenon that causes the airflow to adhere to the curved upper surface of the wing. A direct result of this adherence is that the air is turned and deflected downwards as it leaves the trailing edge.",
+    "detailed": "The Coanda effect is crucial because it ensures the airflow does not simply fly off in a straight line after passing the thickest part of the wing. Instead, it remains attached to the surface, following the curve downwards. This downward deflection of a large mass of air is a key component of lift generation, as explained by Newton's Third Law (action-reaction). Without the Coanda effect, there would be no significant downward deflection of air, and therefore, no significant upward reaction force (lift). This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "newtons_lift_reaction.png"
+  },
+  {
+    "question": "The constant random bombardment of air molecules against a surface is the explanation for:",
+    "topic": "Static Pressure",
+    "options": [
+      "Dynamic pressure",
+      "Static pressure",
+      "Total pressure",
+      "Kinetic energy"
+    ],
+    "answer": "B",
+    "brief": "Static pressure is the pressure you would feel if you were stationary within the airmass. It is caused not by the overall movement of the air, but by the constant, random motion and collision of individual air molecules against a surface.",
+    "detailed": "Air is a fluid composed of countless molecules in a state of constant, chaotic motion. These molecules are always colliding with any surface they come into contact with. Each collision imparts a tiny force. The sum of these forces over a specific area is what we define as static pressure. This is a measure of the air's internal energy. It is distinct from dynamic pressure, which is the pressure created by the ordered, directional movement of the entire airmass over a surface. This is a manipulated version of Exercise Question No 2 on Page 2.4.",
+    "detailed_image": "static_pressure_molecules.png"
+  },
+  {
+    "question": "If the kinetic energy of an airstream in a venturi increases, its pressure energy must:",
+    "topic": "Bernoulli's Principle - Constant Energy",
+    "options": [
+      "also increase",
+      "remain constant",
+      "decrease",
+      "increase then decrease"
+    ],
+    "answer": "C",
+    "brief": "According to Bernoulli's principle of the conservation of energy, if the kinetic energy (related to speed) of the airflow increases, its pressure energy (static pressure) must decrease to keep the total energy of the system constant.",
+    "detailed": "Bernoulli's theorem states that the sum of an airstream's pressure energy and its kinetic energy is a constant value. This means there is a direct trade-off between the two. When the airstream is forced to speed up, such as in the throat of a venturi, its kinetic energy increases. To maintain the constant total energy, this gain in kinetic energy must be paid for by a corresponding loss in pressure energy. Therefore, the static pressure drops. This principle is fundamental to understanding how pressure changes in relation to speed. This is a manipulated version of Exercise Question No 3 on Page 2.4.",
+    "detailed_image": "bernoulli_total_energy.png"
+  },
+  {
+    "question": "The Newtonian explanation for lift, which relies on the Coanda effect, is primarily an application of which law?",
+    "topic": "Coanda Effect and Newton's Laws",
+    "options": [
+      "The law of conservation of energy",
+      "The law of universal gravitation",
+      "The law of action and an equal and opposite reaction",
+      "The law of inertia"
+    ],
+    "answer": "C",
+    "brief": "The Coanda effect is the mechanism that causes a wing to deflect air downwards. According to Isaac Newton's Third Law, this downward 'action' on the air results in an equal and opposite upward 'reaction' force on the wing, which we call lift.",
+    "detailed": "While Bernoulli's principle explains lift through pressure, Newton's Third Law provides an equally valid explanation based on momentum. The Coanda effect is what makes the airflow adhere to the wing's curved surface, forcing a large mass of air to be deflected in a downward direction. This downward acceleration of air is the 'action'. Newton's Third Law states that for every action, there must be an equal and opposite reaction. Therefore, the force the wing exerts on the air to push it down is matched by an equal upward force the air exerts on the wing. This reaction force is the lift that supports the aircraft in flight. From Topic: How the Wing Makes Lift (Section 2.1 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "The sum of static pressure and dynamic pressure at any point in a steady, frictionless airflow is:",
+    "topic": "Bernoulli's Principle - Constant Energy",
+    "options": [
+      "known as the total pressure, and it remains constant",
+      "known as the ambient pressure, and it increases with speed",
+      "always equal to zero",
+      "dependent on the air temperature"
+    ],
+    "answer": "A",
+    "brief": "According to Bernoulli's theorem of constant energy flow, the sum of static pressure (potential energy) and dynamic pressure (kinetic energy) is called the Total Pressure. In an ideal flow, this total value remains constant at all points along a streamline.",
+    "detailed": "Bernoulli's principle is a statement of the conservation of energy for a moving fluid. The 'total energy' of the airflow, which we refer to as Total Pressure, is comprised of two components: Static Pressure, which is the pressure of the air at rest, and Dynamic Pressure, which is the pressure created by its motion. Bernoulli's theorem states that this Total Pressure is a constant. This means if the airflow speeds up, its dynamic pressure increases, and its static pressure must decrease by a corresponding amount to keep the total sum unchanged. This trade-off between the two energy forms is fundamental to understanding lift. This is a manipulated version of Exercise Question No 3 on Page 2.4.",
+    "detailed_image": "bernoulli_total_energy.png"
+  },
+  {
+    "question": "The 'entrainment' of surrounding air by a fast-moving jet is a key component of which aerodynamic principle?",
+    "topic": "Coanda Theory - Entrainment",
+    "options": [
+      "Bernoulli's Theorem",
+      "The Law of Equilibrium",
+      "The concept of Static Pressure",
+      "The Coanda Effect"
+    ],
+    "answer": "D",
+    "brief": "Entrainment is the process where a high-velocity stream of fluid pulls the surrounding, stationary fluid along with it. This process is the underlying mechanism that causes the Coanda effect, making an airstream stick to a curved surface.",
+    "detailed": "A fast-moving jet of air has low internal pressure. This low pressure creates a suction effect that draws in, or 'entrains', the surrounding higher-pressure still air. When this occurs next to a curved surface, the entrainment creates a low-pressure region between the jet and the surface itself. The higher atmospheric pressure on the other side of the jet then pushes it against the surface, forcing it to follow the curve. Therefore, entrainment is the cause, and the Coanda effect is the observable result that is so important for the production of lift on an aerofoil. From Topic: How the Wing Makes Lift (Section 2.2 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "In a venturi, where is the kinetic energy of the airflow at its maximum?",
+    "topic": "Bernoulli's Principle in a Venturi",
+    "options": [
+      "At the entrance of the venturi",
+      "In the diverging section of the venturi",
+      "In the narrowest part, or throat, of the venturi",
+      "At the exit of the venturi"
+    ],
+    "answer": "C",
+    "brief": "Kinetic energy is the energy of motion, which is directly related to velocity. The airflow must accelerate to its highest velocity to pass through the narrowest part of the venturi (the throat), and therefore its kinetic energy is at its maximum at this point.",
+    "detailed": "The principle of continuity dictates that as the cross-sectional area of a tube decreases, the speed of the fluid flowing through it must increase. The throat is the point of minimum area in a venturi. Consequently, the air reaches its maximum velocity and therefore its maximum kinetic energy at this point. According to Bernoulli's principle, this point of maximum kinetic energy must also be the point of minimum pressure energy (static pressure). This demonstrates the direct conversion of pressure energy into kinetic energy as the air flows through the converging section of the tube. This is a manipulated version of Exercise Question No 4 on Page 2.4.",
+    "detailed_image": "venturi_pressure_changes.png"
+  },
+  {
+    "question": "Which of these provides the best explanation for the static pressure exerted by still air?",
+    "topic": "Static Pressure",
+    "options": [
+      "The speed of the Earth's rotation",
+      "The weight of the air column above",
+      "The constant, random motion and collision of individual air molecules",
+      "The temperature of the air"
+    ],
+    "answer": "C",
+    "brief": "Static pressure is not caused by the directional movement of air, but by the inherent energy of its molecules. It is the result of billions of individual molecules in constant, random motion bombarding any surface they are in contact with.",
+    "detailed": "Air is a gas, and the molecules within it are in a state of perpetual, chaotic motion, constantly colliding with each other and with any surrounding surfaces. Each time a molecule strikes a surface, it imparts a tiny amount of force. While the force from a single molecule is negligible, the cumulative effect of billions of these impacts per second over a given area is what we measure as static pressure. This pressure is exerted equally in all directions and is a measure of the air's internal energy, distinct from the dynamic pressure created by a moving airstream. This is a manipulated version of Exercise Question No 2 on Page 2.4.",
+    "detailed_image": "static_pressure_molecules.png"
+  },
+  {
+    "question": "Bernoulli's principle states that when kinetic energy in an airstream increases, its potential energy (static pressure) must:",
+    "topic": "Bernoulli's Principle - Constant Energy",
+    "options": [
+      "also increase",
+      "remain constant",
+      "decrease",
+      "increase, then decrease"
+    ],
+    "answer": "C",
+    "brief": "Bernoulli's theorem is a statement of energy conservation. If the kinetic energy (energy of motion) increases, the potential energy (static pressure) must decrease by a corresponding amount to ensure the total energy of the system remains constant.",
+    "detailed": "The total energy within a steady flow of air is constant. This energy is a combination of kinetic energy (dynamic pressure) and potential energy (static pressure). These two forms of energy can be converted from one to the other. When the airflow is forced to speed up, its kinetic energy increases. Since energy cannot be created, this increase must come from the conversion of potential energy. As a result, the static pressure drops. This inverse relationship is the key to understanding how an aerofoil generates lift: the high velocity over the top surface creates low static pressure. This is a manipulated version of Exercise Question No 3 on Page 2.4.",
+    "detailed_image": "bernoulli_total_energy.png"
+  },
+  {
+    "question": "The Coanda effect is a principle that helps explain how:",
+    "topic": "Coanda Effect and Lift",
+    "options": [
+      "an aircraft's engine produces thrust",
+      "an aircraft's wings produce lift",
+      "an aircraft's control surfaces work",
+      "an aircraft stalls at a high angle of attack"
+    ],
+    "answer": "B",
+    "brief": "The Coanda effect is the tendency of a fluid to follow a curved surface. This is a crucial principle that explains why the airflow remains attached to the curved upper surface of a wing, which is a necessary condition for producing lift.",
+    "detailed": "For a wing to produce lift efficiently, the airflow must follow its curved upper surface. The Coanda effect is the name given to the natural tendency of a jet of fluid to be 'attracted' to a nearby surface and follow its contours. It is this effect that causes the airflow to bend downwards as it passes over a wing. This downward deflection of air (the action) results in an upward reaction force on the wing (lift), as explained by Newton's Third Law. Thus, the Coanda effect is a critical piece of the puzzle in explaining how lift is generated. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "coanda_effect_on_surface.png"
+  },
+  {
+    "question": "What is the relationship between airflow speed and static pressure on an aerofoil?",
+    "topic": "Bernoulli's Theorem on an Aerofoil",
+    "options": [
+      "Where speed is high, static pressure is high",
+      "Where speed is high, static pressure is low",
+      "Speed has no effect on static pressure",
+      "Where speed is low, static pressure is low"
+    ],
+    "answer": "B",
+    "brief": "According to Bernoulli's principle, there is an inverse relationship between the speed of an airflow and its static pressure. The faster the air flows over the wing's upper surface, the lower the static pressure in that region becomes.",
+    "detailed": "The curved shape of a wing's upper surface forces the air to travel a longer distance, causing it to accelerate to a higher speed than the air flowing underneath. Bernoulli's theorem directly links this change in speed to a change in pressure. It states that an increase in speed must be accompanied by a decrease in static pressure. This creates a region of low pressure (suction) on top of the wing and relatively higher pressure below it. This pressure differential is the primary source of the aerodynamic lift force that allows an aircraft to fly. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "aerofoil_pressure_distribution.png"
+  },
+  {
+    "question": "In a venturi, as the airflow moves from the narrow throat into the diverging section (from C to D), what happens to its speed and static pressure?",
+    "topic": "Bernoulli's Principle in a Venturi",
+    "options": [
+      "Speed increases and static pressure decreases",
+      "Speed decreases and static pressure increases",
+      "Both speed and static pressure remain constant",
+      "Both speed and static pressure increase"
+    ],
+    "answer": "B",
+    "brief": "In the diverging (widening) section of the venturi, the airflow has more space and slows down. As the speed (kinetic energy) decreases, the static pressure (pressure energy) increases, tending to return to its original value.",
+    "detailed": "The process in the diverging section of a venturi is the reverse of what happens in the converging section. As the cross-sectional area of the tube increases, the airflow decelerates. This decrease in velocity means that the kinetic energy (dynamic pressure) of the airflow is decreasing. According to Bernoulli's principle of constant energy, this loss in kinetic energy is converted back into pressure energy. As a result, the static pressure of the air increases as it flows through the diverging section, approaching the value it had before entering the venturi. This is a manipulated version of Exercise Question No 5 on Page 2.4.",
+    "detailed_image": "venturi_pressure_changes.png"
+  },
+  {
+    "question": "Which of these is the best description of the Newtonian explanation of lift?",
+    "topic": "Bernoulli vs. Newton on Lift",
+    "options": [
+      "The sum of static and dynamic pressure is constant",
+      "A fluid jet will adhere to a curved surface",
+      "The pressure on a surface is caused by molecular bombardment",
+      "The wing forces air down, and the air forces the wing up"
+    ],
+    "answer": "D",
+    "brief": "The Newtonian explanation for lift is based on his Third Law of Motion. It states that the lift force is the equal and opposite reaction to the action of the wing deflecting a large mass of air downwards.",
+    "detailed": "While Bernoulli's principle focuses on pressure, Newton's laws provide a different perspective on the same phenomenon. An aerofoil is shaped and angled in such a way that it forces air to flow downwards as it passes. This downward acceleration of a mass of air is an 'action'. According to Newton's Third Law, for every action, there is an equal and opposite reaction. The 'reaction' in this case is an upward force exerted by the air onto the wing. This upward force is what we call lift. Both the Newtonian and Bernoulli explanations are correct and complementary. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "newtons_lift_reaction.png"
+  },
+  {
+    "question": "In the diagram, what is the relationship between the energy levels at points A, B, C, and D?",
+    "topic": "Bernoulli's Principle - Constant Energy",
+    "image": "venturi_question_diagram.png",
+    "options": [
+      "The total energy at C is the lowest",
+      "The total energy at A is the highest",
+      "The total energy is the same at all points",
+      "The kinetic energy is the same at all points"
+    ],
+    "answer": "C",
+    "brief": "According to Bernoulli's principle, the total energy of the airstream (the sum of static and kinetic energy) remains constant throughout its passage through the venturi. Only the proportion of energy in each form changes.",
+    "detailed": "This question tests the core concept of Bernoulli's theorem of constant energy flow. While the speed and static pressure of the air change dramatically as it flows through the venturi, the total energy of any given air particle does not change. At point A, the energy is mostly in the form of static pressure. At point C, much of that pressure energy has been converted to kinetic energy. At point D, the kinetic energy has been converted back to pressure energy. However, the sum of the two energy forms, known as the total pressure, remains constant at all four points. This is a manipulated version of Exercise Question No 3 on Page 2.4.",
+    "detailed_image": "bernoulli_total_energy.png"
+  },
+  {
+    "question": "A key reason the Coanda effect works is because a fast-moving fluid jet:",
+    "topic": "Coanda Theory",
+    "image": "coanda_effect_on_surface.png",
+    "options": [
+      "is denser than still air",
+      "creates a low-pressure region that attracts it to a surface",
+      "has a higher temperature than the surrounding air",
+      "is repelled by high-pressure regions"
+    ],
+    "answer": "B",
+    "brief": "The Coanda effect is driven by pressure. A fast-moving jet of air creates a low-pressure region around it through entrainment. If a surface is nearby, this low pressure pulls the jet towards the surface, causing it to attach and follow the curve.",
+    "detailed": "The diagram shows a fluid jet bending to follow a curved surface. This happens because the fast-moving jet 'entrains' or drags the adjacent still air along with it. This creates a localized area of lower pressure between the jet and the surface. The higher ambient pressure on the other side of the jet then pushes it towards the surface, causing it to adhere. This tendency to stick to and follow the contour of a surface is the Coanda effect, and it is essential for ensuring that the airflow remains attached to the upper surface of a wing to produce lift. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "coanda_effect_on_surface.png"
+  },
+  {
+    "question": "The diagram shows air flowing through a venturi. This device demonstrates that:",
+    "topic": "Bernoulli's Principle in a Venturi",
+    "image": "venturi_diagram.png",
+    "options": [
+      "air pressure increases as speed increases",
+      "air pressure and speed are inversely related",
+      "air temperature decreases as speed increases",
+      "the total pressure of the air increases in the throat"
+    ],
+    "answer": "B",
+    "brief": "A venturi is a practical demonstration of Bernoulli's principle. It shows that as the airflow is forced to speed up in the narrow throat, its static pressure must decrease, proving the inverse relationship between velocity and static pressure.",
+    "detailed": "The venturi is the classic textbook example of Bernoulli's theorem. As the air flows from the wide entrance to the narrow throat, it must accelerate. As shown in the diagram, this increase in speed (dynamic pressure) is accompanied by a corresponding decrease in the static pressure. Then, as the tube widens in the diverging section, the air slows down, and the static pressure recovers. This clearly illustrates that for a steady flow, pressure and speed are inversely related: where one is high, the other is low. This same principle applies to the airflow over a wing. This is a manipulated version of Exercise Question No 5 on Page 2.4.",
+    "detailed_image": "venturi_diagram.png"
+  },
+  {
+    "question": "The primary cause of lift, as explained by Bernoulli, is the:",
+    "topic": "Bernoulli's Theorem on an Aerofoil",
+    "image": "aerofoil_pressure_distribution.png",
+    "options": [
+      "downward deflection of air behind the wing",
+      "pressure difference between the upper and lower wing surfaces",
+      "higher temperature of the air below the wing",
+      "entrainment of air by the boundary layer"
+    ],
+    "answer": "B",
+    "brief": "The Bernoulli explanation for lift focuses entirely on pressure. The higher speed of the air flowing over the curved upper surface creates a lower static pressure compared to the bottom surface, resulting in a net upward force.",
+    "detailed": "This diagram illustrates the result of Bernoulli's principle on an aerofoil. The curved upper surface forces the airflow to accelerate, creating a region of low static pressure (suction), as indicated by the outward-pointing arrows. The relatively flat lower surface has slower-moving air and therefore higher static pressure. This difference in pressure between the top and bottom surfaces creates a net aerodynamic force that pushes the wing upwards. This pressure differential is the fundamental cause of lift according to the Bernoulli explanation. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "aerofoil_pressure_distribution.png"
+  },
+  {
+    "question": "Newton's laws explain lift as an 'equal and opposite reaction'. What is the 'action' that causes this reaction?",
+    "topic": "Bernoulli vs. Newton on Lift",
+    "image": "newtons_lift_reaction.png",
+    "options": [
+      "The engine producing thrust",
+      "The aircraft's weight pushing down",
+      "The wing forcing a mass of air to move downwards",
+      "The reduction of pressure above the wing"
+    ],
+    "answer": "C",
+    "brief": "According to the Newtonian explanation of lift, the 'action' is the wing imparting a downward momentum to the air it passes through. The 'reaction' is the equal and opposite upward force exerted on the wing by the air, which is lift.",
+    "detailed": "This diagram illustrates the core concept of Newton's explanation for lift. An aerofoil is an object shaped to deflect air. As the wing moves forward, its shape and angle of attack force a large mass of air to be accelerated downwards. This downward deflection of air is the 'action'. Newton's Third Law states this action must be met with an equal and opposite reaction. The reaction is the upward force that the air exerts on the wing. This force is what lifts the aircraft and supports its weight in flight. This explanation is complementary to Bernoulli's principle. This is a manipulated version of Exercise Question No 1 on Page 2.4.",
+    "detailed_image": "newtons_lift_reaction.png"
+  }
+]

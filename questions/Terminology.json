@@ -1,133 +1,666 @@
 [
+    {
+      "question": "Which of the following statements regarding aerofoil terminology is FALSE?",
+      "topic": "2.1.1 (a) Terminology – aerofoil chord",
+      "options": [
+        "The chord is defined as a straight line from the leading to the trailing edge.",
+        "Camber refers to the curvature of the aerofoil, measured relative to the chord line.",
+        "The span is the total distance from one wingtip to the other.",
+        "An aerofoil's maximum thickness is measured along the mean camber line."
+      ],
+      "answer": "D",
+      "brief": "The chord is an imaginary straight line that serves as the primary reference for an aerofoil section. It is drawn directly from the center of the leading edge to the trailing edge, forming the basis for measuring the angle of attack.",
+      "detailed": "The chord line is a fundamental reference line in aerodynamics, defined in the provided manual as the straight line connecting the leading edge to the trailing edge of any aerofoil section. This imaginary line serves as the primary datum for the aerofoil. Its length, referred to as the chord, represents the characteristic width of the aerofoil. This reference line is absolutely crucial for calculating the angle of attack, which is specifically the angle formed between the chord line and the direction of the relative airflow. It is also the essential reference for defining other key parameters; for example, camber is measured as the distance between the chord line and the mean camber line, while thickness is measured perpendicular to the chord line. For wings that are not rectangular (e.g., tapered wings), the chord length varies along the wingspan. In these cases, a concept called Mean Aerodynamic Chord (MAC) is calculated, which represents the average chord of the wing. The MAC is vital for performance and stability calculations, particularly for determining the correct placement of the aircraft's centre of gravity, which is typically between 25% and 33% of the MAC. Therefore, the chord line is the foundation upon which most aerofoil measurements and aerodynamic calculations are built. The incorrect statement suggests thickness is measured along the mean camber line, which is false; thickness is the distance between the upper and lower surfaces measured perpendicular to the chord line."
+    },
+    {
+      "question": "Which of the following provides the most precise technical definition of 'maximum camber'?",
+      "topic": "2.1.1 (a) Terminology – aerofoil camber",
+      "options": [
+        "The asymmetry between the top and bottom surfaces of the wing.",
+        "The maximum distance between the chord line and the mean camber line.",
+        "The overall curvature of the aerofoil's upper surface.",
+        "The difference in length between the curved upper surface and the straight chord line."
+      ],
+      "answer": "B",
+      "brief": "Camber refers to the curvature of the aerofoil. It is specifically measured as the maximum distance between the straight chord line and the curved 'mean camber line' (the line halfway between the upper and lower surfaces).",
+      "detailed": "Camber is a defining characteristic of an aerofoil's shape and is a primary factor in its ability to produce lift efficiently. To define it precisely, one must first understand two key reference lines: the chord line (a straight line from the leading to trailing edge) and the mean camber line. The provided manual defines the mean camber line as being equidistant from the upper and lower surfaces of the aerofoil. Maximum camber is then defined as the maximum perpendicular distance between these two lines—the straight chord line and the curved mean camber line. An aerofoil with positive camber, where the mean camber line is arched above the chord line, is specifically designed to generate a pressure differential and thus produce lift even at a zero angle of attack. This is because the curved shape forces air to accelerate over the longer path of the top surface, creating lower static pressure according to Bernoulli's principle. The amount of camber, often expressed as a percentage of the chord length, directly influences the aerofoil's maximum lift coefficient and its stalling characteristics. Aerofoils designed for low-speed flight typically have a more pronounced camber to generate high lift, whereas high-speed aircraft may have less camber or symmetrical aerofoils to minimize drag."
+    },
+    {
+      "question": "The thickness/chord ratio of an aerofoil would NOT be expressed as:",
+      "topic": "2.1.1 (a) Terminology – thickness/chord ratio",
+      "options": [
+        "A percentage, such as a '12% aerofoil'.",
+        "A ratio, such as '1:10'.",
+        "A value derived from maximum thickness relative to chord length.",
+        "An absolute measurement in millimeters."
+      ],
+      "answer": "D",
+      "brief": "This ratio describes how thick a wing is compared to its width (chord). It is calculated by dividing the maximum thickness by the chord length and is expressed as a percentage, for example, a '12% thick aerofoil'.",
+      "detailed": "The thickness-to-chord ratio is a crucial dimensionless design parameter that heavily influences an aerofoil's flight characteristics. As defined in the provided manual, it is the maximum thickness of an aerofoil section expressed as a percentage of the chord length. For example, a ratio of 1:10 is identical to saying it is a 10% aerofoil. This ratio is fundamental because it allows for the comparison of aerofoil shapes regardless of their actual size; it ensures aerodynamic similarity. A thicker aerofoil (higher percentage) generally produces a higher maximum lift coefficient and a more gentle stall, making it suitable for lower-speed aircraft. It also provides greater internal volume for structural components like spars and fuel. Conversely, a thinner aerofoil (lower percentage) is critical for high-speed flight as it produces significantly less drag, particularly the wave drag that becomes a major issue at transonic speeds. The choice of ratio is always a critical compromise for aircraft designers, who must balance the need for lift, low drag, and structural integrity. An absolute measurement like millimeters is never used to define the ratio itself, as it would only describe one specific physical wing, not the aerodynamic shape, and would lose all sense of geometric proportion."
+    },
+    {
+      "question": "The wingspan of an aircraft is a critical dimension for determining all of the following EXCEPT:",
+      "topic": "2.1.1 (a) Terminology – aerofoil span",
+      "options": [
+        "The aircraft's aspect ratio.",
+        "The magnitude of the induced drag.",
+        "The aircraft's compatibility with airport infrastructure.",
+        "The location of the centre of pressure."
+      ],
+      "answer": "D",
+      "brief": "The span, or wingspan, is the most straightforward measurement of a wing's size. It is the total distance measured in a straight line from one wingtip to the opposite wingtip.",
+      "detailed": "The wingspan is a fundamental dimension of an aircraft, defined as the linear distance from one wingtip to the other. Its length is a critical input for calculating the wing's aspect ratio, which describes how long and slender a wing is. The provided manual gives the formula for aspect ratio as Span² / Area, highlighting the direct and significant influence of the span. A high aspect ratio, directly resulting from a large span relative to the wing's area, is a key design feature for minimizing induced drag. This is because a longer span increases the path length for air to flow around the wingtips from the high-pressure lower surface to the low-pressure upper surface, thereby weakening the wingtip vortices that are the cause of induced drag. This is why gliders designed for maximum efficiency have very long wingspans. Beyond aerodynamics, the span is a major practical consideration, determining the aircraft's compatibility with airport gates, taxiways, and hangars. However, the chordwise location of the centre of pressure is determined by the pressure distribution over the aerofoil, which changes primarily with the angle of attack, not the wingspan. While span affects the magnitude of the total aerodynamic force, it does not define the point at which this force effectively acts on the chord."
+    },
+    {
+      "question": "Considering the definitions of key aerodynamic angles, which of the following statements is FALSE?",
+      "topic": "2.1.1 (b) Terminology – relative airflow and angle of attack",
+      "options": [
+        "Angle of attack is the angle between the chord line and the relative airflow.",
+        "Pitch attitude is the angle between the aircraft's longitudinal axis and the horizon.",
+        "Angle of incidence is a fixed angle between the wing chord and the aircraft's longitudinal axis.",
+        "In straight and level flight, the angle of attack and the angle of incidence are always equal."
+      ],
+      "answer": "D",
+      "brief": "The angle of attack is the crucial aerodynamic angle that determines the amount of lift and drag being produced. It is defined as the angle between the wing's chord line and the direction of the oncoming air, known as the relative airflow.",
+      "detailed": "Understanding the distinction between the various aerodynamic and attitude angles is critical. The Angle of Attack (AoA), as defined in the manual, is the angle between the wing's chord line and the relative airflow (RAF); it is the primary angle that the pilot controls via the elevator to manage lift. Pitch attitude is the angle between the aircraft's longitudinal axis and the horizon, representing the aircraft's orientation in space, which the pilot observes on the attitude indicator. The Angle of Incidence, also called the wing setting angle, is a fixed design feature—the angle at which the wing is mounted to the fuselage, typically around 2-3 degrees as noted in the manual. Its purpose is to place the wing at an efficient AoA during cruise flight while the fuselage remains level. The statement that AoA and angle of incidence are always equal in level flight is false. For lift to equal weight in level flight, a specific AoA is required, and this required AoA changes with airspeed and weight. The angle of incidence is constant. Therefore, the AoA will only equal the angle of incidence at one specific combination of speed, weight, and configuration. At any other speed in level flight, the pilot must adjust the aircraft's pitch attitude to achieve the necessary AoA, meaning the two angles will differ."
+    },
+    {
+      "question": "Which statement offers the most theoretically precise description of Relative Airflow (RAF)?",
+      "topic": "2.1.1 (b) Terminology – relative airflow and angle of attack",
+      "options": [
+        "The wind blowing over the ground.",
+        "The air moving in the opposite direction to the aircraft's ground track.",
+        "The flow of air with respect to the aerofoil, which is parallel and opposite to the aircraft's flight path through the airmass.",
+        "The rush of air a pilot feels when moving forward."
+      ],
+      "answer": "C",
+      "brief": "Relative airflow is simply the air's motion as experienced by the aircraft. It flows in a direction that is exactly parallel and opposite to the aircraft's flight path through the airmass.",
+      "detailed": "The concept of relative airflow (RAF) is fundamental to understanding how all aerodynamic forces are generated. The most precise definition, supported by the provided manual, is that RAF is the airflow experienced by the wing, flowing in a direction exactly parallel and opposite to the aircraft's flight path through the surrounding airmass. The manual also refers to this as 'Free Stream Flow,' which it defines as the air in a region where pressure, temperature, and relative velocity are unaffected by the aircraft's passage. It is critical to distinguish the aircraft's movement through the air from its movement over the ground. Aerodynamic forces like lift and drag are created solely by the wing's interaction with the air it is passing through. For example, an aircraft with a true airspeed of 120 knots flying directly into a 30-knot headwind has a groundspeed of only 90 knots, but its wings are experiencing a 120-knot relative airflow, and the aerodynamic forces produced correspond to that 120-knot speed. All critical aerodynamic angles, most importantly the angle of attack, are measured relative to this airflow, not the ground or the horizon. Therefore, understanding RAF as being relative to the airmass is the cornerstone of all aerodynamic principles."
+    },
+    {
+      "question": "What is the primary aerodynamic event that defines the critical angle of attack?",
+      "topic": "2.1.1 (b) Terminology – relative airflow and angle of attack",
+      "options": [
+        "The point where airflow over a significant portion of the upper surface separates, causing a stall.",
+        "The moment the lift force becomes less than the aircraft's weight.",
+        "The point where total drag reaches its absolute minimum value.",
+        "The instant the boundary layer transitions from laminar to turbulent."
+      ],
+      "answer": "A",
+      "brief": "The critical angle of attack is the specific angle at which the wing produces its maximum possible lift coefficient (CLmax). If the angle of attack is increased any further beyond this point, the airflow will separate from the wing, causing a stall.",
+      "detailed": "Every aerofoil has a distinct limit to the amount of lift it can generate. As the pilot increases the angle of attack (AoA), the lift coefficient (CL) increases in a roughly linear fashion up to a certain point. This peak value is the maximum lift coefficient (CLmax). The specific angle of attack at which this peak occurs is known as the critical angle of attack or stalling angle. It is 'critical' because it represents the absolute boundary between controlled flight and an aerodynamic stall. The primary aerodynamic event that defines this point is large-scale airflow separation. As the AoA increases past the critical angle, the adverse pressure gradient on the top surface of the wing becomes too strong for the boundary layer to overcome. The airflow detaches from the wing's surface, creating a large, turbulent wake. This separation results in a sudden and dramatic loss of lift and a significant increase in drag. It is crucial to understand that an aircraft stalls at a specific angle of attack, not a specific airspeed. This critical angle is a fixed characteristic for a given aerofoil shape and configuration (e.g., flaps up or down), and exceeding it will always result in a stall regardless of speed, attitude, or weight."
+    },
+    {
+      "question": "A laminar boundary layer has all of the following characteristics EXCEPT:",
+      "topic": "2.1.1 (c) Terminology – laminar and turbulent boundary layers",
+      "options": [
+        "Smooth, orderly airflow in parallel layers.",
+        "Low skin friction drag.",
+        "A tendency to form near the leading edge.",
+        "High kinetic energy making it resistant to separation."
+      ],
+      "answer": "D",
+      "brief": "A laminar boundary layer is a very thin layer of air flowing over the wing's surface in smooth, parallel sheets, like pages in a book. This orderly flow creates very little skin friction drag but is also very delicate and prone to separation.",
+      "detailed": "The boundary layer is the thin layer of air immediately in contact with the wing's surface, where the air's velocity is reduced by friction. At the front of the aerofoil, this layer is naturally laminar. This means the air particles flow in smooth, parallel paths called 'laminae' with very little mixing between them. A key advantage of this orderly flow is that it produces very low skin friction drag, which is highly desirable for aerodynamic efficiency. However, the defining characteristic that leads to its limitation is its low kinetic energy. Because the layers do not mix, the layer closest to the skin remains slow and loses momentum due to friction without being re-energized by faster-moving air from above. This low energy makes the laminar boundary layer very delicate and unable to withstand a strong adverse pressure gradient (an area where air flows from low to high pressure, such as on the rearward portion of the wing). Consequently, it is highly prone to separating from the surface, which can lead to an abrupt and often unforgiving stall. Therefore, while it is smooth and creates low drag, it lacks the high kinetic energy and robustness needed to resist separation effectively."
+    },
+    {
+      "question": "A turbulent boundary layer is NOT characterized by which of the following?",
+      "topic": "2.1.1 (c) Terminology – laminar and turbulent boundary layers",
+      "options": [
+        "Chaotic, swirling airflow with significant mixing.",
+        "Higher kinetic energy than a laminar layer.",
+        "Greater resistance to adverse pressure gradients.",
+        "Lower skin friction drag than a laminar layer."
+      ],
+      "answer": "D",
+      "brief": "A turbulent boundary layer is more chaotic and energetic than a laminar one. This results in higher skin friction drag, but the extra energy helps the airflow 'stick' to the wing surface, making it much more resistant to separation and delaying the stall.",
+      "detailed": "A turbulent boundary layer is fundamentally different from a laminar one. It is characterized by chaotic, swirling eddies and significant, random mixing of air particles across its layers. This constant mixing is a crucial feature, as it continuously transfers energy from the faster-moving outer layers to the slower-moving inner layers near the wing's surface. This re-energizing process gives the turbulent boundary layer a much higher overall kinetic energy profile compared to its laminar counterpart. The direct benefit of this high energy level is a significantly greater ability to overcome adverse pressure gradients, allowing the airflow to remain attached to the wing at much higher angles of attack before separation occurs. This delays the stall, results in a higher maximum lift coefficient, and typically leads to more docile stall characteristics—a key safety feature. However, this robustness comes at a cost. The chaotic, swirling motion against the wing's skin creates substantially more friction than smooth laminar flow. Therefore, a turbulent boundary layer is always characterized by higher skin friction drag, making the statement that it has lower skin friction drag definitively false."
+    },
+    {
+      "question": "Which of the following sequences best describes the events leading to boundary layer separation?",
+      "topic": "2.1.1 (c) Terminology – laminar and turbulent boundary layers",
+      "options": [
+        "Turbulent flow becomes laminar, pressure increases, airflow separates.",
+        "Angle of attack increases, adverse pressure gradient strengthens, boundary layer energy is overcome, airflow separates.",
+        "Airspeed decreases, dynamic pressure is lost, the wing stops producing all lift instantly.",
+        "Boundary layer separates, causing the angle of attack to increase and an adverse pressure gradient to form."
+      ],
+      "answer": "B",
+      "brief": "Boundary layer separation is the cause of the stall. It occurs when the air flowing over the wing's surface encounters an adverse pressure gradient that it does not have enough kinetic energy to overcome, causing it to detach from the surface.",
+      "detailed": "Boundary layer separation, the root cause of an aerodynamic stall, is a sequential process driven by pressure and energy. As an aircraft's angle of attack increases, the curvature of the airflow over the top of the wing becomes more pronounced. This leads to a point of very low pressure, typically near the wing's point of maximum thickness. From this point rearward toward the trailing edge, the air must flow into a region of increasing pressure. This is known as an adverse pressure gradient. As the angle of attack continues to increase, this adverse gradient becomes progressively stronger. The boundary layer, which is the layer of air flowing over the wing's surface, has already lost some of its kinetic energy due to friction. It must use its remaining energy to fight against this rising pressure. Eventually, a point is reached—the critical angle of attack—where the adverse pressure gradient is so strong that the air in the boundary layer runs out of kinetic energy. It stagnates and can no longer follow the contour of the wing, separating from the surface. This separation creates a large turbulent wake, which leads to a dramatic loss of lift and a large increase in drag, defining the stall."
+    },
+    {
+      "question": "Induced drag is primarily caused by:",
+      "topic": "2.1.2 Terminology – types of drag",
+      "options": [
+        "Surface friction between air molecules and the wing's physical surface area",
+        "Pressure differences creating wingtip vortices as a byproduct of lift generation",
+        "Shock wave formation when the aircraft approaches supersonic flight speeds",
+        "Interference between airflow around the wing and fuselage junction areas"
+      ],
+      "answer": "B",
+      "brief": "Induced drag is the unavoidable penalty for producing lift. It is created by the wingtip vortices that form due to the pressure difference between the high-pressure air below the wing and the low-pressure air above it.",
+      "detailed": "When a wing generates lift, it does so by creating a pressure differential: the pressure on its lower surface is higher than on its upper surface. This differential creates the upward force. However, it has an unavoidable consequence at the wingtips. The high-pressure air from beneath the wing naturally seeks the path of least resistance to the low-pressure area above, causing it to spill around the wingtip. This spanwise flow of air interacts with the normal chordwise flow, creating a powerful, rotating vortex of air that trails behind each wingtip. These wingtip vortices are large masses of rotating air containing significant kinetic energy, representing a constant energy loss from the aircraft. Furthermore, the vortices create a downward flow of air in the vicinity of the wing, known as downwash. This downwash effectively alters the direction of the relative airflow striking the wing, tilting it downwards. As a result, the Total Aerodynamic Reaction, which is always perpendicular to the local relative airflow, is tilted slightly backward. When this total force is resolved into its two components—lift (perpendicular to the free-stream RAF) and drag (parallel to the free-stream RAF)—the rearward-tilted component manifests as a drag force. This force is induced drag, an inherent and unavoidable penalty directly linked to the production of lift."
+    },
+    {
+      "question": "Regarding the classification of aerodynamic drag, which of the following statements is FALSE?",
+      "topic": "2.1.2 Terminology – types of drag",
+      "options": [
+        "Parasite drag is composed of form drag, skin friction drag, and interference drag.",
+        "Induced drag is a byproduct of lift and is independent of parasite drag.",
+        "Form drag is fundamentally a type of induced drag related to the aircraft's shape.",
+        "Total drag is the sum of parasite drag and induced drag."
+      ],
+      "answer": "C",
+      "brief": "Total drag is divided into two main categories: parasite drag and induced drag. Parasite drag is all the drag that is not associated with the production of lift, and it includes form drag, skin friction drag, and interference drag.",
+      "detailed": "Aerodynamic drag is broadly categorized into two distinct types: parasite drag and induced drag. Parasite drag is all the resistance that is not a direct result of lift production. It is the 'price' of moving an object through a fluid. It can be further broken down into three main components. First, Form Drag (or pressure drag) is caused by the shape of the aircraft; a blunt, unstreamlined object creates a large, low-pressure wake, resulting in high form drag. Second, Skin Friction Drag is caused by the viscosity of the air, where a thin layer of air (the boundary layer) sticks to the aircraft's 'skin', creating a retarding force. Third, Interference Drag is generated at the intersections of aircraft components, such as where the wing joins the fuselage, disrupting the smooth airflow. All components of parasite drag increase with the square of the airspeed. In contrast, Induced Drag is solely a byproduct of lift. It is created by wingtip vortices and is highest at low speeds and high angles of attack. The statement that form drag is a type of induced drag is fundamentally incorrect; form drag is a key component of parasite drag and is unrelated to the generation of lift."
+    },
+    {
+      "question": "When an aircraft doubles its Indicated Airspeed in level flight, parasite drag quadruples while induced drag reduces to one-quarter. What is the primary aerodynamic reason for this relationship?",
+      "topic": "2.1.2 Terminology – effect of IAS on total drag",
+      "options": [
+        "The aircraft's weight effectively decreases at higher speeds.",
+        "The air's viscosity changes, altering skin friction.",
+        "A lower angle of attack is needed for the same lift, reducing induced drag, while higher dynamic pressure increases parasite drag.",
+        "The wing's centre of pressure shifts rearward, streamlining the aircraft."
+      ],
+      "answer": "C",
+      "brief": "This question highlights the opposing nature of induced and parasite drag. As speed doubles, parasite drag (which varies with the square of speed) quadruples. At the same time, induced drag (which varies inversely with the square of speed) is reduced to one-quarter of its original value.",
+      "detailed": "The two primary components of drag, parasite and induced, have opposite relationships with airspeed. Parasite drag, which includes form drag and skin friction, is directly proportional to the dynamic pressure of the airflow (q = ½ρV²). Since dynamic pressure is proportional to the square of the velocity (V²), doubling the speed quadruples the dynamic pressure, and therefore quadruples the parasite drag. On the other hand, induced drag is an unavoidable consequence of producing lift. To maintain level flight (where lift equals weight), as airspeed increases, the wings can generate the same amount of lift at a much lower angle of attack. A lower angle of attack results in a smaller pressure differential between the upper and lower wing surfaces. This reduced pressure differential weakens the wingtip vortices, which are the direct cause of induced drag. This relationship is an inverse square law, meaning that if you double the speed, the induced drag is reduced to one-quarter of its previous value. Therefore, the core reason for this inverse relationship is that higher speed allows for a lower angle of attack to maintain the required lift, which in turn dramatically reduces the induced drag."
+    },
+    {
+      "question": "What is the most direct reason an increase in aircraft weight leads to an increase in total drag at a constant airspeed?",
+      "topic": "2.1.2 Terminology – effect of weight on total drag",
+      "options": [
+        "The heavier aircraft presents a larger frontal area, increasing form drag.",
+        "Increased weight compresses the air more, increasing skin friction.",
+        "More lift is required, necessitating a higher angle of attack, which in turn increases induced drag.",
+        "The aircraft's centre of gravity shifts, making it less aerodynamically stable."
+      ],
+      "answer": "C",
+      "brief": "A heavier aircraft must generate more lift to stay airborne. To create this extra lift at the same airspeed, a higher angle of attack is required, which in turn creates stronger wingtip vortices and therefore increases the induced drag.",
+      "detailed": "Weight has a direct and significant impact on induced drag, which is the component of drag associated with lift. To maintain straight and level flight, the lift force generated by the wings must be exactly equal to the aircraft's weight. If the weight of the aircraft is increased (e.g., by adding fuel, passengers, or cargo), the wings must produce a proportionally greater lift force to maintain altitude. According to the lift formula (L = CL * ½ρV² * S), if the airspeed (V), air density (ρ), and wing surface area (S) are held constant, the only way to increase lift is to increase the Coefficient of Lift (CL). The pilot achieves this by increasing the wing's angle of attack. A higher angle of attack creates a larger pressure differential between the upper and lower surfaces of the wing. This, in turn, generates more powerful wingtip vortices, which are the root cause of induced drag. Since Total Drag is the sum of Parasite Drag and Induced Drag, and the induced drag component has increased while the parasite drag (which depends on speed and shape, not weight) has remained the same, the total drag must increase. Therefore, a heavier aircraft requires more thrust to maintain the same airspeed."
+    },
+    {
+      "question": "For an aircraft maintaining a constant Indicated Airspeed (IAS) in level flight, which statement about the effect of increasing altitude is FALSE?",
+      "topic": "2.1.2 Terminology – effect of height on total drag",
+      "options": [
+        "The True Airspeed (TAS) must increase to maintain the same dynamic pressure.",
+        "The total drag force for the given IAS will be lower.",
+        "A higher TAS is achieved for the same IAS and drag.",
+        "The total drag force for the given IAS will increase because the TAS is higher."
+      ],
+      "answer": "D",
+      "brief": "For a given Indicated Airspeed, the total drag force on an aircraft is lower at a higher altitude. This is because the less dense air offers less resistance, and the aircraft achieves a higher True Airspeed to maintain the same dynamic pressure.",
+      "detailed": "This complex relationship involves understanding the different types of airspeed. Indicated Airspeed (IAS) is what the pilot sees on the airspeed indicator. It is a direct measure of dynamic pressure (q = ½ρV²). The actual aerodynamic forces, including lift and drag, are also directly proportional to this dynamic pressure. As an aircraft climbs, the air density (ρ) decreases. To maintain a constant IAS, the aircraft's pitot-static system must sense the same dynamic pressure. Looking at the formula, if ρ decreases, the True Airspeed (V) must increase to keep the value of ½ρV² constant. This is why TAS is always higher than IAS at altitude. Now, considering the drag force, since it is proportional to the dynamic pressure, and the aircraft is being flown at a constant dynamic pressure (constant IAS), the total drag force on the airframe remains the same. The statement that the total drag force will be lower is a common misconception; while TAS is higher, the fewer air molecules at altitude result in the same total force. The statement that is definitively false is that the drag force will increase. This is incorrect because the higher TAS is perfectly compensated for by the lower air density, resulting in the same dynamic pressure and thus the same drag force."
+    },
+    {
+      "question": "The line 'C' in the diagram, known as the chord line, is a fundamental reference for all the following EXCEPT:",
+      "topic": "2.1.1 (a) Terminology – aerofoil chord",
+      "image": "aerofoil_chord_line.png",
+      "options": [
+        "Measuring the angle of attack.",
+        "Defining the aerofoil's camber.",
+        "Calculating the thickness/chord ratio.",
+        "Determining the direction of the relative airflow."
+      ],
+      "answer": "D",
+      "brief": "The line 'C' in the diagram represents the chord line. This is the fundamental reference line of an aerofoil, drawn as a straight line from the leading edge to the trailing edge.",
+      "detailed": "The chord line is arguably the most crucial reference line for defining an aerofoil's geometry and its interaction with the air. The provided manual defines it as the straight line from the leading to the trailing edge. Its primary functions include being the reference against which the angle of attack is measured (the angle between the chord line and the relative airflow). It is also the baseline for defining the aerofoil's curvature; camber is the maximum distance between the chord line and the mean camber line. Furthermore, it is the 'chord' in the thickness-to-chord ratio, which defines the aerofoil's thickness relative to its length. Therefore, it is fundamental to the definition of these key parameters. However, the chord line does not determine the direction of the relative airflow. The relative airflow's direction is determined by the aircraft's flight path through the airmass; it is an external factor. The chord line is an intrinsic part of the aerofoil's geometry, and its angle relative to the oncoming air is what we measure, not the other way around. The airflow's direction is the independent variable that defines the angle of attack."
+    },
+    {
+      "question": "The dashed line 'M' in the diagram represents the mean camber line. Which of the following statements provides the most complete description of its significance?",
+      "topic": "2.1.1 (a) Terminology – aerofoil camber",
+      "image": "aerofoil_camber_line.png",
+      "options": [
+        "It shows the path of air over the wing.",
+        "It is a reference line, equidistant from the upper and lower surfaces, used to define the aerofoil's curvature.",
+        "It is the line connecting the thickest points of the aerofoil.",
+        "For any aerofoil that produces lift, this line must be curved."
+      ],
+      "answer": "B",
+      "brief": "The dashed line 'M' represents the mean camber line. This is an imaginary line drawn halfway between the upper and lower surfaces of the aerofoil, and it defines the wing's essential curvature.",
+      "detailed": "The mean camber line is a critical geometric construction used to define the curvature, or camber, of an aerofoil. As stated in the provided manual, it is a line drawn such that at any point, it is equidistant from the upper and lower surfaces of the wing. Its significance lies in its relationship with the straight chord line. For a symmetrical aerofoil, the mean camber line and the chord line are identical. For a cambered aerofoil, the mean camber line will be a curved line, and the maximum distance between it and the chord line defines the aerofoil's maximum camber. This curvature is a primary factor in the aerofoil's ability to produce lift, especially at low or even zero angles of attack. Option D is incorrect because a symmetrical aerofoil (where the mean camber line is straight) can still produce a great deal of lift, but it must be at a positive angle of attack to do so. The mean camber line does not show the path of the air, nor does it connect the thickest points; it purely and precisely defines the aerofoil's essential curvature, which is fundamental to its aerodynamic characteristics."
+    },
+    {
+      "question": "It is not untrue that the angle 'α' in the provided diagram represents:",
+      "topic": "2.1.1 (b) Terminology – relative airflow and angle of attack",
+      "image": "angle_of_attack_diagram.png",
+      "options": [
+        "The angle of attack between chord line and relative airflow",
+        "The pitch attitude relative to the horizon",
+        "The angle of incidence built into the wing design",
+        "The dihedral angle of the wing structure"
+      ],
+      "answer": "A",
+      "brief": "The angle 'α' (alpha) is the universal symbol for the angle of attack. The diagram shows it correctly as the angle between the wing's chord line and the direction of the oncoming relative airflow.",
+      "detailed": "This diagram perfectly illustrates the precise definition of the angle of attack (AoA), universally represented by the Greek letter 'α' (alpha). The AoA is the angle at which the wing meets the air it is flying through. As defined in the manual (section 1.7.2), it is specifically the angle between the aerofoil's chord line and the relative airflow (RAF). This is the single most important angle in aerodynamics, as it is the primary factor that the pilot controls (via the elevator) to vary the amount of lift being generated. It is crucial not to confuse the AoA with other angles. Pitch attitude is the angle between the aircraft's longitudinal axis and the horizon—an indication of where the aircraft is pointing. Angle of incidence is the fixed, built-in angle between the wing's chord line and the aircraft's longitudinal axis. An aircraft can have a high pitch attitude but a low angle of attack (e.g., in a slow, level flight with a nose-high attitude) or a low pitch attitude but a high angle of attack (e.g., when pulling out of a dive). The double negative 'not untrue' simply means 'true', confirming that 'α' correctly represents the angle of attack."
+    },
+    {
+      "question": "Region 'L' in the diagram shows laminar flow. What aerodynamic event typically occurs immediately downstream as the air continues to flow over the wing?",
+      "topic": "2.1.1 (c) Terminology – laminar and turbulent boundary layers",
+      "image": "boundary_layer_flow.png",
+      "options": [
+        "The flow separates from the surface, causing a stall.",
+        "The flow transitions to a turbulent boundary layer.",
+        "The flow encounters the stagnation point.",
+        "The flow reverses direction and moves toward the leading edge."
+      ],
+      "answer": "B",
+      "brief": "The region 'L' at the front of the aerofoil shows smooth, parallel streamlines. This is characteristic of a laminar boundary layer, where the air flows in an orderly fashion with very little mixing between layers.",
+      "detailed": "The diagram illustrates the evolution of the boundary layer over an aerofoil. The region 'L', near the leading edge, shows the airflow in its initial state: a smooth, orderly laminar boundary layer where air particles move in parallel sheets. This type of flow creates very little skin friction drag. However, as this low-energy laminar flow moves rearward, it encounters the point of maximum thickness of the aerofoil, after which the surface begins to curve back towards the trailing edge. This creates an adverse pressure gradient (pressure increasing in the direction of flow). The low-energy laminar flow is unstable in this environment and cannot remain attached for long. As a result, it undergoes a natural process called transition, where it breaks down into a more chaotic but also more energetic turbulent boundary layer. This turbulent layer, while creating more skin friction drag, has more kinetic energy due to mixing, allowing it to better resist the adverse pressure gradient and remain attached to the wing surface further aft. Therefore, the event that typically and immediately follows the region of laminar flow is the transition to a turbulent boundary layer, not immediate separation or encountering the stagnation point (which is at the leading edge)."
+    },
+    {
+      "question": "The diagram shows airflow separation at point 'S'. What is the primary aerodynamic reason for this phenomenon?",
+      "topic": "2.1.1 (c) Terminology – laminar and turbulent boundary layers",
+      "image": "flow_separation_diagram.png",
+      "options": [
+        "The boundary layer has insufficient kinetic energy to overcome the adverse pressure gradient.",
+        "The aircraft is flying at its maximum possible speed.",
+        "The laminar flow has suddenly become too thick.",
+        "The turbulent boundary layer has become detached due to friction."
+      ],
+      "answer": "A",
+      "brief": "Point 'S' on the diagram marks the location where the smooth airflow of the boundary layer detaches from the wing's upper surface. This is known as airflow separation, and the turbulent wake behind this point is the cause of an aerodynamic stall.",
+      "detailed": "This diagram depicts a wing at a high angle of attack, on the verge of stalling. The primary reason for the airflow separation shown at point 'S' is the interaction between the boundary layer's energy and the local pressure gradient. As air flows over the curved upper surface, it accelerates to a point of minimum pressure (usually near the thickest part of the wing). From that point rearward, the air must flow into an area of increasing pressure, known as an adverse pressure gradient. The boundary layer, which has already lost some of its kinetic energy due to friction with the wing's surface, must now push 'uphill' against this rising pressure. As the angle of attack increases, this adverse pressure gradient becomes much stronger. Eventually, a point is reached where the air in the boundary layer no longer has sufficient kinetic energy to overcome this adverse pressure. It slows to a stop and then separates from the surface at point 'S', the separation point. This creates a large, bubbling wake of turbulent, semi-stagnant air that covers the rear portion of the wing, leading to a massive loss of lift and a large increase in drag, which is the definition of an aerodynamic stall."
+    },
+    {
+      "question": "To maintain theoretical precision, the Angle of Attack is defined as the angle between the relative airflow and which specific reference line?",
+      "topic": "2.1.1 (b) Terminology – relative airflow and angle of attack",
+      "options": [
+        "The upper surface of the aerofoil.",
+        "The aircraft's longitudinal axis.",
+        "The chord line of the aerofoil.",
+        "The mean camber line of the aerofoil."
+      ],
+      "answer": "C",
+      "brief": "This is a fundamental definition in aerodynamics. The Angle of Attack is always measured between the chord line of the aerofoil and the direction of the oncoming relative airflow.",
+      "detailed": "In aerodynamics, precision in definitions is paramount. The Angle of Attack (AoA) is the single most important variable controlled by the pilot to manage the aircraft's performance. Its precise definition, as stated in the provided manual (section 1.7.2), is the angle between the aerofoil's chord line and the relative airflow (RAF). The chord line, an imaginary straight line drawn from the leading edge to the trailing edge, serves as the standard reference datum for the aerofoil's orientation. The relative airflow is the direction of the air moving towards the wing, which is parallel and opposite to the aircraft's flight path through the airmass. It is critical to distinguish this from other potential references. For example, the angle between the chord line and the aircraft's longitudinal axis is the Angle of Incidence, a fixed design parameter. The angle between the longitudinal axis and the horizon is the pitch attitude. Using any reference other than the chord line and the relative airflow would lead to incorrect and inconsistent measurements of the aerodynamic state of the wing. Therefore, for all theoretical and practical purposes, the chord line is the correct and only reference line used to define the angle of attack."
+    },
   {
-    "question": "Which of the following best describes the term 'chord' in an aerofoil?",
-    "topic": "Lift & Drag Terms",
+    "question": "Regarding the effects of a high thickness-to-chord ratio on an aerofoil, which statement is FALSE?",
+    "topic": "2.1.1 (a) Terminology – thickness/chord ratio",
     "options": [
-      "The distance from wingtip to wingtip",
-      "The straight line joining the leading and trailing edges",
-      "The maximum thickness of the aerofoil",
-      "The curvature of the upper surface"
-    ],
-    "answer": "B",
-    "brief": "Chord is the straight line joining the leading and trailing edges of an aerofoil.",
-    "detailed": "The chord line is a fundamental reference line in aerodynamics. It is used to define the angle of attack and helps in calculating lift and drag parameters."
-  },
-  {
-    "question": "What does camber in an aerofoil primarily affect?",
-    "topic": "Lift & Drag Terms",
-    "options": [
-      "Lift characteristics",
-      "Thrust production",
-      "Structural strength",
-      "Aircraft weight"
-    ],
-    "answer": "A",
-    "brief": "Camber is the curvature of the aerofoil and primarily influences lift.",
-    "detailed": "An aerofoil with higher camber generates more lift at lower angles of attack. Camber modifies airflow, increasing pressure differences between upper and lower surfaces."
-  },
-  {
-    "question": "What is the thickness-to-chord ratio of an aerofoil?",
-    "topic": "Lift & Drag Terms",
-    "options": [
-      "Span divided by camber",
-      "Maximum thickness divided by chord length",
-      "Lift divided by drag",
-      "Aspect ratio of the wing"
-    ],
-    "answer": "B",
-    "brief": "The thickness-to-chord ratio is defined as the maximum thickness of the aerofoil divided by the chord length.",
-    "detailed": "This ratio influences both lift and drag properties. A thicker aerofoil increases drag but may also improve stall characteristics and structural strength."
-  },
-  {
-    "question": "Relative airflow is defined as:",
-    "topic": "Lift & Drag Terms",
-    "options": [
-      "The direction of airflow parallel to the horizon",
-      "The airflow caused by the aircraft's forward motion",
-      "The difference between IAS and TAS",
-      "Airflow parallel to the aircraft fuselage"
-    ],
-    "answer": "B",
-    "brief": "Relative airflow is the airflow experienced due to the aircraft's forward motion.",
-    "detailed": "It is the direction of the air relative to the wing, opposite to the flight path. The angle between chord line and relative airflow is the angle of attack."
-  },
-  {
-    "question": "What is angle of attack?",
-    "topic": "Lift & Drag Terms",
-    "options": [
-      "The angle between lift and drag vectors",
-      "The angle between the chord line and relative airflow",
-      "The angle between the wing and horizon",
-      "The angle of camber curvature"
-    ],
-    "answer": "B",
-    "brief": "Angle of attack is the angle between the chord line and relative airflow.",
-    "detailed": "It directly influences lift and drag. Increasing angle of attack increases lift up to a point, beyond which stall occurs."
-  },
-  {
-    "question": "In the diagram below, what does the marked angle represent?",
-    "topic": "Lift & Drag Terms",
-    "image": "angle_of_attack.png",
-    "options": [
-      "The angle between the chord line and relative airflow",
-      "The angle between wingtip and wing root",
-      "The angle of camber curvature",
-      "The dihedral angle of the wing"
-    ],
-    "answer": "A",
-    "brief": "The diagram represents the angle of attack.",
-    "detailed": "This is a fundamental aerodynamic concept: the angle formed between the chord line of the wing and the direction of relative airflow."
-  },
-  {
-    "question": "What happens to the boundary layer as it flows toward the trailing edge of the wing?",
-    "topic": "Lift & Drag Terms",
-    "options": [
-      "It becomes thinner",
-      "It becomes progressively thicker",
-      "It disappears",
-      "It remains unchanged"
-    ],
-    "answer": "B",
-    "brief": "The boundary layer becomes progressively thicker as it flows along the wing.",
-    "detailed": "Viscous forces cause airflow near the surface to slow, thickening the boundary layer. Depending on conditions, it may transition from laminar to turbulent."
-  },
-  {
-    "question": "Which type of drag is caused by the production of lift?",
-    "topic": "Types of Drag",
-    "options": [
-      "Form drag",
-      "Induced drag",
-      "Skin friction drag",
-      "Wave drag"
-    ],
-    "answer": "B",
-    "brief": "Induced drag is the result of lift production and wingtip vortices.",
-    "detailed": "When wings generate lift, pressure differences cause vortices at the tips, tilting the lift vector rearwards, creating induced drag."
-  },
-  {
-    "question": "What happens to parasite drag as IAS increases?",
-    "topic": "Types of Drag",
-    "options": [
-      "It decreases",
-      "It remains constant",
-      "It increases with the square of airspeed",
-      "It is unaffected by IAS"
+      "It generally allows for a higher maximum lift coefficient.",
+      "It tends to increase form drag.",
+      "It is a design feature typically used for high-speed, supersonic aircraft.",
+      "It can provide structural advantages for the wing spar."
     ],
     "answer": "C",
-    "brief": "Parasite drag increases with the square of IAS.",
-    "detailed": "Parasite drag depends on dynamic pressure, which is proportional to the square of velocity. Higher IAS leads to significantly more parasite drag."
+    "brief": "A thicker aerofoil generally has a more pronounced curvature, which allows it to generate a higher maximum lift coefficient (CLmax). However, its larger frontal area also creates more form drag, making it less efficient at high speeds.",
+    "detailed": "The thickness-to-chord ratio is a critical design choice that involves a trade-off between lift and drag. A thicker wing section can maintain attached airflow at higher angles of attack before stalling, which results in a higher CLmax and a lower stalling speed. This is advantageous for aircraft that need good low-speed performance. The downside is that the thickness of the wing creates significant form drag and pressure drag. A thicker wing is less streamlined than a thin one, making it less efficient for high-speed cruise flight. Aircraft designers select a ratio that best balances these competing requirements.",
+    "detailed_image": "thickness_effects_comparison.png"
   },
   {
-    "question": "What is the effect of increasing aircraft weight on total drag at a constant IAS?",
-    "topic": "Types of Drag",
+    "question": "The point where airflow detaches from the surface is the separation point. The point where airflow is stopped at the leading edge is the stagnation point. Which term does NOT refer to these, but instead describes where the boundary layer becomes chaotic?",
+    "topic": "2.1.1 (c) Terminology – laminar and turbulent boundary layers",
     "options": [
-      "No effect on drag",
-      "It decreases total drag",
-      "It increases induced drag component",
-      "It reduces parasite drag"
+      "separation point",
+      "stagnation point",
+      "transition point",
+      "centre of pressure"
     ],
     "answer": "C",
-    "brief": "Higher weight increases induced drag at a given IAS.",
-    "detailed": "To maintain level flight with greater weight, the wing must produce more lift, requiring higher angles of attack, which increases induced drag."
+    "brief": "The boundary layer starts as smooth, laminar flow at the leading edge. The point at which this orderly flow breaks down and becomes chaotic and swirling is called the transition point.",
+    "detailed": "The boundary layer does not remain laminar across the entire wing surface. As the smooth laminar flow travels rearward from the leading edge, it loses energy due to skin friction and encounters an adverse pressure gradient. At a certain point, it no longer has enough energy to remain stable and it transitions into a higher-energy, but more chaotic, turbulent boundary layer. This location is the 'transition point'. The position of this point is crucial for drag; designers of high-performance gliders try to keep the flow laminar for as long as possible to minimize skin friction drag.",
+    "detailed_image": "boundary_layer_transition.png"
+  },
+  {
+    "question": "Which of the following drag components is NOT a form of parasite drag?",
+    "topic": "2.1.2 Terminology – types of drag",
+    "options": [
+      "Form Drag",
+      "Interference Drag",
+      "Induced Drag",
+      "Skin Friction Drag"
+    ],
+    "answer": "C",
+    "brief": "Skin friction drag is a major component of parasite drag and is caused by the 'stickiness' or viscosity of the air. As air flows over the aircraft's skin, a layer of air is slowed down by friction, creating a retarding force.",
+    "detailed": "Air, like any fluid, has viscosity. This property causes a thin layer of air, the boundary layer, to adhere to the aircraft's surfaces. The air molecules right at the surface are stopped, and the layers just above are slowed down. This loss of momentum in the boundary layer due to the shearing forces between the air layers creates a drag force known as skin friction drag. To minimize this, aircraft are designed with smooth, clean surfaces and flush riveting. Skin friction drag is a significant portion of the total parasite drag, especially on a clean, well-designed aircraft.",
+    "detailed_image": "drag_tree_diagram.png"
+  },
+  {
+    "question": "As an aircraft decelerates in level flight, which of the following statements about its drag components is FALSE?",
+    "topic": "2.1.2 Terminology – effect of IAS on total drag",
+    "options": [
+      "Induced drag increases.",
+      "Parasite drag decreases continuously.",
+      "Parasite drag remains constant until the stalling speed.",
+      "Total drag will initially decrease and then increase as the aircraft approaches the stall."
+    ],
+    "answer": "C",
+    "brief": "Parasite drag is directly proportional to the square of the airspeed. Therefore, as an aircraft slows down from a high cruise speed to a low stall speed, its parasite drag will continuously and rapidly decrease.",
+    "detailed": "Parasite drag is the resistance caused by the aircraft's shape, skin friction, and interference between components. All of these factors are highly dependent on the dynamic pressure of the airflow (½ρV²). The relationship is that parasite drag is proportional to the velocity squared. This means that as an aircraft decelerates, the force of parasite drag reduces exponentially. While induced drag is increasing as the aircraft slows down, the parasite drag component, on its own, will always decrease as the indicated airspeed is reduced. This is a manipulated version of Exercise A3, Question 2.",
+    "detailed_image": "parasite_drag_curve.png"
+  },
+  {
+    "question": "A cambered aerofoil provides all of the following aerodynamic advantages EXCEPT:",
+    "topic": "2.1.1 (a) Terminology – aerofoil camber",
+    "image": "aerofoil_camber_line.png",
+    "options": [
+      "The ability to produce lift at a zero or slightly negative angle of attack.",
+      "A higher maximum lift coefficient compared to a symmetrical aerofoil.",
+      "Allowing for a lower cruise angle of attack, which can reduce drag.",
+      "Completely eliminating the production of induced drag."
+    ],
+    "answer": "D",
+    "brief": "Camber, the curvature of the aerofoil, is a key design feature for lift production. A cambered aerofoil creates a pressure differential and thus produces lift even when it is at a zero or slightly negative angle of attack.",
+    "detailed": "A symmetrical aerofoil (with zero camber) must be at a positive angle of attack to produce lift. However, a cambered aerofoil has a curved upper surface and a relatively flat lower surface. This shape forces air to travel faster over the top surface even when the chord line is aligned with the relative airflow (zero AoA). According to Bernoulli's principle, this velocity difference creates a pressure difference, which results in a positive lift force. This is a highly desirable characteristic, as it allows the aircraft to cruise at a lower angle of attack, which can reduce drag and improve visibility over the nose.",
+    "detailed_image": "camber_lift_zero_aoa.png"
+  },
+  {
+    "question": "To maintain theoretical precision, the 'Angle of Incidence' is defined as the fixed angle between which two reference lines?",
+    "topic": "2.1.1 (b) Terminology – relative airflow and angle of attack",
+    "options": [
+      "The wing chord line and the relative airflow.",
+      "The wing chord line and the aircraft's longitudinal axis.",
+      "The aircraft's longitudinal axis and the natural horizon.",
+      "The upper surface of the wing and the lower surface of the wing."
+    ],
+    "answer": "B",
+    "brief": "The angle of incidence is a fixed, built-in angle. It is the angle between the wing's chord line and the aircraft's longitudinal axis, and it cannot be changed by the pilot during flight.",
+    "detailed": "It is crucial to differentiate between the angle of attack and the angle of incidence. The angle of attack is a variable aerodynamic angle between the chord line and the relative airflow, which the pilot constantly changes. The angle of incidence, on the other hand, is a fixed design feature. It is the angle at which the wing is mounted to the fuselage. Designers choose a specific angle of incidence to optimize the aircraft's performance in a particular flight regime, such as cruise. For example, the wing might be angled up a few degrees so that in cruise flight, the fuselage is level with the airflow while the wing is at its optimal angle of attack."
+  },
+  {
+    "question": "Regarding the definition of Total Drag in aerodynamics, which of the following statements is FALSE?",
+    "topic": "2.1.2 Terminology – types of drag",
+    "image": "drag_tree_diagram.png",
+    "options": [
+      "It is the sum of parasite drag and induced drag.",
+      "It is the component of the Total Aerodynamic Reaction acting parallel to the relative airflow.",
+      "It reaches its minimum value when parasite drag and induced drag are equal.",
+      "It is composed solely of form drag and skin friction drag."
+    ],
+    "answer": "D",
+    "brief": "All the resistance an aircraft experiences in flight can be categorized into two fundamental types. Total Drag is the sum of Parasite Drag (which is not related to lift) and Induced Drag (which is a byproduct of lift).",
+    "detailed": "To simplify the analysis of aircraft performance, all the complex resistive forces are grouped into two main categories. The first is Parasite Drag, which includes all drag created by the aircraft's shape, surface friction, and component interference. The second is Induced Drag, which is the drag created as a direct result of the wings producing lift. The sum of these two components gives the Total Drag. These two drag types behave in opposite ways with respect to airspeed: parasite drag increases with speed, while induced drag decreases with speed. The speed at which their sum is lowest is the aircraft's most efficient speed.",
+    "detailed_image": "drag_components_vs_speed.png"
+  },
+  {
+    "question": "What is the primary reason that total drag increases when an aircraft's weight is increased while maintaining a constant True Airspeed?",
+    "topic": "2.1.2 Terminology – effect of weight on total drag",
+    "image": "weight_effect_on_drag_curve.png",
+    "options": [
+      "Parasite drag increases due to a larger frontal area.",
+      "The increased weight requires more thrust, which in turn creates more drag.",
+      "A higher angle of attack is required to generate the necessary lift, which significantly increases induced drag.",
+      "The wing loading increases, which directly increases skin friction drag."
+    ],
+    "answer": "C",
+    "brief": "A heavier aircraft requires more lift to maintain level flight. At a constant airspeed, this extra lift must be generated by a higher angle of attack, which significantly increases induced drag and therefore increases the total drag.",
+    "detailed": "At a constant true airspeed, the parasite drag component will remain the same because it depends only on the aircraft's shape and speed. However, to support the increased weight, the lift force must be increased. The only way to increase lift at a constant speed is to increase the angle of attack. A higher angle of attack directly leads to a large increase in induced drag. Since Total Drag = Parasite Drag + Induced Drag, and the induced drag component has increased while parasite drag has remained the same, the total drag must increase. This means a heavier aircraft requires more thrust to maintain the same speed.",
+    "detailed_image": "weight_effect_on_drag_curve.png"
+  },
+  {
+    "question": "The primary cause of form drag on an aircraft is:",
+    "topic": "2.1.2 Terminology – types of drag",
+    "image": "form_drag_example.png",
+    "options": [
+      "the viscosity of the air creating friction along the aircraft's skin.",
+      "the generation of wingtip vortices as a result of lift production.",
+      "the pressure differential created by the object's shape and the resulting turbulent wake.",
+      "airflow interference between the wings and the fuselage."
+    ],
+    "answer": "C",
+    "brief": "Form drag is the resistance caused by an object's shape. A blunt or unstreamlined object forces the air to separate, creating a low-pressure wake behind it that pulls the object backward, creating drag.",
+    "detailed": "Form drag, also known as pressure drag, is purely a result of the shape of the aircraft and its components. As an object moves through the air, it creates high pressure at the front and, if not properly streamlined, a region of separated, low-pressure, turbulent flow behind it. This pressure difference between the front and the back of the object creates a net force that opposes its motion. Designers minimize form drag by streamlining components, such as by using fairings for landing gear and shaping the fuselage like a teardrop, to ensure the airflow remains attached for as long as possible and the low-pressure wake is minimized.",
+    "detailed_image": "form_drag_example.png"
+  },
+  {
+    "question": "Designing a laminar flow aerofoil with its point of maximum thickness further aft achieves all of the following EXCEPT:",
+    "topic": "2.1.1 (c) Terminology – laminar and turbulent boundary layers",
+    "options": [
+      "Maintaining a favorable pressure gradient over a larger portion of the wing.",
+      "Delaying the transition of the boundary layer from laminar to turbulent.",
+      "Reducing the overall skin friction component of parasite drag.",
+      "Significantly increasing the maximum lift coefficient."
+    ],
+    "answer": "D",
+    "brief": "A laminar flow aerofoil is specially designed to maintain laminar flow for as long as possible to reduce drag. This is achieved by having the point of maximum thickness much further aft, often near 50% of the chord length.",
+    "detailed": "The goal of a laminar flow wing is to reduce skin friction drag by delaying the transition of the boundary layer from laminar to turbulent. The point of lowest pressure on a wing typically occurs at its point of maximum thickness, and the flow downstream of this point is in an adverse pressure gradient, which encourages the transition to turbulence. By moving the point of maximum thickness much further aft (e.g., to 40-50% of the chord), designers can maintain a favorable pressure gradient over a large portion of the wing, allowing the low-drag laminar flow to persist for longer.",
+    "detailed_image": "laminar_flow_aerofoil.png"
+  },
+  {
+    "question": "Regarding the point of minimum total drag, which of the following statements is FALSE?",
+    "topic": "2.1.2 Terminology – effect of IAS on total drag",
+    "image": "total_drag_curve.png",
+    "options": [
+      "It occurs at the speed where parasite drag and induced drag are equal.",
+      "Flying at this speed yields the best lift/drag ratio.",
+      "This speed provides the maximum still air range for a jet aircraft.",
+      "It occurs at the aircraft's maximum level flight speed."
+    ],
+    "answer": "D",
+    "brief": "The total drag curve is a U-shaped curve that is the sum of the parasite and induced drag curves. The lowest point on this total drag curve occurs at the specific speed where the values of parasite drag and induced drag are equal.",
+    "detailed": "This is a key concept in aircraft performance. At low speeds, induced drag is high and parasite drag is low. At high speeds, parasite drag is high and induced drag is low. There is a single speed where these two opposing drag forces are equal in magnitude. At this crossover point, their sum, which is the total drag, is at its absolute minimum value. This speed is the aircraft's most aerodynamically efficient speed and is used for achieving maximum range and best glide performance.",
+    "detailed_image": "drag_components_vs_speed.png"
+  },
+  {
+    "question": "What is the primary aerodynamic advantage of designing an aircraft with a high aspect ratio?",
+    "topic": "2.1.1 (a) Terminology – aerofoil span",
+    "image": "aspect_ratio_comparison.png",
+    "options": [
+      "It significantly increases the aircraft's maximum speed.",
+      "It makes the wing structure inherently stronger.",
+      "It reduces induced drag by minimizing the effect of wingtip vortices.",
+      "It decreases parasite drag by reducing the wing's surface area."
+    ],
+    "answer": "C",
+    "brief": "Increasing the wingspan while keeping the area constant results in a longer, narrower wing. This increases the wing's aspect ratio, which makes it more efficient by reducing the strength of wingtip vortices and thus lowering induced drag.",
+    "detailed": "The wingspan is a critical factor in determining an aircraft's induced drag. Induced drag is created by wingtip vortices, which form as air spills from the high-pressure area below the wing to the low-pressure area above. A longer wingspan makes it more difficult for this spillage to occur, resulting in smaller, weaker vortices. This reduction in vortex strength directly translates to a reduction in induced drag. This is why high-performance gliders, which need to be extremely efficient, are designed with very long, slender wings (a high aspect ratio).",
+    "detailed_image": "aspect_ratio_comparison.png"
+  },
+  {
+    "question": "From a standpoint of pure aerodynamic theory, which statement most precisely defines the Angle of Attack?",
+    "topic": "2.1.1 (b) Terminology – relative airflow and angle of attack",
+    "image": "angle_of_attack_diagram.png",
+    "options": [
+      "The angle between the wing's chord line and the ground.",
+      "The angle a pilot observes between the aircraft's nose and the horizon.",
+      "The angle between the aerofoil's chord line and the relative wind.",
+      "The fixed angle at which the wing is mounted to the aircraft's fuselage."
+    ],
+    "answer": "C",
+    "brief": "The angle of attack is the fundamental aerodynamic angle controlling lift. It is defined as the angle between the wing's chord line and the direction of the relative wind (or relative airflow).",
+    "detailed": "This question tests the precise definition of the angle of attack. It is not an angle relative to the ground or the horizon, but purely an angle relative to the air the wing is flying through. The 'chord line' is the reference line for the wing, and the 'relative wind' is the direction of the airflow striking the wing. The angle between these two is the angle of attack. The pilot controls this angle with the elevator to manage lift, and exceeding the critical angle of attack will result in a stall regardless of the aircraft's attitude relative to the horizon.",
+    "detailed_image": "angle_of_attack_diagram.png"
+  },
+  {
+    "question": "Laminar flow in the boundary layer would NOT persist under which of the following conditions?",
+    "topic": "2.1.1 (c) Terminology – laminar and turbulent boundary layers",
+    "image": "boundary_layer_flow.png",
+    "options": [
+      "Within a favorable pressure gradient.",
+      "Over a perfectly smooth and clean wing surface.",
+      "On the forward portion of the aerofoil before the point of maximum thickness.",
+      "In a strong adverse pressure gradient."
+    ],
+    "answer": "D",
+    "brief": "Laminar flow is smooth but has low energy. It can only survive in a favorable pressure gradient (where pressure is decreasing). This condition exists from the leading edge up to the point of maximum thickness, where the pressure is lowest.",
+    "detailed": "The boundary layer starts as laminar at the leading edge of the wing. As it flows rearward, it is flowing into a region of decreasing pressure (a favorable pressure gradient) as it accelerates towards the point of maximum thickness. This favorable gradient helps to keep the laminar flow stable and attached. However, past the point of maximum thickness, the air begins to decelerate, and the pressure starts to rise (an adverse pressure gradient). The low-energy laminar flow cannot handle this adverse gradient and will quickly transition to a more robust turbulent boundary layer.",
+    "detailed_image": "boundary_layer_transition.png"
+  },
+  {
+    "question": "It cannot be said to be untrue that an aircraft's kinetic energy is:",
+    "topic": "2.2.1 Bernoulli’s theorem – kinetic energy",
+    "options": [
+      "entirely independent of its velocity.",
+      "a function of both its mass and its velocity.",
+      "at its highest value when the aircraft is stationary.",
+      "inversely proportional to the dynamic pressure."
+    ],
+    "answer": "B",
+    "brief": "Kinetic energy is the energy of motion. Its value is determined by both the object's mass (how much it weighs) and its velocity (how fast it is moving), with velocity having a significantly greater effect.",
+    "detailed": "The formula for kinetic energy is KE = ½mv², where 'm' is mass and 'v' is velocity. This clearly shows that kinetic energy is a function of both mass and velocity. The key takeaway is that energy is proportional to the square of the velocity. This means that doubling an aircraft's mass will double its kinetic energy, but doubling its velocity will quadruple its kinetic energy. This principle is fundamental to understanding dynamic pressure and why airspeed is so critical to flight."
+  },
+  {
+    "question": "The Total Aerodynamic Reaction has all of the following characteristics EXCEPT:",
+    "topic": "2.5.1 Manoeuvres – forces acting on an aircraft",
+    "options": [
+      "It is the single resultant vector of all aerodynamic forces on an aerofoil.",
+      "It is considered to act through the aerofoil's Centre of Pressure.",
+      "It is resolved into the components of Lift and Drag for analysis.",
+      "It is always equal and opposite to the aircraft's weight."
+    ],
+    "answer": "D",
+    "brief": "The countless pressure forces acting over the entire wing surface are summed up into a single resultant force. This single, imaginary force representing the net aerodynamic effect is known as the Total Aerodynamic Reaction.",
+    "detailed": "It would be impossible to analyze every single pressure and friction force acting on a wing's surface. To simplify this, we calculate their net effect and represent it as a single force vector called the Total Reaction, which is considered to act through the Centre of Pressure. For practical analysis, this Total Reaction is then resolved into two components: Lift, which is perpendicular to the relative airflow, and Drag, which is parallel to the relative airflow. This allows us to easily analyze the performance of the aircraft."
+  },
+  {
+    "question": "As an aircraft accelerates from its minimum drag speed towards its maximum cruise speed, what is the primary reason for the increase in total drag?",
+    "topic": "2.1.2 Terminology – effect of IAS on total drag",
+    "options": [
+      "Induced drag begins to increase exponentially.",
+      "The rapid increase in parasite drag becomes the dominant factor.",
+      "The coefficient of lift increases towards its maximum value.",
+      "The aircraft's effective weight increases due to aerodynamic loading."
+    ],
+    "answer": "B",
+    "brief": "At stalling speed, total drag is high due to very high induced drag. As speed increases, drag decreases to a minimum point. Beyond this point, parasite drag becomes dominant and total drag increases again as speed rises to cruise.",
+    "detailed": "The total drag curve is U-shaped. At very low speeds near the stall, the aircraft is on the 'back side' of the curve where high induced drag makes the total drag very high. As the aircraft accelerates, induced drag reduces rapidly, causing total drag to decrease. The drag reaches its lowest value at the minimum drag speed (best L/D ratio). As the aircraft accelerates further towards its cruise speed, it moves onto the 'front side' of the curve. Here, parasite drag (which increases with the square of the speed) becomes the dominant force, causing the total drag to continuously increase."
+  },
+  {
+    "question": "Which of the following statements about induced drag in level flight is FALSE?",
+    "topic": "2.1.2 Terminology – types of drag",
+    "options": [
+      "It is highest at low airspeeds and high angles of attack.",
+      "It increases as the aircraft's gross weight increases.",
+      "It is a direct byproduct of the wings generating lift.",
+      "It is directly proportional to the aircraft's indicated airspeed."
+    ],
+    "answer": "D",
+    "brief": "Induced drag is created as a result of lift. It is directly proportional to weight (a heavier aircraft needs more lift, creating more drag) and inversely proportional to speed (at higher speeds, a lower angle of attack is needed, creating less drag).",
+    "detailed": "This question explores the relationships governing induced drag. First, since lift must equal weight in level flight, a heavier aircraft requires more lift. To generate more lift, a higher angle of attack is needed, which creates stronger wingtip vortices and therefore more induced drag. Thus, induced drag is directly proportional to weight. Second, induced drag is highest at low speeds and high angles of attack. As airspeed increases, the angle of attack required to maintain lift decreases, resulting in weaker vortices and less induced drag. Thus, induced drag is inversely proportional to speed."
+  },
+  {
+    "question": "The indicated stalling speed of an aircraft will increase with all of the following EXCEPT:",
+    "topic": "2.8.3 (e) Stalling – effect of weight on stall IAS",
+    "options": [
+      "an increase in the load factor during a turn.",
+      "the accumulation of ice on the aerofoil surfaces.",
+      "a forward movement of the centre of gravity.",
+      "a decrease in the aircraft's gross weight."
+    ],
+    "answer": "D",
+    "brief": "A lighter aircraft requires less lift to maintain flight. Because less lift is needed, the wing will reach its critical angle of attack at a lower indicated airspeed, therefore the indicated stalling speed decreases.",
+    "detailed": "The stalling speed is the minimum speed at which the wings can generate enough lift to equal the aircraft's weight. If the aircraft's gross weight is decreased (for example, by burning off fuel), less lift is required to maintain level flight. According to the lift formula, this lower lift requirement can be met at a lower indicated airspeed before the critical angle of attack is reached. In contrast, increasing altitude has no effect on the indicated stalling speed, while reducing power or increasing the load factor would both cause the stalling speed to increase.",
+    "detailed_image": "cg_effect_on_stall.png"
+  },
+  {
+    "question": "For a given aerofoil shape, what is the single most significant factor that determines its coefficient of lift (CL) at any given moment in flight?",
+    "topic": "2.4.1 (a) Lift and drag – CL and CD",
+    "options": [
+      "Angle of attack",
+      "Dynamic pressure (½ρV²)",
+      "Wing surface area (S)",
+      "Air density (ρ)"
+    ],
+    "answer": "A",
+    "brief": "For a given aerofoil shape, the coefficients of lift (CL) and drag (CD) are almost entirely dependent on the angle of attack. The pilot directly controls these efficiency coefficients by changing the angle at which the wing meets the airflow.",
+    "detailed": "The Coefficients of Lift and Drag are dimensionless numbers that represent the efficiency of an aerofoil's shape. While the physical shape (camber, thickness) sets the potential for these coefficients, their actual value during flight is primarily controlled by the angle of attack. As a pilot increases the angle of attack, the CL increases up to the stalling angle. Similarly, the CD also changes with the AoA. Speed, wing area, and density are separate, distinct terms in the lift and drag formulae and do not define the coefficient itself. This is a manipulated version of Exercise A2, Question 1.",
+    "detailed_image": "cl_vs_aoa_graph.png"
+  },
+  {
+    "question": "Immediately after an aircraft's wing exceeds its critical angle of attack, what is the sequential change in the Total Aerodynamic Reaction and its Centre of Pressure?",
+    "topic": "2.8.1 (b) Stalling – characteristics of a stall",
+    "options": [
+      "The Total Reaction increases in magnitude, and its Centre of Pressure moves forward.",
+      "The Total Reaction decreases in magnitude, and its Centre of Pressure moves aft.",
+      "The Total Reaction's magnitude remains constant, but its Centre of Pressure moves aft.",
+      "The Total Reaction decreases in magnitude, but its Centre of Pressure moves forward."
+    ],
+    "answer": "B",
+    "brief": "When a wing stalls, the airflow separates, causing a significant loss of lift and a large increase in drag. The overall magnitude of the Total Aerodynamic Reaction decreases, and its centre of pressure moves rapidly aft.",
+    "detailed": "Induced drag is a result of the pressure differential between the upper and lower wing surfaces creating wingtip vortices. This pressure differential is greatest when the wing is generating a high coefficient of lift, which occurs at a high angle of attack. These conditions are most prevalent during low-speed flight, such as in a slow climb after takeoff or during the final approach to landing. A heavy aircraft at low speed and a high angle of attack is the combination that will produce the most powerful wingtip vortices and therefore the greatest amount of induced drag. ",
+    "detailed_image": "angle_of_attack_diagram.png"
+  },
+  {
+    "question": "From a theoretical standpoint, an aircraft's Airspeed Indicator (ASI) provides a pilot with a direct reading proportional to:",
+    "topic": "2.4.1 (b) Lift and drag – dynamic pressure (IAS)",
+    "options": [
+      "the aircraft's True Airspeed (TAS).",
+      "the static pressure of the surrounding air.",
+      "the dynamic pressure (½ρV²) of the airstream.",
+      "the potential energy of the airmass."
+    ],
+    "answer": "C",
+    "brief": "The airspeed indicator is a pressure instrument that measures dynamic pressure (½ρV²). Since dynamic pressure is the formula for the kinetic energy of the airstream, IAS is considered a direct indication of this energy.",
+    "detailed": "An aircraft flies because its wings convert the kinetic energy of the moving air into an aerodynamic force. The pitot-static system is designed to measure this kinetic energy, which we call dynamic pressure. The airspeed indicator then displays this pressure reading to the pilot in the form of an Indicated Airspeed. This is why a wing always stalls at the same IAS regardless of altitude; it stalls because it lacks sufficient kinetic energy from the airstream to produce the required lift, and the IAS is the instrument that measures this energy.",
+    "detailed_image": "airspeed_indicator_system.png"
+  },
+  {
+    "question": "The angle of attack marked 'X' on the CL graph represents the point for all of the following EXCEPT:",
+    "topic": "2.1.2 (b) Changes in angle of attack – maximum lift",
+    "image": "cl_max_point.png",
+    "options": [
+      "Maximum lift coefficient (CLmax).",
+      "The stalling angle.",
+      "The critical angle of attack.",
+      "Minimum total drag."
+    ],
+    "answer": "D",
+    "brief": "The point 'X' on this Lift Coefficient versus Angle of Attack graph is at the absolute peak of the curve. This point represents the critical angle of attack where the maximum possible lift is generated, also known as the stalling angle.",
+    "detailed": "This graph illustrates the relationship between the angle of attack and the wing's lifting capability, represented by the Coefficient of Lift (CL). As the angle of attack increases, the CL increases until it reaches its highest possible value at point 'X'. This peak is the maximum lift coefficient (CLmax). Any further increase in the angle of attack would cause the airflow to separate from the wing and the lift would decrease. Therefore, point 'X' represents the angle of attack for both maximum lift and the stall.",
+    "detailed_image": "cl_vs_aoa_graph.png"
+  },
+  {
+    "question": "The diagram shows an aircraft flying at the angle for its best L/D ratio (Point X). What is the primary reason that lift must be equal to weight in this steady, level flight condition?",
+    "topic": "2.5.1 (a) Manoeuvres – steady level flight",
+    "image": "ld_curve_marked_x.png",
+    "options": [
+      "Because the wings are at their most efficient angle of attack.",
+      "Because the forces of thrust and drag are balanced.",
+      "Because for flight to be unaccelerated in the vertical plane, the opposing vertical forces must be in equilibrium.",
+      "Because the lift coefficient is at its maximum value."
+    ],
+    "answer": "C",
+    "brief": "Point 'X' on the L/D curve represents the angle for best efficiency. However, if the aircraft is in steady, level flight, the forces must be balanced. This means the lift produced must be exactly equal to the aircraft's weight.",
+    "detailed": "The L/D curve shows the aerodynamic efficiency of the wing, and point 'X' is the peak of this efficiency. While the wing is at its most efficient at this angle of attack, the question specifies the aircraft is in 'level flight'. For flight to be level (i.e., not climbing or descending), the vertical forces must be in equilibrium. This means the upward force of lift must perfectly balance the downward force of weight. Therefore, even though the L/D ratio is at its maximum at point 'X', the magnitude of the lift force is simply equal to the weight.",
+    "detailed_image": "lift_drag_ratio_curve.png"
+  },
+  {
+    "question": "For an aircraft flying at the angle of attack marked 'X' on the L/D graph, which of the following is NOT true?",
+    "topic": "2.1.2 (a) Changes in angle of attack – minimum drag",
+    "image": "ld_curve_marked_x.png",
+    "options": [
+      "The aircraft is achieving its best lift-to-drag ratio.",
+      "The total drag is at its minimum value.",
+      "This is the ideal angle of attack for maximum still air range.",
+      "The lift coefficient is at its maximum possible value (CLmax)."
+    ],
+    "answer": "D",
+    "brief": "The diagram shows a Lift/Drag ratio (L/D) curve, and point 'X' is at its peak. The angle of attack that gives the best L/D ratio is, by definition, the same angle of attack that produces the minimum total drag.",
+    "detailed": "The L/D curve is a graphical representation of an aircraft's aerodynamic efficiency. The highest point on this curve, marked 'X', indicates the angle of attack where the most lift is generated for the least amount of drag. This is the definition of the best L/D ratio. The angle of attack that gives the best L/D ratio is also, by definition, the angle of attack that produces the minimum total drag. Flying at this angle is ideal for maximum range and best glide distance. It is not the stalling angle (which is at CLmax), nor is it the angle for maximum speed.",
+    "detailed_image": "lift_drag_ratio_curve.png"
+  },
+  {
+    "question": "As the angle of attack of a typical cambered aerofoil increases from zero towards the stall, which of the following statements is FALSE?",
+    "topic": "2.6.1 (a) Stability and control – movement of centre of pressure",
+    "image": "cambered_aerofoil.png",
+    "options": [
+      "The suction peak on the upper surface moves forward.",
+      "The Centre of Pressure moves forward.",
+      "The forward movement of the Centre of Pressure creates a nose-up pitching moment.",
+      "The Centre of Pressure remains stationary until the point of stall."
+    ],
+    "answer": "D",
+    "brief": "For a typical cambered aerofoil, as the angle of attack is increased, the low-pressure suction peak on the upper surface moves forward. This causes the Centre of Pressure, the point through which the Total Reaction acts, to also move forward.",
+    "detailed": "The Centre of Pressure (CP) is the point on the chord line where the Total Aerodynamic Reaction force can be considered to act. Its position is not fixed. As the angle of attack of a cambered aerofoil increases, the distribution of pressure changes, with the area of strong suction moving closer to the leading edge. This causes the CP to also shift forward. This forward movement of the CP creates a nose-up pitching moment which tends to further increase the angle of attack, an inherently unstable characteristic that must be counteracted by the tailplane.",
+    "detailed_image": "centre_of_pressure_movement.png"
+  },
+  {
+    "question": "What is the primary aerodynamic reason that flying at the speed for minimum total drag results in maximum still air range?",
+    "topic": "2.3.1 Power requirements – best speeds for range",
+    "image": "total_drag_curve.png",
+    "options": [
+      "It allows the aircraft to fly at the highest possible True Airspeed.",
+      "It minimizes the thrust required to maintain level flight, thus minimizing fuel consumption per unit of distance.",
+      "It places the aircraft at the lowest possible angle of attack, reducing stress on the airframe.",
+      "It ensures that induced drag and parasite drag are both at their lowest possible values."
+    ],
+    "answer": "B",
+    "brief": "Maximum range is a measure of maximum efficiency. This efficiency is achieved when the aircraft requires the minimum possible thrust to maintain flight, which occurs at the speed where the total drag is at its absolute minimum.",
+    "detailed": "To cover the greatest distance on a given amount of fuel, an aircraft must be as aerodynamically efficient as possible. The total drag curve, shown in the diagram, is the sum of induced drag (high at low speeds) and parasite drag (high at high speeds). The lowest point on this curve represents the speed at which the total opposition to flight is minimized. Flying at this specific speed requires the least amount of thrust from the engine, which in turn results in the best fuel economy in terms of miles per gallon. This is the speed for best L/D ratio.",
+    "detailed_image": "total_drag_curve.png"
   }
 ]

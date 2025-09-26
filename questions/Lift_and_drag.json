@@ -1,0 +1,580 @@
+[
+    {
+      "question": "The Coefficient of Lift (CL) of an aerofoil is primarily dependent on which two factors?",
+      "topic": "Coefficient of Lift (CL)",
+      "options": [
+        "Air density and true airspeed",
+        "The shape (camber) of the aerofoil and its angle of attack",
+        "The surface area of the wing and the aircraft's weight",
+        "The engine power and the propeller's efficiency"
+      ],
+      "answer": "B",
+      "brief": "The Coefficient of Lift is a dimensionless number that represents the wing's efficiency at generating lift. This efficiency is determined by its physical shape (which is fixed) and the angle at which it meets the airflow (angle of attack), which the pilot controls.",
+      "detailed": "The Coefficient of Lift (CL) is a crucial term in the lift formula because it represents the 'quality' or effectiveness of the lift being generated, independent of air density, speed, or size. The value of CL is determined by the aerofoil's design—its specific shape, thickness, and camber—and, most importantly for a pilot, the angle of attack (AoA). As the pilot increases the angle of attack, the airflow is deflected more effectively, and the CL increases. This continues until the critical angle of attack is reached, at which point the airflow separates from the wing surface, and the CL rapidly decreases, causing a stall. Therefore, for a given wing, the pilot's primary means of controlling lift is by adjusting the angle of attack to manage the Coefficient of Lift.",
+      "detailed_image": "cl_vs_aoa_graph.png"
+    },
+    {
+      "question": "In the lift and drag formulae, the term '½ρV²' represents:",
+      "topic": "Dynamic Pressure (½ρV²)",
+      "options": [
+        "Static pressure",
+        "Total pressure",
+        "Potential energy",
+        "Dynamic pressure"
+      ],
+      "answer": "D",
+      "brief": "This mathematical term, ½ρV² (half rho vee squared), is the formula for dynamic pressure. It represents the kinetic energy of the airstream and is what an aircraft's airspeed indicator (ASI) measures to display indicated airspeed (IAS).",
+      "detailed": "Dynamic pressure is the pressure exerted by a fluid when it is in motion. It is a direct measure of the air's kinetic energy per unit volume. The formula's components are 'ρ' (rho), representing air density, and 'V', representing the true airspeed of the aircraft. This value is fundamentally important because the amount of lift and drag an aircraft produces is directly proportional to the dynamic pressure of the air it is flying through. An aircraft's pitot-static system is designed to measure this pressure by subtracting static pressure from the total pressure captured by the pitot tube. The resulting value is then displayed to the pilot not as a pressure reading, but as Indicated Airspeed (IAS), making it a vital instrument for flight.",
+      "detailed_image": "airspeed_indicator_system.png"
+    },
+    {
+      "question": "What does the 'S' in the lift formula (Lift = CL x ½ρV² x S) define?",
+      "topic": "Surface Area (S)",
+      "options": [
+        "The wingspan of the aircraft",
+        "The surface area of the wing",
+        "The size of the stabilator",
+        "The speed of sound"
+      ],
+      "answer": "B",
+      "brief": "The 'S' in the lift and drag formulae represents the wing's surface area. A larger wing area allows the aircraft to interact with a greater mass of air, enabling it to generate more total lift at the same speed and angle of attack.",
+      "detailed": "The 'S' term denotes the planform surface area of the wing, which is essentially the area of the wing as seen from directly above. This is a critical component of the lift formula because it determines the total amount of surface available to generate a pressure differential. If all other factors (CL, density, and speed) remain constant, an aircraft with a larger wing area will produce more lift than one with a smaller area. This is because it is acting on a larger volume of air. Some types of flaps, like Fowler flaps, not only increase the wing's camber but also increase its effective surface area 'S' when extended, providing a significant boost in lift for takeoff and landing.",
+      "detailed_image": "wing_surface_area.png"
+    },
+    {
+      "question": "If a pilot doubles their true airspeed (V) while maintaining a constant altitude and angle of attack, the total lift force will:",
+      "topic": "Dynamic Pressure (½ρV²)",
+      "options": [
+        "remain the same",
+        "be halved",
+        "be doubled",
+        "be quadrupled"
+      ],
+      "answer": "D",
+      "brief": "The lift formula shows that lift is proportional to the square of the velocity (V²). Therefore, if you double the true airspeed, the dynamic pressure, and consequently the total lift force, will increase by a factor of four.",
+      "detailed": "This question directly tests the understanding of the lift formula: Lift = CL x ½ρV² x S. The key component here is the velocity term, V, which is squared. Let's assume the initial lift is L1 = CL x ½ρ(V1)² x S. If we double the velocity, the new velocity V2 is 2 x V1. The new lift, L2, will be L2 = CL x ½ρ(2 x V1)² x S. When we expand the squared term, we get L2 = CL x ½ρ(4 x V1²) x S. By rearranging, we can see that L2 = 4 x (CL x ½ρ(V1)² x S), which means L2 = 4 x L1. This exponential relationship is why airspeed is so powerful in controlling the aircraft. Small changes in speed lead to much larger changes in the aerodynamic forces of lift and drag.",
+      "detailed_image": "lift_formula_diagram.png"
+    },
+    {
+      "question": "The Coefficient of Drag (CD) is lowest at:",
+      "topic": "Coefficient of Drag (CD)",
+      "image": "drag_curve_cd_min.png",
+      "options": [
+        "the critical angle of attack",
+        "a very high angle of attack",
+        "a small, positive angle of attack",
+        "a negative angle of attack"
+      ],
+      "answer": "C",
+      "brief": "The Coefficient of Drag is at its minimum at a specific, small, positive angle of attack. This is the point where the aerofoil is most streamlined to the relative airflow, resulting in the least amount of total drag.",
+      "detailed": "The Coefficient of Drag (CD) represents the drag efficiency of the aerofoil. Just like the Coefficient of Lift, it changes with the angle of attack. At a zero or slightly negative angle of attack, the CD can be high because of pressure drag on the lower surface. As the angle of attack increases to a small positive value (typically around 2-4 degrees), the aerofoil aligns itself optimally with the airflow, minimizing both pressure drag and induced drag, resulting in the lowest CD value. As the angle of attack continues to increase beyond this point towards the stall, both induced drag and form drag rise sharply, causing the CD to increase significantly. The point of minimum CD corresponds to the aircraft's speed for maximum range (best L/D ratio).",
+      "detailed_image": "drag_components_vs_speed.png"
+    },
+    {
+      "question": "An aircraft will stall at the same Indicated Airspeed (IAS) regardless of altitude because:",
+      "topic": "Dynamic Pressure (½ρV²)",
+      "options": [
+        "The engine produces the same power at all altitudes",
+        "The Coefficient of Lift (CL) is not affected by air density",
+        "IAS is a direct measure of dynamic pressure, which is required for lift",
+        "True airspeed (TAS) remains constant as the aircraft climbs"
+      ],
+      "answer": "C",
+      "brief": "A stall occurs when the wing exceeds its critical angle of attack and can no longer produce enough lift. Lift requires a certain amount of dynamic pressure (½ρV²), and Indicated Airspeed (IAS) is a direct measurement of this value.",
+      "detailed": "This is a critical concept for pilots. The amount of lift generated depends on dynamic pressure (½ρV²). At a high altitude, the air density (ρ) is low. To generate the same required dynamic pressure to stay airborne, the aircraft must fly at a much higher true airspeed (V). The genius of the airspeed indicator is that it automatically compensates for density changes. It measures the actual dynamic pressure and displays it as an indicated speed. Since the wing needs a specific amount of dynamic pressure to create enough lift to avoid stalling, and since IAS is a direct reading of that dynamic pressure, the aircraft will always stall at the same IAS, whether at sea level or at 30,000 feet. This makes IAS a reliable and essential reference for safe flight.",
+      "detailed_image": "ias_vs_tas_altitude.png"
+    },
+    {
+        "question": "The term 'coefficient', when applied to lift and drag for a particular aerofoil is most closely related to",
+        "topic": "Coefficients (CL & CD)",
+        "options": [
+          "angle of attack",
+          "camber",
+          "speed",
+          "wing area"
+        ],
+        "answer": "A",
+        "brief": "For any given aerofoil, its coefficients of lift and drag (CL and CD) are almost entirely determined by the angle at which it meets the oncoming air, which is the angle of attack.",
+        "detailed": "The Coefficients of Lift and Drag are pure numbers that describe the efficiency of an aerofoil's shape. While the shape itself (camber, thickness) sets the potential for these coefficients, their actual value in flight is directly controlled by the angle of attack. As a pilot increases the angle of attack, the wing becomes more effective at generating lift, and its CL increases up to the stalling angle. Similarly, the CD also changes with the angle of attack. From Topic: Aerofoils (Section 3.1 & 3.2 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "cl_vs_aoa_graph.png"
+      },
+      {
+        "question": "The term 'S' in the lift formula [Lift = CL ½ ρ V² S], represents-",
+        "topic": "Surface Area (S)",
+        "options": [
+          "the total surface area of the top and bottom wing surfaces",
+          "the maximum plan area of the wing",
+          "the surface area of the wing and tailplane",
+          "the surface area of the curved upper surface of the wing."
+        ],
+        "answer": "B",
+        "brief": "In the lift formula, 'S' represents the planform area of the wing. This is the two-dimensional area of the wing as viewed from directly above, not the total surface area of its top and bottom.",
+        "detailed": "'S' stands for the planform wing area, which is the area of the wing's shadow if the sun were directly overhead. This value is used because it represents the total area that is effectively working to generate lift by acting on the airmass. A larger planform area means the wing can generate more lift at a given speed and angle of attack because it is interacting with more air. It is a critical design parameter for determining an aircraft's performance characteristics. From Topic: Straight and Level Flight - Pilot Technique (Section 7.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "wing_surface_area.png"
+      },
+      {
+        "question": "The term 'ρ' in the lift formula above, represents-",
+        "topic": "Air Density (ρ)",
+        "options": [
+          "the temperature of the ambient air",
+          "the density of the ambient air",
+          "the ambient atmospheric pressure",
+          "the mass of a unit volume of air."
+        ],
+        "answer": "B",
+        "brief": "The Greek symbol 'ρ' (rho) represents the density of the ambient air through which the aircraft is flying. Air density is a critical factor in aerodynamics, as it decreases with an increase in altitude.",
+        "detailed": "Air density, represented by 'ρ', is defined as the mass of air in a given volume. The amount of lift a wing can produce is directly proportional to the density of the air it is moving through. As an aircraft climbs, the air becomes less dense, meaning there are fewer air molecules for the wing to work with. To compensate for this lower density and maintain the same amount of lift, the aircraft must fly at a higher true airspeed (V). This is a fundamental reason why takeoff and climb performance are reduced at high-altitude airports. From Topic: Straight and Level Flight - Pilot Technique (Section 7.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "air_density_diagram.png"
+      },
+      {
+        "question": "The term '½ ρ V²' in the formula in Question 14 above is most closely associated with-",
+        "topic": "Dynamic Pressure (½ρV²)",
+        "options": [
+          "true airspeed",
+          "surface area of the wing",
+          "wind speed",
+          "indicated airspeed"
+        ],
+        "answer": "D",
+        "brief": "The term ½ρV² is the formula for dynamic pressure, which is the kinetic energy of the airstream. An aircraft's airspeed indicator (ASI) is an instrument designed specifically to measure this dynamic pressure and display it as Indicated Airspeed (IAS).",
+        "detailed": "Dynamic pressure is the key component for generating aerodynamic forces. While its formula contains density (ρ) and true airspeed (V), a pilot's primary instrument, the ASI, measures their combined effect directly. The ASI is calibrated to show this dynamic pressure as a speed (IAS). Because the wing stalls when it no longer has sufficient dynamic pressure to generate lift, and because IAS is a direct reading of this pressure, the aircraft will always stall at the same indicated airspeed, regardless of altitude. From Topic: Straight and Level Flight - Pilot Technique (Section 7.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "airspeed_indicator_system.png"
+      },
+      {
+        "question": "The value of the minimum drag coefficient of a particular aerofoil is a factor in determining",
+        "topic": "Coefficient of Drag (CD)",
+        "image": "cl_cd_graph.png",
+        "options": [
+          "the minimum range of the aeroplane",
+          "the maximum range of the aeroplane",
+          "the stalling speed of the aeroplane",
+          "the minimum speed in level flight",
+          "the maximum speed in level flight"
+        ],
+        "answer": "B",
+        "brief": "The minimum drag coefficient (CDmin) represents the point of peak aerodynamic efficiency for a wing. Flying at the angle of attack that produces this CDmin achieves the best lift-to-drag ratio, which in turn results in the aircraft's maximum possible range.",
+        "detailed": "An aircraft's maximum range is its ability to travel the greatest distance on a tank of fuel. This is purely an efficiency problem: the aircraft must generate the required lift with the least possible drag. The Coefficient of Drag (CD) is a measure of the aerofoil's drag, and it varies with the angle of attack. At one specific angle of attack, the CD is at its absolute minimum. This point of minimum drag coefficient also corresponds to the point of the maximum lift-to-drag ratio (L/D MAX). Flying at this speed ensures the aircraft is at its most efficient, thus determining its maximum possible range. From Topic: Straight and Level Flight - For Maximum Range (Section 7.5 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "lift_drag_ratio_curve.png"
+      },
+      {
+        "question": "The Coefficient of Lift (CL) is a number that represents the:",
+        "topic": "Coefficient of Lift (CL)",
+        "options": [
+          "total lift force in kilograms",
+          "efficiency of the wing at creating lift for a given shape and angle of attack",
+          "ratio of the aircraft's weight to its wing area",
+          "airspeed required to generate lift"
+        ],
+        "answer": "B",
+        "brief": "The Coefficient of Lift (CL) is not a force itself, but a dimensionless number representing the wing's lift-generating efficiency. It depends on the aerofoil's shape and is primarily controlled by the pilot via the angle of attack.",
+        "detailed": "Think of the CL as a rating of how effectively the wing is creating lift at any given moment. A well-designed aerofoil will have a high maximum CL. This coefficient is determined by the wing's physical shape (its camber and thickness) and, most importantly, its angle of attack. When a pilot increases the angle of attack, they are increasing the CL. This allows them to generate the same amount of lift at a lower airspeed. It is a crucial, non-dimensional factor in the lift formula that allows us to compare the lifting capabilities of different wing shapes. From Topic: Straight and Level Flight - Pilot Technique (Section 7.1 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "If two aircraft are flying at the same true airspeed at the same altitude, but aircraft A is twice as heavy as aircraft B, which is true?",
+        "topic": "Lift Formula",
+        "options": [
+          "Aircraft A must have a higher Coefficient of Lift (CL)",
+          "Aircraft B must have a higher Coefficient of Lift (CL)",
+          "Both aircraft must have the same Coefficient of Lift (CL)",
+          "The Coefficient of Lift is not relevant in this case"
+        ],
+        "answer": "A",
+        "brief": "To stay in level flight, the heavier aircraft (A) must generate twice as much lift as the lighter aircraft. Since speed and air density are the same, it must achieve this by flying at a higher angle of attack to produce a higher Coefficient of Lift.",
+        "detailed": "This question is a direct application of the lift formula: Lift = CL x ½ρV² x S. In this scenario, the dynamic pressure (½ρV²) and the wing area (S) are the same for both aircraft. For aircraft A to maintain level flight, its lift must equal its heavier weight. For aircraft B, lift must equal its lighter weight. To produce this greater lift force under the same conditions of speed and density, aircraft A must have a higher Coefficient of Lift (CL). The pilot achieves this by flying at a higher angle of attack than the pilot of aircraft B. From Topic: Straight and Level Flight - Pilot Technique (Section 7.2 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "The term 'dynamic pressure' is a measure of the air's:",
+        "topic": "Dynamic Pressure (½ρV²)",
+        "options": [
+          "potential energy due to its temperature",
+          "static pressure at a given altitude",
+          "kinetic energy due to its motion",
+          "density relative to the ISA standard"
+        ],
+        "answer": "C",
+        "brief": "Dynamic pressure, represented by the term ½ρV², is the pressure created by the air's movement. It is a direct measure of the kinetic energy of the airstream, which is the energy the wings use to generate aerodynamic forces.",
+        "detailed": "The air around an aircraft has two types of energy that make up its total pressure. Static pressure is the potential energy, existing even in still air. Dynamic pressure is the kinetic energy, which only exists when the air is in motion relative to the aircraft. The formula ½ρV² mathematically defines this kinetic energy per unit volume. The amount of lift and drag a wing produces is directly proportional to this dynamic pressure. The aircraft's airspeed indicator is an instrument designed specifically to measure this kinetic energy and display it to the pilot as an Indicated Airspeed. From Topic: The Basics (Section 1.9 & 1.10 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "If the surface area (S) of a wing is increased, while all other factors remain constant, the total lift will:",
+        "topic": "Surface Area (S)",
+        "options": [
+          "decrease",
+          "remain the same",
+          "increase",
+          "increase then decrease"
+        ],
+        "answer": "C",
+        "brief": "According to the lift formula, the total lift force is directly proportional to the wing's surface area (S). Therefore, a larger wing will produce more lift than a smaller wing at the same speed, density, and angle of attack.",
+        "detailed": "The lift formula (Lift = CL x ½ρV² x S) shows that all its components are multiplicative. The surface area, S, represents the planform area of the wing that is exposed to the dynamic pressure of the airflow. A larger wing is able to act on a greater mass of air per second. Assuming the coefficient of lift (angle of attack) and dynamic pressure (airspeed and density) are held constant, increasing the surface area will result in a directly proportional increase in the total lift generated. This is why large, heavy aircraft require very large wings to support their weight at reasonable speeds. From Topic: Straight and Level Flight - Pilot Technique (Section 7.1 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "How is the Coefficient of Drag (CD) affected by an increase in angle of attack from a small positive angle towards the stall?",
+        "topic": "Coefficient of Drag (CD)",
+        "options": [
+          "It decreases continuously",
+          "It remains constant",
+          "It increases continuously",
+          "It decreases then increases"
+        ],
+        "answer": "C",
+        "brief": "The Coefficient of Drag is at its minimum at a small, positive angle of attack. As the angle of attack is increased from this point towards the stall, the wing becomes less streamlined, and both form drag and induced drag increase, causing the CD to rise continuously.",
+        "detailed": "While a very low angle of attack provides the minimum drag, any increase from that point will increase the drag coefficient. As the angle of attack is increased, two things happen. First, the wing's shape becomes blunter to the relative airflow, increasing the pressure or form drag. Second, and more significantly, the higher angle of attack is generating more lift, which in turn creates much stronger wingtip vortices, leading to a large increase in induced drag. The sum of these effects means that from the minimum drag point onwards, the CD will continuously increase as the angle of attack is raised towards the critical angle. From Topic: Aerofoils (Section 3.5 & 3.6 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "What is represented by the term 'V' in the dynamic pressure formula (½ρV²)?",
+        "topic": "Dynamic Pressure (½ρV²)",
+        "options": [
+          "Indicated Airspeed (IAS)",
+          "Calibrated Airspeed (CAS)",
+          "True Airspeed (TAS)",
+          "Ground Speed (GS)"
+        ],
+        "answer": "C",
+        "brief": "In the fundamental aerodynamic formulae for lift, drag, and dynamic pressure, the 'V' always stands for True Airspeed. This is the actual speed of the aircraft through the airmass, which is required along with density to find the true dynamic pressure.",
+        "detailed": "It is crucial to be precise when dealing with the lift and drag formulae. The 'V' for velocity specifically refers to True Airspeed (TAS), which is the calibrated airspeed corrected for density error. The formula ½ρV² calculates the actual kinetic energy of the air, and for that, you need the actual density (ρ) and the actual speed through that air (TAS). While a pilot flies by reference to Indicated Airspeed (IAS), the IAS is simply what the instrument displays *after* it has measured the dynamic pressure. The TAS is the real-world variable that goes into the physics equation. From Topic: Straight and Level Flight - Pilot Technique (Section 7.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "ias_vs_tas_altitude.png"
+      },
+      {
+        "question": "The lift formula is given as L = CL ½ ρ V² S. If an aircraft weighs 2300 pounds, what must the value of the lift force be to maintain straight and level flight?",
+        "topic": "Lift Formula",
+        "options": [
+          "Less than 2300 pounds",
+          "Exactly 2300 pounds",
+          "Greater than 2300 pounds",
+          "It depends on the airspeed"
+        ],
+        "answer": "B",
+        "brief": "For any aircraft to be in a state of equilibrium in straight and level flight, the four forces must be balanced. This means the upward force of lift must be exactly equal to the downward force of the aircraft's weight.",
+        "detailed": "This question tests the fundamental concept of equilibrium. The lift formula calculates the total upward force the wings can generate under a given set of conditions. For an aircraft to fly straight and level (i.e., not accelerating up or down), the upward forces must perfectly balance the downward forces. The primary downward force is the aircraft's weight. Therefore, regardless of the values of CL, density, speed, or wing area, their combined result must produce a total lift force that is exactly equal to the aircraft's weight. If lift were greater, the aircraft would climb; if it were less, it would descend. From Topic: The Basics (Section 1.6 & 1.7 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "four_forces_equilibrium.png"
+      },
+      {
+        "question": "The Coefficient of Lift (CL) of a wing will increase if the pilot:",
+        "topic": "Coefficient of Lift (CL)",
+        "options": [
+          "increases the airspeed",
+          "increases the angle of attack",
+          "decreases the airspeed",
+          "increases the engine power"
+        ],
+        "answer": "B",
+        "brief": "For a given wing configuration, the Coefficient of Lift is almost exclusively controlled by the angle of attack. By increasing the angle of attack (e.g., by pulling back on the control column), the pilot increases the wing's lift efficiency, or CL.",
+        "detailed": "The Coefficient of Lift (CL) is a measure of how effectively the wing is creating lift, and should not be confused with the total lift force. While increasing airspeed or power will increase the total lift, it does not change the CL. The CL is a function of the wing's shape and its angle relative to the airflow. The pilot's primary flight control for the CL is the elevator, which controls the angle of attack. Pulling back increases the angle of attack and therefore increases the CL, up to the stalling angle. This allows the pilot to trade speed for lift coefficient to maintain altitude. From Topic: Straight and Level Flight - Pilot Technique (Section 7.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "cl_vs_aoa_graph.png"
+      },
+      {
+        "question": "An aircraft is flying at a constant Indicated Airspeed (IAS) as it climbs from sea level to 10,000 feet. What has happened to the dynamic pressure?",
+        "topic": "Dynamic Pressure (½ρV²)",
+        "options": [
+          "It has increased significantly",
+          "It has decreased significantly",
+          "It has remained the same",
+          "It depends on the aircraft's weight"
+        ],
+        "answer": "C",
+        "brief": "Indicated Airspeed (IAS) is the flight instrument that shows the pilot the measured dynamic pressure. Therefore, if the pilot is maintaining a constant IAS during a climb, they are by definition keeping the dynamic pressure constant.",
+        "detailed": "This question tests the direct relationship between IAS and dynamic pressure. An aircraft's airspeed indicator does not directly measure speed; it is a pressure instrument that measures dynamic pressure (½ρV²). The instrument is calibrated to display this pressure reading as a speed in knots (or mph). Therefore, if the needle on the ASI is pointing to a constant value, it means the dynamic pressure acting on the aircraft is also constant. To achieve this during a climb into less dense air, the aircraft's true airspeed must have actually increased significantly to compensate for the decrease in density. From Topic: The Airspeed Indicator (Section 1.11 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "airspeed_indicator_system.png"
+      },
+      {
+        "question": "If a wing has a surface area (S) of 174 square feet and a wingspan of 36 feet, what is its aspect ratio?",
+        "topic": "Surface Area (S)",
+        "options": [
+          "4.8",
+          "7.4",
+          "21.2",
+          "It cannot be determined"
+        ],
+        "answer": "B",
+        "brief": "Aspect ratio is calculated as the wingspan squared, divided by the wing's surface area. For this wing, the calculation is (36 x 36) / 174, which equals approximately 7.4.",
+        "detailed": "Aspect ratio is a crucial measure of a wing's shape and its aerodynamic efficiency, particularly concerning induced drag. The formula for aspect ratio is: Aspect Ratio = Span² / Area. Plugging in the given values, we get: Aspect Ratio = (36 feet * 36 feet) / 174 square feet. This equals 1296 / 174, which calculates to approximately 7.44. This would be considered a moderate aspect ratio, typical of many light general aviation aircraft, balancing efficiency with structural considerations and manoeuvrability. From Topic: Total Drag in Flight (Section 5.4 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "aspect_ratio_comparison.png"
+      },
+      {
+        "question": "The term 'CL/CD' in the graph represents the:",
+        "topic": "Coefficient of Drag (CD)",
+        "image": "cl_cd_graph.png",
+        "options": [
+          "Lift/Drag Ratio",
+          "Total aerodynamic force",
+          "Dynamic Pressure",
+          "Stalling Angle"
+        ],
+        "answer": "A",
+        "brief": "The term 'CL/CD' is the ratio of the Coefficient of Lift to the Coefficient of Drag. This is known as the Lift/Drag ratio, which is the primary measure of an aircraft's aerodynamic efficiency.",
+        "detailed": "The Lift/Drag (L/D) ratio is one of the most important performance metrics for an aircraft. It is calculated by dividing the lift being produced by the drag being created at a specific angle of attack. The graph shows that this ratio is not constant; it peaks at one specific angle of attack. This peak represents the point of maximum aerodynamic efficiency. Flying at the airspeed corresponding to the best L/D ratio will result in the aircraft's maximum gliding range and maximum still air range for powered flight. From Topic: Aerofoils (Section 3.6 & Figure 3.14 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "cl_cd_graph.png"
+      },
+      {
+        "question": "The diagram illustrates the components of the lift formula. What does the symbol 'ρ' represent?",
+        "topic": "Dynamic Pressure (½ρV²)",
+        "image": "lift_formula_diagram.png",
+        "options": [
+          "The Coefficient of Lift",
+          "The velocity of the aircraft",
+          "The surface area of the wing",
+          "The density of the air"
+        ],
+        "answer": "D",
+        "brief": "The Greek letter 'ρ' (rho) is the standard symbol used in physics and aerodynamics to represent the density of a fluid. In the lift formula, it specifically refers to the density of the air through which the aircraft is flying.",
+        "detailed": "Each component of the lift formula has a specific meaning. 'CL' is the coefficient of lift, determined by the wing's shape and angle of attack. 'V' is the true airspeed, and 'S' is the wing's surface area. The symbol 'ρ' represents the local air density. Air density is a critical factor as it determines the mass of air molecules available for the wing to act on. It decreases significantly with altitude, which is why aircraft must fly at a higher true airspeed at altitude to generate the same amount of lift. From Topic: Straight and Level Flight - Pilot Technique (Section 7.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "lift_formula_diagram.png"
+      },
+      {
+        "question": "In the graph, the angle of attack that gives the best CL/CD ratio is approximately:",
+        "topic": "Best CL/CD Ratio & Performance",
+        "image": "cl_cd_graph.png",
+        "options": [
+          "0 degrees",
+          "4 degrees",
+          "12 degrees",
+          "16 degrees"
+        ],
+        "answer": "B",
+        "brief": "The best CL/CD ratio occurs at the peak of the L/D curve. On this graph, this peak is clearly shown to align with an angle of attack of approximately 4 degrees, which is also the angle of attack for minimum drag.",
+        "detailed": "This graph provides a complete performance picture of the aerofoil. The CL curve peaks at the stalling angle (around 16 degrees). The CD curve is at its minimum at a low angle (around 4 degrees). The L/D curve represents the ratio of the other two curves. The highest point on the L/D curve represents the most efficient angle of attack for the aircraft. Visually tracing down from the peak of the L/D curve to the horizontal axis shows that this point corresponds to an angle of attack of about 4 degrees. This is the angle a pilot would use for best range or best glide. From Topic: Aerofoils (Section 3.8 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "cl_cd_graph.png"
+      },
+      {
+        "question": "An aircraft flying at a constant, low angle of attack enters a region of much lower air density (e.g., a downdraft). To maintain altitude, the pilot must:",
+        "topic": "Dynamic Pressure (½ρV²)",
+        "image": "downdraft_encounter.png",
+        "options": [
+          "decrease the angle of attack",
+          "increase the angle of attack",
+          "maintain the same angle of attack",
+          "reduce engine power"
+        ],
+        "answer": "B",
+        "brief": "Entering an area of lower density at a constant true airspeed will cause a loss of lift. To compensate for this and maintain altitude, the pilot must increase the angle of attack to increase the Coefficient of Lift (CL).",
+        "detailed": "According to the lift formula (Lift = CL x ½ρV² x S), lift is directly proportional to air density (ρ). If an aircraft suddenly flies into a parcel of air that is less dense (or in a downdraft, which has a similar effect on the angle of attack), the lift it is producing will decrease, causing the aircraft to sink. To regain the lost lift and maintain altitude, the pilot has two options: increase speed (V) or increase the Coefficient of Lift (CL). In a sudden encounter, the most immediate and primary response is to increase the angle of attack by applying back pressure on the control column to increase the CL. From Topic: Straight and Level Flight - Pilot Technique (Section 7.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "downdraft_encounter.png"
+      },
+      {
+        "question": "The diagram shows a wing planform. The area 'S' used in the lift formula is calculated by:",
+        "topic": "Surface Area (S)",
+        "image": "wing_surface_area.png",
+        "options": [
+          "multiplying the wingspan by the wingtip chord",
+          "multiplying the wingspan by the wing root chord",
+          "multiplying the wingspan by the average chord",
+          "measuring the total area of the upper surface"
+        ],
+        "answer": "C",
+        "brief": "The planform surface area (S) of a wing, especially a tapered wing as shown, is calculated by multiplying the total wingspan by the mean (average) chord length. This gives the correct total area.",
+        "detailed": "For a simple rectangular wing, the area is simply the span multiplied by the constant chord. However, most aircraft have wings that are tapered, meaning the chord is wider at the root than at the tip. To calculate the total planform area for a tapered wing, one must first determine the mean, or average, chord length. This average chord is then multiplied by the total wingspan to give the correct value for 'S' to be used in the lift and drag formulae. This area represents the total surface that is working to generate lift. From Topic: Straight and Level Flight - Pilot Technique (Section 7.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "wing_surface_area.png"
+      },
+      {
+        "question": "The total drag curve is a combination of parasite drag and induced drag. At the speed for minimum total drag:",
+        "topic": "Types of Drag",
+        "options": [
+          "parasite drag is zero and induced drag is maximum",
+          "parasite drag is maximum and induced drag is zero",
+          "parasite drag and induced drag are equal",
+          "parasite drag is half of the induced drag"
+        ],
+        "answer": "C",
+        "brief": "The lowest point on the total drag curve, which represents the most efficient airspeed for an aircraft, occurs at the specific speed where the opposing forces of parasite drag and induced drag are exactly equal.",
+        "detailed": "The U-shape of the total drag curve is created by the sum of two opposing drag types. Induced drag is highest at low speeds and decreases as speed increases. Parasite drag is lowest at low speeds and increases with the square of the speed. There is a single point where these two curves intersect. At this intersection, the values of parasite drag and induced drag are equal. It is at this precise speed that their sum, the total drag, is at its absolute minimum. Flying at this speed gives the aircraft its best lift-to-drag ratio and maximum range. From Topic: Total Drag in Flight (Section 5.11 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "As the angle of attack is increased from zero to the stalling angle, the centre of pressure of most aerofoils",
+        "topic": "Centre of Pressure",
+        "options": [
+          "remains stationary",
+          "moves further aft",
+          "moves further forward",
+          "moves forward, then aft"
+        ],
+        "answer": "D",
+        "brief": "For a typical cambered aerofoil, the Centre of Pressure moves forward as the angle of attack is increased towards the stall. However, as the wing stalls, the airflow separation causes it to move abruptly aft.",
+        "detailed": "The Centre of Pressure (CP) is the average point of the lift force, and its position is not fixed. As the angle of attack increases from a low value, the suction peak on the upper surface of the wing shifts forward, causing the CP to also move forward. This creates an unstable nose-up pitching moment. However, at the point of the stall, the airflow separates from the leading edge, and the remaining lift is concentrated on the rear portion of the wing. This causes the CP to move rapidly rearwards, creating a strong nose-down pitching moment that helps in stall recovery. This is a manipulated version of Exercise A2, Question 10. From Topic: Aerofoils (Section 3.7 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "Which of these design features would have the greatest effect on increasing an aircraft's lift/drag ratio?",
+        "topic": "Types of Drag",
+        "options": [
+          "A thicker wing chord",
+          "A higher aspect ratio",
+          "A smaller wingspan",
+          "A larger rudder"
+        ],
+        "answer": "B",
+        "brief": "A high aspect ratio (a long, narrow wing) is the most effective design feature for improving the lift-to-drag ratio. This is because it significantly reduces the amount of induced drag, which is a major component of total drag.",
+        "detailed": "The lift-to-drag ratio is a measure of aerodynamic efficiency. Induced drag, caused by wingtip vortices, is a major source of inefficiency. The strength of these vortices is inversely proportional to the wingspan. By designing a wing with a high aspect ratio—meaning it is long and slender—engineers minimize the size and strength of these vortices. This significant reduction in induced drag means that the wing can produce the same amount of lift for much less total drag, thereby greatly increasing the lift/drag ratio and improving the aircraft's range and glide performance. This is a manipulated version of Exercise A3, Question 5. From Topic: Total Drag in Flight (Section 5.4 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "If an aircraft maintains a constant indicated airspeed while the angle of attack is increased (e.g. by entering a climb), what happens to the parasite and induced drag?",
+        "topic": "Drag Variations with Flight Parameters",
+        "options": [
+          "Both parasite and induced drag will increase",
+          "Induced drag will increase but parasite drag will remain the same",
+          "Parasite drag will increase but induced drag will remain the same",
+          "Both parasite and induced drag will decrease"
+        ],
+        "answer": "B",
+        "brief": "At a constant IAS, the parasite drag will remain the same as it depends on speed. However, increasing the angle of attack to climb will directly increase the induced drag, as induced drag is a function of the lift coefficient.",
+        "detailed": "This question explores the relationship between the drag components and the angle of attack. Parasite drag is primarily a function of the aircraft's shape and its indicated airspeed. If the IAS is constant, the parasite drag will also remain largely constant. Induced drag, on the other hand, is a direct result of the lift being produced, which is determined by the angle of attack. By increasing the angle of attack, the pilot is increasing the coefficient of lift, which in turn creates stronger wingtip vortices and therefore increases induced drag. So, in this manoeuvre, only the induced drag component increases. This is a manipulated version of Final Test No 2, Question 3.",
+        "detailed_image": "cl_cd_graph.png"
+      },
+      {
+        "question": "Which of the following would cause an increase in the indicated stalling speed of an aeroplane?",
+        "topic": "Drag Variations with Flight Parameters",
+        "options": [
+          "A decrease in weight",
+          "A decrease in load factor",
+          "Flying at a higher altitude",
+          "A forward movement of the centre of gravity"
+        ],
+        "answer": "D",
+        "brief": "A forward Centre of Gravity requires a larger tail-down force to maintain balance. This means the main wings must produce more total lift to support both the weight and this tail-down force, which results in a higher stalling speed.",
+        "detailed": "The indicated stalling speed is the speed at which the wings reach their critical angle of attack while generating enough lift to equal the total load. When the Centre of Gravity (CG) is moved forward, the tailplane must create a greater downward force to maintain level flight. This downward force must also be overcome by the main wings. Therefore, the total lift required from the wings is now the aircraft's weight *plus* the tail-down force. Because this total required lift is higher, the wing will reach its critical angle of attack at a higher indicated airspeed. This is a manipulated version of Final Test No 3, Question 17.",
+        "detailed_image": "cg_effect_on_stall.png"
+      },
+      {
+        "question": "What is the primary effect of an increased camber on an aerofoil's lifting ability?",
+        "topic": "Aerofoil Terminology - Camber",
+        "image": "cambered_aerofoil.png",
+        "options": [
+          "It decreases the stalling speed by decreasing the maximum lift coefficient",
+          "It increases the stalling speed by increasing the maximum lift coefficient",
+          "It has no effect on the maximum lift coefficient",
+          "It increases the maximum lift coefficient, which results in a lower stalling speed"
+        ],
+        "answer": "D",
+        "brief": "Camber, or the curvature of the wing, is a primary factor in lift production. Increasing the camber allows the wing to generate a higher maximum lift coefficient (CLmax), which in turn allows the aircraft to fly at a lower indicated stalling speed.",
+        "detailed": "A highly cambered aerofoil is more effective at accelerating airflow over its upper surface, which allows it to generate a higher maximum lift coefficient (CLmax) before the airflow separates. According to the lift formula, the stalling speed is inversely proportional to the square root of the CLmax. Therefore, by increasing the CLmax, the wing can produce the lift required to support the aircraft's weight at a lower indicated airspeed. This is the principle behind flaps, which are devices that temporarily increase a wing's camber to reduce the stalling speed for takeoff and landing.",
+        "detailed_image": "flaps_effect_on_cl_curve.png"
+      },
+      {
+        "question": "The diagram shows a turbulent boundary layer. A key characteristic is that it:",
+        "topic": "Boundary Layer Theory",
+        "image": "turbulent_boundary_layer.png",
+        "options": [
+          "creates less skin friction drag than a laminar layer",
+          "is less energetic and separates easily",
+          "is thicker and more resistant to separation than a laminar layer",
+          "only forms on the underside of the wing"
+        ],
+        "answer": "C",
+        "brief": "The diagram shows the chaotic, swirling nature of a turbulent boundary layer. This energetic mixing makes the layer thicker and creates more drag, but it also allows it to adhere to the wing surface at higher angles of attack, delaying the stall.",
+        "detailed": "As the boundary layer flows rearward over a wing, it typically transitions from a smooth laminar state to a chaotic turbulent state. The turbulent boundary layer, as depicted, is much thicker than the laminar layer because of the constant, swirling eddies that mix the slow-moving air near the surface with the fast-moving air just above it. This mixing process gives the turbulent layer more kinetic energy. While this results in higher skin friction drag, it makes the layer far more resistant to the adverse pressure gradients found on the rear part of the wing, significantly delaying airflow separation and allowing for a higher stalling angle.",
+        "detailed_image": "laminar_vs_turbulent_comparison.png"
+      },
+      {
+        "question": "In the diagram, the force acting parallel to the relative airflow is known as:",
+        "topic": "Types of Drag",
+        "image": "lift_drag_relative_airflow.png",
+        "options": [
+          "Total Reaction",
+          "Weight",
+          "Lift",
+          "Drag"
+        ],
+        "answer": "D",
+        "brief": "The diagram correctly shows the aerodynamic forces relative to the oncoming airflow. By definition, the component of the Total Aerodynamic Reaction that is parallel to the relative airflow is known as Drag.",
+        "detailed": "It is essential to define the aerodynamic forces relative to the air the aircraft is flying through, not the ground or the horizon. The relative airflow is the direction of the air striking the wing. The total aerodynamic force is resolved into two components based on this airflow. Lift is the component that acts perpendicular (at 90 degrees) to the relative airflow. Drag is the component that acts parallel to and in the same direction as the relative airflow, representing the total resistance to the aircraft's passage through the air. This definition holds true in all phases of flight. From Topic: Management of the Four Forces (Section 1.15 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "lift_drag_relative_airflow.png"
+      },
+      {
+        "question": "The diagram shows the drag components of an aircraft. Interference drag is created:",
+        "topic": "Types of Drag - Interference",
+        "image": "drag_tree_diagram.png",
+        "options": [
+          "as a byproduct of lift",
+          "by the friction of air on the aircraft's skin",
+          "where airflow around different components meets and mixes",
+          "by the shape of the aircraft's fuselage"
+        ],
+        "answer": "C",
+        "brief": "Interference drag is a component of parasite drag that occurs at the junctions of aircraft parts, such as the wing root. The airflows around the fuselage and the wing interfere with each other, creating extra drag that is greater than the sum of the individual parts.",
+        "detailed": "When two airflows meet, such as the flow along the fuselage and the flow over the wing, they can interfere with each other in a way that creates additional turbulence and drag. This extra drag, which would not exist if the components were tested in isolation, is called interference drag. It is most significant at sharp-angled junctions, like the wing-fuselage joint or where struts attach to the wing. Designers minimize interference drag by using smooth fairings and fillets to blend these junctions together, allowing the airflows to merge more smoothly. From Topic: Total Drag in Flight (Section 5.1 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "interference_drag.png"
+      },
+      {
+        "question": "At low speeds, the largest component of total drag is typically:",
+        "topic": "Drag Variations with Flight Parameters",
+        "image": "drag_components_vs_speed.png",
+        "options": [
+          "Parasite Drag",
+          "Form Drag",
+          "Interference Drag",
+          "Induced Drag"
+        ],
+        "answer": "D",
+        "brief": "At low airspeeds, an aircraft must fly at a high angle of attack to generate sufficient lift. This high angle of attack creates powerful wingtip vortices, making induced drag the dominant component of the total drag.",
+        "detailed": "The total drag of an aircraft is the sum of parasite drag and induced drag, and their relative importance changes with speed. Parasite drag is low at low speeds. Induced drag, however, is inversely proportional to the square of the speed, meaning it is at its highest during low-speed flight. As the aircraft slows down, the pilot must increase the angle of attack to maintain lift, which dramatically increases the induced drag. Therefore, in phases of flight like a slow climb or a landing approach, induced drag constitutes the largest portion of the total drag that the engine must overcome. From Topic: Total Drag in Flight (Section 5.11 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "drag_components_vs_speed.png"
+      },
+      {
+        "question": "Which term describes the angle between the wing chord line and the aircraft's longitudinal axis?",
+        "topic": "Aerofoil Terminology",
+        "options": [
+          "Angle of attack",
+          "Angle of incidence",
+          "Dihedral angle",
+          "Angle of bank"
+        ],
+        "answer": "B",
+        "brief": "The angle of incidence is a fixed design feature of an aircraft. It is the angle at which the wing is mounted to the fuselage, measured between the chord line and the longitudinal axis, and it cannot be altered by the pilot.",
+        "detailed": "Pilots must distinguish between the angle of attack and the angle of incidence. The angle of attack is the variable aerodynamic angle between the chord and the relative wind, which the pilot controls. The angle of incidence is a fixed, built-in angle. Designers choose a specific angle of incidence to optimize the aircraft for a particular phase of flight, usually cruise. By setting the wing at a slight positive angle of incidence, they can ensure that the fuselage remains level with the airflow in cruise, which minimizes drag and improves pilot visibility. From Topic: Aerofoils (Section 3.2 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "The phenomenon where air flowing over a wing loses energy and detaches from the surface is called:",
+        "topic": "Boundary Layer Theory",
+        "options": [
+          "The Venturi effect",
+          "Laminar flow transition",
+          "Boundary layer separation",
+          "The Coanda effect"
+        ],
+        "answer": "C",
+        "brief": "Boundary layer separation is the fundamental cause of a stall. It occurs when the air in the boundary layer no longer has enough kinetic energy to follow the wing's contour against an adverse pressure gradient, and it breaks away into a turbulent wake.",
+        "detailed": "The boundary layer is a thin layer of air that is slowed by friction as it flows over the wing. As it moves toward the trailing edge, it encounters an adverse pressure gradient (rising pressure). At high angles of attack, this gradient becomes very strong. Eventually, the low-energy boundary layer cannot overcome this pressure rise, so it stops and separates from the surface. This separation creates a large turbulent region behind it, which dramatically reduces lift and increases drag, leading to an aerodynamic stall. From Topic: Aerofoils (Section 3.4 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "flow_separation_diagram.png"
+      },
+      {
+        "question": "An aircraft is flying at a constant, low altitude. If its weight is reduced (e.g., after dropping supplies), how must the pilot adjust the IAS to maintain the same angle of attack?",
+        "topic": "Drag Variations with Flight Parameters",
+        "options": [
+          "The IAS must be increased",
+          "The IAS must be decreased",
+          "The IAS can remain the same",
+          "This is not possible"
+        ],
+        "answer": "B",
+        "brief": "If the aircraft's weight is reduced, it requires less lift to maintain level flight. To produce this lower amount of lift at the same angle of attack (same CL), the aircraft must fly at a lower Indicated Airspeed.",
+        "detailed": "This question explores the relationships in the lift formula (Lift = CL x ½ρV² x S). In this case, the pilot wants to keep the angle of attack constant, which means the Coefficient of Lift (CL) is also constant. Since the weight has decreased, the required lift is now lower. With CL and wing area (S) constant, the only way to reduce the lift is to reduce the dynamic pressure (½ρV²). The pilot does this by slowing the aircraft down to a lower Indicated Airspeed. From Topic: Straight and Level Flight (Section 7.2 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "lift_formula_diagram.png"
+      },
+      {
+        "question": "Which of these is NOT a component of parasite drag?",
+        "topic": "Types of Drag",
+        "options": [
+          "Form Drag",
+          "Skin Friction Drag",
+          "Interference Drag",
+          "Induced Drag"
+        ],
+        "answer": "D",
+        "brief": "Parasite drag is the sum of all drag that is not a direct result of producing lift. Induced drag is the only type of drag that is a direct byproduct of lift, and therefore it is not considered a component of parasite drag.",
+        "detailed": "Aerodynamic drag is divided into two main categories to simplify analysis. Parasite drag includes all the forms of resistance that are due to the aircraft's shape and surface. This includes Form Drag (from the shape), Skin Friction Drag (from the viscosity of the air), and Interference Drag (from the mixing of airflows at junctions). Induced Drag is in its own separate category because it is fundamentally different; it is not caused by the shape itself but is an unavoidable consequence of the wing generating lift. Total Drag is the sum of these two main categories. From Topic: Total Drag in Flight (Section 5.1, The Drag Tree - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "drag_tree_diagram.png"
+      },
+      {
+        "question": "The force of drag during flight always acts parallel to the",
+        "topic": "Relative Airflow and Angle of Attack",
+        "options": [
+          "thrust line.",
+          "wing chord.",
+          "longitudinal axis.",
+          "relative airflow."
+        ],
+        "answer": "D",
+        "brief": "By formal aerodynamic definition, Drag is the component of the Total Aerodynamic Reaction that is perfectly parallel to and in the same direction as the relative airflow. This definition is constant regardless of the aircraft's attitude.",
+        "detailed": "Both lift and drag are defined solely by their orientation to the relative airflow. Lift is the component that acts perpendicular to the relative airflow. Drag is the component that acts parallel to the relative airflow, directly opposing the aircraft's motion through the airmass. While in straight and level flight, drag is opposite to the thrust line and flight path, this is not always true. In a climb or descent, the flight path is inclined, and the drag vector remains parallel to this inclined path, not the horizon or the aircraft's longitudinal axis. From Topic: Management of the Four Forces (Exercise A1, Question 9 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "lift_drag_relative_airflow.png"
+      }
+  ]

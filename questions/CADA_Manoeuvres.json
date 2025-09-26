@@ -1,0 +1,771 @@
+[
+    {
+      "question": "Aileron drag is the tendency of the aircraft to yaw away from the direction of turn when large amounts of aileron are applied at low airspeed. This is caused by",
+      "topic": "Aileron Drag (Adverse Yaw)",
+      "options": [
+        "the vortex formation inhibited by the proximity of the ground.",
+        "extra drag produced by the up going aileron",
+        "extra drag produced by the down going aileron",
+        "a higher angle of attack on the rising wing"
+      ],
+      "answer": "C",
+      "brief": "Aileron drag, or adverse yaw, is caused by the extra drag created by the downward-deflected aileron on the rising wing. This aileron produces more lift, and as a result, also produces more induced drag, which pulls that wing backward.",
+      "detailed": "When a pilot initiates a turn, the aileron on the wing that is intended to rise goes down. This downward deflection increases the camber of that wing section, which increases its lift. A fundamental principle of aerodynamics is that an increase in lift always comes with an increase in induced drag. Therefore, the downward-deflected aileron on the rising wing creates significantly more drag than the upward-deflected aileron on the descending wing. This imbalance in drag causes the rising wing to be pulled backward, making the aircraft's nose yaw in the opposite direction of the intended turn. This effect is most prominent at low airspeeds where more aileron deflection is needed. From Topic: Control (Exercise A6, Question 19 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "Why must power be applied to maintain speed and altitude in a level turn?",
+      "topic": "Power in a Turn",
+      "options": [
+        "To overcome the increase in parasite drag",
+        "Because the engine is less efficient when banked",
+        "To overcome the increase in induced drag caused by a higher angle of attack",
+        "To counteract the force of gravity"
+      ],
+      "answer": "C",
+      "brief": "In a turn, the pilot must increase the angle of attack to generate more total lift to maintain altitude. This higher angle of attack significantly increases induced drag, and more power (thrust) is required to overcome this extra drag and maintain a constant airspeed.",
+      "detailed": "To maintain altitude in a turn, the total lift produced by the wings must be greater than the aircraft's weight. This is because only the vertical component of the lift is opposing weight. To generate this extra lift at a constant airspeed, the pilot must increase the wing's angle of attack. A higher angle of attack always results in a greater amount of induced drag. If the pilot does not add power to increase thrust, this extra drag will cause the aircraft to slow down. Therefore, to maintain both a constant altitude and a constant airspeed in a turn, power must be added to counteract the increase in induced drag. From Topic: Turning (Section 9.3 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "What is the primary design purpose of differential ailerons?",
+      "topic": "Differential Ailerons",
+      "options": [
+        "To make the aircraft roll faster",
+        "To counteract adverse yaw by creating more drag on the descending wing",
+        "To reduce the structural load on the control surfaces",
+        "To increase the effectiveness of the flaps"
+      ],
+      "answer": "B",
+      "brief": "Differential ailerons are designed so that the up-going aileron deflects through a larger angle than the down-going aileron. This creates extra parasite drag on the descending wing to help balance the induced drag from the rising wing, thus counteracting adverse yaw.",
+      "detailed": "Adverse yaw is caused by the drag imbalance between the rising and descending wings. A differential aileron system addresses this by creating a counteracting drag force. The linkage is designed so that when the pilot commands a roll, the aileron moving up (on the descending wing) travels a greater distance than the aileron moving down (on the rising wing). This larger upward deflection creates a significant amount of parasite drag. This deliberately created drag on the descending wing helps to equalize the total drag on both wings, keeping the aircraft's nose aligned with the turn and reducing the need for the pilot to apply corrective rudder. From Topic: Control (Section 12.4 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "An aircraft tends to overbank in a level turn because",
+      "topic": "Overbanking Tendency",
+      "options": [
+        "the engine torque assists the roll",
+        "the outer wing is travelling faster than the inner wing",
+        "the inner wing stalls first",
+        "the rudder has a secondary rolling effect"
+      ],
+      "answer": "B",
+      "brief": "In any turn, the wing on the outside of the turn must travel a greater distance in the same amount of time as the inner wing. Because this outer wing is moving faster through the air, it generates more lift, which creates a rolling moment that tends to increase the bank angle.",
+      "detailed": "During a turn, the aircraft pivots around a central point. This means the wingtip on the outside of the turn has a larger circle to trace than the wingtip on the inside. Since both wingtips complete their circle in the same amount of time, the outer wing must be travelling at a higher true airspeed. According to the lift formula, lift is proportional to the square of the velocity. Therefore, the faster-moving outer wing will generate more lift than the slower-moving inner wing. This lift imbalance creates a continuous rolling moment that tries to steepen the bank. The pilot must use a small amount of opposite aileron to hold a constant bank angle. From Topic: Turning (Section 9.9 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "How does a Frise aileron help to counteract adverse yaw?",
+      "topic": "Frise Ailerons",
+      "options": [
+        "It has a leading edge that protrudes into the airflow when deflected up, creating drag",
+        "It is larger than a standard aileron, giving it more authority",
+        "It is linked to the rudder so that they move together",
+        "It moves down through a larger angle than it moves up"
+      ],
+      "answer": "A",
+      "brief": "A Frise aileron is designed with an offset hinge and a specially shaped leading edge. When the aileron is deflected upwards, its leading edge protrudes down into the airflow, creating significant parasite drag that counteracts the adverse yaw.",
+      "detailed": "The Frise aileron is another clever design to combat adverse yaw. Its hinge point is set back from its leading edge. When the pilot commands a roll and the aileron on the descending wing moves up, this offset hinge causes the aileron's leading edge to project downwards into the smooth airflow beneath the wing. This protrusion creates a significant amount of parasite drag on the descending wing. This drag is carefully calculated to be roughly equal to the high induced drag being created by the downward-deflected aileron on the rising wing. By balancing the drag on both wings, the Frise aileron minimizes adverse yaw and promotes a coordinated turn. From Topic: Control (Section 12.5, Figure 12.14 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "If an aircraft doubles its true airspeed while maintaining a constant angle of bank, its radius of turn will:",
+      "topic": "Radius of Turn",
+      "options": [
+        "be halved",
+        "remain the same",
+        "be doubled",
+        "be quadrupled"
+      ],
+      "answer": "D",
+      "brief": "The radius of a turn is proportional to the square of the true airspeed. Therefore, if the speed is doubled, the radius of the turn will increase by a factor of four (2 squared is 4).",
+      "detailed": "The physics of a turn dictates a strong relationship between speed and the radius. A turn requires a centripetal force to pull the aircraft around a circular path. At a higher speed, the aircraft has more inertia and requires a much larger centripetal force (or a much larger radius) to change direction. The formula shows that the turn radius is proportional to the velocity squared (Radius ∝ V²). This means that even small increases in speed lead to very large increases in the turn radius. This is a critical consideration for pilots manoeuvring in confined spaces like a valley. From Topic: Turning (Section 9.5, Figure 9.9 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_radius_speed.png"
+    },
+    {
+      "question": "If an aircraft increases its angle of bank while maintaining a constant true airspeed, its rate of turn will:",
+      "topic": "Rate of Turn",
+      "options": [
+        "decrease",
+        "remain the same",
+        "increase",
+        "initially increase, then decrease"
+      ],
+      "answer": "C",
+      "brief": "The rate of turn (how many degrees are turned per second) is directly proportional to the angle of bank. By increasing the bank angle at a constant speed, the horizontal component of lift becomes larger, which pulls the aircraft around the turn more quickly.",
+      "detailed": "The rate of turn is a measure of how quickly an aircraft can change its heading. This is governed by the horizontal component of lift, which provides the centripetal force for the turn. When a pilot increases the angle of bank, a larger portion of the total lift vector is directed horizontally towards the center of the turn. This stronger turning force causes the aircraft to change its direction more rapidly, thus increasing the rate of turn. This is why a steeper bank is used for a faster turn, provided the pilot has enough power to overcome the associated increase in drag. From Topic: Turning (Section 9.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_forces_components.png"
+    },
+    {
+      "question": "To achieve a Rate 1 turn (3 degrees per second), a pilot flying at a true airspeed of 150 knots would need an approximate bank angle of:",
+      "topic": "Rate 1 Turn",
+      "options": [
+        "15 degrees",
+        "22 degrees",
+        "25 degrees",
+        "32 degrees"
+      ],
+      "answer": "B",
+      "brief": "A common rule-of-thumb for calculating the bank angle required for a Rate 1 turn is to divide the true airspeed by ten and add seven. In this case, (150 / 10) + 7 = 22 degrees.",
+      "detailed": "A Rate 1, or standard rate, turn is a turn completed at a rate of 3 degrees per second, which allows a full 360-degree circle to be completed in exactly two minutes. This is a standard procedure used in instrument flying. While the precise formula is complex, pilots use a simple and effective rule-of-thumb for approximation: Angle of Bank ≈ (True Airspeed in knots / 10) + 7. Applying this to the question: (150 / 10) = 15. Then, 15 + 7 = 22. Therefore, an approximate bank angle of 22 degrees is required. From Topic: Turning (Section 9.7 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_and_bank_indicator.png"
+    },
+    {
+      "question": "An aircraft will have a tendency to overbank in a climbing turn because:",
+      "topic": "Overbanking Tendency",
+      "options": [
+        "the descending inner wing has a higher angle of attack",
+        "the engine torque is stronger during a climb",
+        "the ascending outer wing has a higher angle of attack",
+        "the rudder becomes less effective during a climb"
+      ],
+      "answer": "C",
+      "brief": "In a climbing turn, the outer, faster-moving wing also has a higher angle of attack because it is on the 'up-going' side of the turn. This combination of higher speed and higher angle of attack creates significantly more lift, resulting in a strong overbanking tendency.",
+      "detailed": "The standard overbanking tendency caused by the outer wing's higher speed is amplified during a climbing turn. Because the aircraft is following an upward-spiraling path, the wing on the outside of the turn is physically ascending at a steeper angle relative to the horizon than the inner wing. This gives the outer wing a slightly higher effective angle of attack in addition to its already higher airspeed. The combination of both these effects—higher speed and higher angle of attack—causes the outer wing to generate substantially more lift than the inner wing, leading to a much more pronounced tendency to overbank that the pilot must actively correct. From Topic: Turning (Section 9.10 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "climbing_turn_forces.png"
+    },
+    {
+      "question": "While maintaining a turn with a constant angle of bank, speed is decreased. As a consequence of the decreased speed -",
+      "topic": "Radius of Turn",
+      "options": [
+        "the rate of turn would increase and the radius of turn would decrease",
+        "the rate of turn would decrease and the radius of turn would increase",
+        "the rate of turn would increase and the radius of turn would increase",
+        "the rate of turn would decrease and the radius of turn would decrease"
+      ],
+      "answer": "A",
+      "brief": "Decreasing speed in a constant bank turn has two effects: the radius of the turn will decrease (Radius ∝ V²), and the rate of the turn will increase because the aircraft has less distance to travel to complete the circle.",
+      "detailed": "When an aircraft slows down in a turn while holding the same bank angle, its inertia decreases, allowing it to be pulled into a tighter turning circle. The radius of a turn is proportional to the square of the velocity, so reducing the speed significantly reduces the radius. Furthermore, the rate of turn is a measure of how quickly the turn is completed. Since the aircraft is now flying a much smaller circle at a slightly slower speed, the time it takes to complete the turn is reduced, which means the rate of turn (degrees per second) has increased. This is why a slow, steep turn is the tightest and fastest turn possible. From Topic: Turning (Exercise A5, Question 32 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_radius_speed.png"
+    },
+    {
+      "question": "Aileron drag is most pronounced under which conditions?",
+      "topic": "Aileron Drag (Adverse Yaw)",
+      "image": "aileron_drag.png",
+      "options": [
+        "High airspeed and low angle of attack",
+        "Low airspeed and high angle of attack",
+        "High airspeed and high angle of attack",
+        "Low airspeed and low angle of attack"
+      ],
+      "answer": "B",
+      "brief": "Aileron drag (adverse yaw) is most noticeable at low airspeeds and high angles of attack. This is because larger aileron deflections are needed to generate a rolling moment, and induced drag is already very high under these conditions.",
+      "detailed": "Adverse yaw is caused by the drag created by the downward-deflected aileron. This drag is a form of induced drag, which is highest at high angles of attack and low airspeeds. In these conditions (e.g., just after takeoff or on approach to land), the pilot needs to use large aileron inputs to make the aircraft roll. This large deflection on the rising wing creates a very large increase in induced drag, causing a powerful yawing motion away from the turn. At high speeds, the ailerons are much more effective, so only small deflections are needed, and the adverse yaw effect is minimal. From Topic: Control (Section 12.4 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "aileron_drag.png"
+    },
+    {
+      "question": "The diagram shows a Frise aileron. What is the purpose of the protruding leading edge labeled 'X'?",
+      "topic": "Frise Ailerons",
+      "image": "frise_aileron.png",
+      "options": [
+        "To increase the lift on the descending wing",
+        "To act as a mass balance to prevent flutter",
+        "To create parasite drag when the aileron is deflected up",
+        "To improve the structural strength of the aileron"
+      ],
+      "answer": "C",
+      "brief": "The part labeled 'X' is the specially designed leading edge of a Frise aileron. When the aileron moves up, this edge projects down into the airflow, creating parasite drag to counteract the adverse yaw from the opposite wing.",
+      "detailed": "A Frise aileron is an aerodynamic solution to the problem of adverse yaw. The aileron is hinged behind its leading edge. When the aileron on the descending wing is deflected upwards, its leading edge, 'X', drops into the smooth airflow beneath the wing. This creates a significant amount of parasite drag. This added drag on the descending wing helps to balance the increased induced drag from the rising wing's downward-deflected aileron. This balancing of drag forces keeps the aircraft's nose pointed into the turn, reducing the need for rudder input from the pilot. From Topic: Control (Section 12.5, Figure 12.14 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "frise_aileron.png"
+    },
+    {
+      "question": "In a descending turn, the tendency of an aircraft to overbank is:",
+      "topic": "Overbanking Tendency",
+      "options": [
+        "much stronger than in a level turn",
+        "the same as in a level turn",
+        "less than in a level turn or non-existent",
+        "strongest at low airspeeds"
+      ],
+      "answer": "C",
+      "brief": "In a descending turn, the 'overbanking' effect is significantly reduced or even eliminated. This is because the descending flight path reduces the angle of attack on the faster-moving outer wing, decreasing its lift and counteracting the overbanking tendency.",
+      "detailed": "The normal overbanking tendency is caused by the outer wing traveling faster and thus creating more lift. However, in a descending turn, the aircraft is following a downward-spiraling path. This means the outer wing, while moving faster horizontally, is also on the 'down-going' side of the spiral. This causes it to meet the relative airflow at a lower angle of attack than the inner wing. The effect of this lower angle of attack (which reduces lift) often cancels out, or even outweighs, the effect of the higher speed (which increases lift). As a result, the lift on the outer wing is not significantly greater, and the tendency to overbank is much less pronounced than in a level or climbing turn. From Topic: Turning (Section 9.10 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "descending_turn_forces.png"
+    },
+    {
+      "question": "What is the primary aerodynamic trade-off when using differential ailerons?",
+      "topic": "Differential Ailerons",
+      "options": [
+        "They are structurally weaker than standard ailerons",
+        "They can only be used at low airspeeds",
+        "They work by increasing parasite drag, which slightly reduces performance",
+        "They are less effective at high angles of attack"
+      ],
+      "answer": "C",
+      "brief": "The entire purpose of differential ailerons is to deliberately create parasite drag on the descending wing to counteract induced drag on the rising wing. While effective for yaw control, this intentionally added drag represents a slight performance penalty.",
+      "detailed": "Differential ailerons are a very effective way to manage adverse yaw. They function by making the up-going aileron travel further than the down-going one. This increased upward travel creates extra parasite drag on the inside, descending wing. While this is aerodynamically desirable for maintaining a coordinated turn, it is important to remember that all drag is a retarding force. This system works by intentionally sacrificing a small amount of performance (by creating drag) in order to gain a significant improvement in handling and control harmony, reducing the pilot's workload. From Topic: Control (Section 12.4 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "differential_ailerons.png"
+    },
+    {
+      "question": "During a prolonged climbing turn to the right, the pilot needs to apply -",
+      "topic": "Forces in a Turn",
+      "options": [
+        "left aileron and right rudder",
+        "right aileron and right rudder",
+        "left aileron and left rudder",
+        "right aileron and left rudder"
+      ],
+      "answer": "A",
+      "brief": "In a climbing right turn, the aircraft will have a strong tendency to overbank and yaw to the left. The pilot must apply opposite aileron (left) to prevent the bank from steepening and right rudder to counteract adverse yaw and P-factor.",
+      "detailed": "A climbing right turn combines several aerodynamic effects. The outer (left) wing travels faster and has a higher angle of attack, creating a strong overbanking tendency that must be corrected with left aileron. At the same time, the high power and high angle of attack create left-turning tendencies like slipstream and P-factor, which must be corrected with right rudder to keep the ball centered. Therefore, the pilot will find themselves holding a combination of left aileron and right rudder to maintain a stable, coordinated climbing right turn. From Topic: Climbing, Descending, and Turning (Exercise A5, Question 35 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "climbing_turn_forces.png"
+    },
+    {
+      "question": "This diagram illustrates the concept of:",
+      "topic": "Aileron Drag (Adverse Yaw)",
+      "image": "aileron_drag.png",
+      "options": [
+        "Torque reaction",
+        "The slipstream effect",
+        "Adverse aileron yaw",
+        "The overbanking tendency"
+      ],
+      "answer": "C",
+      "brief": "The diagram shows the right aileron deflected down, creating more lift and more drag. This extra drag on the right wing pulls the nose to the left, yawing the aircraft opposite to the intended right roll, which is the definition of adverse yaw.",
+      "detailed": "This diagram perfectly illustrates the cause of adverse yaw. The pilot intends to roll to the right, so the right aileron is deflected down and the left aileron is deflected up. The downward-deflected right aileron increases the camber of the right wing, producing more lift to initiate the roll. However, a byproduct of this increased lift is increased induced drag. The diagram shows a larger 'more drag' arrow on the right wing. This drag imbalance pulls the nose of the aircraft to the left, which is the opposite direction of the intended turn. This adverse yaw must be corrected with rudder. From Topic: Control (Section 12.4, Figure 12.12 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "aileron_drag.png"
+    },
+    {
+      "question": "In the balanced turn shown, what does the force vector 'H' represent?",
+      "topic": "Forces in a Balanced Level Turn",
+      "image": "turn_forces_labeled.png",
+      "options": [
+        "The vertical component of lift, opposing weight",
+        "The total weight of the aircraft",
+        "The horizontal component of lift, providing centripetal force",
+        "The total lift force produced by the wings"
+      ],
+      "answer": "C",
+      "brief": "The vector 'H' points horizontally towards the center of the turn. This represents the horizontal component of the total lift force, which acts as the centripetal force required to pull the aircraft around the turn.",
+      "detailed": "When an aircraft is banked for a turn, its total lift force is tilted. This tilted force can be resolved into two components. The vector 'V' represents the vertical component, which acts upwards to oppose the aircraft's weight and maintain altitude. The vector 'H' represents the horizontal component, which acts inwards towards the center of the turn. This horizontal force is the centripetal force that constantly changes the aircraft's direction, causing it to follow a curved flight path. Without this horizontal component of lift, the aircraft would not be able to turn. From Topic: Turning (Section 9.3, Figure 9.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_forces_components.png"
+    },
+    {
+      "question": "This diagram shows a differential aileron system. What is the key feature illustrated?",
+      "topic": "Differential Ailerons",
+      "image": "differential_ailerons.png",
+      "options": [
+        "Both ailerons move through the same angle",
+        "The downward-moving aileron moves through a larger angle than the upward-moving one",
+        "The upward-moving aileron moves through a larger angle than the downward-moving one",
+        "The ailerons are linked to the rudder"
+      ],
+      "answer": "C",
+      "brief": "The diagram clearly shows that the upward-deflected aileron has moved through a greater angle than the downward-deflected aileron. This is the defining characteristic of a differential aileron system, designed to combat adverse yaw.",
+      "detailed": "A differential aileron system is designed to equalize the drag created by the ailerons during a roll. As shown in the diagram, the up-going aileron (on the wing that is intended to go down) deflects much further than the down-going aileron. This large upward deflection creates significant parasite drag. This helps to counteract the large induced drag created by the down-going aileron on the rising wing. By balancing the drag between the two wings, the system minimizes adverse yaw and allows for more coordinated turns with less rudder input from the pilot. From Topic: Control (Section 12.4, Figure 12.13 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "differential_ailerons.png"
+    },
+    {
+      "question": "A Rate 1 turn is being carried out. If the pilot maintains the same rate of turn but increases the True Airspeed from 100 knots to 200 knots, the angle of bank required will:",
+      "topic": "Rate 1 Turn",
+      "options": [
+        "remain the same",
+        "decrease",
+        "increase",
+        "become 90 degrees"
+      ],
+      "answer": "C",
+      "brief": "To maintain a constant rate of turn (e.g., 3 degrees per second), a faster aircraft must use a greater angle of bank. This is because it needs to generate a much larger centripetal force to change its direction at the same rate.",
+      "detailed": "The rate of turn is dependent on both true airspeed and bank angle. If a pilot wishes to maintain a constant rate of turn while increasing speed, they must increase the angle of bank. The faster aircraft has more inertia and needs to be pulled around the corner more aggressively to achieve the same number of degrees turned per second. Using the rule of thumb (Bank Angle ≈ TAS/10 + 7), at 100 knots the bank would be ~17 degrees, while at 200 knots it would be ~27 degrees. This demonstrates that a higher speed requires a higher bank angle for the same rate of turn. From Topic: Turning (Section 9.7 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_and_bank_indicator.png"
+    },
+    {
+      "question": "During a balanced medium descending turn, which of the following applies?",
+      "topic": "Overbanking Tendency",
+      "options": [
+        "the outside wing has the greatest angle of attack and there will be a tendency to overbank",
+        "the inside wing has the greatest angle of attack and there will be a tendency to underbank",
+        "the inside wing has the greatest angle of attack and there is no tendency to over or underbank",
+        "both wings have the same angle of attack and there is no tendency to over or underbank"
+      ],
+      "answer": "C",
+      "brief": "In a descending turn, the inner wing is on the 'up-going' side of the descending spiral, giving it a higher angle of attack. The outer wing has a lower angle of attack, which cancels out the effect of its higher speed, resulting in little to no overbanking tendency.",
+      "detailed": "This is a complex interaction of forces. While the outer wing is travelling faster (which tends to increase lift and cause overbanking), the aircraft is on a descending spiral path. This means the inner wing is actually rising relative to the flight path, giving it a higher effective angle of attack. Conversely, the outer wing is descending more steeply, giving it a lower angle of attack. The reduced lift from the outer wing's lower AoA often cancels out the increased lift from its higher speed. As a result, there is little difference in lift between the two wings, and the aircraft shows little to no tendency to overbank. From Topic: Turning (Exercise A5, Question 39 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "descending_turn_forces.png"
+    },
+    {
+      "question": "An aircraft is established in a balanced level turn. If the pilot increases the angle of bank while maintaining constant altitude, the load factor will:",
+      "topic": "Relationship between Speed, Bank, and Radius",
+      "options": [
+        "decrease",
+        "remain the same",
+        "increase",
+        "decrease, then increase"
+      ],
+      "answer": "C",
+      "brief": "The load factor is a direct function of the angle of bank. As the bank angle increases, the wings must produce a greater total lift force to maintain altitude, which results in a corresponding increase in the load factor ('G' force).",
+      "detailed": "In a level turn, the total lift generated by the wings is divided into two components: a vertical component to counteract weight and a horizontal component to provide the turning force. As the bank angle becomes steeper, a larger portion of the total lift is directed horizontally, leaving less to oppose weight. To compensate and maintain altitude, the pilot must increase the overall lift by increasing the angle of attack. This increase in the total lift force relative to the aircraft's weight is the load factor, which increases exponentially with the bank angle. From Topic: Turning (Section 9.3 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "A Rate 1 turn is defined as a turn that completes 360 degrees in:",
+      "topic": "Rate 1 Turn",
+      "options": [
+        "one minute",
+        "two minutes",
+        "three minutes",
+        "four minutes"
+      ],
+      "answer": "B",
+      "brief": "A Rate 1 turn, also known as a standard rate turn, is a standardized manoeuvre in instrument flying. It is defined by a constant rate of turn of 3 degrees per second, which results in a full 360-degree circle being completed in exactly two minutes.",
+      "detailed": "The standard rate turn is a fundamental skill for instrument pilots, as it allows for predictable, timed turns for navigation and holding procedures. The rate is constant regardless of airspeed. A Rate 1 turn is always 3 degrees per second. Since there are 360 degrees in a circle, the time required to complete a full circle is 360 degrees / 3 degrees per second = 120 seconds, which is exactly two minutes. Pilots use the turn coordinator instrument to establish and maintain this specific rate of turn by adjusting the bank angle according to their true airspeed. From Topic: Turning (Section 9.6 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "What is the primary reason that an aeroplane tends to overbank in a level turn?",
+      "topic": "Overbanking Tendency",
+      "options": [
+        "The gyroscopic effect of the propeller causes a rolling moment.",
+        "The outer wing travels a longer path and therefore moves at a higher speed, generating more lift.",
+        "The inner wing begins to stall, causing the outer wing to rise.",
+        "Engine torque assists the direction of the roll."
+      ],
+      "answer": "B",
+      "brief": "The overbanking tendency is a natural effect in any turn. The wing on the outside of the turn must fly along a larger circle than the inner wing, meaning it has a higher true airspeed. This higher speed causes it to generate more lift, creating a rolling moment that tends to increase the bank angle.",
+      "detailed": "When an aircraft is in a turn, it pivots about a central point. This means that the outer wingtip has a greater distance to travel to complete a circle compared to the inner wingtip. Since both wings complete the circle in the same amount of time, the outer wing must be travelling at a higher velocity. According to the lift formula, lift is proportional to the square of the velocity (V²). Therefore, the faster-moving outer wing produces more lift than the slower-moving inner wing. This lift imbalance creates a continuous rolling moment that will try to steepen the bank, and the pilot must apply a small amount of opposite aileron to maintain a constant bank angle. From Topic: Turning (Section 9.9 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "Aileron drag is a form of:",
+      "topic": "Aileron Drag (Adverse Yaw)",
+      "options": [
+        "Parasite Drag",
+        "Interference Drag",
+        "Induced Drag",
+        "Form Drag"
+      ],
+      "answer": "C",
+      "brief": "Aileron drag, which causes adverse yaw, is a direct result of the lift differential created by the ailerons. The downward-deflected aileron increases the lift on the rising wing, and the unavoidable byproduct of this extra lift is an increase in induced drag.",
+      "detailed": "When an aileron is deflected downwards to raise a wing, it increases the camber of that wing section. This increases the coefficient of lift, which is the desired effect. However, a fundamental principle of aerodynamics is that induced drag is proportional to the square of the lift coefficient. Therefore, the wing producing more lift also produces significantly more induced drag. It is this imbalance in induced drag between the two wingtips that creates a yawing moment opposite to the direction of the turn. So, while the aileron itself creates some parasite drag, the primary cause of adverse yaw is the induced drag. From Topic: Control (Section 12.4 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "How does a Frise aileron work to counteract adverse yaw?",
+      "topic": "Frise Ailerons",
+      "options": [
+        "It is linked to the rudder to provide coordinated control.",
+        "It moves through a smaller angle than a standard aileron.",
+        "Its leading edge protrudes into the airflow when deflected up, creating parasite drag.",
+        "It has a built-in weight that shifts to balance the forces."
+      ],
+      "answer": "C",
+      "brief": "A Frise aileron is cleverly designed with an offset hinge. When the aileron is deflected upwards (on the descending wing), its leading edge projects downwards into the airflow, creating significant parasite drag that helps to balance the drag from the opposite wing.",
+      "detailed": "The Frise aileron is an aerodynamic solution to the problem of adverse yaw. Its hinge point is set further back than on a conventional aileron. When the pilot commands a roll and the aileron on the descending wing moves upwards, this offset hinge causes the aileron's leading edge to protrude into the smooth airflow beneath the wing. This creates a large amount of parasite drag (form drag). This deliberately created drag on the descending wing is designed to be roughly equal to the high induced drag from the rising wing. By balancing the total drag on both wings, the Frise aileron minimizes adverse yaw and promotes a coordinated turn. From Topic: Control (Section 12.5 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "In a balanced level turn, if the airspeed is held constant and the bank angle is decreased, the rate of turn will:",
+      "topic": "Relationship between Speed, Bank, and Rate",
+      "options": [
+        "increase.",
+        "decrease.",
+        "remain the same.",
+        "initially decrease, then increase."
+      ],
+      "answer": "B",
+      "brief": "The rate of turn is directly proportional to the bank angle. If an aircraft reduces its angle of bank while maintaining the same airspeed, the turning force (horizontal component of lift) is reduced, resulting in a slower rate of turn.",
+      "detailed": "The rate at which an aircraft changes its heading is a direct function of the horizontal component of lift. A steeper bank angle directs more of the total lift horizontally, creating a stronger turning force and a higher rate of turn. Conversely, a shallower bank angle directs less lift horizontally. Therefore, if the pilot reduces the bank angle from, for example, 30 degrees to 15 degrees, while holding the same airspeed, the turning force will be weaker, and the number of degrees turned per second will decrease. The radius of the turn would, in this case, increase.",
+      "detailed_image": "turn_forces_components.png"
+    },
+    {
+      "question": "To perform a Rate 1 turn at a True Airspeed of 90 knots, the pilot would need an approximate bank angle of:",
+      "topic": "Rate 1 Turn",
+      "options": [
+        "9 degrees",
+        "16 degrees",
+        "23 degrees",
+        "30 degrees"
+      ],
+      "answer": "B",
+      "brief": "Using the standard rule-of-thumb for a Rate 1 turn (TAS / 10 + 7), the approximate bank angle required would be calculated as (90 / 10) + 7 = 9 + 7 = 16 degrees.",
+      "detailed": "A Rate 1 turn is a standard rate turn of 3 degrees per second. To achieve this specific rate, the required bank angle changes with the aircraft's true airspeed. A simple and widely used approximation for pilots is the formula: Bank Angle ≈ (TAS in knots / 10) + 7. For an airspeed of 90 knots, this gives a value of (90/10) + 7, which equals 16 degrees. This rule-of-thumb provides a very accurate estimate for bank angles up to about 30 degrees, which covers the typical speed range for light aircraft in instrument flight.",
+      "detailed_image": "turn_and_bank_indicator.png"
+    },
+    {
+      "question": "The reason an aircraft does not tend to overbank in a descending turn is because:",
+      "topic": "Overbanking Tendency",
+      "options": [
+        "the engine power is typically at idle.",
+        "the inner wing has a higher effective angle of attack.",
+        "the outer wing is travelling slower than the inner wing.",
+        "the rudder has a powerful stabilizing effect."
+      ],
+      "answer": "B",
+      "brief": "In a descending turn, the inner (lower) wing is on the 'up-going' side of the descending spiral. This gives it a higher angle of attack, which generates more lift, counteracting the extra lift being produced by the faster-moving outer wing.",
+      "detailed": "The overbanking tendency in a level turn is caused by the outer wing's higher speed creating more lift. However, in a descending turn, the flight path is a downward spiral. This means that while the outer wing is moving faster, it is also on the 'down-going' side of the spiral, giving it a lower angle of attack. Conversely, the inner wing, while slower, is on the 'up-going' side of the spiral, giving it a higher angle of attack. The extra lift from the inner wing's higher AoA often balances or outweighs the extra lift from the outer wing's higher speed, thus neutralizing the overbanking tendency.",
+      "detailed_image": "descending_turn_forces.png"
+    },
+    {
+      "question": "A system where the up-going aileron deflects more than the down-going aileron is called:",
+      "topic": "Differential Ailerons",
+      "options": [
+        "a Frise aileron system",
+        "an anti-balance system",
+        "a differential aileron system",
+        "a mass balance system"
+      ],
+      "answer": "C",
+      "brief": "This describes the function of differential ailerons. They are designed so that the aileron on the descending wing (the up-going aileron) moves through a greater angle to create extra parasite drag, which helps to counteract adverse yaw.",
+      "detailed": "Differential ailerons are a mechanical design feature aimed at reducing adverse yaw. Adverse yaw is caused by the high induced drag from the downward-deflected aileron on the rising wing. A differential system compensates for this by creating drag on the other wing. The control linkage is engineered so that the aileron moving up deflects significantly more than the aileron moving down. This large upward deflection creates a large amount of parasite drag on the descending wing, which helps to equalize the total drag on both wingtips and keep the aircraft's nose pointed into the turn.",
+      "detailed_image": "differential_ailerons.png"
+    },
+    {
+      "question": "To maintain a constant radius turn while increasing airspeed, the pilot must:",
+      "topic": "Relationship between Speed, Bank, and Radius",
+      "options": [
+        "decrease the angle of bank",
+        "maintain a constant angle of bank",
+        "increase the angle of bank",
+        "reduce engine power"
+      ],
+      "answer": "C",
+      "brief": "Turn radius increases with the square of the speed. To counteract this and maintain the same tight radius at a higher speed, the pilot must significantly increase the angle of bank to provide a much stronger turning force.",
+      "detailed": "The radius of a turn is determined by the balance between the aircraft's inertia (a function of its speed) and the centripetal force pulling it into the turn (a function of the bank angle). If the pilot increases airspeed, the aircraft's inertia increases, and it will naturally try to fly in a much wider circle. To force the aircraft to follow the same, smaller radius, a much larger centripetal force is required. The only way to generate this larger force is to increase the angle of bank, which directs more of the wing's lift horizontally to pull the aircraft around the tighter corner.",
+      "detailed_image": "turn_radius_speed.png"
+    },
+    {
+      "question": "An aircraft is in a balanced, level turn to the right. To stop the turn and roll back to wings-level, the pilot must apply:",
+      "topic": "Forces in a Turn",
+      "image": "turn_recovery.png",
+      "options": [
+        "right aileron and right rudder",
+        "left aileron and left rudder",
+        "right aileron and left rudder",
+        "left aileron and right rudder"
+      ],
+      "answer": "B",
+      "brief": "To recover from a right turn, the pilot must apply control inputs to roll and yaw the aircraft to the left. This requires applying left aileron to raise the right wing and coordinated left rudder to counteract any adverse yaw and keep the aircraft balanced.",
+      "detailed": "Exiting a turn is the reverse of entering one. To stop the turn to the right, the pilot needs to create a rolling moment to the left. This is achieved by applying left aileron, which raises the right aileron and lowers the left one, causing the aircraft to roll level. At the same time, to maintain a coordinated flight and prevent the nose from skidding, the pilot must apply rudder in the direction of the roll. Therefore, a coordinated roll out from a right turn requires the simultaneous application of left aileron and left rudder.",
+      "detailed_image": "turn_recovery.png"
+    },
+    {
+      "question": "The primary instrument used to check if a turn is 'balanced' is the:",
+      "topic": "Forces in a Balanced Level Turn",
+      "image": "turn_and_balance_indicator.png",
+      "options": [
+        "airspeed indicator",
+        "attitude indicator",
+        "ball in the turn coordinator",
+        "vertical speed indicator"
+      ],
+      "answer": "C",
+      "brief": "The 'ball' is a simple inclinometer that shows the quality of a turn. In a balanced, or coordinated, turn, the forces are aligned with the aircraft's vertical axis, and the ball will remain in the center of its race.",
+      "detailed": "A balanced turn is one where the aircraft is not slipping or skidding. The ball in the turn coordinator is the primary instrument for indicating this. The ball responds to the sum of gravity and the centrifugal force of the turn. In a perfectly coordinated turn, this resultant force acts straight down through the floor of the aircraft, and the ball stays centered. If the ball is to the inside of the turn, it's a slip; if it's to the outside, it's a skid. Pilots are taught to 'step on the ball' with the rudder pedals to keep the turn coordinated.",
+      "detailed_image": "turn_and_balance_indicator.png"
+    },
+    {
+      "question": "What is the primary reason for the overbanking tendency in a climbing turn?",
+      "topic": "Overbanking Tendency",
+      "image": "climbing_turn.png",
+      "options": [
+        "The inner wing has a higher angle of attack",
+        "The gyroscopic effect of the propeller is strongest",
+        "The outer wing has a higher airspeed AND a higher angle of attack",
+        "Engine torque is trying to roll the aircraft"
+      ],
+      "answer": "C",
+      "brief": "In a climbing turn, the overbanking tendency is very strong because two effects combine. The outer wing is already travelling faster, and because it is on the 'up-going' side of the climbing spiral, it also has a higher effective angle of attack, creating significantly more lift.",
+      "detailed": "A climbing turn combines the normal overbanking tendency with an additional effect related to the climb. The outer wing is already moving faster than the inner wing, which creates more lift. On top of this, because the aircraft is climbing, the outer wing is on an upward trajectory relative to the inner wing. This gives it a slightly higher angle of attack. The combination of both a higher airspeed and a higher angle of attack means the outer wing generates substantially more lift than the inner wing. This creates a very strong rolling moment that the pilot must actively counter with opposite aileron to prevent the bank from steepening. From Topic: Turning (Section 9.10 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "climbing_turn_forces.png"
+    },
+    {
+      "question": "The diagram shows a differential aileron system. This system is designed to:",
+      "topic": "Differential Ailerons",
+      "image": "differential_ailerons.png",
+      "options": [
+        "increase the rate of roll",
+        "reduce the amount of adverse yaw",
+        "increase the stalling speed in a turn",
+        "act as a secondary flap system"
+      ],
+      "answer": "B",
+      "brief": "The diagram shows the up-going aileron deflecting more than the down-going one. This is the mechanism of a differential aileron system, which is designed to create extra drag on the descending wing to counteract adverse yaw.",
+      "detailed": "The primary purpose of a differential aileron system is to improve an aircraft's handling by reducing the adverse yaw that occurs when rolling. As shown, the up-going aileron travels through a much larger arc than the down-going aileron. This increased deflection creates significant parasite drag on the descending wing. This extra drag on the 'inside' wing helps to balance the high induced drag being created by the 'outside' wing, which has its aileron deflected down. This balancing of drag forces keeps the aircraft turning in a coordinated manner with minimal need for rudder input from the pilot. From Topic: Control (Section 12.4, Figure 12.13 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "differential_ailerons.png"
+    },
+    {
+      "question": "Which statement is true regarding the relationship between turn radius and bank angle at a constant airspeed?",
+      "topic": "Relationship between Speed, Bank, and Radius",
+      "image": "turn_radius_bank.png",
+      "options": [
+        "Increasing the bank angle increases the turn radius",
+        "Increasing the bank angle decreases the turn radius",
+        "Bank angle has no effect on the turn radius",
+        "The turn radius is always equal to the wingspan"
+      ],
+      "answer": "B",
+      "brief": "For a given airspeed, a steeper angle of bank will always result in a smaller radius of turn. This is because the steeper bank directs more of the lift force horizontally, providing a stronger turning force that pulls the aircraft into a tighter circle.",
+      "detailed": "The radius of a turn is inversely proportional to the horizontal component of lift. By increasing the angle of bank, the pilot directs a greater proportion of the total lift force horizontally, towards the center of the turn. This stronger centripetal force is more effective at pulling the aircraft from its straight path and into a curved one. Therefore, at any constant airspeed, a pilot can tighten the turn (decrease the radius) by simply increasing the angle of bank. The trade-off is that a steeper bank also requires more total lift and more power to maintain speed and altitude. From Topic: Turning (Section 9.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_radius_bank.png"
+    },
+    {
+      "question": "The pilot's primary control for stopping adverse yaw is the:",
+      "topic": "Aileron Drag (Adverse Yaw)",
+      "options": [
+        "elevator.",
+        "aileron.",
+        "throttle.",
+        "rudder."
+      ],
+      "answer": "D",
+      "brief": "Adverse yaw is a yawing motion opposite to the direction of roll. The primary control for managing yaw is the rudder. To counteract adverse yaw, the pilot must apply rudder in the same direction as the intended turn.",
+      "detailed": "Aileron drag creates an unwanted yawing moment. The flight control designed to produce a deliberate yawing moment is the rudder. Therefore, to achieve a 'coordinated' turn where the nose of the aircraft stays perfectly aligned with the flight path, the pilot must use the rudder to counteract the adverse yaw from the ailerons. This is why pilots are taught to use aileron and rudder together. For example, to initiate a right turn, the pilot applies right aileron and right rudder simultaneously. The right rudder creates a yawing moment to the right that exactly cancels out the adverse yaw to the left.",
+      "detailed_image": "coordinated_turn_controls.png"
+    },
+    {
+      "question": "For an aircraft with a TAS of 120 knots, what is the approximate bank angle for a Rate 1 turn?",
+      "topic": "Rate 1 Turn",
+      "options": [
+        "12 degrees",
+        "19 degrees",
+        "25 degrees",
+        "30 degrees"
+      ],
+      "answer": "B",
+      "brief": "Using the standard rule-of-thumb for a Rate 1 turn (TAS / 10 + 7), the approximate bank angle required would be calculated as (120 / 10) + 7 = 12 + 7 = 19 degrees.",
+      "detailed": "A Rate 1 turn is a standardized manoeuvre where the aircraft turns at a constant 3 degrees per second. To achieve this specific rate of turn, the required angle of bank increases with true airspeed. A simple and accurate approximation used by pilots is the formula: Bank Angle ≈ (TAS in knots / 10) + 7. For a TAS of 120 knots, this gives an approximate bank angle of 19 degrees. Maintaining this bank angle will result in a full 360-degree turn being completed in exactly two minutes. From Topic: Turning (Section 9.7 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_and_bank_indicator.png"
+    },
+    {
+      "question": "In a climbing turn, the aircraft has a tendency to overbank. The pilot must correct this by applying:",
+      "topic": "Overbanking Tendency",
+      "options": [
+        "aileron in the same direction as the turn.",
+        "aileron in the opposite direction to the turn.",
+        "rudder in the direction of the turn.",
+        "forward pressure on the control column."
+      ],
+      "answer": "B",
+      "brief": "The overbanking tendency is a rolling moment that tries to steepen the bank. To counteract this and hold a constant bank angle, the pilot must apply a small amount of aileron in the opposite direction of the turn.",
+      "detailed": "The overbanking tendency is caused by the outer wing traveling faster and, in a climb, having a higher angle of attack, which generates more lift. This creates a continuous rolling moment into the turn. To stop the bank from increasing, the pilot must create a counteracting rolling moment in the opposite direction. This is achieved by applying a small amount of opposite aileron. For example, in a climbing turn to the left, the pilot will need to hold a small amount of right aileron pressure to prevent the bank angle from becoming too steep. From Topic: Turning (Section 9.9 & 9.10 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "climbing_turn_forces.png"
+    },
+    {
+      "question": "What is the primary aerodynamic trade-off when using Frise ailerons?",
+      "topic": "Frise Ailerons",
+      "options": [
+        "They are heavier than standard ailerons",
+        "They are only effective at high speeds",
+        "They intentionally create parasite drag to improve control harmony",
+        "They slightly reduce the maximum lift coefficient of the wing"
+      ],
+      "answer": "C",
+      "brief": "The entire purpose of a Frise aileron is to deliberately create parasite drag on the descending wing. While this is highly effective at counteracting adverse yaw, it does so by intentionally making the aircraft slightly less aerodynamically efficient during the roll.",
+      "detailed": "A Frise aileron is a clever piece of aerodynamic design that provides a solution to adverse yaw. However, its method involves a performance trade-off. It works by projecting its leading edge into the airflow when deflected upwards, which creates a significant amount of parasite drag. This added drag is the 'price' paid for better handling. While the effect on overall performance is minimal, it is a conscious design choice to sacrifice a small amount of aerodynamic cleanliness in order to gain a large improvement in control coordination and reduce the pilot's workload. From Topic: Control (Section 12.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "frise_aileron.png"
+    },
+    {
+      "question": "During a steady level turn to the left, what are the four main forces acting on the aircraft?",
+      "topic": "Forces in a Balanced Level Turn",
+      "options": [
+        "Thrust, Drag, Lift, and Centrifugal Force",
+        "Thrust, Drag, Weight, and a tilted Lift vector",
+        "Thrust, Weight, and two Lift vectors",
+        "Thrust, Drag, Weight, and a horizontal turning force"
+      ],
+      "answer": "B",
+      "brief": "Even in a turn, the four fundamental forces are still Thrust, Drag, Weight, and Lift. The key difference is that in a turn, the Lift vector is tilted inwards to provide the turning force, and its magnitude is greater than the Weight.",
+      "detailed": "The four fundamental forces of flight—Thrust, Drag, Lift, and Weight—are always present. In a manoeuvre like a turn, their relationship changes. Thrust still opposes Drag, but both are now greater than in level flight. Weight still acts vertically downwards. The most significant change is to the Lift vector. It no longer acts vertically upwards but is tilted inwards, perpendicular to the banked wings. This tilted lift force is greater in magnitude than the aircraft's weight because its vertical component must still be equal to the weight to maintain altitude. From Topic: Turning (Section 9.2 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_forces_components.png"
+    },
+    {
+      "question": "If two identical aircraft are in a 30-degree banked turn, but Aircraft A is flying at 100 knots and Aircraft B is at 150 knots, which will have a higher rate of turn?",
+      "topic": "Relationship between Speed, Bank, and Rate",
+      "options": [
+        "Aircraft A (the slower one)",
+        "Aircraft B (the faster one)",
+        "The rate of turn will be the same for both",
+        "The rate of turn depends on weight, not speed"
+      ],
+      "answer": "A",
+      "brief": "For a constant angle of bank, the rate of turn is inversely proportional to the true airspeed. Therefore, the slower aircraft (Aircraft A) will complete its turn more quickly and will have a higher rate of turn.",
+      "detailed": "The rate of turn is a measure of how quickly an aircraft can change its heading. While a higher speed means the aircraft is moving faster, it also means it must fly a much larger circle for the same bank angle. The increased distance it has to travel in this larger circle outweighs the effect of its higher speed. As a result, the faster aircraft will take longer to complete a 360-degree turn, meaning its rate of turn (degrees per second) is lower. This is why the tightest, fastest turns are performed at lower airspeeds. From Topic: Turning (Section 9.5 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "What is the primary reason that power must be added to maintain speed in a level turn?",
+      "topic": "Power in a Turn",
+      "options": [
+        "The engine is less efficient when the aircraft is banked.",
+        "Parasite drag increases significantly due to the bank angle.",
+        "The total lift required is greater, which increases induced drag.",
+        "The propeller creates less thrust in a turn."
+      ],
+      "answer": "C",
+      "brief": "To maintain altitude in a turn, the wings must generate a total lift force greater than the aircraft's weight. This higher lift requirement is achieved at a higher angle of attack, which significantly increases induced drag, requiring more power to overcome.",
+      "detailed": "In a level turn, the lift vector is tilted. Only its vertical component opposes weight. To make this vertical component equal to the aircraft's weight, the total lift must be greater than the weight. The only way to increase lift at a constant airspeed is to increase the angle of attack. A fundamental rule of aerodynamics is that induced drag is a byproduct of lift; therefore, as lift increases, induced drag increases, typically by the square of the load factor. To maintain a constant airspeed against this extra drag, the pilot must increase the engine's thrust by adding power. From Topic: Turning (Section 9.3 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "Aileron drag is most significant during which flight condition?",
+      "topic": "Aileron Drag (Adverse Yaw)",
+      "options": [
+        "High-speed cruise flight",
+        "A steep, high-speed dive",
+        "A slow-speed, high angle of attack turn",
+        "A fast, shallow turn"
+      ],
+      "answer": "C",
+      "brief": "Aileron drag, or adverse yaw, is most pronounced at low airspeeds and high angles of attack. Under these conditions, the ailerons are less effective and require large deflections, and the high angle of attack means induced drag is already the dominant drag force.",
+      "detailed": "Adverse yaw is caused by the increased induced drag from the downward-deflected aileron on the rising wing. This effect is most powerful under conditions where induced drag is already high—namely, at low airspeeds and high angles of attack. In a slow turn, for example, the pilot needs to use a large aileron deflection to get the aircraft to roll. This large deflection creates a significant increase in lift on the outer wing, which in turn creates a very large amount of induced drag, causing a powerful yawing moment. At high speeds, the ailerons are very effective, and only small inputs are needed, so the adverse yaw is negligible. From Topic: Control (Section 12.4 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "A Frise aileron mitigates adverse yaw by:",
+      "topic": "Frise Ailerons",
+      "options": [
+        "deflecting the down-going aileron more than the up-going one.",
+        "using a small weight to balance the control forces.",
+        "creating parasite drag on the descending wing to match the induced drag on the rising wing.",
+        "being linked directly to the rudder."
+      ],
+      "answer": "C",
+      "brief": "A Frise aileron is designed with an offset hinge so that when it deflects upwards, its leading edge drops into the airflow. This creates a significant amount of parasite drag on the descending (inside) wing, which helps to balance the drag forces and reduce adverse yaw.",
+      "detailed": "The Frise aileron is a clever piece of aerodynamic engineering designed to create a drag force that counteracts adverse yaw. When a pilot initiates a roll, the aileron on the descending wing moves up. Due to its offset hinge, the leading edge of this aileron protrudes into the smooth airflow under the wing, creating substantial form drag. This intentionally created parasite drag on the descending wing is designed to be approximately equal to the increased induced drag on the rising wing. This balancing of the drag forces on both wingtips results in a more coordinated turn with less need for rudder input. From Topic: Control (Section 12.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "frise_aileron.png"
+    },
+    {
+      "question": "During a Rate 1 turn, an aircraft turns at a constant rate of:",
+      "topic": "Rate 1 Turn",
+      "options": [
+        "1 degree per second",
+        "2 degrees per second",
+        "3 degrees per second",
+        "It depends on the airspeed"
+      ],
+      "answer": "C",
+      "brief": "A Rate 1, or standard rate, turn has a fixed rate of turn by definition. It is a turn performed at a constant 3 degrees per second, which allows a full 360-degree circle to be completed in exactly two minutes.",
+      "detailed": "The concept of a standard rate turn is crucial for instrument flying, as it allows pilots to make timed turns with a predictable outcome. A Rate 1 turn is defined as turning at 3 degrees every second. Since a full circle has 360 degrees, the time to complete the turn is 360 / 3 = 120 seconds, or 2 minutes. While the angle of bank required to achieve this rate changes with airspeed, the rate of turn itself remains constant. The turn coordinator instrument is specifically calibrated to show when the aircraft is turning at this standard rate. From Topic: Turning (Section 9.6 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_and_bank_indicator.png"
+    },
+    {
+      "question": "Which of the following describes the overbanking tendency in a climbing turn?",
+      "topic": "Overbanking Tendency",
+      "image": "climbing_turn_forces.png",
+      "options": [
+        "It is weaker than in a level turn",
+        "It is the same as in a level turn",
+        "It is stronger than in a level turn",
+        "There is no overbanking tendency in a climbing turn"
+      ],
+      "answer": "C",
+      "brief": "The overbanking tendency is most pronounced in a climbing turn. This is because the outer wing is not only travelling faster, but it is also on the 'up-going' side of the climb, giving it a higher effective angle of attack and creating significantly more lift.",
+      "detailed": "In a level turn, the overbanking tendency is caused solely by the outer wing's higher speed. In a climbing turn, this effect is amplified. The aircraft is flying in an upward spiral. This means the outer wing is travelling on a longer, ascending path, which gives it a higher angle of attack relative to the airflow than the inner wing. The combination of both a higher airspeed AND a higher angle of attack causes the outer wing to generate substantially more lift. This creates a very strong rolling moment that the pilot must actively counter with opposite aileron. From Topic: Turning (Section 9.10 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "climbing_turn_forces.png"
+    },
+    {
+      "question": "A pilot is in a balanced 30-degree bank turn. If they increase their TAS without changing the bank angle, the radius of the turn will:",
+      "topic": "Relationship between Speed, Bank, and Radius",
+      "image": "turn_radius_speed.png",
+      "options": [
+        "decrease.",
+        "increase.",
+        "remain the same.",
+        "become zero."
+      ],
+      "answer": "B",
+      "brief": "The radius of a turn is directly proportional to the square of the true airspeed. Therefore, if a pilot increases their speed while holding a constant bank angle, the aircraft will fly a much wider circle, and the turn radius will increase.",
+      "detailed": "An aircraft in motion has inertia, and a turning manoeuvre requires a force to constantly change its direction. At a higher speed, the aircraft has more inertia and is more resistant to turning. To make it turn requires a larger centripetal force, which at a constant bank angle, can only be achieved by flying a larger radius. The formula Radius = V² / (g * tan(bank angle)) shows this relationship clearly. As the velocity (V) increases, the radius increases by the square of that change, resulting in a significantly wider turn. From Topic: Turning (Section 9.5, Figure 9.9 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_radius_speed.png"
+    },
+    {
+      "question": "A key difference between Frise and Differential ailerons is that:",
+      "topic": "Frise vs Differential Ailerons",
+      "image": "frise_vs_differential.png",
+      "options": [
+        "Frise ailerons create induced drag, while Differential ailerons create parasite drag.",
+        "Frise ailerons use an offset hinge, while Differential ailerons use altered travel distances.",
+        "Frise ailerons are only used on high-wing aircraft.",
+        "Differential ailerons are only effective at high speeds."
+      ],
+      "answer": "B",
+      "brief": "Both systems are designed to counteract adverse yaw, but they use different mechanisms. A Frise aileron has a specially shaped, offset-hinged leading edge, while a Differential aileron system has a mechanical linkage that makes the up-going aileron travel further than the down-going one.",
+      "detailed": "These are two distinct engineering solutions to the same problem of adverse yaw. The Frise aileron (top of diagram) is a matter of shape; its leading edge is designed to dip into the airflow when deflected up, creating form drag. The Differential aileron (bottom of diagram) is a matter of geometry; the mechanical linkage is designed so that the up-going aileron moves through a larger angle (e.g., 25 degrees) than the down-going aileron (e.g., 15 degrees). Both methods achieve the goal of creating extra drag on the descending wing to keep the turn coordinated. From Topic: Control (Section 12.4 & 12.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "frise_vs_differential.png"
+    },
+    {
+      "question": "If an aircraft is in a balanced level turn and the pilot applies more power, what is required to maintain the same radius of turn?",
+      "topic": "Effect of Power on Turn",
+      "options": [
+        "The bank angle must be increased.",
+        "The bank angle must be decreased.",
+        "The bank angle must be held constant.",
+        "The angle of attack must be decreased."
+      ],
+      "answer": "A",
+      "brief": "Adding power will increase the airspeed, which naturally tries to widen the turn. To maintain the same, smaller radius at this higher speed, the pilot must significantly increase the angle of bank to provide a stronger turning force.",
+      "detailed": "This is a multi-step problem. Adding power causes the airspeed to increase. An increase in airspeed at a constant bank angle would cause the turn radius to increase. To counteract this and force the aircraft to maintain the original, tighter radius, the pilot needs to generate a much larger centripetal force. The only way to do this is by increasing the angle of bank. Therefore, to fly a constant-radius turn at a higher speed, a steeper bank angle is always required. From Topic: Turning (Section 9.5 & 9.11 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_radius_bank.png"
+    },
+    {
+      "question": "The tendency of an aircraft's nose to yaw to the outside of a turn is known as:",
+      "topic": "Aileron Drag (Adverse Yaw)",
+      "options": [
+        "Slipstream Effect",
+        "P-Factor",
+        "Adverse Yaw",
+        "Spiral Instability"
+      ],
+      "answer": "C",
+      "brief": "Adverse yaw is the specific term for the tendency of an aircraft to yaw in the opposite direction to a roll. It is caused by the drag imbalance created by the deflected ailerons and is most prominent at low airspeeds.",
+      "detailed": "When a pilot initiates a roll to the right, the downward-deflected aileron on the right wing creates more lift, but also more induced drag. This extra drag on the right wing pulls the nose to the left, which is 'adverse' to the intended direction of the turn. This phenomenon is a direct consequence of the physics of lift and drag. It must be corrected with coordinated rudder input to maintain balanced flight. Design features like Frise and differential ailerons are specifically created to minimize this effect. From Topic: Control (Section 12.4 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "aileron_drag.png"
+    },
+    {
+      "question": "What happens to the rate of turn if the bank angle is kept constant, but the airspeed is decreased?",
+      "topic": "Relationship between Speed, Bank, and Rate",
+      "options": [
+        "The rate of turn decreases",
+        "The rate of turn remains the same",
+        "The rate of turn increases",
+        "The aircraft will stall"
+      ],
+      "answer": "C",
+      "brief": "At a constant bank angle, a slower airspeed will result in a higher rate of turn. This is because the aircraft is flying a much tighter circle, which it can complete in less time, thus increasing the degrees turned per second.",
+      "detailed": "The rate of turn is inversely proportional to the true airspeed for any given bank angle. While it may seem counter-intuitive, a slower aircraft actually turns faster in terms of degrees per second. This is because the radius of the turn decreases with the square of the speed. At a lower speed, the aircraft is flying a much smaller circle. Even though it is moving slower along this path, the distance is so much shorter that the time to complete a full 360-degree turn is reduced, resulting in a higher rate of turn. From Topic: Turning (Section 9.5 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "A Rate 1 turn is being performed. What is the one action a pilot can take to decrease the radius of the turn?",
+      "topic": "Rate 1 Turn",
+      "options": [
+        "Increase the angle of bank",
+        "Decrease the airspeed",
+        "Increase the airspeed",
+        "Decrease the angle of bank"
+      ],
+      "answer": "B",
+      "brief": "In a Rate 1 turn, the rate is fixed at 3 degrees/sec. Since turn radius is proportional to the square of the speed, the only way for the pilot to decrease the radius is to slow the aircraft down (and reduce the bank angle to maintain Rate 1).",
+      "detailed": "This question requires understanding the relationships in a coordinated turn. The radius of a turn is most strongly affected by speed (Radius ∝ V²). To make the turn tighter (decrease the radius), the pilot must decrease the airspeed. Because the rate of turn must remain constant at Rate 1, the pilot will also have to simultaneously reduce the angle of bank to compensate for the lower speed. The primary action, however, that results in a smaller turn radius is the reduction in airspeed. From Topic: Turning (Section 9.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "turn_radius_speed.png"
+    },
+    {
+      "question": "The primary reason power must be added in a turn is to overcome the increase in:",
+      "topic": "Power in a Turn",
+      "options": [
+        "parasite drag",
+        "induced drag",
+        "weight",
+        "centrifugal force"
+      ],
+      "answer": "B",
+      "brief": "A turn requires a higher angle of attack to generate the extra lift needed to maintain altitude. This higher angle of attack leads to a significant increase in induced drag, which must be overcome with additional engine power (thrust).",
+      "detailed": "When an aircraft banks, its total lift must be greater than its weight to maintain level flight. This increased lift is achieved by increasing the angle of attack. A fundamental consequence of increasing the angle of attack and the lift coefficient is a large increase in induced drag. If power is not added, this extra drag will cause the aircraft to slow down. Therefore, the primary reason a pilot must add power in a turn is to provide the extra thrust needed to counteract this increase in induced drag and maintain a constant airspeed. From Topic: Turning (Section 9.3 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "load_factor_turn.png"
+    },
+    {
+      "question": "Why is there no significant overbanking tendency in a descending turn?",
+      "topic": "Overbanking Tendency",
+      "options": [
+        "Because the engine is at a low power setting",
+        "Because the inner wing is travelling faster than the outer wing",
+        "Because the outer wing has a lower angle of attack, which cancels the effect of its higher speed",
+        "Because the rudder is more effective in a descent"
+      ],
+      "answer": "C",
+      "brief": "In a descending turn, the outer wing is on the 'down-going' side of the spiral flight path, which gives it a lower angle of attack. This reduction in lift on the outer wing counteracts the extra lift it generates from its higher speed, neutralizing the overbanking tendency.",
+      "detailed": "The overbanking tendency is caused by the outer wing's higher speed creating more lift. However, in a descending turn, the flight path is a downward spiral. This means the faster-moving outer wing is also descending more steeply, causing it to meet the relative airflow at a lower angle of attack. Conversely, the slower inner wing is descending less steeply, giving it a higher angle of attack. The reduced lift from the outer wing's lower AoA effectively cancels out the increased lift from its higher speed. This results in a more balanced lift distribution across the wings, and thus little to no overbanking tendency. From Topic: Turning (Section 9.10 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "descending_turn_forces.png"
+    },
+    {
+      "question": "Aileron drag is a type of __________ drag and it causes the aircraft to yaw __________ the direction of the turn.",
+      "topic": "Aileron Drag (Adverse Yaw)",
+      "options": [
+        "parasite, into",
+        "induced, opposite to",
+        "parasite, opposite to",
+        "induced, into"
+      ],
+      "answer": "B",
+      "brief": "Aileron drag is a form of induced drag because it is a direct result of the extra lift being created by the down-going aileron. This extra drag on the rising wing causes the aircraft to yaw opposite to the intended direction of the turn.",
+      "detailed": "This question tests the core definition of adverse yaw. The downward-deflected aileron on the rising wing increases that wing's lift, and a byproduct of this lift is a large increase in induced drag. This is the source of the drag. This drag force on the outer wing pulls the nose of the aircraft in the opposite direction of the turn. For example, in a roll to the right, the right wing's aileron goes down, creating drag that yaws the nose to the left. This is why it is called 'adverse' yaw, and it is a classic example of induced drag in action. From Topic: Control (Section 12.4 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "aileron_drag.png"
+    }
+  ]

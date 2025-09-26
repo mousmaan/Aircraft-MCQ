@@ -1,0 +1,700 @@
+[
+    {
+      "question": "What is the primary purpose of designing a wing with dihedral?",
+      "topic": "Dihedral",
+      "options": [
+        "To increase the aircraft's maximum speed",
+        "To enhance longitudinal stability (pitch stability)",
+        "To improve the aircraft's lateral stability (roll stability)",
+        "To decrease the overall weight of the wing structure"
+      ],
+      "answer": "C",
+      "brief": "Dihedral, the upward angle of the wings from the root to the tip, is a key design feature used to enhance an aircraft's natural lateral (roll) stability. It helps the aircraft automatically level its wings after a disturbance.",
+      "detailed": "Dihedral provides lateral stability by utilizing the effects of a sideslip. When a wing drops, the aircraft begins to slip towards the lower wing. Because of the dihedral angle, the lower wing meets the airflow at a slightly higher angle of attack compared to the raised wing. This increased angle of attack generates more lift on the lower wing, creating a rolling moment that tends to raise it back to a level position. This self-correcting tendency makes the aircraft more stable and easier for the pilot to fly, especially in turbulent conditions. It is a fundamental component of achieving positive static lateral stability."
+    },
+    {
+      "question": "The primary reason for designing a wing with anhedral (a downward wing angle) is to:",
+      "topic": "Anhedral",
+      "options": [
+        "increase the strength of the wing spar",
+        "enhance the effectiveness of the flaps",
+        "reduce excessive lateral stability",
+        "increase the aircraft's lift coefficient"
+      ],
+      "answer": "C",
+      "brief": "Anhedral is the opposite of dihedral and involves angling the wings downwards. It is used on aircraft that are already very stable in roll (like high-wing or swept-wing jets) to reduce their lateral stability and improve their roll rate and manoeuvrability.",
+      "detailed": "Some aircraft designs, particularly those with a high wing or significant sweepback, have strong inherent lateral stability. While stability is generally good, too much of it can make an aircraft feel sluggish and difficult to manoeuvre (i.e., hard to roll). Designers use anhedral to counteract this excessive stability. When an aircraft with anhedral sideslips, the lower wing presents a *lower* angle of attack to the relative airflow, reducing its lift and reinforcing the roll. This intentional reduction in stability makes the aircraft more responsive to aileron inputs and gives it a more agile feel, which is desirable for military jets and some large transport aircraft."
+    },
+    {
+      "question": "A high aspect ratio wing (long and narrow) is designed primarily to:",
+      "topic": "Aspect Ratio",
+      "options": [
+        "withstand higher structural loads",
+        "be more effective at supersonic speeds",
+        "minimize induced drag and improve efficiency",
+        "increase the aircraft's maximum takeoff weight"
+      ],
+      "answer": "C",
+      "brief": "A high aspect ratio wing, like those seen on a glider, is long and slender. This design is highly efficient because it minimizes the intensity of wingtip vortices, which in turn significantly reduces the amount of induced drag.",
+      "detailed": "Aspect ratio is the ratio of the wingspan squared to the wing area. A high aspect ratio wing minimizes the amount of air that can 'spill' from the high-pressure area below the wing to the low-pressure area above it at the wingtips. This reduces the size and strength of the wingtip vortices, which are the primary cause of induced drag. By minimizing induced drag, the aircraft becomes much more efficient, especially during climb and cruise flight. Gliders, which need to be extremely efficient, have very high aspect ratio wings, whereas fighter jets, which prioritize roll rate and structural strength, have low aspect ratio wings."
+    },
+    {
+      "question": "One of the main aerodynamic reasons for using sweepback on a wing is to:",
+      "topic": "Sweepback",
+      "options": [
+        "increase the wing's overall surface area",
+        "improve stall characteristics at low speeds",
+        "delay the onset of compressibility effects at high speeds",
+        "enhance the effectiveness of the ailerons"
+      ],
+      "answer": "C",
+      "brief": "Sweepback is a critical design feature for high-speed aircraft. By angling the wings rearwards, it effectively tricks the airflow into behaving as if the wing is thinner, which delays the formation of shock waves and the associated drag rise at high subsonic speeds.",
+      "detailed": "As an aircraft approaches the speed of sound, the airflow accelerating over the wing can reach supersonic speeds, creating shock waves. These shock waves cause a sudden increase in drag (known as wave drag) and can lead to control problems. By sweeping the wings back, only a component of the airflow is acting perpendicular to the leading edge. This reduces the effective velocity of the air flowing over the wing, delaying the point at which the airflow reaches Mach 1. This allows the aircraft to fly at a higher speed before encountering these adverse compressibility effects, a concept known as a higher critical Mach number."
+    },
+    {
+      "question": "Which of these design features is used to ensure the wing root stalls before the wing tip?",
+      "topic": "Wash-out",
+      "options": [
+        "Dihedral",
+        "Sweepback",
+        "Wash-out",
+        "Anhedral"
+      ],
+      "answer": "C",
+      "brief": "Wash-out is a deliberate twist built into the wing, where the angle of incidence at the wingtip is lower than at the wing root. This ensures that during a stall, the root stalls first, maintaining aileron effectiveness for roll control.",
+      "detailed": "Maintaining roll control during the initial stages of a stall is a critical safety feature. A stall begins when a section of the wing exceeds its critical angle of attack. By designing the wing with wash-out, the wing root is set at a higher angle of incidence than the wingtip. This means that as the pilot increases the overall angle of attack, the wing root will reach its critical angle first and begin to stall while the wingtips are still flying and producing lift. Because the ailerons are located at the wingtips, this ensures that the pilot retains control over the roll axis and can prevent the aircraft from dropping a wing, making stall recovery safer and more predictable."
+    },
+    {
+      "question": "The primary function of Fowler flaps is to:",
+      "topic": "Flaps",
+      "options": [
+        "increase the wing's aspect ratio",
+        "increase both the wing's camber and its surface area",
+        "act as airbrakes by disrupting airflow",
+        "only increase the wing's camber"
+      ],
+      "answer": "B",
+      "brief": "Fowler flaps are highly effective because they do two things at once. They move rearwards to increase the total surface area ('S') of the wing, and they pivot downwards to increase the wing's camber (curvature).",
+      "detailed": "Fowler flaps are a type of high-lift device designed to provide a large increase in lift with a moderate increase in drag, making them ideal for takeoff and initial landing approach stages. Unlike simpler flap types, their unique track system causes them to slide backwards before hinging down. The rearward movement significantly increases the wing's total surface area ('S' in the lift formula). The downward movement increases the wing's effective camber. Both of these effects together result in a very large increase in the wing's lift coefficient, allowing the aircraft to fly at much lower speeds during takeoff and landing.",
+      "detailed_image": "fowler_flaps_action.png"
+    },
+    {
+      "question": "What is the purpose of vortex generators?",
+      "topic": "Vortex Generators",
+      "image": "vortex_generators_on_wing.png",
+      "options": [
+        "To reduce induced drag by breaking up wingtip vortices",
+        "To intentionally create small vortices that re-energize the boundary layer and delay stall",
+        "To act as small trim tabs to reduce control pressures",
+        "To cool the surface of the wing at high speeds"
+      ],
+      "answer": "B",
+      "brief": "Vortex generators are small, vane-like protrusions on the wing's upper surface. They create tiny, energetic vortices that mix the fast-moving outer air with the slow-moving boundary layer, delaying airflow separation and increasing control effectiveness at high angles of attack.",
+      "detailed": "The boundary layer is a thin layer of air that tends to slow down due to skin friction. At high angles of attack, this low-energy air is prone to separating from the wing surface, which causes a stall. Vortex generators are strategically placed to combat this. They create small, controlled vortices that pull the high-energy, fast-moving air from just above the boundary layer down into it. This process 're-energizes' the boundary layer, giving it the momentum it needs to stay attached to the wing surface at higher angles of attack. This effectively delays the stall and can improve the effectiveness of control surfaces like ailerons and elevators at low speeds.",
+      "detailed_image": "vortex_generators_action.png"
+    },
+    {
+      "question": "A trim tab on an elevator is designed to hold the elevator in a specific position. To achieve this, the trim tab moves:",
+      "topic": "Trim Tabs",
+      "options": [
+        "in the same direction as the elevator",
+        "in the opposite direction to the elevator",
+        "independently of the elevator's position",
+        "upwards only, never downwards"
+      ],
+      "answer": "B",
+      "brief": "A trim tab works by creating a small aerodynamic force to hold the larger control surface in place. To make the elevator go up, for example, the pilot moves the trim tab down, which creates a force that pushes the entire elevator up.",
+      "detailed": "Imagine a pilot wanting to maintain a climb, which requires holding back-pressure on the control column to keep the elevator deflected upwards. To relieve this pressure, the pilot uses the trim wheel. This moves the small trim tab on the trailing edge of the elevator downwards. The airflow striking this downward-deflected tab creates an upward aerodynamic force on the tab itself. Because this force is acting at the very rear of the elevator, it creates a powerful leverage that holds the entire elevator surface in the desired upward position. This allows the pilot to remove their hands from the controls while the aircraft maintains its attitude.",
+      "detailed_image": "trim_tab_action.png"
+    },
+    {
+      "question": "Deploying spoilers on both wings simultaneously during flight will:",
+      "topic": "Wing Spoilers",
+      "options": [
+        "increase lift and decrease drag",
+        "decrease lift and increase drag",
+        "cause the aircraft to roll to the right",
+        "increase the aircraft's longitudinal stability"
+      ],
+      "answer": "B",
+      "brief": "Spoilers are designed to 'spoil' or disrupt the smooth airflow over the upper surface of the wing. This action simultaneously decreases the wing's lift and significantly increases its drag, making them effective as speed brakes or for increasing descent rates.",
+      "detailed": "Spoilers are panels on the upper surface of the wing that can be raised into the airflow. When deployed, they create a large turbulent wake behind them, which has two main effects. First, it disrupts the low-pressure area that generates lift, causing a significant reduction in the wing's overall lift. Second, this turbulence and the spoiler's frontal area create a large amount of parasite drag. This combination is very useful for pilots. It allows them to increase their rate of descent without increasing their airspeed, or to slow the aircraft down quickly after landing to improve braking effectiveness. This is why you see them deploy on airliners immediately after touchdown.",
+      "detailed_image": "spoilers_deployed.png"
+    },
+    {
+      "question": "A 'plain flap', when extended, primarily increases the wing's:",
+      "topic": "Flaps",
+      "options": [
+        "camber",
+        "surface area",
+        "aspect ratio",
+        "sweepback"
+      ],
+      "answer": "A",
+      "brief": "A plain flap is the simplest type of flap. It is a hinged portion of the trailing edge that simply pivots downwards. This action increases the curvature, or 'camber', of the aerofoil, which results in a higher coefficient of lift.",
+      "detailed": "A plain flap functions by increasing the effective camber of the wing section. By deflecting the trailing edge downwards, the flap creates a more curved upper surface and a more concave lower surface. This increased curvature forces the airflow to accelerate more, creating a lower pressure on top and a higher pressure below, which results in an increase in the wing's lift coefficient. This allows the aircraft to fly at a lower airspeed for takeoff and landing. Unlike more complex flaps like Fowler flaps, a plain flap does not significantly increase the wing's surface area.",
+      "detailed_image": "plain_flap_action.png"
+    },
+    {
+      "question": "Which of the following is an effect of sweepback on an aircraft?",
+      "topic": "Sweepback",
+      "image": "sweepback_wing.png",
+      "options": [
+        "It decreases the stalling speed",
+        "It improves low speed handling characteristics",
+        "It increases longitudinal stability",
+        "It increases lateral stability"
+      ],
+      "answer": "D",
+      "brief": "Sweepback has a powerful dihedral effect, which significantly increases the aircraft's lateral (roll) stability. When a swept wing sideslips, the lower wing effectively has a longer chord aligned with the airflow, creating more lift and a restoring roll moment.",
+      "detailed": "While the primary reason for sweepback is to improve high-speed performance, it also has a significant effect on the aircraft's stability. When an aircraft with swept wings yaws or sideslips, the forward-going (lower) wing becomes 'less swept' relative to the airflow. This means its chord length parallel to the airflow is effectively longer than the retreating wing. This gives it a higher lift coefficient and causes it to generate more lift, creating a strong rolling moment that tends to level the wings. This is known as the 'dihedral effect' of sweepback and is a major contributor to lateral stability. From Topic: Stability (Exercise A6, Question 17 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "sweepback_dihedral_effect.png"
+    },
+    {
+      "question": "A primary reason for designing a wing with washout is to-",
+      "topic": "Wash-out",
+      "options": [
+        "reduce induced drag at cruising speed.",
+        "ensure that the wing tip will not stall before the wing root",
+        "improve aileron effectiveness throughout the speed range",
+        "reduce induced drag and improve aileron effectiveness"
+      ],
+      "answer": "B",
+      "brief": "Washout is a twist in the wing that reduces the angle of incidence at the wingtip. Its primary purpose is to ensure that the wing root stalls before the wingtip, maintaining aileron control for a safer stall recovery.",
+      "detailed": "Maintaining roll control at the onset of a stall is a critical safety feature in aircraft design. Washout is a key technique used to achieve this. By building a physical twist into the wing so that the wing root is at a higher angle of attack than the wingtip, designers ensure that the root will always reach its critical stalling angle first. This means the inboard section of the wing will stall while the outboard section, where the ailerons are located, is still flying and generating lift. This guarantees that the ailerons remain effective, allowing the pilot to maintain roll control and prevent a potentially dangerous wing-drop. From Topic: Stability (Progress Test Section 10 & 11, Question 1 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "washout_diagram.png"
+    },
+    {
+      "question": "The dihedral angle on a high wing aircraft is usually less than that on a low wing design because the high wing design has-",
+      "topic": "Dihedral",
+      "options": [
+        "stronger lateral stability",
+        "stronger longitudinal stability",
+        "weaker lateral stability",
+        "weaker longitudinal stability"
+      ],
+      "answer": "A",
+      "brief": "A high-wing aircraft already has significant natural lateral stability due to the pendulum effect (the weight is below the lift). Therefore, it requires much less dihedral angle than a low-wing aircraft to achieve the desired level of stability.",
+      "detailed": "High-wing aircraft benefit from a natural roll stability known as the 'pendulum effect' or 'keel effect'. Because the aircraft's center of gravity is located below the wing's center of lift, the fuselage acts like the weight on a pendulum. If a wing drops, the weight of the fuselage naturally tries to pull it back to the level position. A low-wing aircraft does not have this advantage and can be inherently unstable in roll. Therefore, designers must incorporate a much more pronounced dihedral angle on a low-wing aircraft to provide the necessary lateral stability that a high-wing aircraft already possesses naturally. From Topic: Stability (Progress Test Section 10 & 11, Question 2 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "Which of the following would positively establish that an aircraft is in a spin and not a spiral dive?",
+      "topic": "Wing Spoilers",
+      "image": "spin_vs_spiral_dive.png",
+      "options": [
+        "low nose attitude",
+        "rapid rate of turn",
+        "indicated air speed low and almost unchanging",
+        "steadily increasing indicated air speed"
+      ],
+      "answer": "C",
+      "brief": "The key difference between a spin and a spiral dive is the airspeed. A spin is a stalled condition where the airspeed is low and stable, whereas a spiral dive is an unstalled, steep turn where the airspeed increases rapidly.",
+      "detailed": "A spin is an aggravated stall that results in autorotation. Because the wings are stalled, the drag is very high, and the aircraft's forward speed remains low and relatively constant. The turn and bank indicator will show a high rate of turn. In contrast, a spiral dive is a steep, descending turn where the wings are not stalled. Because it is essentially a steep dive, the aircraft's airspeed will increase rapidly and can quickly exceed structural limits if not corrected. The most reliable instrument for a pilot to differentiate between the two is the airspeed indicator: if it's low and stable, it's a spin; if it's high and increasing, it's a spiral dive. From Topic: Control (Exercise A6, Question 3 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "spin_vs_spiral_dive_airspeed.png"
+    },
+    {
+      "question": "To trim an aircraft for a higher nose attitude, the elevator trim tab must be deflected so as to provide a local lift force which acts -",
+      "topic": "Trim Tabs",
+      "options": [
+        "upwards to lift the elevator up",
+        "upwards to push the elevator down",
+        "downwards to lift the elevator up",
+        "downwards to push the elevator down"
+      ],
+      "answer": "A",
+      "brief": "To hold a higher nose attitude, the elevator must be held in an 'up' position. To achieve this, the trim tab is deflected downwards, creating a local upward lift force at the trailing edge which holds the entire elevator surface up.",
+      "detailed": "Trimming is the process of relieving control pressures. If a pilot wants to maintain a nose-high attitude, they must hold the control column back, which deflects the elevator upwards. To trim for this, the pilot adjusts the trim wheel, which moves the small trim tab on the elevator's trailing edge downwards into the airstream. The airflow striking this tab creates a small but effective upward lift force on the tab itself. Acting at the very rear of the control surface, this force has a powerful leverage effect, holding the entire elevator in the desired upward position without the pilot needing to apply any continuous pressure. From Topic: Control (Exercise A6, Question 20 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "trim_tab_action.png"
+    },
+    {
+      "question": "A device which encourages the airflow to separate from a wing surface during stall progression is a -",
+      "topic": "Flaps",
+      "options": [
+        "slat",
+        "flap",
+        "stall strip",
+        "wing fence"
+      ],
+      "answer": "C",
+      "brief": "A stall strip is a small triangular or wedge-shaped device added to the leading edge of the wing root. It is designed to disrupt the airflow at high angles of attack, forcing the wing root to stall before the wingtips.",
+      "detailed": "A stall strip is a simple but effective aerodynamic device used to fine-tune an aircraft's stall characteristics. By placing a small, sharp-edged strip near the wing root, designers can guarantee that the airflow in this area will separate at a slightly lower angle of attack than the rest of the wing. This ensures that the stall begins at the wing root, providing the pilot with a clear aerodynamic buffet or warning, while keeping the ailerons at the wingtips fully effective for roll control. This promotes a more docile and predictable stall behavior, enhancing safety. From Topic: Stability (Progress Test Section 10 & 11, Question 8 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "stall_strip_on_wing.png"
+    },
+    {
+      "question": "The ratio of the square of the wing span to the wing area is known as",
+      "topic": "Aspect Ratio",
+      "options": [
+        "the taper ratio",
+        "the aspect ratio",
+        "the thickness/chord ratio",
+        "the fineness ratio"
+      ],
+      "answer": "B",
+      "brief": "Aspect ratio is a key measure of a wing's shape and efficiency. It is formally defined as the wingspan squared, divided by the wing's planform area, indicating how long and slender the wing is.",
+      "detailed": "Aspect ratio is a dimensionless number that describes the relationship between a wing's span and its chord. A high aspect ratio (e.g., >10) indicates a long, narrow wing like that of a glider, while a low aspect ratio (e.g., <3) indicates a short, stubby wing like that of a fighter jet. Aspect ratio has a major impact on induced drag; a higher aspect ratio wing is more efficient because it minimizes the formation of wingtip vortices, resulting in significantly less drag for a given amount of lift. From Topic: Total Drag in Flight (Section 5.4 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "aspect_ratio_comparison.png"
+    },
+    {
+      "question": "What is a primary purpose of wing spoilers when used asymmetrically (on one wing only)?",
+      "topic": "Wing Spoilers",
+      "options": [
+        "To act as a powerful airbrake for slowing down",
+        "To assist the ailerons in providing roll control",
+        "To improve the wing's lift-to-drag ratio",
+        "To enhance the effectiveness of the rudder"
+      ],
+      "answer": "B",
+      "brief": "When spoilers are deployed on one wing only, they 'spoil' the lift on that wing, causing it to drop. This provides a powerful roll control input that can assist or, in some aircraft, replace the function of the ailerons.",
+      "detailed": "In many large or high-speed aircraft, ailerons alone may not be effective enough or can cause adverse wing-twisting effects. In these aircraft, spoilers are integrated into the roll control system. When the pilot commands a roll, the spoiler on the wing that needs to go down is raised. This instantly dumps a significant amount of lift on that wing, causing it to drop cleanly and efficiently. This provides a powerful and responsive roll control, often in conjunction with the ailerons, and eliminates the problem of adverse yaw since the raised spoiler also adds drag. From Topic: Control (Section 12.6 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "spoiler_roll_control.png"
+    },
+    {
+      "question": "A balance tab is a type of trim tab that moves in the:",
+      "topic": "Trim Tabs",
+      "options": [
+        "same direction as the main control surface to make the controls heavier",
+        "opposite direction to the main control surface to make the controls lighter",
+        "same direction as the main control surface to make the controls lighter",
+        "opposite direction to the main control surface to make the controls heavier"
+      ],
+      "answer": "B",
+      "brief": "A balance tab is linked to the control surface in such a way that when the main surface is deflected, the tab moves in the opposite direction. This creates an aerodynamic force that helps the pilot move the control surface, making the controls feel lighter.",
+      "detailed": "On large or fast aircraft, the aerodynamic forces acting on control surfaces like the elevator or ailerons can be extremely high, making them very heavy for the pilot to move. A balance tab is a clever device designed to assist the pilot. It is mechanically linked so that when the pilot deflects the main control surface (e.g., moves the elevator up), the tab automatically deflects in the opposite direction (down). The airflow striking the tab creates a force that helps to push the main surface in the desired direction. This 'aerodynamic assistance' significantly reduces the control pressures the pilot feels. From Topic: Control (Section 12.3 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "balance_tab_action.png"
+    },
+    {
+      "question": "Extending flaps during a landing approach will:",
+      "topic": "Flaps",
+      "options": [
+        "increase both lift and drag",
+        "increase lift but decrease drag",
+        "decrease lift but increase drag",
+        "decrease both lift and drag"
+      ],
+      "answer": "A",
+      "brief": "The primary purpose of landing flaps is to increase both lift and drag. The increased lift allows for a lower and safer approach speed, while the increased drag allows for a steeper descent path without the airspeed increasing.",
+      "detailed": "Using flaps for landing provides two critical benefits. First, extending flaps increases the wing's coefficient of lift (CL), which significantly reduces the aircraft's stalling speed. This allows the pilot to fly the final approach at a much lower and safer airspeed. Second, flaps also significantly increase the wing's drag. This increased drag is highly beneficial as it allows the aircraft to fly a steeper descent path to the runway without building up excess speed. This combination of a low speed and a steep approach path is essential for making a controlled and accurate landing, especially on shorter runways. From Topic: Aerodynamics Final Test No 1, Question 8."
+    },
+    {
+      "question": "The primary purpose of a 'slat' on the leading edge of a wing is to:",
+      "topic": "Flaps (High-Lift Devices)",
+      "options": [
+        "decrease induced drag during cruise flight",
+        "act as an airbrake during landing",
+        "increase the maximum lift coefficient and delay the stall to a higher angle of attack",
+        "improve the wing's structural strength"
+      ],
+      "answer": "C",
+      "brief": "A slat is a leading-edge high-lift device. When deployed, it opens a slot that allows high-energy air from below the wing to flow over the upper surface, significantly delaying airflow separation and allowing the wing to reach a much higher angle of attack before stalling.",
+      "detailed": "A slat is one of the most effective ways to increase a wing's maximum lift coefficient (CLmax). At high angles of attack, the slat moves forward, opening a small gap or 'slot' at the leading edge. High-pressure air from underneath the wing is ducted through this slot and ejected over the top surface. This high-energy air re-energizes the boundary layer, helping it to remain attached to the wing even at very high angles of attack. This allows the wing to produce lift at angles where it would normally be stalled, resulting in a much lower stalling speed and improved low-speed handling characteristics. From Topic: Lift Augmentation Devices (Section 7.8 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "A key disadvantage of a high aspect ratio wing is that it typically has:",
+      "topic": "Aspect Ratio",
+      "options": [
+        "a higher amount of induced drag",
+        "poor performance at high altitudes",
+        "a lower maximum lift coefficient",
+        "a slower roll rate and requires a stronger structure"
+      ],
+      "answer": "D",
+      "brief": "While aerodynamically efficient, long and slender high aspect ratio wings have drawbacks. They have a large moment of inertia, which makes them slow to roll, and the long span creates significant bending stresses at the wing root, requiring a heavier structure.",
+      "detailed": "There are always trade-offs in aircraft design. A high aspect ratio wing is excellent for minimizing induced drag, which is why it is used on gliders and long-range airliners. However, this long span comes with penalties. Structurally, the large distance from the wingtip to the root creates a very high bending moment that must be supported by a strong, and therefore heavy, wing spar. Aerodynamically, the mass of the wing is distributed further from the aircraft's centerline, resulting in a higher moment of inertia in roll. This makes the aircraft less agile and gives it a slower, more sluggish roll rate compared to a short, stubby low aspect ratio wing. From Topic: Total Drag in Flight (Section 5.5 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "When spoilers are used asymmetrically for roll control, they are deployed on which wing?",
+      "topic": "Wing Spoilers",
+      "options": [
+        "On the wing that is intended to go up",
+        "On both wings simultaneously",
+        "On the wing that is intended to go down",
+        "They are deployed alternately on both wings"
+      ],
+      "answer": "C",
+      "brief": "When used for roll control, spoilers work by 'spoiling' or destroying lift. Therefore, to make a wing drop, the spoiler on that same wing is raised, which dumps the lift on that side and causes the aircraft to roll in that direction.",
+      "detailed": "Spoilers provide roll control by acting as lift dumpers. If a pilot wants to roll the aircraft to the right, they need the right wing to go down. The control system will raise the spoiler panels only on the upper surface of the right wing. This disrupts the smooth airflow, 'spoiling' the lift being generated by that wing. The left wing, with its spoiler retracted, continues to produce normal lift. This lift imbalance between the two wings creates a powerful rolling moment that causes the aircraft to bank to the right. This method is very effective and avoids the adverse yaw associated with ailerons. From Topic: Control (Section 12.6 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "The primary reason for designing a wing with washout is to",
+      "topic": "Wash-out",
+      "options": [
+        "reduce induced drag at cruising speed",
+        "ensure that the wing tip will not stall before the wing root",
+        "improve aileron effectiveness throughout the speed range",
+        "reduce both induced drag and improve aileron effectiveness"
+      ],
+      "answer": "B",
+      "brief": "Washout is a deliberate twist in the wing that reduces the angle of incidence at the wingtip. Its primary purpose is to ensure that the wing root stalls before the wingtip, maintaining aileron control for a safer stall recovery.",
+      "detailed": "Maintaining roll control at the onset of a stall is a critical safety feature in aircraft design. Washout is a key technique used to achieve this. By building a physical twist into the wing so that the wing root is at a higher angle of attack than the wingtip, designers ensure that the root will always reach its critical stalling angle first. This means the inboard section of the wing will stall while the outboard section, where the ailerons are located, is still flying and generating lift. This guarantees that the ailerons remain effective, allowing the pilot to maintain roll control and prevent a potentially dangerous wing-drop. From Topic: Stability (Progress Test Section 10 & 11, Question 1 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "washout_diagram.png"
+    },
+    {
+      "question": "A 'slotted flap' is more effective than a 'plain flap' because:",
+      "topic": "Flaps",
+      "options": [
+        "the slot allows high-energy air to re-energize the boundary layer",
+        "it has a much larger surface area",
+        "it creates significantly less drag",
+        "it is structurally much lighter"
+      ],
+      "answer": "A",
+      "brief": "A slotted flap is an improvement on a plain flap because it has a gap, or slot, between the wing and the flap. This slot allows high-pressure, high-energy air from below the wing to flow over the top of the flap, delaying airflow separation.",
+      "detailed": "When a plain flap is deflected to a large angle, the airflow over its upper surface has difficulty following the sharp curve and tends to separate, limiting its effectiveness. A slotted flap solves this problem. The gap between the wing and the flap's leading edge acts as a duct. It channels high-pressure air from the lower surface of the wing and ejects it at high speed over the upper surface of the flap. This high-energy jet of air re-energizes the boundary layer, helping it to remain attached even at very high flap deflections. This results in a much greater increase in the maximum lift coefficient compared to a plain flap. From Topic: Lift Augmentation Devices (Section 7.7 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "slotted_flap_action.png"
+    },
+    {
+      "question": "What is the primary function of a wing fence on a highly swept wing?",
+      "topic": "Sweepback",
+      "image": "wing_fence.png",
+      "options": [
+        "To increase the structural strength of the wing",
+        "To reduce the aircraft's stalling speed",
+        "To act as a vortex generator to delay separation",
+        "To prevent the spanwise flow of the boundary layer towards the wingtip"
+      ],
+      "answer": "D",
+      "brief": "A wing fence is a vertical plate on the upper surface of a swept wing. Its purpose is to act as a barrier to stop the boundary layer from flowing sideways towards the wingtip, which helps to prevent premature tip stalling.",
+      "detailed": "Swept wings have a natural tendency for the boundary layer to flow outwards towards the wingtips, rather than straight back. This 'spanwise flow' causes the boundary layer to thicken at the tips, making them prone to stalling before the wing root. A wing fence is a simple but effective aerodynamic dam. It physically blocks this spanwise flow, forcing the air to flow rearwards over its section of the wing. By preventing the accumulation of the slow-moving boundary layer at the tips, a wing fence helps ensure the wing stalls in a more controlled manner, typically from the root first. From Topic: Lift Augmentation Devices (Section 7.8 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "wing_fence.png"
+    },
+    {
+      "question": "A 'split flap' is known for producing a:",
+      "topic": "Flaps",
+      "image": "split_flap_action.png",
+      "options": [
+        "large increase in lift with very little increase in drag",
+        "small increase in lift with a large decrease in drag",
+        "large increase in lift but also a very large increase in drag",
+        "small increase in lift with a small increase in drag"
+      ],
+      "answer": "C",
+      "brief": "A split flap is a type of flap that deflects from the lower surface of the wing, leaving the upper surface undisturbed. This design produces a good amount of lift but also creates a large, turbulent wake, resulting in a very large increase in drag.",
+      "detailed": "A split flap is hinged at the bottom surface of the wing. When it is deployed, it deflects downwards, creating a sharp, wedge-like shape. This significantly increases the pressure on the lower surface and provides a good increase in the lift coefficient. However, because the upper surface airflow is not guided smoothly, a large area of turbulent, low-pressure air is created behind the flap. This turbulence results in a very large increase in drag. Because of this high-drag characteristic, split flaps are very effective for steep approaches but are not as efficient as slotted or Fowler flaps for takeoff. From Topic: Lift Augmentation Devices (Section 7.7, Figure 7.11 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "split_flap_action.png"
+    },
+    {
+      "question": "To trim an aircraft for a lower nose attitude (higher speed), the elevator trim tab must be deflected:",
+      "topic": "Trim Tabs",
+      "image": "trim_tab_action.png",
+      "options": [
+        "upwards, to create a downward force on the elevator's trailing edge",
+        "downwards, to create an upward force on the elevator's trailing edge",
+        "to the neutral position",
+        "in the same direction as the elevator"
+      ],
+      "answer": "A",
+      "brief": "To fly faster, the elevator must be held in a slightly down position to lower the nose. To relieve the forward pressure required for this, the pilot trims 'nose down', which deflects the trim tab upwards into the airstream.",
+      "detailed": "Trimming allows the pilot to remove control pressures. To maintain a higher speed, a pilot must apply forward pressure to hold the elevator slightly down, which lowers the aircraft's nose and reduces the angle of attack. To hold this elevator position 'hands-off', the pilot adjusts the trim. This deflects the small trim tab on the elevator's trailing edge upwards. The airflow strikes this upward tab, creating a downward aerodynamic force. This force, acting on the lever arm of the tab, holds the entire elevator in the desired slightly-down position, perfectly balancing the control forces. This is a manipulated version of Exercise A6, Question 20.",
+      "detailed_image": "trim_tab_action.png"
+    },
+    {
+      "question": "An aircraft with a very low aspect ratio wing (short and wide) will typically have:",
+      "topic": "Aspect Ratio",
+      "image": "aspect_ratio_comparison.png",
+      "options": [
+        "low induced drag and a slow roll rate",
+        "high induced drag and a fast roll rate",
+        "low induced drag and a fast roll rate",
+        "high induced drag and a slow roll rate"
+      ],
+      "answer": "B",
+      "brief": "A low aspect ratio wing is short and stubby, like on a fighter jet. This shape is not efficient and creates a high amount of induced drag, but it has very low inertia, which allows for a very fast and responsive roll rate.",
+      "detailed": "Low aspect ratio wings are chosen for aircraft where manoeuvrability and structural strength are more important than aerodynamic efficiency. The short wingspan allows for very strong wingtip vortices to form, which results in a very high amount of induced drag for any given amount of lift. This makes the aircraft inefficient for long-range cruise. However, the major advantage is that the mass of the wing is concentrated close to the fuselage. This low moment of inertia allows the aircraft to roll very quickly, providing the high degree of agility required for fighter aircraft and aerobatic planes. From Topic: Total Drag in Flight (Section 5.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "aspect_ratio_comparison.png"
+    },
+    {
+      "question": "Which of these design features primarily addresses lateral (roll) stability?",
+      "topic": "Dihedral",
+      "image": "dihedral_effect.png",
+      "options": [
+        "The horizontal tailplane",
+        "The vertical fin",
+        "Dihedral",
+        "The engine nacelles"
+      ],
+      "answer": "C",
+      "brief": "Dihedral is the upward angle of the wings and is the primary design feature used to provide an aircraft with positive static lateral stability. It creates a self-righting tendency that helps to keep the wings level.",
+      "detailed": "Aircraft stability is considered in three axes. Longitudinal (pitch) stability is mainly provided by the horizontal tailplane. Directional (yaw) stability is provided by the vertical fin. Lateral (roll) stability is primarily provided by wing dihedral. When a wing with dihedral drops, the resulting sideslip causes the lower wing to generate more lift than the higher wing, creating a moment that rolls the aircraft back to a level attitude. This inherent stability makes the aircraft safer and easier to fly. This is a manipulated version of Progress Test 10 & 11, Question 2.",
+      "detailed_image": "dihedral_effect.png"
+    },
+    {
+      "question": "A key aerodynamic disadvantage of sweepback is its tendency to:",
+      "topic": "Sweepback",
+      "options": [
+        "increase induced drag at all speeds",
+        "stall at the wingtips before the wing root",
+        "reduce the effectiveness of the rudder",
+        "create a strong nose-down pitching moment"
+      ],
+      "answer": "B",
+      "brief": "While excellent for high-speed flight, sweepback has a dangerous low-speed characteristic. It causes the boundary layer to flow outwards towards the tips, making the wingtips stall before the wing root, which can lead to a loss of aileron control.",
+      "detailed": "On a straight wing, the airflow travels directly from the leading to the trailing edge. On a swept wing, the airflow has a tendency to flow sideways, or spanwise, towards the wingtips. This causes the slow-moving air of the boundary layer to accumulate at the wingtips, making this area of the wing much more prone to stalling first. This is a highly undesirable characteristic because the ailerons are located at the wingtips. A tip stall can result in a sudden, uncommanded roll and a complete loss of aileron effectiveness, making stall recovery very difficult. Designers use features like wing fences and washout to combat this tendency."
+    },
+    {
+      "question": "Which type of flap increases both the wing's camber and its surface area?",
+      "topic": "Flaps",
+      "options": [
+        "Plain Flap",
+        "Split Flap",
+        "Fowler Flap",
+        "Slotted Flap"
+      ],
+      "answer": "C",
+      "brief": "The Fowler flap is the most complex and effective type of flap. Its unique mechanism causes it to slide backwards, increasing the wing's surface area (S), before hinging downwards to also increase its camber.",
+      "detailed": "Fowler flaps are designed to produce the largest possible increase in the maximum lift coefficient. They achieve this by tackling two parts of the lift formula simultaneously. The track system they are mounted on first moves the flap section rearwards, which increases the total planform area of the wing ('S'). Then, it hinges the flap downwards, which increases the wing's effective camber and thus its lift coefficient (CL). This dual action makes Fowler flaps extremely effective for the takeoff and landing phases of large, heavy aircraft, allowing them to fly at remarkably low speeds.",
+      "detailed_image": "fowler_flaps_action.png"
+    },
+    {
+      "question": "A pilot can directly control the aircraft's trim using:",
+      "topic": "Trim Tabs",
+      "options": [
+        "the rudder pedals",
+        "the ailerons",
+        "a trim wheel or switch in the cockpit",
+        "the throttle"
+      ],
+      "answer": "C",
+      "brief": "A cockpit-controlled trim system allows the pilot to adjust the trim tabs on the control surfaces. This is typically done by using a trim wheel (often for the elevator) or electric switches to relieve control pressures and maintain a desired attitude.",
+      "detailed": "The purpose of a trim system is to reduce the pilot's workload by eliminating the need to hold constant pressure on the flight controls. The pilot uses a control, such as a wheel, crank, or electric switch in the cockpit, to make small adjustments to the position of a trim tab on a primary control surface like the elevator. This tab then uses aerodynamic force to hold the main control surface in the desired position. This allows the pilot to trim the aircraft for 'hands-off' flight at any given airspeed and power setting, greatly increasing comfort and precision during flight.",
+      "detailed_image": "trim_tab_action.png"
+    },
+    {
+      "question": "The effect of vortex generators is to:",
+      "topic": "Vortex Generators",
+      "options": [
+        "reduce the strength of wingtip vortices",
+        "create a turbulent boundary layer to delay stall",
+        "provide a visual indication of airflow",
+        "reduce the skin friction drag on the wing"
+      ],
+      "answer": "B",
+      "brief": "Vortex generators are small aerodynamic surfaces that create tiny, energetic vortices. These vortices mix high-energy air into the boundary layer, making it turbulent and helping it to remain attached to the wing at higher angles of attack, thus delaying the stall.",
+      "detailed": "Vortex generators (VGs) are a clever solution to the problem of boundary layer separation. At high angles of attack, the boundary layer can become 'lazy' and detach from the wing surface. VGs are small, precisely angled vanes that create small, high-energy vortices. These vortices act like tiny mixers, pulling the fast-moving, high-energy air from just outside the boundary layer down into the slow-moving air near the surface. This re-energizes the boundary layer, making it turbulent and giving it the strength to fight against the adverse pressure gradient and remain attached, which improves control effectiveness and delays the stall.",
+      "detailed_image": "vortex_generators_action.png"
+    },
+    {
+      "question": "Which of these statements about a 'fixed' trim tab is true?",
+      "topic": "Trim Tabs",
+      "options": [
+        "It is automatically adjusted by the aircraft's computer",
+        "It can only be adjusted on the ground by a mechanic",
+        "It moves in the opposite direction to the main control surface",
+        "It is used on high-performance jet aircraft"
+      ],
+      "answer": "B",
+      "brief": "A fixed trim tab is a simple, non-moving metal tab on a control surface's trailing edge. It cannot be adjusted in flight by the pilot; instead, it is bent on the ground by a maintenance engineer to correct for any persistent rigging errors or flight imbalances.",
+      "detailed": "Sometimes an aircraft might have a small but constant tendency to fly with one wing slightly low, or to yaw slightly to one side. A fixed trim tab provides a simple, permanent solution. A mechanic on the ground can bend this small metal tab in the direction opposite to the required control surface deflection. In flight, the airflow over this bent tab will create a constant aerodynamic force that holds the control surface slightly deflected, perfectly counteracting the aircraft's natural tendency. This ensures the aircraft flies straight and level with the controls in the neutral position. This is a manipulated version of Exercise A6, Question 8.",
+      "detailed_image": "fixed_trim_tab.png"
+    },
+    {
+      "question": "What is the primary function of a slat on the leading edge of a wing?",
+      "topic": "Flaps (High-Lift Devices)",
+      "options": [
+        "To increase the structural strength of the wing",
+        "To act as an airbrake during landing",
+        "To increase the maximum lift coefficient and delay the stall to a higher angle of attack",
+        "To reduce induced drag during cruise flight"
+      ],
+      "answer": "C",
+      "brief": "A slat is a leading-edge high-lift device. When deployed, it opens a slot that allows high-energy air from below the wing to flow over the upper surface, significantly delaying airflow separation and allowing the wing to reach a much higher angle of attack before stalling.",
+      "detailed": "A slat is one of the most effective ways to increase a wing's maximum lift coefficient (CLmax). At high angles of attack, the slat moves forward, opening a small gap or 'slot' at the leading edge. High-pressure air from underneath the wing is ducted through this slot and ejected over the top surface. This high-energy air re-energizes the boundary layer, helping it to remain attached to the wing even at very high angles of attack. This allows the wing to produce lift at angles where it would normally be stalled, resulting in a much lower stalling speed and improved low-speed handling characteristics. From Topic: Lift Augmentation Devices (Section 7.8 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "A key disadvantage of a high aspect ratio wing is that it typically has:",
+      "topic": "Aspect Ratio",
+      "options": [
+        "a higher amount of induced drag",
+        "poor performance at high altitudes",
+        "a lower maximum lift coefficient",
+        "a slower roll rate and requires a stronger structure"
+      ],
+      "answer": "D",
+      "brief": "While aerodynamically efficient, long and slender high aspect ratio wings have drawbacks. They have a large moment of inertia, which makes them slow to roll, and the long span creates significant bending stresses at the wing root, requiring a heavier structure.",
+      "detailed": "There are always trade-offs in aircraft design. A high aspect ratio wing is excellent for minimizing induced drag, which is why it is used on gliders and long-range airliners. However, this long span comes with penalties. Structurally, the large distance from the wingtip to the root creates a very high bending moment that must be supported by a strong, and therefore heavy, wing spar. Aerodynamically, the mass of the wing is distributed further from the aircraft's centerline, resulting in a higher moment of inertia in roll. This makes the aircraft less agile and gives it a slower, more sluggish roll rate compared to a short, stubby low aspect ratio wing. From Topic: Total Drag in Flight (Section 5.5 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "When spoilers are used asymmetrically for roll control, they are deployed on which wing?",
+      "topic": "Wing Spoilers",
+      "options": [
+        "On the wing that is intended to go up",
+        "On both wings simultaneously",
+        "On the wing that is intended to go down",
+        "They are deployed alternately on both wings"
+      ],
+      "answer": "C",
+      "brief": "When used for roll control, spoilers work by 'spoiling' or destroying lift. Therefore, to make a wing drop, the spoiler on that same wing is raised, which dumps the lift on that side and causes the aircraft to roll in that direction.",
+      "detailed": "Spoilers provide roll control by acting as lift dumpers. If a pilot wants to roll the aircraft to the right, they need the right wing to go down. The control system will raise the spoiler panels only on the upper surface of the right wing. This disrupts the smooth airflow, 'spoiling' the lift being generated by that wing. The left wing, with its spoiler retracted, continues to produce normal lift. This lift imbalance between the two wings creates a powerful rolling moment that causes the aircraft to bank to the right. This method is very effective and avoids the adverse yaw associated with ailerons. From Topic: Control (Section 12.6 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "Which design feature is used to ensure the wing root stalls before the wing tip?",
+      "topic": "Wash-out",
+      "options": [
+        "Dihedral",
+        "Sweepback",
+        "Wash-out",
+        "Anhedral"
+      ],
+      "answer": "C",
+      "brief": "Wash-out is a deliberate twist built into the wing, where the angle of incidence at the wingtip is lower than at the wing root. This ensures that during a stall, the root stalls first, maintaining aileron effectiveness for roll control.",
+      "detailed": "Maintaining roll control during the initial stages of a stall is a critical safety feature. A stall begins when a section of the wing exceeds its critical angle of attack. By designing the wing with wash-out, the wing root is set at a higher angle of incidence than the wingtip. This means that as the pilot increases the overall angle of attack, the wing root will reach its critical angle first and begin to stall while the wingtips are still flying and producing lift. Because the ailerons are located at the wingtips, this ensures that the pilot retains control over the roll axis and can prevent the aircraft from dropping a wing, making stall recovery safer and more predictable. From Topic: Stability (Progress Test Section 10 & 11, Question 1 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "washout_diagram.png"
+    },
+    {
+      "question": "A 'slotted flap' is more effective than a 'plain flap' because:",
+      "topic": "Flaps",
+      "options": [
+        "the slot allows high-energy air to re-energize the boundary layer",
+        "it has a much larger surface area",
+        "it creates significantly less drag",
+        "it is structurally much lighter"
+      ],
+      "answer": "A",
+      "brief": "A slotted flap is an improvement on a plain flap because it has a gap, or slot, between the wing and the flap. This slot allows high-pressure, high-energy air from below the wing to flow over the top of the flap, delaying airflow separation.",
+      "detailed": "When a plain flap is deflected to a large angle, the airflow over its upper surface has difficulty following the sharp curve and tends to separate, limiting its effectiveness. A slotted flap solves this problem. The gap between the wing and the flap's leading edge acts as a duct. It channels high-pressure air from the lower surface of the wing and ejects it at high speed over the upper surface of the flap. This high-energy jet of air re-energizes the boundary layer, helping it to remain attached even at very high flap deflections. This results in a much greater increase in the maximum lift coefficient compared to a plain flap. From Topic: Lift Augmentation Devices (Section 7.7 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "slotted_flap_action.png"
+    },
+    {
+      "question": "The primary function of a wing fence on a highly swept wing is to:",
+      "topic": "Sweepback",
+      "image": "wing_fence.png",
+      "options": [
+        "increase the structural strength of the wing",
+        "reduce the aircraft's stalling speed",
+        "act as a vortex generator to delay separation",
+        "prevent the spanwise flow of the boundary layer towards the wingtip"
+      ],
+      "answer": "D",
+      "brief": "A wing fence is a vertical plate on the upper surface of a swept wing. Its purpose is to act as a barrier to stop the boundary layer from flowing sideways towards the wingtip, which helps to prevent premature tip stalling.",
+      "detailed": "Swept wings have a natural tendency for the boundary layer to flow outwards towards the wingtips, rather than straight back. This 'spanwise flow' causes the boundary layer to thicken at the tips, making them prone to stalling before the wing root. A wing fence is a simple but effective aerodynamic dam. It physically blocks this spanwise flow, forcing the air to flow rearwards over its section of the wing. By preventing the accumulation of the slow-moving boundary layer at the tips, a wing fence helps ensure the wing stalls in a more controlled manner, typically from the root first. From Topic: Lift Augmentation Devices (Section 7.8 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "wing_fence.png"
+    },
+    {
+      "question": "A 'split flap' is known for producing a:",
+      "topic": "Flaps",
+      "image": "split_flap_action.png",
+      "options": [
+        "large increase in lift with very little increase in drag",
+        "small increase in lift with a large decrease in drag",
+        "large increase in lift but also a very large increase in drag",
+        "small increase in lift with a small increase in drag"
+      ],
+      "answer": "C",
+      "brief": "A split flap is a type of flap that deflects from the lower surface of the wing, leaving the upper surface undisturbed. This design produces a good amount of lift but also creates a large, turbulent wake, resulting in a very large increase in drag.",
+      "detailed": "A split flap is hinged at the bottom surface of the wing. When it is deployed, it deflects downwards, creating a sharp, wedge-like shape. This significantly increases the pressure on the lower surface and provides a good increase in the lift coefficient. However, because the upper surface airflow is not guided smoothly, a large area of turbulent, low-pressure air is created behind the flap. This turbulence results in a very large increase in drag. Because of this high-drag characteristic, split flaps are very effective for steep approaches but are not as efficient as slotted or Fowler flaps for takeoff. From Topic: Lift Augmentation Devices (Section 7.7, Figure 7.11 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "split_flap_action.png"
+    },
+    {
+      "question": "To trim an aircraft for a lower nose attitude (higher speed), the elevator trim tab must be deflected:",
+      "topic": "Trim Tabs",
+      "image": "trim_tab_action.png",
+      "options": [
+        "upwards, to create a downward force on the elevator's trailing edge",
+        "downwards, to create an upward force on the elevator's trailing edge",
+        "to the neutral position",
+        "in the same direction as the elevator"
+      ],
+      "answer": "A",
+      "brief": "To fly faster, the elevator must be held in a slightly down position to lower the nose. To relieve the forward pressure required for this, the pilot trims 'nose down', which deflects the trim tab upwards into the airstream.",
+      "detailed": "Trimming allows the pilot to remove control pressures. To maintain a higher speed, a pilot must apply forward pressure to hold the elevator slightly down, which lowers the aircraft's nose and reduces the angle of attack. To hold this elevator position 'hands-off', the pilot adjusts the trim. This deflects the small trim tab on the elevator's trailing edge upwards. The airflow striking this upward tab, creating a downward aerodynamic force. This force, acting on the lever arm of the tab, holds the entire elevator in the desired slightly-down position, perfectly balancing the control forces. This is a manipulated version of Exercise A6, Question 20.",
+      "detailed_image": "trim_tab_action.png"
+    },
+    {
+      "question": "An aircraft with a very low aspect ratio wing (short and wide) will typically have:",
+      "topic": "Aspect Ratio",
+      "image": "aspect_ratio_comparison.png",
+      "options": [
+        "low induced drag and a slow roll rate",
+        "high induced drag and a fast roll rate",
+        "low induced drag and a fast roll rate",
+        "high induced drag and a slow roll rate"
+      ],
+      "answer": "B",
+      "brief": "A low aspect ratio wing is short and stubby, like on a fighter jet. This shape is not efficient and creates a high amount of induced drag, but it has very low inertia, which allows for a very fast and responsive roll rate.",
+      "detailed": "Low aspect ratio wings are chosen for aircraft where manoeuvrability and structural strength are more important than aerodynamic efficiency. The short wingspan allows for very strong wingtip vortices to form, which results in a very high amount of induced drag for any given amount of lift. This makes the aircraft inefficient for long-range cruise. However, the major advantage is that the mass of the wing is concentrated close to the fuselage. This low moment of inertia allows the aircraft to roll very quickly, providing the high degree of agility required for fighter aircraft and aerobatic planes. From Topic: Total Drag in Flight (Section 5.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "aspect_ratio_comparison.png"
+    },
+    {
+      "question": "Which of these design features primarily addresses lateral (roll) stability?",
+      "topic": "Dihedral",
+      "image": "dihedral_effect.png",
+      "options": [
+        "The horizontal tailplane",
+        "The vertical fin",
+        "Dihedral",
+        "The engine nacelles"
+      ],
+      "answer": "C",
+      "brief": "Dihedral is the upward angle of the wings and is the primary design feature used to provide an aircraft with positive static lateral stability. It creates a self-righting tendency that helps to keep the wings level.",
+      "detailed": "Aircraft stability is considered in three axes. Longitudinal (pitch) stability is mainly provided by the horizontal tailplane. Directional (yaw) stability is provided by the vertical fin. Lateral (roll) stability is primarily provided by wing dihedral. When a wing with dihedral drops, the resulting sideslip causes the lower wing to generate more lift than the higher wing, creating a moment that rolls the aircraft back to a level attitude. This inherent stability makes the aircraft safer and easier to fly. This is a manipulated version of Progress Test 10 & 11, Question 2.",
+      "detailed_image": "dihedral_effect.png"
+    },
+    {
+      "question": "A key aerodynamic disadvantage of sweepback is its tendency to:",
+      "topic": "Sweepback",
+      "options": [
+        "increase induced drag at all speeds",
+        "stall at the wingtips before the wing root",
+        "reduce the effectiveness of the rudder",
+        "create a strong nose-down pitching moment"
+      ],
+      "answer": "B",
+      "brief": "While excellent for high-speed flight, sweepback has a dangerous low-speed characteristic. It causes the boundary layer to flow outwards towards the tips, making the wingtips stall before the wing root, which can lead to a loss of aileron control.",
+      "detailed": "On a straight wing, the airflow travels directly from the leading to the trailing edge. On a swept wing, the airflow has a tendency to flow sideways, or spanwise, towards the wingtips. This causes the slow-moving air of the boundary layer to accumulate at the wingtips, making this area of the wing much more prone to stalling first. This is a highly undesirable characteristic because the ailerons are located at the wingtips. A tip stall can result in a sudden, uncommanded roll and a complete loss of aileron effectiveness, making stall recovery very difficult. Designers use features like wing fences and washout to combat this tendency."
+    },
+    {
+      "question": "Which type of flap increases both the wing's camber and its surface area?",
+      "topic": "Flaps",
+      "options": [
+        "Plain Flap",
+        "Split Flap",
+        "Fowler Flap",
+        "Slotted Flap"
+      ],
+      "answer": "C",
+      "brief": "The Fowler flap is the most complex and effective type of flap. Its unique mechanism causes it to slide backwards, increasing the wing's surface area (S), before hinging downwards to also increase its camber.",
+      "detailed": "Fowler flaps are designed to produce the largest possible increase in the maximum lift coefficient. They achieve this by tackling two parts of the lift formula simultaneously. The track system they are mounted on first moves the flap section rearwards, which increases the total planform area of the wing ('S'). Then, it hinges the flap downwards, which increases the wing's effective camber and thus its lift coefficient (CL). This dual action makes Fowler flaps extremely effective for the takeoff and landing phases of large, heavy aircraft, allowing them to fly at remarkably low speeds.",
+      "detailed_image": "fowler_flaps_action.png"
+    },
+    {
+      "question": "A pilot can directly control the aircraft's trim using:",
+      "topic": "Trim Tabs",
+      "options": [
+        "the rudder pedals",
+        "the ailerons",
+        "a trim wheel or switch in the cockpit",
+        "the throttle"
+      ],
+      "answer": "C",
+      "brief": "A cockpit-controlled trim system allows the pilot to adjust the trim tabs on the control surfaces. This is typically done by using a trim wheel (often for the elevator) or electric switches to relieve control pressures and maintain a desired attitude.",
+      "detailed": "The purpose of a trim system is to reduce the pilot's workload by eliminating the need to hold constant pressure on the flight controls. The pilot uses a control, such as a wheel, crank, or electric switch in the cockpit, to make small adjustments to the position of a trim tab on a primary control surface like the elevator. This tab then uses aerodynamic force to hold the main control surface in the desired position. This allows the pilot to trim the aircraft for 'hands-off' flight at any given airspeed and power setting, greatly enhancing stability and reducing workload.",
+      "detailed_image": "trim_tab_action.png"
+    },
+    {
+      "question": "The effect of vortex generators is to:",
+      "topic": "Vortex Generators",
+      "options": [
+        "reduce the strength of wingtip vortices",
+        "create a turbulent boundary layer to delay stall",
+        "provide a visual indication of airflow",
+        "reduce the skin friction drag on the wing"
+      ],
+      "answer": "B",
+      "brief": "Vortex generators are small aerodynamic surfaces that create tiny, energetic vortices. These vortices mix high-energy air into the boundary layer, making it turbulent and helping it to remain attached to the wing at higher angles of attack, thus delaying the stall.",
+      "detailed": "Vortex generators (VGs) are a clever solution to the problem of boundary layer separation. At high angles of attack, the boundary layer can become 'lazy' and detach from the wing surface. VGs are small, precisely angled vanes that create small, high-energy vortices. These vortices act like tiny mixers, pulling the fast-moving, high-energy air from just outside the boundary layer down into the slow-moving air near the surface. This re-energizes the boundary layer, making it turbulent and giving it the strength to fight against the adverse pressure gradient and remain attached, which improves control effectiveness and delays the stall.",
+      "detailed_image": "vortex_generators_action.png"
+    },
+    {
+      "question": "Which of these statements about a 'fixed' trim tab is true?",
+      "topic": "Trim Tabs",
+      "options": [
+        "It is automatically adjusted by the aircraft's computer",
+        "It can only be adjusted on the ground by a mechanic",
+        "It moves in the opposite direction to the main control surface",
+        "It is used on high-performance jet aircraft"
+      ],
+      "answer": "B",
+      "brief": "A fixed trim tab is a simple, non-moving metal tab on a control surface's trailing edge. It cannot be adjusted in flight by the pilot; instead, it is bent on the ground by a maintenance engineer to correct for any persistent rigging errors or flight imbalances.",
+      "detailed": "Sometimes an aircraft might have a small but constant tendency to fly with one wing slightly low, or to yaw slightly to one side. A fixed trim tab provides a simple, permanent solution. A mechanic on the ground can bend this small metal tab in the direction opposite to the required control surface deflection. In flight, the airflow over this bent tab will create a constant aerodynamic force that holds the control surface slightly deflected, perfectly counteracting the aircraft's natural tendency. This ensures the aircraft flies straight and level with the controls in the neutral position. This is a manipulated version of Exercise A6, Question 8.",
+      "detailed_image": "fixed_trim_tab.png"
+    }
+  ]

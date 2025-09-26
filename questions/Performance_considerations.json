@@ -1,0 +1,570 @@
+[
+  {
+    "question": "A pilot is tasked with a long-distance ferry flight over the ocean. Which performance speed should they primarily use?",
+    "topic": "Reasons for Maximum Range",
+    "image": "ferry_flight_range.png",
+    "options": [
+      "The speed for maximum endurance",
+      "The speed for best rate of climb",
+      "The speed for maximum range",
+      "The maximum level flight speed"
+    ],
+    "answer": "C",
+    "brief": "For a ferry flight, the goal is to cover the greatest possible distance on the available fuel. This is the definition of maximum range, which is achieved by flying at the speed that provides the best lift-to-drag ratio (minimum drag).",
+    "detailed": "The primary objective of a ferry flight is to transport the aircraft from one point to another over a long distance, making fuel efficiency in terms of distance covered paramount. Maximum range is a measure of the nautical miles an aircraft can travel per unit of fuel. To achieve this, the aircraft must be flown at its most aerodynamically efficient speed, which is the speed where total drag is at its minimum. By flying at the minimum drag speed, the pilot requires the minimum amount of thrust from the engine to maintain level flight, which in turn results in the best possible fuel economy for covering distance. This is different from maximum endurance, which prioritizes time in the air. From Topic: Straight and Level Flight - For Maximum Range in Level Flight (Section 7.5 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "total_drag_curve.png"
+  },
+  {
+    "question": "In which of the following scenarios would a pilot most likely fly at the speed for maximum endurance?",
+    "topic": "Reasons for Maximum Endurance",
+    "options": [
+      "Trying to arrive at a destination as quickly as possible",
+      "Flying a long-distance cross-country flight",
+      "Holding over an airport waiting for weather to clear",
+      "Executing a short-field takeoff to clear an obstacle"
+    ],
+    "answer": "C",
+    "brief": "Maximum endurance is used when the objective is to stay airborne for the longest possible time, not to cover distance. A holding pattern is a perfect example, where the pilot needs to make the fuel last as long as possible while waiting.",
+    "detailed": "The goal of flying for maximum endurance is to minimize the rate of fuel consumption (e.g., litres per hour). This is achieved by flying at the speed that requires the minimum amount of power from the engine to maintain level flight. Situations that prioritize time over distance, such as holding over a destination, loitering for a search and rescue mission, or any scenario where delaying a landing is necessary, call for the use of the maximum endurance speed. This speed is typically lower than the maximum range speed and corresponds to the lowest point on the aircraft's power required curve. From Topic: Straight and Level Flight - Factors Affecting Endurance (Section 7.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "power_required_curve.png"
+  },
+  {
+    "question": "How does a tailwind affect an aircraft's maximum still air range and endurance?",
+    "topic": "Effect of Wind on Performance",
+    "options": [
+      "It increases range and increases endurance",
+      "It decreases range but has no effect on endurance",
+      "It increases range but has no effect on endurance",
+      "It decreases range and decreases endurance"
+    ],
+    "answer": "C",
+    "brief": "A tailwind increases the aircraft's ground speed, allowing it to cover more distance for the same amount of fuel, thus increasing range. However, endurance (time in the air) is unaffected because it only depends on the engine's fuel flow rate.",
+    "detailed": "Endurance is a measure of how long the aircraft can stay in the air, which is solely dependent on the rate of fuel consumption. Since the aircraft is flying within a moving airmass, a tailwind does not change how the engine performs or how much power is required to maintain a specific indicated airspeed. Therefore, the fuel flow remains the same, and endurance is unchanged. Range, however, is a measure of distance covered over the ground. A tailwind adds to the aircraft's true airspeed to produce a higher ground speed. Because the aircraft is now covering more ground in the same amount of time for the same fuel burn, its effective range is significantly increased. From Topic: Straight and Level Flight - Effect of Wind (Section 7.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "range_wind_effect.png"
+  },
+  {
+    "question": "To achieve maximum still air range in a normally aspirated piston engine aircraft, a pilot should fly at:",
+    "topic": "Range in Normally Aspirated Engines",
+    "options": [
+      "the highest possible altitude",
+      "the specific indicated airspeed for minimum drag",
+      "the lowest possible power setting",
+      "the maximum continuous power setting"
+    ],
+    "answer": "B",
+    "brief": "For any piston aircraft, the key to maximum range is aerodynamic efficiency. This is achieved by flying at the specific Indicated Airspeed that corresponds to the minimum point on the total drag curve (best L/D ratio).",
+    "detailed": "Regardless of the engine type, maximum range is fundamentally an aerodynamic challenge: generating lift with the least possible drag. For a normally aspirated piston aircraft, the pilot's primary concern is to maintain the Indicated Airspeed for minimum total drag. While there is an optimal altitude for range that balances engine efficiency and true airspeed, the most critical parameter controlled by the pilot is maintaining the correct IAS. Flying faster or slower than this specific speed will increase drag, require more thrust, and therefore reduce the distance that can be covered on a given amount of fuel. From Topic: Straight and Level Flight - For Maximum Range in Level Flight (Section 7.5 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "total_drag_curve.png"
+  },
+  {
+    "question": "Why is the theoretical best range for a turbocharged aircraft achieved by flying at a high altitude?",
+    "topic": "Range in Turbocharged Engines",
+    "options": [
+      "Because the engine burns less fuel in colder air",
+      "Because the wings produce lift more efficiently in thinner air",
+      "Because at high altitude, a higher True Airspeed (TAS) is achieved for the same efficient Indicated Airspeed (IAS)",
+      "Because there is less air traffic at high altitudes"
+    ],
+    "answer": "C",
+    "brief": "A turbocharged engine can maintain sea-level power at high altitudes. By flying high, the pilot can maintain the efficient low IAS for minimum drag, which corresponds to a much higher True Airspeed (TAS) in the thin air, resulting in greater ground speed and range.",
+    "detailed": "The key advantage of a turbocharged engine is its ability to maintain high power output in the thin air of high altitudes. The strategy for maximum range is to climb to the highest practical altitude. At this altitude, the pilot still flies the aircraft at the same efficient Indicated Airspeed (IAS) for minimum drag. However, because the air is much less dense, the aircraft's True Airspeed (TAS) will be significantly higher than its IAS. For example, flying at 100 knots IAS at 20,000 feet might result in a TAS of 140 knots. The engine is burning fuel based on the power needed for 100 knots, but the aircraft is covering ground at 140 knots. This 'free' speed advantage results in a substantial increase in fuel efficiency (miles per gallon) and therefore a greater maximum range. From Topic: Straight and Level Flight - Effect of Height (Section 7.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "ias_vs_tas_altitude.png"
+  },
+  {
+    "question": "On the power curve diagram shown, which point represents the best endurance speed?",
+    "topic": "Reading Power Curves",
+    "image": "power_curve_s1_s2_s3.png",
+    "options": [
+      "S1",
+      "S2",
+      "S3",
+      "A point between S2 and S3"
+    ],
+    "answer": "A",
+    "brief": "Point S1 is located at the absolute bottom of the U-shaped power required curve. This point represents the speed that requires the minimum possible power to maintain level flight, which corresponds to the speed for maximum endurance.",
+    "detailed": "Analyzing the power required curve is essential for performance planning. The vertical axis represents the power needed to maintain level flight, while the horizontal axis represents airspeed. To achieve maximum endurance (longest time in the air), the pilot must minimize fuel flow per hour, which means using the least amount of power. By identifying the lowest point of the curve, labeled S1, we find the airspeed that achieves this goal. Any speed faster or slower than S1 would be on a higher part of the curve and would require more power, resulting in a higher fuel burn and less endurance. From Topic: Power Required - Level Flight (Section 6.3 & Figure 6.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "power_required_curve.png"
+  },
+  {
+    "question": "A headwind will have what effect on an aircraft's endurance?",
+    "topic": "Effect of Wind on Performance",
+    "options": [
+      "It will significantly increase endurance",
+      "It will significantly decrease endurance",
+      "It will have no effect on endurance",
+      "It will slightly increase endurance"
+    ],
+    "answer": "C",
+    "brief": "Endurance is the total time an aircraft can remain airborne, which depends only on the quantity of fuel and the rate of consumption (fuel flow). Since a steady headwind does not change the power required or the engine's fuel flow, endurance is unaffected.",
+    "detailed": "This is a key distinction between range and endurance. Endurance is a measure of time. The amount of time an aircraft can fly is determined by the total usable fuel on board divided by the rate at which it is being burned. The rate of fuel burn is set by the power required to push the aircraft through the airmass at a given speed. Since a headwind is simply a movement of that entire airmass, it does not change the work the engine has to do to maintain a specific airspeed relative to that airmass. Therefore, the power setting and fuel flow remain the same, and the total time the aircraft can stay in the air (its endurance) is unaffected by the wind. From Topic: Straight and Level Flight - Effect of Wind (Section 7.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "fuel_flow_gauge.png"
+  },
+  {
+    "question": "To achieve maximum endurance in a normally aspirated engine aircraft, the pilot should generally fly at:",
+    "topic": "Endurance in Normally Aspirated Engines",
+    "options": [
+      "The highest possible altitude to take advantage of thin air",
+      "The lowest safe altitude, as close to sea level as practical",
+      "An altitude just below the aircraft's service ceiling",
+      "The altitude does not matter for endurance"
+    ],
+    "answer": "B",
+    "brief": "For a normally aspirated (non-turbocharged) engine, maximum endurance is typically achieved at low altitudes. This is because the engine produces its power most efficiently in the dense air found near sea level.",
+    "detailed": "The goal for maximum endurance is to achieve the lowest possible fuel flow (litres per hour). A normally aspirated piston engine operates most efficiently—producing the most power for the least amount of throttle opening—in the dense air found at lower altitudes. While flying higher reduces aerodynamic drag for a given IAS, the engine must work harder (higher throttle setting) to produce the required power in the thinner air, leading to a less efficient fuel burn. Therefore, to achieve the absolute lowest fuel flow and thus the longest possible time in the air, flying at the minimum power speed at a low altitude (e.g., sea level) is theoretically the best option. From Topic: Straight and Level Flight - Effect of Height (Section 7.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "power_available_altitude_effect.png"
+  },
+  {
+    "question": "On the power curve diagram, the maximum level flight speed is found at which point?",
+    "topic": "Reading Power Curves",
+    "image": "power_curve_s1_s2_s3.png",
+    "options": [
+      "S1",
+      "S2",
+      "S3",
+      "A point to the right of S3"
+    ],
+    "answer": "C",
+    "brief": "The maximum level flight speed is the fastest speed the aircraft can maintain. This occurs at the high-speed intersection point where the power required to overcome drag equals the maximum power available from the engine.",
+    "detailed": "An aircraft's top speed in level flight is limited by the balance of power. As the aircraft accelerates, the power required to overcome parasite drag increases rapidly. The aircraft will continue to accelerate as long as the power available from the engine is greater than the power required. The acceleration stops at the point where the power required curve rises to meet the power available line. At this intersection point, labeled S3, all the engine's available power is being used just to counteract drag, and there is no surplus power left for acceleration. This represents the maximum possible speed the aircraft can sustain in level flight. From Topic: Power Required - Level Flight (Section 6.3 & Figure 6.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "surplus_power_diagram.png"
+  },
+  {
+    "question": "Flying for maximum range provides the best:",
+    "topic": "Reasons for Maximum Range",
+    "options": [
+      "Litres per hour",
+      "Nautical miles per hour",
+      "Nautical miles per litre",
+      "Feet per minute"
+    ],
+    "answer": "C",
+    "brief": "Maximum range is a measure of fuel efficiency over distance. The goal is to achieve the greatest number of nautical miles for each litre of fuel burned, which occurs at the speed of minimum drag (best L/D ratio).",
+    "detailed": "It's important to understand the units associated with performance goals. 'Litres per hour' relates to endurance (time). 'Nautical miles per hour' (knots) relates to speed. 'Feet per minute' relates to rate of climb. 'Nautical miles per litre' is a direct measure of fuel efficiency over distance, similar to miles per gallon in a car. To maximize this value, the aircraft must be flown at its most aerodynamically efficient point, where the least amount of thrust (and therefore fuel) is required to cover a given distance. This is the definition of flying for maximum range. From Topic: Straight and Level Flight - For Maximum Range in Level Flight (Section 7.5 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "fuel_efficiency_concept.png"
+  },
+  {
+    "question": "How should a pilot adjust airspeed for best range when flying with a tailwind?",
+    "topic": "Effect of Wind on Performance",
+    "options": [
+      "Fly at a slightly faster true airspeed",
+      "Fly at a slightly slower true airspeed",
+      "Maintain the same true airspeed as in nil-wind",
+      "Fly at the speed for maximum endurance"
+    ],
+    "answer": "B",
+    "brief": "To maximize the benefit of a tailwind, a pilot should fly at a slightly slower true airspeed. This keeps the aircraft in the favorable moving airmass for a longer time, covering more ground for the fuel burned.",
+    "detailed": "A tailwind provides 'free' ground speed. The strategic goal is to stay within this helpful airmass for as long as possible to maximize the distance covered. By reducing the aircraft's true airspeed slightly below the normal best-range speed, the pilot reduces the rate at which they are flying out of the tailwind. While this slightly increases the flight time, the extra distance covered thanks to the prolonged tailwind effect results in a net increase in the overall range (nautical miles per litre). The stronger the tailwind, the greater the reduction in speed should be to achieve the absolute best possible ground range. From Topic: Straight and Level Flight - Effect of Wind (Section 7.3 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "range_wind_effect.png"
+  },
+  {
+    "question": "The speed for best range can also be described as the speed for:",
+    "topic": "Maximum Range",
+    "options": [
+      "Minimum power required",
+      "Minimum induced drag",
+      "Best lift/drag ratio",
+      "Maximum lift coefficient"
+    ],
+    "answer": "C",
+    "brief": "The speed for maximum range is the point of maximum aerodynamic efficiency. This is achieved when the wing is generating the most lift for the least amount of drag, which is defined as the best (or maximum) lift/drag ratio.",
+    "detailed": "These terms are aerodynamically synonymous. An aircraft's range is a measure of its efficiency in covering distance. This efficiency is highest when the drag is lowest for the amount of lift being produced (which must equal weight). The ratio of these two forces, Lift/Drag, is a measure of this efficiency. The peak of the L/D ratio curve occurs at the same angle of attack, and therefore the same indicated airspeed, as the lowest point on the total drag curve. Flying at this speed ensures the least thrust is required to maintain flight, resulting in maximum range. From Topic: Straight and Level Flight - For Maximum Range in Level Flight (Section 7.5 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "lift_drag_ratio_curve.png"
+  },
+  {
+    "question": "Which of these factors has NO effect on an aircraft's endurance?",
+    "topic": "Factors Affecting Endurance",
+    "options": [
+      "Aircraft weight",
+      "Altitude",
+      "Wind component",
+      "Engine power setting"
+    ],
+    "answer": "C",
+    "brief": "Endurance is the time an aircraft can stay airborne. Weight, altitude, and power setting all affect fuel flow rate. A steady wind, however, only affects ground speed and has no effect on how long the fuel will last.",
+    "detailed": "Endurance is determined by the total usable fuel and the rate of fuel consumption. Several factors influence the rate of fuel burn: a heavier aircraft requires more power and has less endurance; a normally aspirated engine is less efficient at high altitude, reducing endurance; and the engine's power setting directly controls fuel flow. A steady wind, however, simply moves the entire airmass that the aircraft is flying in. It does not change the power required to maintain a certain airspeed relative to that airmass, nor does it affect the engine's efficiency. Therefore, wind has no impact on how long the aircraft can remain in the air. From Topic: Straight and Level Flight - Factors Affecting Endurance (Section 7.6 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "On a theoretical power curve, the speed for best still air range is:",
+    "topic": "Reading Power Curves",
+    "image": "power_curve_range_endurance.png",
+    "options": [
+      "always slower than the speed for best endurance",
+      "always faster than the speed for best endurance",
+      "always the same as the speed for best endurance",
+      "found at the highest point on the curve"
+    ],
+    "answer": "B",
+    "brief": "On a power curve, the speed for best endurance is the lowest point on the curve. The speed for best range (minimum drag) is found by the tangent method and always occurs at a higher airspeed than the minimum power point.",
+    "detailed": "It is essential to distinguish between these two key performance speeds on a power curve. The speed for maximum endurance is easy to find: it is the airspeed that corresponds to the very bottom of the U-shaped power required curve, as this represents the minimum possible power needed for flight. The speed for maximum range, which corresponds to minimum drag, is found by drawing a line from the origin that is tangent to the curve. Graphically, this point of tangency will always be on the right side of, and therefore at a higher airspeed than, the lowest point on the curve. This means an aircraft must fly faster to achieve its best distance-covering efficiency than it does to achieve its best time-in-air efficiency. From Topic: Straight and Level Flight - For Maximum Endurance in Level Flight (Section 7.6 & Figure 7.10a - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "range_vs_endurance_speed.png"
+  },
+  {
+    "question": "What is the primary reason for a pilot to be aware of the 'back of the power curve'?",
+    "topic": "Region of Reverse Command",
+    "options": [
+      "It is the most fuel-efficient region for cruise flight",
+      "It is a region of flight where more power is required to fly slower",
+      "It is where the aircraft achieves its maximum possible speed",
+      "It is a region where controls become ineffective"
+    ],
+    "answer": "B",
+    "brief": "Awareness of the 'back of the power curve' is critical for safety, especially during low-speed flight like a landing approach. In this region, if the aircraft slows down, it will sink unless the pilot actively adds more power to compensate.",
+    "detailed": "The 'region of reverse command' is a counter-intuitive and potentially hazardous flight regime. In normal flight ('front side' of the curve), pitching up to slow down results in a climb or reduced descent rate. On the back side, however, the high induced drag at low speeds means that slowing down actually increases the power required to maintain altitude. If a pilot on final approach slows down without simultaneously adding power, the aircraft will develop a sink rate that can become dangerous. This is because the power required to fly has become greater than the power the engine is currently providing. Recognizing this and using power to control the descent rate is a fundamental skill. From Topic: Power Required - Level Flight (Section 6.3 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "reverse_command_region.png"
+  },
+  {
+    "question": "As the angle of attack of an aerofoil is increased from zero to the stalling angle at constant indicated air speed, the magnitude of the force of lift",
+    "topic": "Lift and Angle of Attack",
+    "image": "cl_vs_aoa_graph.png",
+    "options": [
+      "increases then decreases",
+      "decreases continuously",
+      "decreases then increases",
+      "increases continuously"
+    ],
+    "answer": "D",
+    "brief": "Lift is directly proportional to the angle of attack. As the pilot increases the angle of attack from zero, the lift generated by the wing will increase continuously and steadily up until the point where the critical (stalling) angle is reached.",
+    "detailed": "The relationship between the angle of attack (AoA) and the Coefficient of Lift (CL) is linear for the normal flight envelope. As the pilot increases the AoA, the airflow is deflected downwards more effectively, creating a greater pressure differential between the upper and lower surfaces of the wing. This results in a continuous and predictable increase in the total lift force. This process continues until the critical AoA is reached. At that point, the airflow separates from the upper surface, the CL drops sharply, and the aircraft stalls. But up to that point, the increase is continuous. From Topic: Aerofoils (Exercise A2, Question 4 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "cl_vs_aoa_graph.png"
+  },
+  {
+    "question": "As speed is increased from the stalling speed to maximum cruising speed in straight and level flight, the induced drag acting on an aircraft",
+    "topic": "Induced Drag vs Speed",
+    "options": [
+      "increases continuously",
+      "decreases then increases",
+      "increases then decreases",
+      "decreases continuously"
+    ],
+    "answer": "D",
+    "brief": "Induced drag is a byproduct of lift and is inversely proportional to the square of the airspeed. Therefore, as an aircraft accelerates from a slow speed (like stall speed) to a high speed (cruise), the induced drag will continuously decrease.",
+    "detailed": "Induced drag is highest at low speeds when the aircraft needs a high angle of attack to generate enough lift. As the aircraft's speed increases, the efficiency of the wings improves, and a smaller angle of attack is required to maintain level flight. This smaller AoA results in weaker wingtip vortices and less downwash, causing a continuous reduction in induced drag. At the same time, parasite drag is increasing with speed. The total drag is the sum of these two, but induced drag, on its own, will always decrease as speed increases. From Topic: Total Drag in Flight (Exercise A3, Question 1 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "drag_components_vs_speed.png"
+  },
+  {
+    "question": "In a single engine aircraft with a propeller that rotates clockwise when viewed from the cockpit, the slipstream effect is most pronounced during operation with -",
+    "topic": "Slipstream Effect",
+    "options": [
+      "low airspeed and low power",
+      "high airspeed and low power",
+      "high airspeed and high power",
+      "low airspeed and high power"
+    ],
+    "answer": "D",
+    "brief": "The slipstream effect, which causes a yawing tendency to the left, is most noticeable at high power settings (which create a strong spiraling slipstream) and at low airspeeds (where the rudder has less authority to counteract it).",
+    "detailed": "The propeller accelerates a mass of air backwards in a spiraling motion known as the slipstream. In an aircraft with a clockwise rotating propeller, this spiraling air strikes the left side of the fin and rudder, pushing the tail to the right and causing the aircraft's nose to yaw to the left. This effect is strongest when the engine is at a high power setting, creating the most powerful and turbulent slipstream. It is most pronounced at low airspeeds, such as during takeoff or a slow climb, because at these speeds, the airflow over the rudder from the aircraft's forward motion is weak, giving the rudder less aerodynamic authority to counteract the yawing force. From Topic: Aeroplanes (Exercise Section 4, Question 3 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "slipstream_effect_diagram.png"
+  },
+  {
+    "question": "The initial effect of torque reaction during take-off is to produce a tendency for the aircraft to -",
+    "topic": "Torque Reaction",
+    "options": [
+      "roll opposite to the direction of the propeller rotation",
+      "roll in the same direction as the propeller rotation",
+      "yaw towards the up-going side of the propeller arc",
+      "yaw towards the down-going side of the propeller arc"
+    ],
+    "answer": "A",
+    "brief": "Due to Newton's Third Law (action and reaction), as the engine spins the propeller in one direction (e.g., clockwise), it imparts an equal and opposite turning force on the airframe, causing a tendency to roll in the opposite direction (counter-clockwise).",
+    "detailed": "Torque reaction is a direct application of Newton's Third Law. The engine applies a torque to the propeller to make it spin (the action). In response, the propeller applies an equal and opposite torque to the engine and the attached airframe (the reaction). For an aircraft with a propeller that rotates clockwise when viewed from the cockpit, this reaction force will try to roll the entire aircraft counter-clockwise. This effect is most noticeable at high power and low airspeed settings, such as during the takeoff roll, where it can cause the left main wheel to press down more firmly on the runway.",
+    "detailed_image": "torque_reaction_diagram.png"
+  },
+  {
+    "question": "Wake turbulence is most severe behind a heavy aircraft which -",
+    "topic": "Wake Turbulence",
+    "options": [
+      "is flying slowly.",
+      "is flying fast.",
+      "has just touched down.",
+      "is about to lift off."
+    ],
+    "answer": "A",
+    "brief": "Wake turbulence, caused by wingtip vortices, is strongest when an aircraft is heavy (requiring more lift), clean (no flaps extended), and flying slowly (at a high angle of attack). These conditions are typical during approach to land.",
+    "detailed": "Wingtip vortices are the primary cause of wake turbulence and are a byproduct of induced drag. Induced drag is highest when an aircraft is flying at a low airspeed because it requires a high angle of attack to generate the necessary lift to support its weight. A heavy aircraft needs to generate more lift than a light one, which further strengthens these vortices. Therefore, the most hazardous wake turbulence is generated by a heavy aircraft flying slowly in a clean configuration (flaps and gear retracted), as this combination produces the highest angle of attack and the most intense wingtip vortices. From Topic: Total Drag in Flight (Wake Turbulence Quiz, Question 6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "wingtip_vortex_diagram.png"
+  },
+  {
+    "question": "An aircraft is carrying out a glide descent during a forced landing in no wind. The pilot is maintaining the airspeed recommended for the best lift/drag ratio and realises that he is undershooting the aiming point. The correct course of action would be-",
+    "topic": "Gliding Performance",
+    "options": [
+      "dive to increase the IAS then float in ground effect to the field.",
+      "raise the nose to a higher aircraft attitude to decrease the glide distance.",
+      "apply more flap to increase the lift/drag ratio to increase the glide distance.",
+      "maintain the current aircraft attitude to achieve maximum gliding distance."
+    ],
+    "answer": "A",
+    "brief": "If a pilot is already at the best glide speed and is undershooting, the only option is to lower the nose to increase speed. This allows covering the remaining distance faster, minimizing time spent descending, and then using ground effect to 'float' the final distance.",
+    "detailed": "The best lift/drag ratio speed provides the greatest gliding distance in still air. If a pilot is already flying at this optimal speed and will not make the field, raising the nose to fly slower will only increase drag and worsen the situation, causing an even shorter glide. The correct, though counter-intuitive, procedure is to lower the nose to a slightly faster speed. While this increases the rate of descent, it increases the forward speed by a greater margin, allowing the aircraft to reach the threshold sooner. The final part of the manoeuvre relies on entering ground effect with this excess speed, which can be converted into a 'float' to cover the last few feet to the runway. From Topic: Climbing, Descending, and Turning (Exercise A5, Question 21 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "gliding_range.png"
+  },
+  {
+    "question": "If frost forms on the wings of an aircraft overnight and is not removed before flight.",
+    "topic": "Effect of Ice/Frost",
+    "options": [
+      "the acceleration during the take-off run will be less than normal.",
+      "the stalling angle will be higher than normal.",
+      "there will be less margin between the take-off safety speed and the stalling speed.",
+      "there will be an increase in stalling speed and stalling angle"
+    ],
+    "answer": "C",
+    "brief": "Frost disrupts the smooth airflow over the wing, which increases the stalling speed. Since the take-off safety speed is based on the normal stalling speed, the margin between the two will be significantly reduced, creating a hazardous situation.",
+    "detailed": "Even a thin layer of frost, which may seem insignificant, can have a major impact on aerodynamic performance. The rough surface of the frost disrupts the smooth flow of the boundary layer, causing it to separate from the wing at a much lower angle of attack than normal. This has two primary effects: it decreases the maximum lift the wing can produce, and it significantly increases the stalling speed (e.g., a stall at 50 kts might now occur at 60 kts). Because the calculated take-off safety speed (VTOSS) is a fixed margin above the clean stalling speed, this increase in the actual stalling speed dangerously erodes that safety margin. From Topic: Climbing, Descending, and Turning (Exercise A5, Question 1 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "frost_on_wing.png"
+  },
+  {
+    "question": "When an aircraft leaves ground effect on take-off it will experience-",
+    "topic": "Ground Effect",
+    "image": "ground_effect_takeoff.png",
+    "options": [
+      "a nose up pitching moment and an increase in longitudinal stability",
+      "a nose down pitching moment and an increase in longitudinal stability",
+      "a nose up pitching moment and a decrease in longitudinal stability",
+      "a nose down pitching moment and a decrease in longitudinal stability"
+    ],
+    "answer": "C",
+    "brief": "Upon leaving ground effect, the aircraft's induced drag suddenly increases, and the downwash from the wings over the tailplane is restored. This combination causes the nose to pitch up and a decrease in longitudinal stability.",
+    "detailed": "Ground effect is the phenomenon where an aircraft's performance is improved when flying very close to the ground (within one wingspan). This is because the ground interferes with the formation of wingtip vortices, reducing induced drag. As the aircraft climbs out of ground effect on takeoff, two things happen simultaneously: 1) Induced drag suddenly increases, causing a tendency to sink. 2) The downwash over the tail, which was reduced in ground effect, is re-established. This increased downwash on the tail produces a nose-up pitching moment. This can be a critical phase of flight, as the aircraft may feel like it wants to settle back to the ground while the nose pitches up. From Topic: Climbing, Descending, and Turning (Exercise A5, Question 28 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "ground_effect_diagram.png"
+  },
+  {
+    "question": "The angle of attack of an aerofoil is the angle between",
+    "topic": "Angle of Attack",
+    "options": [
+      "the chord line and the longitudinal axis",
+      "the aircraft's nose and the natural horizon",
+      "the chord line and the relative airflow",
+      "the aircraft indicator and the horizon bar on the artificial horizon"
+    ],
+    "answer": "C",
+    "brief": "The angle of attack is a purely aerodynamic angle. It is defined as the angle between the chord line of the wing and the direction of the relative airflow that is meeting the wing.",
+    "detailed": "This is a fundamental definition in aerodynamics. The chord line is an imaginary straight line drawn from the leading edge to the trailing edge of the aerofoil. The relative airflow is the direction of the air as it strikes the wing, which is opposite to the aircraft's flight path. The angle formed between these two lines is the angle of attack (AoA). It is crucial to distinguish this from pitch attitude, which is the angle between the aircraft's nose (or longitudinal axis) and the Earth's horizon. An aircraft can have a high pitch attitude but a low angle of attack, or vice versa. Lift is a direct function of the angle of attack, not pitch attitude. From Topic: Aerodynamics Final Test No 2, Question 1 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "angle_of_attack_diagram.png"
+  },
+  {
+    "question": "Which of the following would produce an increase in indicated stalling speed?",
+    "topic": "Stalling Speed",
+    "options": [
+      "a decrease in air density",
+      "a decrease in headwind component",
+      "an increase in engine power",
+      "an increase in load factor"
+    ],
+    "answer": "D",
+    "brief": "The indicated stalling speed increases with an increase in load factor ('G' force). When the aircraft is subjected to G-forces, such as in a steep turn, the wings must produce more lift, and they will stall at a higher indicated airspeed.",
+    "detailed": "An aircraft's basic stalling speed is quoted for straight and level flight at a load factor of 1G. However, any manoeuvre that increases the G-loading on the aircraft also increases its stalling speed. This is because the wings are forced to support not only the aircraft's weight but also the additional inertial loads. To generate this extra lift, a higher angle of attack is needed for any given speed, meaning the critical (stalling) angle is reached at a higher airspeed. The stalling speed increases by the square root of the load factor. For example, in a 2G turn, the stall speed increases by about 40%. Other factors like a forward centre of gravity or ice on the wings can also increase stalling speed. From Topic: Aerodynamics Final Test No 2, Question 10 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "load_factor_turn.png"
+  },
+  {
+    "question": "For an aircraft to remain airborne for the maximum time per litre of fuel used, it must be flown at the speed that produces:",
+    "topic": "Maximum Endurance",
+    "options": [
+      "the least amount of drag",
+      "the smallest angle of attack",
+      "the least amount of power",
+      "the best lift/drag ratio"
+    ],
+    "answer": "C",
+    "brief": "Maximum time in the air (endurance) is achieved by using the lowest fuel flow per hour. In a piston engine, fuel flow is directly proportional to power, so this corresponds to the speed that requires the minimum power to maintain flight.",
+    "detailed": "This question asks for the condition for maximum endurance, which is about maximizing time. The key is to minimize the rate of fuel consumption. For a piston engine, the fuel flow rate is directly tied to the power the engine is producing. Therefore, to make the fuel last the longest, the pilot must fly at the airspeed that requires the minimum possible power to overcome drag and maintain level flight. This speed is found at the lowest point on the power required curve and is always slower than the speed for best range. This is a manipulated version of Exercise A1, Question 4. From Topic: The Basics (Section 1.8 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "Ignoring all other considerations the theoretical height to fly at in a piston engined aeroplane to achieve maximum range is",
+    "topic": "Range in Normally Aspirated Engines",
+    "options": [
+      "as low as possible",
+      "as high as possible",
+      "at full-throttle height",
+      "the height at which the indicated airspeed is highest"
+    ],
+    "answer": "C",
+    "brief": "Theoretically, the best range is achieved at 'full-throttle height'. This is the highest altitude at which the engine can still produce the maximum permissible power, offering the best balance of high true airspeed and engine efficiency.",
+    "detailed": "For a normally aspirated engine, achieving maximum range is a balance between aerodynamic efficiency and engine performance. While flying at the minimum drag speed is key, the altitude also plays a role. At higher altitudes, the true airspeed for this efficient IAS is higher, which is good for range. However, the engine becomes less efficient as it climbs into thinner air. The 'full-throttle height' is the specific altitude where the engine, at full throttle, is producing just enough power to maintain the minimum drag speed. This is considered the theoretical optimum altitude for range in many texts. From Topic: Straight and Level Flight (Exercise A4, Question 9 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "For two aircraft, identical in every respect except for gross weight, to achieve maximum range in nil wind conditions",
+    "topic": "Effect of Weight on Performance",
+    "options": [
+      "both should fly at the same speed",
+      "the heavy aircraft should fly faster than the light one",
+      "the heavy aircraft should fly slower than the light one",
+      "the heavy aircraft should fly faster than the speed which produces its best lift/drag ratio"
+    ],
+    "answer": "B",
+    "brief": "A heavier aircraft must fly at a higher indicated airspeed to be at its best lift/drag ratio (minimum drag speed). Since both aircraft are at their most efficient point, the heavier one must do so at a faster speed.",
+    "detailed": "The best range speed is the speed for minimum total drag. When an aircraft's weight is increased, the entire total drag curve shifts up and to the right. This means that the lowest point on the drag curve (the minimum drag point) for the heavier aircraft occurs at a higher indicated airspeed than for the lighter aircraft. Therefore, to fly at its most efficient speed for maximum range, the heavier aircraft must fly faster. While its overall range will be less than the lighter aircraft's, its *best* range will be achieved at this higher speed. From Topic: Straight and Level Flight (Exercise A4, Question 5 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "The speed which produces maximum rate of climb for a given weight and power is",
+    "topic": "Rate of Climb (Vy)",
+    "options": [
+      "the best lift/drag ratio speed",
+      "the slowest possible speed for that power setting",
+      "the speed which produces maximum thrust",
+      "the speed at which maximum surplus power is available over and above that which is required for level flight at that speed"
+    ],
+    "answer": "D",
+    "brief": "The best rate of climb (Vy) occurs at the airspeed where the difference between the power available from the engine and the power required for level flight is at its maximum. This 'maximum surplus power' is what allows the aircraft to climb fastest.",
+    "detailed": "An aircraft's ability to climb is determined by its excess, or 'surplus', power. At any airspeed, a certain amount of power is required just to maintain level flight. The power the engine can produce is the power available. The difference between these two values is the surplus power that can be used to gain altitude. The best rate of climb (measured in feet per minute) is achieved when this surplus is at its greatest. The pilot must fly at the specific indicated airspeed (Vy) that corresponds to this point of maximum surplus power to achieve the best possible climb rate. From Topic: Aerodynamics Final Test No 1, Question 16.",
+    "detailed_image": "surplus_power_diagram.png"
+  },
+  {
+    "question": "Compared to still air performance, a headwind will cause an aircraft's maximum range and angle of descent to:",
+    "topic": "Effect of Wind on Performance",
+    "options": [
+      "both rate and angle of descent are decreased",
+      "both rate and angle of descent are increased",
+      "rate of descent is unchanged but angle of descent is decreased",
+      "rate of descent and angle of descent are both decreased"
+    ],
+    "answer": "A",
+    "brief": "A headwind reduces an aircraft's ground speed, which significantly decreases its range (distance covered). In a glide, this reduced ground speed also means the flight path over the ground becomes steeper, representing a decrease in the glide angle (and thus range).",
+    "detailed": "This question has a slight ambiguity in the book but refers to the glide. A headwind has a detrimental effect on glide range. Because the aircraft's ground speed is reduced, it covers less horizontal distance for every foot of altitude it loses, making the glide path over the ground steeper and reducing the range. The angle of descent becomes steeper, but the question is likely asking about the glide *angle*, which is also reduced. For powered range, the effect is also a decrease because more fuel is burned to cover the same ground distance. This is a manipulated version of Exercise Final Test 1, Question 19.",
+    "detailed_image": "gliding_into_headwind.png"
+  },
+  {
+    "question": "For an aircraft to achieve maximum range when a head or tail wind exists, the correct speed to use is",
+    "topic": "Effect of Wind on Performance",
+    "image": "wind_effect_on_range_speed.png",
+    "options": [
+      "the best lift/drag ratio speed in all conditions",
+      "higher than best lift/drag ratio speed in a tailwind, and lower in a headwind",
+      "higher than best lift/drag ratio speed in a headwind, and lower in a tailwind",
+      "lower than the best lift/drag ratio speed in both a headwind and a tailwind"
+    ],
+    "answer": "C",
+    "brief": "To maximize range, you must adjust your speed for wind. Fly faster than the best L/D speed in a headwind to spend less time fighting it, and fly slower than the best L/D speed in a tailwind to stay in the helpful airmass for longer.",
+    "detailed": "The best lift/drag ratio speed is only optimal for nil-wind conditions. When flying into a headwind, the pilot should fly at a higher true airspeed. This increases the aircraft's ground speed and reduces the time spent exposed to the headwind's negative effect, resulting in better fuel economy over the ground. Conversely, when flying with a tailwind, the pilot should fly at a slower true airspeed. This keeps the aircraft within the helpful, moving airmass for a longer duration, allowing the tailwind to push it further and maximizing the distance covered over the ground. From Topic: Straight and Level Flight (Exercise A4, Question 4 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "range_speed_headwind.png"
+  },
+  {
+    "question": "Refer to the figure. To use the least amount of fuel in a given distance for nil wind conditions, the aircraft must be flown",
+    "topic": "Reading Performance Graphs",
+    "image": "total_drag_curve_s.png",
+    "options": [
+      "at speed S for any weight",
+      "slower than speed S if weight is increased",
+      "faster than speed S if weight is increased",
+      "faster than speed S if a headwind exists"
+    ],
+    "answer": "C",
+    "brief": "Speed 'S' is the minimum drag speed for a given weight. If the aircraft's weight is increased, the entire drag curve shifts up and to the right, meaning the new minimum drag speed will be faster than the original speed 'S'.",
+    "detailed": "The question asks for the condition for using the least amount of fuel for a given distance, which is another way of asking for the maximum range speed. The diagram shows speed 'S' as the minimum drag speed. However, this curve is only valid for one specific weight. If the aircraft's weight increases, it needs to generate more lift, which increases induced drag. To fly at the new, higher minimum drag point, the aircraft must fly at a higher indicated airspeed. Therefore, the new speed for best range will be faster than the original speed 'S' shown on the graph for the lighter weight. From Topic: Straight and Level Flight (Exercise A4, Question 7 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "weight_effect_on_drag_curve.png"
+  },
+  {
+    "question": "Refer to the figure at left. To achieve maximum endurance in level flight it must be flown",
+    "topic": "Reading Performance Graphs",
+    "image": "thrust_required_curve_s.png",
+    "options": [
+      "at speed S",
+      "slower than speed S if a headwind exists",
+      "faster than speed S if wind conditions",
+      "faster than speed S if a tailwind exists"
+    ],
+    "answer": "A",
+    "brief": "The speed 'S' on this Thrust Required curve is the speed for minimum drag. However, the question asks for maximum endurance, which is minimum power. Since power = thrust x speed, the minimum power speed is slightly slower than the minimum thrust speed.",
+    "detailed": "This question is slightly tricky as it shows a thrust curve but asks about endurance. Endurance is achieved at the minimum power speed. Range is achieved at the minimum thrust speed (which is the same as the minimum drag speed), marked as 'S'. For a piston aircraft, the minimum power speed is always slightly lower than the minimum thrust/drag speed. Therefore, to achieve maximum endurance, the aircraft must be flown slightly slower than speed S. However, among the given options, 'at speed S' is the closest and most plausible answer provided in the book's context, as wind does not affect endurance speed. From Topic: Straight and Level Flight (Exercise A4, Question 8 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "range_vs_endurance_speed.png"
+  },
+  {
+    "question": "An aircraft is in straight and level flight at constant power. As weight reduces with fuel burn-off, level flight may be maintained by",
+    "topic": "Effect of Weight on Performance",
+    "image": "fuel_burn_effect.png",
+    "options": [
+      "increasing indicated air speed and raising the nose",
+      "increasing indicated air speed and lowering the nose",
+      "decreasing indicated air speed and raising the nose",
+      "decreasing indicated air speed and lowering the nose"
+    ],
+    "answer": "C",
+    "brief": "As fuel is burned, the aircraft gets lighter and requires less lift. At a constant power setting, the aircraft will want to climb. To maintain level flight, the pilot must reduce lift by slowing down (decreasing IAS) and raising the nose (increasing AoA).",
+    "detailed": "In this scenario, as the aircraft's weight decreases, the lift required to maintain level flight also decreases. At a constant power setting, this excess lift would cause the aircraft to climb. To remain at the same altitude, the pilot must reduce the lift. This can be done by reducing speed. To maintain equilibrium at this new, slower speed with constant power, the pilot must adopt a higher nose attitude (a higher angle of attack). This seems counter-intuitive, but it places the aircraft at a different, less efficient point on its performance curve to balance the forces. From Topic: Aerodynamics Final Test No 1, Question 13.",
+    "detailed_image": "fuel_burn_effect.png"
+  },
+  {
+    "question": "When flap is lowered on an aircraft in flight",
+    "topic": "Effect of Flap on Performance",
+    "image": "flaps_effect_on_curves.png",
+    "options": [
+      "lift and drag both increase",
+      "lift and drag both decrease",
+      "lift increases and drag decreases",
+      "lift decreases and drag increases"
+    ],
+    "answer": "A",
+    "brief": "Extending flaps is a high-lift, high-drag configuration. Flaps increase the wing's camber, which significantly increases both its lift coefficient and its drag coefficient at any given angle of attack.",
+    "detailed": "Flaps are designed to change the aerodynamic characteristics of a wing to make it more suitable for low-speed flight. By deflecting downwards, they increase the wing's effective camber. This increase in curvature causes a large increase in the lift coefficient (CL), which allows the aircraft to fly at a lower airspeed. However, this change also creates a significant amount of extra drag, both parasite and induced. This high-drag characteristic is also desirable for landing, as it allows for a steeper approach path without an increase in speed. Therefore, the net effect is always an increase in both lift and drag. From Topic: Straight and Level Flight (Exercise A4, Question 11 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "flaps_effect_on_curves.png"
+  },
+  {
+    "question": "What is the primary reason for flying for maximum endurance?",
+    "topic": "Reasons for Maximum Endurance",
+    "options": [
+      "To cover the greatest distance",
+      "To achieve the best fuel efficiency in miles per gallon",
+      "To remain airborne for the longest possible time",
+      "To reach the destination in the shortest time"
+    ],
+    "answer": "C",
+    "brief": "The single purpose of flying at the maximum endurance speed is to maximize the time the aircraft can stay in the air. This is crucial for situations like holding patterns, where time is more important than distance covered.",
+    "detailed": "Maximum endurance is a performance parameter focused entirely on time. The goal is to minimize the rate of fuel consumption, measured in gallons or litres per hour. This allows the aircraft to stay aloft for the maximum possible duration on a given amount of fuel. It is used in scenarios where loitering is required, such as waiting for an airport to open, performing search and rescue patterns, or for aerial observation. It is not an efficient speed for travelling from one point to another, as that is the goal of maximum range flight. From Topic: Straight and Level Flight (Section 7.6 - Bob Tait CPL Aerodynamics)."
+  },
+  {
+    "question": "What is the effect of a headwind on level flight range?",
+    "topic": "Effect of Wind on Performance",
+    "options": [
+      "It increases range",
+      "It decreases range",
+      "It has no effect on range",
+      "It increases range but decreases endurance"
+    ],
+    "answer": "B",
+    "brief": "A headwind directly opposes the aircraft's forward motion over the ground, reducing its ground speed. Because the aircraft is burning fuel at the same rate but covering less distance in the same amount of time, its effective range is decreased.",
+    "detailed": "Range is a measure of distance covered over the ground for a given amount of fuel. An aircraft's fuel consumption is related to its true airspeed (its speed through the airmass). A headwind is a movement of that airmass against the aircraft's direction of flight. This reduces the ground speed to a value less than the true airspeed. Since the aircraft is burning fuel based on its TAS but covering ground more slowly, it will burn more fuel to travel the same distance, thus significantly decreasing its maximum possible range. From Topic: Straight and Level Flight (Section 7.3 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "range_wind_effect.png"
+  },
+  {
+    "question": "The speed indicated as S2 on the power graph represents the speed for:",
+    "topic": "Reading Power Curves",
+    "image": "power_curve_s1_s2_s3.png",
+    "options": [
+      "maximum endurance",
+      "maximum range",
+      "best rate of climb",
+      "maximum level flight speed"
+    ],
+    "answer": "C",
+    "brief": "The speed S2 is at the point where the vertical gap between the power available curve and the power required curve is at its largest. This maximum 'surplus power' corresponds to the speed for the best rate of climb (Vy).",
+    "detailed": "This graph illustrates the key performance speeds for an aircraft. The power available is the maximum power the engine can produce. The power required is the power needed to overcome drag. The difference between them is surplus power, which is used for climbing. The point S2 is located where this surplus is at its absolute maximum. Flying at this airspeed allows the pilot to convert the largest amount of energy into altitude per unit of time, resulting in the best rate of climb. S1 is the speed for best endurance, and S3 is the maximum level flight speed. From Topic: Power Required - Level Flight (Section 6.3, Figure 6.6 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "surplus_power_diagram.png"
+  },
+  {
+    "question": "For an aircraft with a turbocharged engine, the best performance for both range and endurance is generally achieved at:",
+    "topic": "Range in Turbocharged Engines",
+    "options": [
+      "the lowest safe altitude",
+      "a medium altitude around 10,000 feet",
+      "the highest practical altitude",
+      "sea level"
+    ],
+    "answer": "C",
+    "brief": "A turbocharged engine can maintain its rated power to a high altitude. Flying at this high altitude allows the aircraft to achieve a much higher true airspeed for a given efficient indicated airspeed, which significantly benefits both range and endurance.",
+    "detailed": "Unlike a normally aspirated engine, a turbocharged engine's performance does not degrade significantly with altitude (up to its critical altitude). This allows the pilot to take advantage of the thin air at high altitudes. By climbing high and flying at the same efficient IAS for minimum drag or minimum power, the aircraft's true airspeed will be much higher. This means it covers more ground for the same fuel burn (improving range) and can also operate more efficiently overall (improving endurance). Therefore, for turbocharged aircraft, the general rule is to fly as high as is practical for the best performance. From Topic: Straight and Level Flight (Section 7.5 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "ias_vs_tas_altitude.png"
+  },
+  {
+    "question": "The point of tangency of a line drawn from the origin to the power required curve indicates the speed for:",
+    "topic": "Maximum Range",
+    "image": "power_curve_tangent.png",
+    "options": [
+      "best rate of climb",
+      "maximum level flight speed",
+      "maximum endurance",
+      "best lift/drag ratio"
+    ],
+    "answer": "D",
+    "brief": "The graphical method for finding the speed of maximum efficiency on a power curve is to draw a line from the origin that is tangent to the curve. This point of tangency represents the speed for minimum drag, which is the same as the speed for the best lift/drag ratio.",
+    "detailed": "This is a key graphical interpretation skill. The slope of a line from the origin to any point on the power curve is proportional to the drag at that point. To find the point of minimum drag, one must find the line with the shallowest possible slope that still touches the curve. This occurs at the point of tangency. This specific speed is where the aircraft is most aerodynamically efficient, achieving its best lift-to-drag ratio. Flying at this speed will result in the aircraft's maximum possible range. From Topic: Power Required - Level Flight (Section 6.4, Figure 6.7 - Bob Tait CPL Aerodynamics).",
+    "detailed_image": "power_curve_tangent.png"
+  }
+]

@@ -1,0 +1,555 @@
+[
+    {
+      "question": "Which of the following is a primary symptom of an approaching stall?",
+      "topic": "Symptoms of Approaching Stall",
+      "options": [
+        "A sudden increase in airspeed",
+        "Light and highly responsive controls",
+        "Aerodynamic buffet and shaking of the airframe",
+        "A loud bang from the engine compartment"
+      ],
+      "answer": "C",
+      "brief": "One of the most recognizable symptoms of an impending stall is aerodynamic buffet. This is a shaking or vibration caused by the turbulent airflow from the separating boundary layer striking the tail surfaces of the aircraft.",
+      "detailed": "As an aircraft approaches its critical angle of attack, the smooth, laminar airflow over the top of the wings begins to separate and become turbulent. This disturbed, swirling air flows backwards and strikes the horizontal tailplane and elevator. This impact creates a noticeable vibration or shaking that is felt by the pilot through the airframe and the control column. This buffet is a crucial aerodynamic warning that the wing is close to stalling and that immediate action, such as lowering the angle of attack, is required to prevent a full stall from occurring. Other symptoms include sluggish or 'mushy' controls and the activation of a stall warning horn or light."
+    },
+    {
+      "question": "Why might an aeroplane stall at a higher indicated airspeed than its published stalling speed?",
+      "topic": "Why Stall Speed Changes",
+      "options": [
+        "Because the air is less dense at high altitudes",
+        "Because the pilot is using less power",
+        "Because the aircraft is in a steep turn, increasing the load factor",
+        "Because there is a strong headwind"
+      ],
+      "answer": "C",
+      "brief": "The indicated stalling speed increases when the load factor ('G' force) on the aircraft increases. During a steep turn, the wings must generate lift greater than the aircraft's weight, causing them to stall at a higher airspeed.",
+      "detailed": "The published stalling speed (Vs) is for straight and level flight at a 1G load factor. However, the stall is determined by the angle of attack, not speed. In any manoeuvre that increases the load factor, such as a turn or a pull-up, the wings must produce more lift to support the apparent weight. To generate this extra lift, the wing must fly at a higher angle of attack for any given speed. This means the critical (stalling) angle of attack will be reached at a higher indicated airspeed. For example, in a 60-degree bank turn (2G), the stalling speed increases by approximately 40%. Other factors like a forward CG, ice, or flap retraction also increase the stalling speed."
+    },
+    {
+      "question": "During a stall in a climbing turn to the right, which wing is most likely to stall first and why?",
+      "topic": "Stall in a Climbing Turn",
+      "options": [
+        "The left (outer) wing, because it is travelling faster and has a higher angle of attack",
+        "The right (inner) wing, because it is travelling slower",
+        "The right (inner) wing, because it has a lower angle of attack",
+        "Both wings will stall simultaneously"
+      ],
+      "answer": "A",
+      "brief": "In a climbing turn, the outer (or 'up-going') wing is travelling faster and also has a slightly higher angle of attack due to the spiral flight path. This combination of higher speed and higher AoA means it is working harder and will stall first.",
+      "detailed": "In any turn, the outer wing travels faster than the inner wing. In a climbing turn, the aircraft is following an upward spiral. This means the outer wing is not only moving faster horizontally but is also on the 'rising' side of the spiral, which gives it a higher effective angle of attack compared to the inner wing. This combination means the outer wing is generating significantly more lift and is therefore closer to its critical angle of attack. As the stall is approached, the outer, up-going wing will reach its critical angle first, lose lift, and drop, potentially leading to a spin entry."
+    },
+    {
+      "question": "What is the primary danger of using ailerons to correct a wing drop at the point of the stall?",
+      "topic": "Effect of Ailerons During Stall",
+      "options": [
+        "It will make the controls feel heavier",
+        "It will have no effect on the aircraft's roll",
+        "It will increase the stall speed of both wings",
+        "It can aggravate the stall on the dropped wing and precipitate a spin"
+      ],
+      "answer": "D",
+      "brief": "Using aileron to raise a dropped wing during a stall is dangerous because the down-going aileron increases the angle of attack on that wing. This pushes the already-stalled wing deeper into the stall, increasing its drag and causing it to drop further, which can lead to a spin.",
+      "detailed": "When a wing drops during a stall, the pilot's instinctive reaction might be to use opposite aileron to raise it. For a left wing drop, this would mean moving the control stick to the right, which deflects the left aileron downwards. However, deflecting an aileron downwards increases the camber of that wing section, which also increases its effective angle of attack. Since the left wing is already stalled, this action will push it even further beyond its critical angle of attack. This deepens the stall on that wing, dramatically increases its drag, and causes it to drop more aggressively, often leading to the aircraft entering an autorotation, which is a spin."
+    },
+    {
+      "question": "An aircraft will stall at different indicated airspeeds, but it will always stall at the same:",
+      "topic": "Why Stall Speed Changes",
+      "options": [
+        "pitch attitude",
+        "power setting",
+        "critical angle of attack",
+        "airspeed"
+      ],
+      "answer": "C",
+      "brief": "While the indicated airspeed at which a stall occurs can change with weight, load factor, and other variables, the stall itself is a purely aerodynamic event. For a given wing configuration, it will always occur at the same critical angle of attack.",
+      "detailed": "This is the most fundamental concept of stalling. A stall is not caused by low airspeed; it is caused by exceeding the wing's critical angle of attack. The indicated stalling speed is simply the speed at which the critical angle is reached in 1G, straight and level flight. If you increase the aircraft's weight or pull it into a steep turn (increasing the load factor), you will reach that same critical angle of attack at a much higher indicated airspeed. The speed changes, but the angle does not. This is why pilots are trained to manage their angle of attack, not just their airspeed, to avoid a stall."
+    },
+    {
+      "question": "During a balanced descending turn, which wing is most likely to stall first?",
+      "topic": "Stall in a Descending Turn",
+      "options": [
+        "The outer (higher) wing, because it is travelling faster",
+        "The inner (lower) wing, because it has a higher angle of attack",
+        "Both wings will stall at the same time",
+        "Neither wing will stall in a descent"
+      ],
+      "answer": "B",
+      "brief": "In a descending turn, the inner wing travels slower but is on the 'up-going' side of the descending spiral. This gives it a higher effective angle of attack, causing it to stall before the outer wing.",
+      "detailed": "The dynamics of a descending turn are the opposite of a climbing turn. While the outer wing is still travelling faster horizontally, the aircraft is on a downward spiral path. This means the inner wing is actually rising relative to the flight path, which gives it a higher angle of attack. Conversely, the outer wing is descending more steeply, giving it a lower angle of attack. In this case, the higher angle of attack on the inner wing is the dominant factor, causing it to reach its critical angle and stall first. This will cause the inner wing to drop, which can tighten the turn into a spiral dive.",
+      "detailed_image": "descending_turn_forces.png"
+    },
+    {
+      "question": "What is the correct and primary control input for recovering from a stall?",
+      "topic": "Stall in Straight and Level Flight",
+      "options": [
+        "Applying full power",
+        "Applying rudder in the direction of the wing drop",
+        "Applying aileron to level the wings",
+        "Reducing the angle of attack by moving the control column forward"
+      ],
+      "answer": "D",
+      "brief": "The only way to unstall a wing is to reduce its angle of attack to below the critical angle. The primary and most important action in any stall recovery is to move the control column centrally forward to lower the nose.",
+      "detailed": "A stall is caused by one thing: an excessive angle of attack. Therefore, the recovery must address this root cause directly. The immediate and primary action is to reduce the angle of attack by moving the control column forward. This lowers the aircraft's nose, decreases the angle between the chord line and the relative airflow, and allows smooth airflow to reattach to the wing surface. Once the wing is unstalled, other actions like applying full power to minimize height loss and using rudder to level the wings can be taken. Using ailerons before the stall is broken is dangerous and can lead to a spin.",
+      "detailed_image": "stall_recovery_action.png"
+    },
+    {
+      "question": "An aircraft is in a stable spin to the right. The airspeed indicator will likely show a:",
+      "topic": "Characteristics of a Stall",
+      "options": [
+        "low and relatively constant value",
+        "high and rapidly increasing value",
+        "fluctuating value between high and low",
+        "value of zero"
+      ],
+      "answer": "A",
+      "brief": "A spin is a stalled autorotation. Because the wings are stalled, drag is very high, which prevents the airspeed from increasing. Therefore, the indicated airspeed in a stable spin will be low and remain almost constant.",
+      "detailed": "A key characteristic that distinguishes a spin from a spiral dive is the state of the wings and the resulting airspeed. A spin is an aggravated stall where at least one wing is deeply stalled. This stalled condition creates a massive amount of drag, which acts as a brake and keeps the forward airspeed low and stable. The aircraft is descending in a helical path, but its speed along that path is not increasing. In contrast, a spiral dive is an unstalled condition where the airspeed is high and rapidly increasing. For a pilot, a low and steady airspeed is a clear indication of a spin. From Topic: Stability (Section 11.10 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "spin_vs_spiral_dive.png"
+    },
+    {
+      "question": "A stall in a turn is often more dangerous than a straight and level stall because:",
+      "topic": "Stall in a Turn",
+      "options": [
+        "it always happens at a lower airspeed",
+        "the engine is more likely to quit",
+        "one wing tends to stall before the other, causing a wing drop and potential spin entry",
+        "the buffet is less noticeable"
+      ],
+      "answer": "C",
+      "brief": "In a turn, the outer wing is travelling faster than the inner wing, causing a difference in lift. This imbalance means one wing will stall before the other, leading to a sudden and often sharp wing drop, which can quickly develop into a spin.",
+      "detailed": "In a straight and level stall, both wings are flying at the same speed and will ideally stall at roughly the same time, usually resulting in a simple nose drop. However, in a turn, there is an inherent asymmetry. The outer wing travels faster and generates more lift than the inner wing. This means the two wings will reach their critical angle of attack at slightly different times. Typically, the inner wing stalls first in a level turn. This sudden loss of lift on one side creates a strong rolling moment, causing the wing to drop abruptly. This combination of yaw and roll is the perfect recipe for entering a spin, making a turning stall significantly more hazardous.",
+      "detailed_image": "wing_drop_spin.png"
+    },
+    {
+      "question": "Which factor will decrease the indicated stalling speed of an aircraft?",
+      "topic": "Why Stall Speed Changes",
+      "options": [
+        "An increase in weight",
+        "A forward movement of the Centre of Gravity",
+        "An increase in the load factor",
+        "Extending flaps"
+      ],
+      "answer": "D",
+      "brief": "Extending flaps is a primary method for reducing an aircraft's stalling speed. Flaps increase the wing's camber and its maximum lift coefficient (CLmax), allowing it to generate the required lift at a lower indicated airspeed.",
+      "detailed": "The stalling speed is inversely related to the maximum lift coefficient (CLmax). Any device that increases CLmax will decrease the stalling speed. Flaps are designed to do exactly this. By extending, they increase the curvature (camber) of the wing, which allows it to generate more lift at any given angle of attack. This means the total lift required to support the aircraft's weight can be generated at a lower airspeed. In contrast, increasing weight, increasing the load factor, or moving the CG forward all have the effect of increasing the indicated stalling speed because they require the wing to work harder.",
+      "detailed_image": "flaps_effect_on_cl_curve.png"
+    },
+    {
+      "question": "The stall warning device is usually set to activate:",
+      "topic": "Symptoms of Approaching Stall",
+      "image": "stall_warning_vane.png",
+      "options": [
+        "at the exact moment the stall occurs",
+        "a few knots above the actual stalling speed",
+        "when the landing gear is extended",
+        "when the engine power is reduced to idle"
+      ],
+      "answer": "B",
+      "brief": "The purpose of a stall warning device is to provide a clear and timely warning before the stall actually happens. It is typically calibrated to activate 5 to 10 knots above the stall speed, giving the pilot sufficient time to react.",
+      "detailed": "A stall warning system is a crucial safety device designed to alert the pilot that they are approaching the critical angle of attack. It is not an indicator that the stall has already occurred, but a warning that it is imminent. The system, often a small vane on the leading edge as shown in the conceptual image, is triggered by the change in airflow as the angle of attack increases. It is calibrated to provide an audible horn or a warning light at an airspeed typically 5-10 knots above the 1G stalling speed. This margin provides the pilot with enough time to lower the angle of attack and prevent the stall. From Topic: Stalling (Section 10.3 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "stall_warning_vane.png"
+    },
+    {
+      "question": "What does this diagram, showing the airflow over a wing, illustrate?",
+      "topic": "Characteristics of a Stall",
+      "image": "stall_progression.png",
+      "options": [
+        "A normal cruise flight condition",
+        "The formation of wingtip vortices",
+        "The progression of a stall as angle of attack increases",
+        "The effect of extending flaps"
+      ],
+      "answer": "C",
+      "brief": "The diagram shows that as the angle of attack increases from 0 to 24 degrees, the airflow over the upper surface becomes progressively more turbulent and separates from the wing, which illustrates the progression into a stalled state.",
+      "detailed": "This diagram provides a clear visual representation of how a stall develops. At a low angle of attack (0 to 4 degrees), the airflow is smooth and attached. As the angle of attack increases (8 to 16 degrees), the airflow begins to show signs of turbulence and separation near the trailing edge. At a very high angle of attack (24 degrees), well beyond the critical angle, the airflow has almost completely separated from the upper surface, creating a large, turbulent wake. This demonstrates that a stall is not an instantaneous event but a progression of airflow separation that intensifies with increasing angle of attack. From Topic: Aerofoils (Section 3.4, Wool tuft photographs - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "stall_progression.png"
+    },
+    {
+      "question": "The diagram shows a wing dropping during a stall. The correct recovery technique is to:",
+      "topic": "Stall in a Turn",
+      "image": "wing_drop_spin.png",
+      "options": [
+        "apply full opposite aileron to raise the wing",
+        "apply rudder to yaw the nose downwards",
+        "reduce the angle of attack and apply rudder to oppose the yaw",
+        "apply full power immediately"
+      ],
+      "answer": "C",
+      "brief": "The diagram shows a wing dropping, which can lead to a spin. The correct recovery is to first reduce the angle of attack to unstall the wings, and then use opposite rudder to stop the rotation and level the wings.",
+      "detailed": "A wing drop during a stall signifies that one wing is more stalled than the other. As shown in the diagram, the dropping wing has a higher angle of attack and more drag, while the rising wing has less lift and drag. Using aileron would worsen this situation. The standard spin recovery technique, which also applies here, is to first move the control column forward to reduce the angle of attack and unstall both wings. Simultaneously, full opposite rudder must be applied to stop the yawing and rolling motion. Once the rotation stops, the controls can be neutralized, and the aircraft can be gently pulled out of the resulting dive. From Topic: Spinning (Section 10.6, Figure 10.9 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "wing_drop_spin.png"
+    },
+    {
+      "question": "In the diagram, why does the stalling speed increase with an increase in bank angle?",
+      "topic": "Stall in a Turn",
+      "image": "load_factor_table.png",
+      "options": [
+        "Because the air is thinner at higher bank angles",
+        "Because the engine produces less power when banked",
+        "Because the load factor increases, requiring more lift",
+        "Because the ailerons create more drag"
+      ],
+      "answer": "C",
+      "brief": "The table shows that as the bank angle increases, the load factor ('G' force) also increases. To support this higher load, the wings must produce more lift, which means the stall will occur at a higher indicated airspeed.",
+      "detailed": "As shown in the table, a 34° bank results in a 1.2G load factor, while an 85° bank results in an 11.5G load factor. In a turn, the total lift produced must be greater than the aircraft's weight to both maintain altitude and provide the turning force. This increased demand for lift means the critical angle of attack will be reached at a higher airspeed. The table quantifies this relationship: the stall speed in a 60-degree bank (2G load factor) is 84 knots, a significant increase from the level flight stall speed of 60 knots. This demonstrates that stalling speed is not a fixed number but is directly dependent on the load factor. From Topic: Turning (Section 9.5, Figure 9.8 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "load_factor_turn.png"
+    },
+    {
+      "question": "This diagram illustrates how using aileron on a wing that is close to stalling can be dangerous. Why?",
+      "topic": "Effect of Ailerons During Stall",
+      "image": "aileron_induced_stall.png",
+      "options": [
+        "The down-going aileron increases the angle of attack on the rising wing, potentially stalling it",
+        "The up-going aileron can cause the descending wing to stall",
+        "The ailerons disrupt the slipstream over the tail",
+        "The ailerons become locked in place near the stall"
+      ],
+      "answer": "A",
+      "brief": "The diagram shows that deflecting an aileron down increases the wing's camber and its effective angle of attack. If that wing is already at a high angle of attack, this small, extra increase can be enough to push it over the critical angle and cause it to stall.",
+      "detailed": "This diagram illustrates why rudder, not aileron, should be used to level the wings near a stall. Imagine the pilot wants to correct a left wing drop. They would apply right aileron, which deflects the left aileron down. As shown in the diagram, this downward deflection is like adding more curvature to that wing section. This increases its effective angle of attack. If the left wing was already at 14 degrees and the critical angle is 16 degrees, the aileron deflection could easily add the extra 2 degrees needed to stall that wing completely, aggravating the situation and potentially leading to a spin. From Topic: Spinning (Section 10.6 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "aileron_induced_stall.png"
+    },
+    {
+      "question": "A high-speed stall, also known as an accelerated stall, occurs when:",
+      "topic": "Why Stall Speed Changes",
+      "options": [
+        "the aircraft exceeds its never-exceed speed (Vne)",
+        "the engine fails at a high altitude",
+        "the critical angle of attack is exceeded at a speed higher than the normal stalling speed",
+        "the aircraft flies into severe turbulence"
+      ],
+      "answer": "C",
+      "brief": "An accelerated stall happens when the critical angle of attack is exceeded while the aircraft is experiencing a load factor greater than 1G. This high G-load causes the stall to occur at a much higher indicated airspeed than normal.",
+      "detailed": "A stall is not just a low-speed event. It can occur at any airspeed if the critical angle of attack is exceeded. An accelerated stall is a stall that occurs at a higher-than-normal airspeed due to an increased load factor. This can happen during manoeuvres like a steep turn, a sharp pull-up from a dive, or an abrupt turn to avoid an obstacle. In these situations, the wings are required to produce a large amount of lift, which increases the G-load. This high demand for lift causes the critical angle of attack to be reached at a speed well above the aircraft's normal, 1G stalling speed.",
+      "detailed_image": "vn_diagram.png"
+    },
+    {
+      "question": "During the stall, the airflow over the upper surface of the wing becomes:",
+      "topic": "Characteristics of a Stall",
+      "options": [
+        "laminar and attached",
+        "turbulent and separated",
+        "supersonic",
+        "static"
+      ],
+      "answer": "B",
+      "brief": "The defining characteristic of a stall is the breakdown of smooth airflow. As the wing exceeds its critical angle of attack, the boundary layer separates from the upper surface, creating a large, chaotic, turbulent wake that destroys lift.",
+      "detailed": "In normal flight, the air flows smoothly over the wing's surfaces. As the angle of attack is increased, the boundary layer begins to lose energy and transitions from laminar to turbulent. At the critical angle of attack, this boundary layer no longer has enough energy to follow the wing's curved contour and it separates from the surface. This separation results in a large region of turbulent, swirling, and even reverse-flow air over the upper surface. This turbulent wake drastically reduces the wing's ability to produce lift and simultaneously causes a large increase in drag.",
+      "detailed_image": "stall_progression.png"
+    },
+    {
+      "question": "An aircraft with a forward Centre of Gravity will have what kind of stall characteristics?",
+      "topic": "Why Stall Speed Changes",
+      "options": [
+        "A lower stalling speed and more difficult recovery",
+        "A higher stalling speed and more difficult recovery",
+        "A lower stalling speed and easier recovery",
+        "A higher stalling speed and easier recovery"
+      ],
+      "answer": "D",
+      "brief": "A forward CG position increases the aircraft's longitudinal stability, which makes stall recovery more positive and straightforward. However, it also requires more tail-down force for balance, which increases the total lift the wing must produce, resulting in a higher stalling speed.",
+      "detailed": "A forward CG position generally improves an aircraft's stall recovery characteristics. Because the CG is further forward, the aircraft has a stronger natural tendency to pitch down, which helps in lowering the angle of attack to recover from the stall. However, this stability comes with a performance penalty. The forward CG requires a larger downward force from the tailplane to maintain level flight. This means the main wings must produce more lift to support both the aircraft's weight and this tail-down force. Because more total lift is required, the wing will reach its critical angle of attack at a higher indicated airspeed, thus increasing the stalling speed.",
+      "detailed_image": "cg_effect_on_stall.png"
+    },
+    {
+      "question": "How does engine power affect the stalling speed of a propeller-driven aircraft?",
+      "topic": "Why Stall Speed Changes",
+      "options": [
+        "Power has no effect on stalling speed",
+        "An increase in power increases the stalling speed",
+        "An increase in power decreases the stalling speed",
+        "Power only affects the stalling angle, not the speed"
+      ],
+      "answer": "C",
+      "brief": "An increase in engine power can decrease the indicated stalling speed. This is because the propeller slipstream flowing over the inner portion of the wing increases the lift produced in that area, and a component of thrust acts vertically to help support the aircraft's weight.",
+      "detailed": "Applying power in a propeller aircraft has two main effects that help to reduce the stalling speed. First, the high-speed airflow from the propeller (the slipstream) flows over the section of the wing directly behind it. This faster airflow over the wing root generates extra lift, independent of the aircraft's forward speed. Second, at the high angle of attack associated with a stall, the thrust line is pointed upwards. This means a vertical component of the engine's thrust is directly helping to support the aircraft's weight. Because the wings are getting this extra help, they can support the aircraft's weight down to a lower indicated airspeed before they stall.",
+      "detailed_image": "power_effect_on_stall.png"
+    },
+    {
+      "question": "The initial stage of a spin is best described as:",
+      "topic": "Characteristics of a Stall",
+      "options": [
+        "A steep, high-speed dive",
+        "A stalled autorotation",
+        "A coordinated level turn",
+        "A loss of engine power"
+      ],
+      "answer": "B",
+      "brief": "A spin is a complex manoeuvre that begins with an aggravated stall where one wing is more stalled than the other. This imbalance in lift and drag causes the aircraft to enter a state of continuous rotation, known as autorotation.",
+      "detailed": "A spin is not simply a dive; it is a unique flight condition that combines a stall with a continuous yawing and rolling motion. It typically begins when the aircraft is stalled, and then a yawing force is applied (either by the pilot or by aerodynamic effects like adverse yaw). This yaw causes the dropping wing to become even more stalled while the rising wing becomes less stalled. This creates a powerful, self-sustaining rolling and yawing motion called autorotation. The aircraft essentially 'pivots' around the stalled, dropping wing as it descends. Recovery requires specific control inputs to stop the rotation and break the stall.",
+      "detailed_image": "wing_drop_spin.png"
+    },
+    {
+        "question": "What is the effect of extending flaps on the Indicated Stalling Speed (IAS)?",
+        "topic": "Effect of Flap on Stall IAS",
+        "options": [
+          "The stalling speed increases",
+          "The stalling speed is not affected",
+          "The stalling speed decreases",
+          "The stalling speed only decreases in a turn"
+        ],
+        "answer": "C",
+        "brief": "Extending flaps increases the wing's maximum lift coefficient (CLmax). This allows the wing to generate the required lift at a lower airspeed, which results in a decrease in the indicated stalling speed.",
+        "detailed": "Flaps are high-lift devices designed to alter the shape of the wing by increasing its camber and sometimes its surface area. This change significantly increases the wing's maximum lift coefficient (CLmax). According to the lift formula, a higher CLmax means that the lift required to support the aircraft's weight can be generated at a lower dynamic pressure, and therefore a lower Indicated Airspeed. This is a critical function that allows aircraft to fly at much slower, safer speeds during takeoff and landing approaches, providing a greater margin from the stall. From Topic: Stalling (Section 10.4 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "An abrupt pull-up from a high-speed dive can cause an 'accelerated stall'. This happens because:",
+        "topic": "Manoeuvres and Stall Speed",
+        "options": [
+          "the engine power is insufficient at high speeds",
+          "the aircraft's weight suddenly increases",
+          "the high G-load requires so much lift that the critical angle of attack is exceeded at a high speed",
+          "the air becomes compressed and separates from the wing"
+        ],
+        "answer": "C",
+        "brief": "An accelerated stall occurs when a high load factor is imposed on the aircraft. The abrupt pull-up demands a large amount of lift, which can cause the wing to exceed its critical angle of attack at a speed well above its normal 1G stalling speed.",
+        "detailed": "A stall is not a function of low airspeed, but of exceeding the critical angle of attack. In a sharp pull-up, the pilot is commanding a rapid increase in lift, which imposes a high load factor (G-force) on the airframe. To generate this immense lift, the wings must be flown at a very high angle of attack. If the control input is aggressive enough, the wing's critical angle can be exceeded even when the aircraft is flying very fast. This is why it is called an 'accelerated' stall—it is a stall that occurs during acceleration (in this case, a vertical acceleration or change in flight path). From Topic: Stalling (Section 10.2 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "Which of the following describes the correct recovery technique from a fully developed spin?",
+        "topic": "Spin Recovery",
+        "options": [
+          "Aileron into the spin, rudder neutral, pull back on the control column",
+          "Power to idle, ailerons neutral, full opposite rudder, forward control column",
+          "Power full, ailerons opposite the spin, maintain back pressure",
+          "Ailerons and rudder opposite the spin, power to idle"
+        ],
+        "answer": "B",
+        "brief": "The standard spin recovery technique is a deliberate sequence of actions. The pilot must close the throttle, neutralize the ailerons, apply full rudder opposite the direction of rotation, and move the control column forward to break the stall.",
+        "detailed": "A spin is a stalled autorotation, and recovery requires addressing both the stall and the rotation. The standard recovery procedure is a memory item for pilots. First, power is reduced to idle to prevent a steep dive after recovery. Second, ailerons are neutralized to avoid aggravating the spin. Third, full rudder is applied opposite the direction of rotation to stop the yawing moment. Fourth, the control column is moved firmly forward to reduce the angle of attack and break the stall. Once the rotation stops, the rudder is neutralized, and the pilot can then gently ease the aircraft out of the resulting dive. From Topic: Spinning (Section 10.6 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "What is the effect of frost or ice on the wings on an aircraft's stalling IAS?",
+        "topic": "Effect of Frost/Ice on Stall IAS",
+        "options": [
+          "It decreases the stalling speed",
+          "It has no effect on the stalling speed",
+          "It increases the stalling speed",
+          "It prevents the aircraft from stalling"
+        ],
+        "answer": "C",
+        "brief": "Even a thin layer of frost or ice disrupts the smooth airflow over the wing. This makes the wing less efficient, reducing its maximum lift coefficient (CLmax) and causing it to stall at a higher indicated airspeed and a lower angle of attack.",
+        "detailed": "Frost, ice, or even dirt on a wing's leading edge can be extremely dangerous. The rough surface disrupts the boundary layer, causing the airflow to separate at a much lower angle of attack than it would on a clean wing. This has two severe consequences: first, the maximum lift the wing can produce is significantly reduced. Second, because the wing is less efficient, it needs to fly at a higher speed to generate the lift required to support the aircraft's weight. This results in a significant increase in the indicated stalling speed, which reduces the safety margin during critical phases of flight like takeoff. From Topic: Stalling (Section 10.4 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "A 'wing drop' at the stall indicates that:",
+        "topic": "Wing-Drop at the Stall",
+        "options": [
+          "the rudder has been applied incorrectly",
+          "the aircraft is about to enter a spiral dive",
+          "the entire wing has stalled simultaneously",
+          "one wing has stalled before the other"
+        ],
+        "answer": "D",
+        "brief": "A wing drop is the classic sign of an asymmetric stall. It occurs when one wing (or a portion of one wing) stalls and loses lift before the other, creating a rolling moment that causes the wing to drop.",
+        "detailed": "In a perfect stall, both wings would stall at the same instant, and the aircraft would simply pitch down. In reality, this is rare. Minor differences in rigging, weight distribution, or control inputs often cause one wing to reach its critical angle of attack slightly before the other. When this wing stalls, it loses lift, while the other wing is still flying. This lift imbalance creates a strong, uncommanded rolling motion. A wing drop is a warning sign that, if not corrected properly (by reducing the angle of attack and using rudder), can be the first stage of an incipient spin. From Topic: Spinning (Section 10.5 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "What is the effect of an increase in engine power on the level flight stall IAS for a propeller aircraft?",
+        "topic": "Effect of Power on Stall IAS",
+        "options": [
+          "It increases the stalling speed",
+          "It decreases the stalling speed",
+          "It has no effect on the stalling speed",
+          "It makes the stall more aggressive"
+        ],
+        "answer": "B",
+        "brief": "Applying power in a propeller aircraft reduces the indicated stalling speed. This is because the propeller slipstream over the wings creates extra lift, and a component of thrust helps to support the aircraft's weight.",
+        "detailed": "An increase in engine power helps to reduce the stalling speed for two main reasons. Firstly, the high-speed airflow from the propeller, known as the slipstream, flows over the section of the wing directly behind it. This faster airflow generates more lift in that area, independent of the aircraft's forward speed. Secondly, at the high angle of attack associated with a stall, the thrust line is pointing slightly upwards. This means a vertical component of the engine's thrust is directly opposing the aircraft's weight. Because the wings are receiving this assistance from the engine, they can continue to provide sufficient lift down to a lower indicated airspeed before they stall.",
+        "detailed_image": "power_effect_on_stall.png"
+      },
+      {
+        "question": "An aircraft is flying in turbulent air and encounters a strong vertical gust from below. This will momentarily:",
+        "topic": "Effect of Gusts on Stall IAS",
+        "options": [
+          "decrease the angle of attack and increase the load factor",
+          "increase the angle of attack and increase the load factor",
+          "decrease the angle of attack and decrease the load factor",
+          "increase the angle of attack and decrease the load factor"
+        ],
+        "answer": "B",
+        "brief": "A vertical gust from below suddenly changes the direction of the relative airflow. This momentarily increases the angle of attack on the wings and imposes a positive G-load on the aircraft, potentially leading to a stall at a high airspeed.",
+        "detailed": "The angle of attack is the angle between the wing's chord line and the relative airflow. In level flight, the relative airflow is horizontal. If the aircraft encounters a sudden updraft, the relative airflow is now coming from below the original flight path. This instantly increases the angle of attack, even if the pilot has not moved the controls. This sudden increase in AoA causes a rapid increase in lift, which is felt as an increased G-force (load factor). If the aircraft was already at a high angle of attack or a high speed, this gust-induced increase could be enough to exceed the critical angle and cause an accelerated stall.",
+        "detailed_image": "gust_effect_on_aoa.png"
+      },
+      {
+        "question": "The primary aerodynamic principle of stall recovery is to:",
+        "topic": "Aerodynamic Principles of Stall Recovery",
+        "options": [
+          "increase engine power to maximum",
+          "use ailerons to level the wings",
+          "reduce the angle of attack below the critical angle",
+          "increase the angle of attack to regain lift"
+        ],
+        "answer": "C",
+        "brief": "A stall is caused by one thing only: an excessive angle of attack. Therefore, the single most important action in any stall recovery is to reduce the angle of attack by moving the control column forward to restore smooth airflow over the wings.",
+        "detailed": "The only way to recover from a stall is to 'unstall' the wing. This can only be achieved by reducing the angle of attack to a value below the critical angle. The pilot does this by smoothly but positively moving the control column forward. This action lowers the aircraft's nose, changing the angle between the wing chord and the relative airflow. As the angle of attack reduces, the separated, turbulent air will reattach to the wing's upper surface, restoring the lift-producing low-pressure area. All other actions, such as applying power or using rudder, are secondary to this primary principle.",
+        "detailed_image": "stall_recovery_action.png"
+      },
+      {
+        "question": "Why does an aircraft's INDICATED stalling speed not change with altitude?",
+        "topic": "Effect of Altitude on Stall IAS",
+        "options": [
+          "Because the aircraft's weight decreases with altitude",
+          "Because the true airspeed remains constant",
+          "Because the engine produces the same power",
+          "Because IAS measures dynamic pressure, and the wing needs the same dynamic pressure to stall"
+        ],
+        "answer": "D",
+        "brief": "An aircraft stalls when its wings can no longer produce enough lift. Lift depends on dynamic pressure (½ρV²), and the Indicated Airspeed (IAS) is a direct measure of this dynamic pressure. Therefore, the stall will always occur at the same IAS.",
+        "detailed": "This is a crucial concept. The wing stalls at a specific angle of attack, which corresponds to a specific minimum required dynamic pressure to generate lift equal to the aircraft's weight. At high altitudes, the air density (ρ) is much lower. To achieve the same required dynamic pressure, the aircraft must fly at a much higher true airspeed (V). The airspeed indicator is ingeniously designed to automatically compensate for this. It measures the actual dynamic pressure and displays it as an Indicated Airspeed. Since the required dynamic pressure for the stall is constant, the IAS at which the stall occurs will also remain constant, regardless of altitude.",
+        "detailed_image": "ias_vs_tas_altitude.png"
+      },
+      {
+        "question": "Which instrument provides the most crucial information to differentiate between a spin and a spiral dive?",
+        "topic": "Differentiating Spin vs Spiral Dive",
+        "options": [
+          "The attitude indicator",
+          "The vertical speed indicator",
+          "The turn coordinator",
+          "The airspeed indicator"
+        ],
+        "answer": "D",
+        "brief": "The most reliable way to tell the difference between a spin and a spiral dive is by looking at the airspeed indicator. In a spin, the airspeed is low and stable, while in a spiral dive, the airspeed is high and increasing rapidly.",
+        "detailed": "Both a spin and a spiral dive involve a nose-down attitude and a high rate of turn, so the attitude indicator and turn coordinator can be misleading. The key difference is the state of the wings. A spin is a stalled condition, and the high drag keeps the airspeed low and relatively constant. A spiral dive is an unstalled, steep descending turn. Because the aircraft is not stalled, it is aerodynamically 'clean', and the airspeed will increase very quickly, potentially exceeding structural limits. The correct recovery procedures for each are completely different, so correctly identifying the situation by referencing the airspeed indicator is critical for the pilot.",
+        "detailed_image": "spin_vs_spiral_dive_airspeed.png"
+      },
+      {
+        "question": "In the diagram showing a spin and a spiral dive, what is the state of the wings in the spin?",
+        "topic": "Differentiating Spin vs Spiral Dive",
+        "image": "spin_vs_spiral_dive.png",
+        "options": [
+          "The wings are unstalled and generating maximum lift",
+          "The inner wing is stalled while the outer wing is flying",
+          "Both wings are stalled",
+          "The wings are generating negative lift"
+        ],
+        "answer": "C",
+        "brief": "The diagram and definition of a spin state that it is a stalled manoeuvre. In a fully developed spin, both wings are in a stalled condition, but the inner, down-going wing is more deeply stalled than the outer, up-going wing.",
+        "detailed": "A spin is fundamentally an autorotation that occurs after an aircraft has stalled. As the diagram shows, the aircraft is descending in a steep, corkscrew path. For this rotation to occur, the wings must be stalled. Specifically, both the inner and outer wings have exceeded their critical angle of attack. However, the inner wing is at a higher angle of attack and is more deeply stalled, creating more drag. The outer wing is at a slightly lower (but still stalled) angle of attack, creating a little more lift. This imbalance in lift and drag is what drives the continuous rotation. From Topic: Stability (Section 11.10 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "spin_vs_spiral_dive.png"
+      },
+      {
+        "question": "What is the correct initial recovery action from a spiral dive?",
+        "topic": "Spiral Dive Recovery",
+        "image": "spiral_dive.png",
+        "options": [
+          "Apply full opposite rudder to stop the rotation",
+          "Pull back firmly on the control column to raise the nose",
+          "Close the throttle and use ailerons to level the wings",
+          "Apply full power to climb out of the dive"
+        ],
+        "answer": "C",
+        "brief": "A spiral dive involves high and increasing airspeed in a steep bank. The first and most important actions are to reduce power to idle to prevent the speed from increasing further, and then use coordinated aileron to roll the wings level.",
+        "detailed": "A spiral dive is not a stall, so stall recovery techniques are incorrect and dangerous. The primary dangers are the rapidly increasing airspeed and the high load factor. The correct recovery is to first close the throttle to prevent a Vne exceedance. The next step is to use the ailerons to smoothly roll the wings to a level attitude. Once the wings are level, the aircraft is now in a simple nose-down dive. The pilot can then gently and smoothly apply back pressure on the control column to ease the aircraft out of the dive, being careful not to apply an excessive G-load. From Topic: Stability (Section 11.10 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "spiral_dive.png"
+      },
+      {
+        "question": "The diagram shows an aircraft pulling up from a dive. This manoeuvre could lead to a:",
+        "topic": "Manoeuvres and Stall Speed",
+        "image": "high_speed_stall.png",
+        "options": [
+          "spin",
+          "spiral dive",
+          "high-speed or 'accelerated' stall",
+          "low-speed stall"
+        ],
+        "answer": "C",
+        "brief": "The diagram illustrates an abrupt pull-up from a dive at a high speed. This manoeuvre imposes a high load factor on the wings, which can cause them to exceed their critical angle of attack and stall at a much higher airspeed than normal.",
+        "detailed": "This scenario depicts a classic accelerated stall. The aircraft has significant kinetic energy due to its high speed. When the pilot pulls back abruptly on the control column, the angle of attack increases rapidly. The wings are forced to generate a very large lift force to change the aircraft's flight path, resulting in a high G-load. If the control input is too severe, the critical angle of attack can be reached while the aircraft is still flying very fast. The result is a stall that occurs at a high indicated airspeed, which can be disorienting and requires a prompt and correct recovery. From Topic: Stalling (Section 10.2, Figure 10.3 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "high_speed_stall.png"
+      },
+      {
+        "question": "During a spin recovery, why are the ailerons kept neutral?",
+        "topic": "Spin Recovery",
+        "options": [
+          "Because they are ineffective when the wing is stalled",
+          "Because using aileron can flatten the spin and delay recovery",
+          "Because the rudder is more effective for roll control in a spin",
+          "Because the ailerons are likely to be damaged"
+        ],
+        "answer": "B",
+        "brief": "In a spin, using aileron to try and lift a dropped wing can be counterproductive. It often disrupts the airflow further, can increase the rate of rotation, and can flatten the spin, making it more difficult to recover from.",
+        "detailed": "A spin is a complex state of autorotation with stalled wings. While it might seem intuitive to use ailerons to level the wings, doing so can have adverse effects. Applying opposite aileron (e.g., right aileron for a left spin) can create a damping effect that flattens the spin attitude. A flatter spin is often more stable and much more difficult to recover from. The primary control for stopping the rotation in a spin is the rudder. Therefore, standard recovery technique dictates that the ailerons should be held in the neutral position to ensure the most predictable and effective recovery. From Topic: Spinning (Section 10.6 - Bob Tait CPL Aerodynamics)."
+      },
+      {
+        "question": "This diagram shows a wing with a stall strip. Its purpose relates to:",
+        "topic": "Characteristics of a Stall",
+        "image": "stall_strip_on_wing.png",
+        "options": [
+          "Preventing the wing from ever stalling",
+          "Ensuring the wing root stalls before the wing tip",
+          "Reducing drag during cruise flight",
+          "Increasing the effectiveness of the ailerons"
+        ],
+        "answer": "B",
+        "brief": "The stall strip is a small device on the wing's leading edge that forces the airflow to separate at a slightly lower angle of attack. By placing it at the wing root, it ensures this section stalls first, providing a warning buffet and maintaining aileron control.",
+        "detailed": "A stall strip is an aerodynamic device used to engineer desirable stall characteristics into a wing. It is typically a small, sharp-edged piece of metal fixed to the leading edge of the inboard section of the wing. Its purpose is to disrupt the airflow at high angles of attack, forcing the boundary layer to separate prematurely in that specific area. This guarantees that the stall will begin at the wing root, close to the fuselage. This provides two key safety benefits: the turbulent air from the stalled root buffets the tailplane, giving the pilot a clear physical warning, and the wingtips (where the ailerons are) remain unstalled, preserving roll control. From Topic: Stability (Progress Test Section 10 & 11, Question 8 - Bob Tait CPL Aerodynamics).",
+        "detailed_image": "stall_strip_on_wing.png"
+      },
+      {
+        "question": "A manoeuvre during which an aeroplane may stall at an angle which appears to be different to the true stalling angle is",
+        "topic": "Stalls at Different Angles",
+        "options": [
+          "a steep turn",
+          "an abrupt pull-out from a dive",
+          "a climbing turn at low speed",
+          "all of the above"
+        ],
+        "answer": "D",
+        "brief": "In any manoeuvre involving a G-load, such as a turn or pull-up, the aircraft will stall at a higher airspeed. This can be deceptive, as the aircraft's pitch attitude may not seem excessively high, even though the wing has exceeded its true critical angle of attack.",
+        "detailed": "The 'true' stalling angle of attack is a fixed value. However, the pilot does not have an instrument that displays the angle of attack directly; they primarily reference the aircraft's pitch attitude against the horizon. In many situations, the pitch attitude does not accurately reflect the angle of attack. In a steep turn, the aircraft may have a relatively low nose attitude but a very high angle of attack. In an abrupt pull-out from a dive, the flight path is still moving downwards while the nose is pitched up sharply, creating an extremely high angle of attack. In all these cases, the stall occurs because the critical angle of attack was exceeded, even if the visual attitude did not appear to be at the limit."
+      },
+      {
+        "question": "The primary aerodynamic principle of stall recovery is to",
+        "topic": "Aerodynamic Principles of Stall Recovery",
+        "options": [
+          "apply full power to increase airspeed.",
+          "use rudder to yaw the nose down.",
+          "reduce the angle of attack by moving the control column forward.",
+          "use ailerons to force the wings level."
+        ],
+        "answer": "C",
+        "brief": "The fundamental cause of any stall is an excessive angle of attack. Therefore, the single most important and primary action for recovery is to reduce the angle of attack to below the critical angle by pushing the control column forward.",
+        "detailed": "A stall is a condition of separated airflow over the wing, which can only be rectified by restoring that smooth flow. This is achieved by reducing the angle between the wing's chord line and the relative airflow. The pilot's direct control for this is the elevator, manipulated by the control column. Moving the column forward lowers the nose, which decreases the angle of attack. This allows the separated air to reattach to the wing surface, restoring lift. While applying power is an important secondary step to minimize altitude loss, it cannot break the stall on its own; only reducing the angle of attack can do that."
+      },
+      {
+        "question": "Which of the following would cause a stall to occur at a HIGHER Indicated Airspeed?",
+        "topic": "Why Stall Speed Changes",
+        "options": [
+          "Extending flaps",
+          "Decreasing aircraft weight",
+          "Flying at a higher altitude",
+          "Increasing the angle of bank in a turn"
+        ],
+        "answer": "D",
+        "brief": "Increasing the angle of bank in a turn increases the load factor ('G' force) on the aircraft. To support this increased load, the wings must generate more lift, which means they will reach their critical angle of attack at a higher indicated airspeed.",
+        "detailed": "An aircraft's indicated stalling speed is not a fixed number. It is directly affected by any factor that changes the amount of lift the wings are required to produce. In a banked turn, the lift must support both the weight and provide the turning force, thus increasing the load factor. Because the maximum lift coefficient is constant, the only way to generate this extra lift is to increase the dynamic pressure, which means flying at a higher IAS. Factors like extending flaps or decreasing weight would actually lower the stalling speed, while altitude has no effect on the indicated stalling speed."
+      },
+      {
+        "question": "Which is the correct statement differentiating a spin and a spiral dive?",
+        "topic": "Differentiating Spin vs Spiral Dive",
+        "options": [
+          "A spin is stalled with low, constant airspeed; a spiral dive is unstalled with high, increasing airspeed.",
+          "A spin is unstalled with high airspeed; a spiral dive is stalled with low airspeed.",
+          "Both are stalled, but the spin has a higher rate of rotation.",
+          "Both are unstalled, but the spiral dive has a steeper nose attitude."
+        ],
+        "answer": "A",
+        "brief": "The key difference lies in the state of the wings and the resulting airspeed. A spin is a stalled autorotation with low and steady airspeed. A spiral dive is a steep, unstalled turn where the airspeed is high and rapidly increasing.",
+        "detailed": "It is critical for a pilot to be able to distinguish between these two manoeuvres because their recovery procedures are completely different. The most reliable indicator is the airspeed. In a SPIN, the wings are stalled, creating immense drag that keeps the airspeed low and stable. In a SPIRAL DIVE, the wings are not stalled; the aircraft is essentially in a steep, diving turn. Because there is less drag, the airspeed will be high and will increase rapidly if not corrected. A pilot seeing a nose-down attitude and a high rate of turn must check their airspeed immediately to determine the correct recovery action."
+      },
+      {
+        "question": "The primary cause of a wing drop during a stall is",
+        "topic": "Wing-Drop at the Stall",
+        "options": [
+          "a sudden gust of wind from the side.",
+          "incorrect use of the rudder by the pilot.",
+          "one wing reaching its critical angle of attack before the other.",
+          "the gyroscopic effect of the propeller."
+        ],
+        "answer": "C",
+        "brief": "A wing drop is the result of an asymmetric stall. Even with perfect control inputs, small differences between the wings can cause one to reach its critical angle of attack and lose lift slightly before the other, resulting in an uncommanded roll.",
+        "detailed": "Ideally, both wings would stall at the exact same moment. However, in practice, this is rare. A number of factors, including slight rigging differences, turning flight, or the effects of propeller slipstream, can cause one wing to be flying at a fractionally higher angle of attack than the other. As the aircraft approaches the stall, this wing will reach its critical angle first. When it stalls, it loses lift, while the opposite wing is still producing lift. This imbalance in the lifting forces across the wingspan creates a strong rolling moment, causing the stalled wing to drop."
+      }
+  ]

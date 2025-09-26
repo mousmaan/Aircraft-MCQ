@@ -1,0 +1,767 @@
+[
+    {
+      "question": "The tendency to yaw on take off in a tailwheel aircraft with a clockwise rotating propeller is greatest in",
+      "topic": "Asymmetric Blade Effect (P-Factor)",
+      "options": [
+        "a crosswind from the left",
+        "a headwind",
+        "calm conditions",
+        "a crosswind from the right"
+      ],
+      "answer": "B",
+      "brief": "The left-yawing tendencies like P-factor and slipstream are most pronounced at high angles of attack and high power, such as during a takeoff roll in a headwind. A headwind allows the aircraft to reach flying speed at a lower ground speed, prolonging the high-AoA phase.",
+      "detailed": "During the takeoff roll in a tailwheel aircraft, the angle of attack is high, causing the down-going propeller blade to have a higher angle of attack (and thus produce more thrust) than the up-going blade. This is the Asymmetric Blade Effect, or P-factor, which creates a yaw to the left. This effect, combined with slipstream, is strongest at high power and high angles of attack. A headwind is the worst-case scenario because it allows the aircraft to achieve lift-off at a lower ground speed, meaning it spends more time on the ground in the high-angle-of-attack attitude where these left-turning forces are most powerful and require significant right rudder to counteract. From Topic: Aeroplanes (Final Test No 2, Question 27 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "Ground looping is more likely to occur when there is:",
+      "topic": "Nosewheel vs Tailwheel Stability",
+      "options": [
+        "an unstable combination of inertia and friction forces in a nosewheel aircraft",
+        "an unstable combination of inertia and friction forces in a tailwheel aircraft",
+        "a crosswind in nosewheel aircraft",
+        "a strong headwind in tailwheel aircraft"
+      ],
+      "answer": "B",
+      "brief": "A ground loop is an uncontrolled, tight turn on the ground that is characteristic of tailwheel aircraft. It is caused by the aircraft's Centre of Gravity (CG) being located behind the main wheels, creating an unstable combination of inertia and friction.",
+      "detailed": "In a tailwheel aircraft, the CG is behind the main landing gear. If the aircraft starts to yaw during the landing roll, the inertia of the heavy CG will try to continue in a straight line, while the friction from the tires resists. This creates a turning moment that tries to pull the CG around the main wheels, tightening the turn. If not corrected immediately with rudder, this can develop into an uncontrollable, tight turn known as a ground loop. A nosewheel aircraft is inherently stable on the ground because its CG is ahead of the main wheels, so any yaw causes the CG's inertia to create a straightening moment, not a turning one. From Topic: Aeroplanes (Revision Questions Section 4, Question 11 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "One result of ground effect is",
+      "topic": "Ground Effect",
+      "options": [
+        "the take off run is longer than usual",
+        "the float after round out is longer than usual",
+        "the climb after lift off is improved",
+        "the touch down occurs immediately after round out"
+      ],
+      "answer": "B",
+      "brief": "Ground effect reduces induced drag, making the aircraft more efficient close to the ground. During landing, this can cause the aircraft to 'float' a considerable distance down the runway before touching down, especially if carrying excess speed.",
+      "detailed": "Ground effect occurs when the aircraft is flying within approximately one wingspan of the surface. The ground interferes with the formation of wingtip vortices, which are the primary source of induced drag. This reduction in induced drag makes the aircraft more efficient. During the landing flare, as the aircraft enters ground effect, this sudden increase in efficiency can be very noticeable. If the pilot is carrying even a small amount of excess speed, the aircraft may refuse to settle onto the runway and instead 'float' for a long distance. This is why precise speed control on final approach is critical. From Topic: Control (Exercise A6, Question 16 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "Wheelbarrowing in nosewheel aircraft is most likely to occur when",
+      "topic": "Nosewheel Stability - Wheelbarrowing",
+      "options": [
+        "touch down is too fast with excessive forward pressure on the control column",
+        "touch down is too fast with excessive aft pressure on the control column",
+        "touch down is too slow with excessive forward pressure on the control column",
+        "touch down is too slow with excessive aft pressure on the control column"
+      ],
+      "answer": "A",
+      "brief": "Wheelbarrowing is a dangerous condition in nosewheel aircraft caused by touching down too fast while applying excessive forward pressure on the controls. This combination puts too much weight on the nosewheel, making the aircraft unstable and difficult to control.",
+      "detailed": "Wheelbarrowing is an unstable condition where the aircraft is supported on the ground primarily by its nosewheel and one main wheel, with the other main wheel barely touching. It is most often caused by a pilot trying to force the aircraft onto the runway at too high a speed. The combination of high speed and forward pressure on the control column lifts the main wheels and places most of the weight on the nosewheel. With the CG now effectively behind the main point of contact, the aircraft becomes directionally unstable, similar to a tailwheel aircraft, and can swerve uncontrollably off the runway. From Topic: Aeroplanes (Revision Questions Section 4, Question 12 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "'P' Factor or asymmetric blade effect is present whenever the propeller is advancing -",
+      "topic": "Asymmetric Blade Effect (P-Factor)",
+      "options": [
+        "at right angles to the direction of the relative airflow with most thrust generated on the down-going side of the propeller arc",
+        "inclined to the direction of the relative airflow with most thrust generated on the down-going side of the propeller arc",
+        "at right angles to the direction of the relative airflow with most thrust generated on the up-going side of the propeller arc",
+        "inclined to the direction of the relative airflow with most thrust generated on the up-going side of the propeller arc"
+      ],
+      "answer": "B",
+      "brief": "Asymmetric blade effect, or P-Factor, occurs when the propeller's disk is inclined to the relative airflow (i.e., at a high angle of attack). This causes the down-going blade to have a higher angle of attack and produce more thrust than the up-going blade.",
+      "detailed": "P-Factor is a left-yawing tendency that is most noticeable at high power settings and high angles of attack, such as in a climb or during the takeoff roll of a tailwheel aircraft. When the aircraft is in a nose-high attitude, the propeller disk is tilted upwards. This means the propeller blade that is moving downwards (the right blade on a clockwise propeller) meets the air at a higher angle of attack than the blade moving upwards on the left. Because it has a higher angle of attack, the down-going blade takes a bigger 'bite' of the air and produces more thrust, shifting the center of thrust to the right side of the propeller disk and causing the aircraft to yaw to the left. From Topic: Aeroplanes (Revision Questions Section 4, Question 10 - Bob Tait CPL Aerodynamics)."
+    },
+    {
+      "question": "Which left-turning tendency is caused by the spiralling motion of the air from the propeller striking the vertical fin?",
+      "topic": "Propeller Slipstream Effect",
+      "options": [
+        "Torque reaction",
+        "Gyroscopic precession",
+        "Asymmetric blade effect (P-Factor)",
+        "Propeller slipstream effect"
+      ],
+      "answer": "D",
+      "brief": "The propeller slipstream effect is a yawing tendency caused by the corkscrewing airflow from the propeller. This spiralling air strikes the left side of the fin, pushing the tail to the right and causing the aircraft's nose to yaw to the left.",
+      "detailed": "The propeller doesn't just push air straight back; it accelerates it in a powerful, spiralling or corkscrewing motion. In an aircraft with a clockwise rotating propeller (when viewed from the cockpit), this spiralling slipstream flows back and strikes the left side of the vertical fin. This creates an aerodynamic force that pushes the tail to the right. As the tail is pushed to the right, the nose of the aircraft yaws to the left. This effect is most pronounced at high power settings (which create a strong slipstream) and at low airspeeds (where the rudder has less authority to counteract it), making it a key factor to manage during takeoff.",
+      "detailed_image": "slipstream_effect_diagram.png"
+    },
+    {
+      "question": "An aircraft is leaving ground effect just after takeoff. The pilot will likely experience a sudden:",
+      "topic": "Ground Effect",
+      "options": [
+        "increase in lift and decrease in drag",
+        "decrease in lift and increase in drag",
+        "increase in airspeed due to reduced friction",
+        "nose-down pitching moment"
+      ],
+      "answer": "B",
+      "brief": "As an aircraft climbs out of ground effect, the wingtip vortices are no longer restricted by the ground and form fully. This causes a sudden increase in induced drag and a corresponding decrease in lift, which can make the aircraft feel like it is sinking.",
+      "detailed": "Ground effect significantly improves performance by reducing induced drag. An aircraft can become airborne in ground effect at a speed that may be insufficient to sustain flight once it climbs higher. As the aircraft ascends beyond one wingspan of altitude, the ground's influence disappears, and the wingtip vortices develop fully. This causes an abrupt increase in induced drag, which requires more thrust to overcome. It also causes a decrease in lift for the same angle of attack and a nose-up pitching moment as downwash over the tail is restored. The pilot must be prepared for this performance degradation to avoid settling back towards the runway.",
+      "detailed_image": "ground_effect_takeoff.png"
+    },
+    {
+      "question": "The gyroscopic effect of the propeller is most noticeable in which type of aircraft during takeoff?",
+      "topic": "Gyroscopic Effect",
+      "options": [
+        "A multi-engine turboprop",
+        "A high-wing nosewheel aircraft",
+        "A tailwheel aircraft when the tail is raised",
+        "A jet aircraft"
+      ],
+      "answer": "C",
+      "brief": "Gyroscopic precession is most evident in tailwheel aircraft. As the pilot raises the tail during the takeoff roll, they are applying a pitching force to the spinning propeller disc, which results in a yawing force to the left.",
+      "detailed": "A spinning propeller acts like a gyroscope. A key principle of gyroscopes is precession, which means that when a force is applied to the rim of a spinning disc, the resultant force occurs 90 degrees ahead in the direction of rotation. In a tailwheel aircraft with a clockwise-rotating propeller, when the pilot pushes forward on the control column to raise the tail, they are applying a force to the top of the propeller disc. Due to precession, this results in a force acting on the right side of the propeller disc, causing a distinct yaw to the left. The pilot must anticipate this and apply right rudder as the tail comes up.",
+      "detailed_image": "gyroscopic_precession_diagram.png"
+    },
+    {
+      "question": "What is the primary stability advantage of a nosewheel aeroplane during ground operations?",
+      "topic": "Nosewheel Stability",
+      "options": [
+        "It can use a smaller rudder for directional control",
+        "It is inherently directionally stable and resists ground looping",
+        "It has better visibility over the nose",
+        "It is not affected by crosswinds"
+      ],
+      "answer": "B",
+      "brief": "A nosewheel aircraft is stable on the ground because its Centre of Gravity is located ahead of the main wheels. If a yaw develops, the CG's inertia creates a restoring moment that tends to straighten the aircraft out, preventing ground loops.",
+      "detailed": "The key to ground stability is the relative position of the Centre of Gravity (CG) and the main landing gear. In a nosewheel aircraft, the CG is forward of the main wheels. If the aircraft begins to swerve, the inertia of the heavy CG will try to 'pull' the rest of the aircraft back into line, naturally straightening its path. This makes the aircraft inherently stable and easy to control on the ground. A tailwheel aircraft, with its CG behind the main wheels, is inherently unstable. Any swerve will cause the CG's inertia to try and swing around the main wheels, tightening the turn and potentially leading to a ground loop.",
+      "detailed_image": "cg_stability_ground.png"
+    },
+    {
+      "question": "Due to torque reaction, a single-engine aircraft with a clockwise-rotating propeller has a tendency to:",
+      "topic": "Propeller Torque",
+      "options": [
+        "yaw to the right during the takeoff roll",
+        "roll to the left during the takeoff roll",
+        "pitch up when power is applied",
+        "roll to the right when power is applied"
+      ],
+      "answer": "B",
+      "brief": "Torque reaction is an application of Newton's Third Law. As the engine and propeller spin to the right (clockwise), they exert an equal and opposite turning force on the airframe, causing a tendency for the aircraft to roll to the left.",
+      "detailed": "Torque is a rotational force. The engine applies a torque to the propeller to make it rotate clockwise (the action). In accordance with Newton's Third Law, the propeller exerts an equal and opposite torque on the rest of the aircraft (the reaction). This reaction force tries to rotate the entire airframe in a counter-clockwise direction. During the takeoff roll, this force places more weight on the left main wheel than the right, which also increases the friction on the left tire, contributing a slight yawing tendency to the left. The pilot must compensate for this rolling tendency, often with aileron input.",
+      "detailed_image": "torque_reaction_diagram.png"
+    },
+    {
+      "question": "Which of the four left-turning tendencies is caused by the different angles of attack on the up-going and down-going propeller blades?",
+      "topic": "Asymmetric Blade Effect (P-Factor)",
+      "image": "p_factor_diagram.png",
+      "options": [
+        "Torque",
+        "Slipstream",
+        "Gyroscopic Precession",
+        "Asymmetric Blade Effect"
+      ],
+      "answer": "D",
+      "brief": "Asymmetric Blade Effect, also known as P-Factor, is the yawing tendency caused by the down-going propeller blade having a higher angle of attack and producing more thrust than the up-going blade, which is most prominent at high angles of attack.",
+      "detailed": "P-Factor occurs when the aircraft is flying at a high angle of attack, causing the propeller disk to be tilted relative to the oncoming airflow. As seen in the diagram, the blade that is descending on the right side of the aircraft has its own rotational velocity plus the forward velocity of the aircraft, resulting in a higher angle of attack. The ascending blade on the left has its rotational velocity minus the downward component of the airflow, resulting in a lower angle of attack. This creates more thrust on the right side of the propeller, which yaws the aircraft's nose to the left. From Topic: Aeroplanes (Section 4.4, Figure 4.10 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "p_factor_diagram.png"
+    },
+    {
+      "question": "The diagram illustrates an aircraft taking off. The reduced wingtip vortices indicate it is experiencing:",
+      "topic": "Ground Effect",
+      "image": "ground_effect_takeoff.png",
+      "options": [
+        "The slipstream effect",
+        "Ground effect",
+        "A stall",
+        "Asymmetric blade effect"
+      ],
+      "answer": "B",
+      "brief": "The diagram shows the aircraft flying very close to the surface, with the ground physically interfering with and reducing the size of the wingtip vortices. This phenomenon, which reduces induced drag, is known as ground effect.",
+      "detailed": "Ground effect is the increase in aerodynamic efficiency experienced by an aircraft when it is flying at an altitude of approximately one wingspan or less. The ground acts as a physical barrier that prevents the full formation and circulation of the wingtip vortices, as shown in the diagram. Since these vortices are the primary cause of induced drag, their reduction means the aircraft experiences significantly less drag for a given amount of lift. This can cause the aircraft to lift off prematurely or float excessively during landing if the pilot is not prepared for the change in performance. From Topic: Climbing and Descending (Section 8.4, Figure 8.11 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "ground_effect_vortices.png"
+    },
+    {
+      "question": "The diagram shows the effect of a spiralling slipstream from the propeller. This effect causes the aircraft to:",
+      "topic": "Propeller Slipstream Effect",
+      "image": "slipstream_effect_diagram.png",
+      "options": [
+        "pitch up",
+        "roll to the left",
+        "yaw to the left",
+        "pitch down"
+      ],
+      "answer": "C",
+      "brief": "The diagram shows the spiralling airflow from the propeller hitting the left side of the vertical fin. This impact pushes the tail of the aircraft to the right, which in turn causes the nose to yaw to the left.",
+      "detailed": "The propeller accelerates air in a corkscrew pattern backwards over the aircraft. As illustrated, this spiralling air does not flow straight. For a clockwise rotating propeller, the flow strikes the left side of the vertical fin. This creates a sideways aerodynamic force on the fin, pushing the tail to the right. As the tail moves right, the nose of the aircraft pivots to the left. This yawing motion must be corrected by the pilot, typically by applying right rudder, and is most noticeable at high power settings and low airspeeds, such as during takeoff. From Topic: Aeroplanes (Section 4.2, Figure 4.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "slipstream_effect_diagram.png"
+    },
+    {
+      "question": "This diagram illustrates a dangerous condition on landing in a nosewheel aircraft known as:",
+      "topic": "Nosewheel Stability - Wheelbarrowing",
+      "image": "wheelbarrowing_diagram.png",
+      "options": [
+        "Ground looping",
+        "Wheelbarrowing",
+        "Aquaplaning",
+        "A crosswind landing"
+      ],
+      "answer": "B",
+      "brief": "The diagram shows the aircraft pivoting on its nosewheel with the main wheels barely on the ground. This unstable condition, caused by excessive speed and forward pressure on the controls, is known as wheelbarrowing.",
+      "detailed": "Wheelbarrowing is a specific type of loss of control that can occur in nosewheel aircraft. It happens when a pilot touches down too fast and applies too much forward pressure on the control column, either intentionally or due to 'chasing' the runway. This action places an excessive amount of the aircraft's weight onto the nosewheel, effectively lifting the main wheels. With the Centre of Gravity now behind the main point of ground contact (the nosewheel), the aircraft becomes directionally unstable and can swerve violently and uncontrollably, potentially leading to it departing the runway. From Topic: Aeroplanes (Section 4.6, Figure 4.17 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "wheelbarrowing_diagram.png"
+    },
+    {
+      "question": "The diagram illustrates the principle of gyroscopic precession. If a force is applied at the top of the spinning disc, where will the resultant force act?",
+      "topic": "Gyroscopic Effect",
+      "image": "gyroscopic_precession_diagram.png",
+      "options": [
+        "At the bottom of the disc",
+        "At the point where the force was applied",
+        "90 degrees ahead in the direction of rotation",
+        "180 degrees opposite the point of application"
+      ],
+      "answer": "C",
+      "brief": "The diagram shows that a force applied at one point on a spinning gyroscope (the 'force applied here' arrow) does not produce an effect at that point. Instead, the resultant force and displacement occur 90 degrees further around in the direction of rotation.",
+      "detailed": "Gyroscopic precession is a fundamental property of any spinning object, including an aircraft's propeller. As the diagram illustrates, a force applied to the rim of the spinning disc is felt 90 degrees later in the direction of rotation. For a pilot in a tailwheel aircraft with a clockwise-rotating propeller, raising the tail is like applying a force to the top of the propeller disc. The resultant force acts 90 degrees later, on the right side of the disc, pushing the nose to the left. This principle is predictable and must be accounted for by the pilot with rudder input. From Topic: Aeroplanes (Section 4.3, Figure 4.7 & 4.8 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "gyroscopic_precession_diagram.png"
+    },
+    {
+      "question": "An aircraft is said to be in ground effect when it is flying",
+      "topic": "Ground Effect",
+      "options": [
+        "within one wingspan of the ground",
+        "within 50 feet of the ground",
+        "below the 'tree-top' level",
+        "at an airspeed below its normal stalling speed"
+      ],
+      "answer": "A",
+      "brief": "Ground effect is the aerodynamic phenomenon that occurs when an aircraft is flying close to the ground, generally considered to be at an altitude equal to or less than its own wingspan. The effect becomes more pronounced the closer the aircraft gets to the surface.",
+      "detailed": "When a wing is generating lift, it creates wingtip vortices. These vortices induce a downward flow of air behind the wing, known as downwash, which is the primary cause of induced drag. When the aircraft is flying very close to the ground (within one wingspan), the ground acts as a physical barrier that restricts the full development of these vortices. This reduction in the strength of the wingtip vortices leads to a significant reduction in induced drag. This makes the aircraft more efficient, which is why it can sometimes lift off before it has reached a safe flying speed, or why it might 'float' during landing.",
+      "detailed_image": "ground_effect_vortices.png"
+    },
+    {
+      "question": "Which of the four left-turning tendencies is a direct result of Newton's Third Law of action and reaction?",
+      "topic": "Propeller Torque",
+      "options": [
+        "Asymmetric Blade Effect (P-Factor)",
+        "Gyroscopic Precession",
+        "Slipstream Effect",
+        "Torque Reaction"
+      ],
+      "answer": "D",
+      "brief": "Torque reaction is a perfect example of Newton's Third Law. The engine applies a torque (action) to spin the propeller clockwise, and the propeller applies an equal and opposite torque (reaction) on the airframe, causing it to want to roll counter-clockwise.",
+      "detailed": "Newton's Third Law states that for every action, there is an equal and opposite reaction. In the context of an aircraft engine, the 'action' is the engine applying a rotational force, or torque, to the propeller to make it spin. The 'reaction' is the propeller exerting an equal and opposing torque back onto the engine and, by extension, the entire airframe. For an aircraft with a clockwise rotating propeller, this reaction force attempts to roll the aircraft to the left. This force is always present when the engine is producing power and must be counteracted by the pilot.",
+      "detailed_image": "torque_reaction_diagram.png"
+    },
+    {
+      "question": "During the take-off in a single engine tailwheel aircraft with a propeller that rotates clockwise when viewed from the cockpit, a pilot may find it necessary to apply",
+      "topic": "Controllability on Takeoff",
+      "options": [
+        "left rudder because of the gyroscopic effect",
+        "right rudder because of the slipstream effect",
+        "left rudder because of the slipstream effect",
+        "left aileron because of the torque effect"
+      ],
+      "answer": "B",
+      "brief": "During takeoff in a typical single-engine aircraft, several factors (slipstream, P-factor, torque, gyroscopic effect) combine to create a strong yawing tendency to the left. The pilot must anticipate this and apply sufficient right rudder to maintain directional control.",
+      "detailed": "A pilot of a tailwheel aircraft must manage several left-turning forces during takeoff. The spiralling slipstream strikes the left side of the fin, yawing the nose left. P-Factor creates more thrust on the right side of the propeller, yawing the nose left. Torque reaction rolls the aircraft left, putting more weight and drag on the left wheel, which yaws the nose left. Finally, as the tail is raised, gyroscopic precession creates another yaw to the left. All these forces add up, requiring the pilot to be proactive in applying and adjusting right rudder throughout the takeoff roll to keep the aircraft straight. From Topic: Aeroplanes (Revision Questions Section 4, Question 4 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "takeoff_forces_tailwheel.png"
+    },
+    {
+      "question": "An aircraft flying in ground effect may experience a faulty reading from its airspeed indicator because",
+      "topic": "Ground Effect",
+      "options": [
+        "the pitot tube becomes blocked by dust",
+        "the change in airflow around the wing affects the static pressure at the static port",
+        "the propeller slipstream is more powerful near the ground",
+        "the air is denser near the ground"
+      ],
+      "answer": "B",
+      "brief": "When in ground effect, the airflow pattern around the aircraft is altered. This can cause the local static pressure at the static port to be lower than the true ambient pressure, resulting in the airspeed indicator slightly over-reading.",
+      "detailed": "The airspeed indicator works by comparing the total pressure from the pitot tube with the static pressure from the static port. When an aircraft is flying in ground effect, the flow of air underneath the wing and fuselage is restricted. This can create a 'cushion' of higher pressure under the wing but can also alter the airflow in the vicinity of the static port, often creating a slightly lower local static pressure. Because the ASI calculates speed based on the difference between total and static pressure, this artificially low static pressure reading will cause the instrument to show a slightly higher Indicated Airspeed than is actually correct. From Topic: Climbing and Descending (Section 8.4 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "static_port_pressure.png"
+    },
+    {
+      "question": "What is the correct control input for a nosewheel aircraft taxiing in a strong crosswind from the right?",
+      "topic": "Nosewheel Control",
+      "options": [
+        "Aileron into the wind (right), elevator neutral",
+        "Aileron away from the wind (left), elevator neutral",
+        "Aileron into the wind (right), elevator down (forward pressure)",
+        "Aileron away from the wind (left), elevator up (back pressure)"
+      ],
+      "answer": "A",
+      "brief": "When taxiing in a crosswind, the control inputs are used to prevent the wind from lifting a wing or the tail. For a crosswind from the right, the pilot should hold the aileron into the wind (turn the yoke right) to keep the upwind wing down.",
+      "detailed": "During ground operations, the flight controls are used to counteract the effect of the wind on the aircraft's surfaces. For a crosswind from the side (e.g., from the right), the wind flowing over the right wing can create lift and try to raise it. To prevent this, the pilot should apply aileron 'into the wind'. This means turning the yoke to the right, which raises the right aileron and lowers the left one. The raised right aileron 'spoils' the lift on the upwind wing, helping to keep it firmly on the ground. The elevator is typically held in the neutral position for a crosswind from the side or front quarter. From Topic: Aeroplanes (Section 4.1, Figure 4.3 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "crosswind_taxi_controls.png"
+    },
+    {
+      "question": "The initial effect of propeller torque on a single engine aeroplane when power is increased is",
+      "topic": "Propeller Torque",
+      "options": [
+        "the aeroplane will tend to yaw to the left",
+        "the aeroplane will tend to yaw to the right",
+        "the aeroplane will tend to roll to the left",
+        "the aeroplane will tend to roll to the right"
+      ],
+      "answer": "C",
+      "brief": "Torque is a rolling force based on Newton's Third Law. As the engine spins the propeller clockwise, the propeller exerts an equal and opposite (counter-clockwise) torque on the airframe, causing a tendency to roll to the left.",
+      "detailed": "Torque reaction is a direct application of Newton's Third Law of action and reaction. The engine applies a rotational force (torque) to spin the propeller in one direction—this is the 'action'. In response, the propeller applies an equal and opposite torque back onto the engine and the attached airframe—this is the 'reaction'. For an aircraft with a propeller that rotates clockwise when viewed from the cockpit, this reaction force will try to roll the entire aircraft to the left (counter-clockwise). This effect is most significant at high power settings and low airspeeds, such as during the takeoff run, and must be counteracted by the pilot. From Topic: Total Drag in Flight (Exercise A3, Question 10 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "torque_reaction_diagram.png"
+    },
+    {
+      "question": "During a long climb in a single engine aircraft with a propeller that rotates clockwise when viewed from the cockpit, a pilot may find it necessary to apply",
+      "topic": "Propeller Slipstream Effect",
+      "options": [
+        "left rudder because of the slipstream effect",
+        "right rudder because of the gyroscopic effect",
+        "right rudder because of the slipstream effect",
+        "left aileron because of the torque effect"
+      ],
+      "answer": "C",
+      "brief": "In a high-power, low-airspeed condition like a climb, the spiralling slipstream strikes the left side of the vertical fin. This pushes the tail to the right and yaws the nose to the left, requiring the pilot to apply right rudder to maintain coordinated flight.",
+      "detailed": "The propeller slipstream is a powerful, corkscrewing flow of air that is most prominent at high power settings and low airspeeds. In an aircraft with a clockwise-rotating propeller, this spiralling airflow travels back and hits the left side of the fin and rudder. This creates an aerodynamic force that pushes the tail rightwards, causing the aircraft's nose to yaw to the left. To counteract this constant yawing tendency and keep the aircraft in balanced flight (the ball centered), the pilot must apply a continuous pressure on the right rudder pedal throughout the climb. From Topic: Aeroplanes (Revision Questions Section 4, Question 4 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "slipstream_effect_diagram.png"
+    },
+    {
+      "question": "An aircraft is more prone to 'weathercocking' into the wind during ground operations when it is a:",
+      "topic": "Nosewheel vs Tailwheel Stability",
+      "options": [
+        "Nosewheel aircraft, because the CG is forward of the main wheels",
+        "Tailwheel aircraft, because the CG is behind the main wheels",
+        "Nosewheel aircraft, because it has a smaller rudder",
+        "Tailwheel aircraft, because it has a larger surface area behind the main wheels"
+      ],
+      "answer": "D",
+      "brief": "Tailwheel aircraft have a larger surface area (the fuselage and fin) located behind the main wheels, which act as the pivot point on the ground. This causes the aircraft to act like a weathercock, with a strong tendency to turn into a crosswind.",
+      "detailed": "'Weathercocking' is the tendency of an aircraft to turn and face into the wind while on the ground. This is most pronounced in tailwheel aircraft. The main wheels act as the pivot point. Since the majority of the aircraft's side surface area (the fuselage and vertical fin) is located behind this pivot point, any crosswind will exert a force on this area, causing the aircraft to yaw and point its nose into the wind. A nosewheel aircraft has more surface area forward of the main wheels, which helps to counteract this tendency, making it less prone to weathercocking. This is a manipulated version of Revision Section 4, Question 1.",
+      "detailed_image": "weathercocking_tailwheel.png"
+    },
+    {
+      "question": "The initial effect of torque reaction during take-off is to produce a tendency for the aircraft to -",
+      "topic": "Propeller Torque",
+      "options": [
+        "roll opposite to the direction of the propeller rotation",
+        "roll in the same direction as the propeller rotation",
+        "yaw towards the up-going side of the propeller arc",
+        "yaw towards the down-going side of the propeller arc"
+      ],
+      "answer": "A",
+      "brief": "Torque reaction is based on Newton's Third Law. As the engine spins the propeller in one direction (clockwise), the propeller imparts an equal and opposite turning force on the airframe, causing a tendency to roll in the opposite direction (counter-clockwise).",
+      "detailed": "Torque reaction is a direct consequence of the engine spinning the propeller. The 'action' is the engine applying a torque to the propeller to make it rotate. The 'reaction' is the propeller applying an equal and opposite torque to the engine and, by extension, the entire airframe. For an aircraft with a propeller that rotates clockwise (viewed from the cockpit), this reaction force will try to roll the aircraft counter-clockwise. This effect is most noticeable at high power and low airspeed, such as on the takeoff roll, where it places more weight on the left wheel. From Topic: Aeroplanes (Revision Questions Section 4, Question 6 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "torque_reaction_diagram.png"
+    },
+    {
+      "question": "During take-off in a single engine tailwheel aircraft with a propeller that rotates clockwise when viewed from the cockpit, as the tail is lifted the pilot may notice an increased tendency to swing to the left. This is due to",
+      "topic": "Gyroscopic Effect",
+      "options": [
+        "before the tail is lifted",
+        "as the tail is being lifted",
+        "when the tail is being lifted",
+        "when the aircraft becomes airborne"
+      ],
+      "answer": "C",
+      "brief": "This left-turning tendency is caused by the gyroscopic effect of the propeller. As the pilot raises the tail, they are applying a pitching force to the spinning propeller disc, which results in a yawing force 90 degrees ahead in the direction of rotation.",
+      "detailed": "A spinning propeller behaves like a gyroscope and is subject to the principle of precession. Precession dictates that when a force is applied to a spinning disc, the resultant force will act 90 degrees further on in the direction of rotation. In a tailwheel aircraft with a clockwise-rotating propeller, when the pilot pushes the control column forward to raise the tail, they are applying a pitching force to the top of the propeller disc. The resultant precessive force acts on the right side of the disc, creating a distinct yawing moment to the left. This effect occurs at the moment the tail is being lifted. From Topic: Aeroplanes (Revision Questions Section 4, Question 8 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "gyroscopic_precession_diagram.png"
+    },
+    {
+      "question": "An aircraft takes off and seems to climb well initially, but then struggles to climb further upon leaving the immediate vicinity of the runway. This is a classic symptom of:",
+      "topic": "Ground Effect",
+      "image": "ground_effect_takeoff.png",
+      "options": [
+        "taking off with a tailwind",
+        "having an aft centre of gravity",
+        "lifting off prematurely and then flying out of ground effect",
+        "a partial engine failure"
+      ],
+      "answer": "C",
+      "brief": "This scenario describes an aircraft lifting off in ground effect at an airspeed that is too low to sustain a climb. As the aircraft climbs out of the cushion of ground effect, induced drag increases suddenly, and the aircraft may be unable to climb further.",
+      "detailed": "Ground effect significantly reduces induced drag, which can allow an aircraft to become airborne at an airspeed that is below its normal, safe climbing speed. A pilot might mistakenly lift off early, feeling the aircraft is ready to fly. However, as the aircraft climbs to an altitude of one wingspan or more, it flies out of ground effect. This causes an abrupt increase in induced drag. If the aircraft has not accelerated to a safe climbing speed (like Vy), the sudden increase in drag may be greater than the available thrust, causing the aircraft to stop climbing or even settle back towards the ground.",
+      "detailed_image": "ground_effect_takeoff.png"
+    },
+    {
+      "question": "Which of the following is NOT one of the four main left-turning tendencies of a single-engine propeller aircraft?",
+      "topic": "Controllability Factors",
+      "image": "left_turning_tendencies.png",
+      "options": [
+        "Propeller Torque",
+        "Propeller Slipstream",
+        "Coanda Effect",
+        "Asymmetric Blade Effect (P-Factor)"
+      ],
+      "answer": "C",
+      "brief": "The four main factors that cause a single-engine aircraft to yaw left at high power are Torque, Slipstream, Gyroscopic Precession, and P-Factor. The Coanda effect is a principle of lift production and is not a turning tendency.",
+      "detailed": "Pilots of single-engine propeller aircraft must constantly manage four distinct forces that try to make the aircraft's nose yaw to the left, especially during takeoff and climb. Torque is the rolling reaction to the spinning propeller. Slipstream is the corkscrewing airflow hitting the tail. Gyroscopic Precession is the effect of pitching or yawing the spinning propeller disc. P-Factor is the result of the down-going propeller blade creating more thrust than the up-going blade. The Coanda effect, which describes how airflow adheres to a curved surface, is related to lift generation, not yaw.",
+      "detailed_image": "left_turning_tendencies.png"
+    },
+    {
+      "question": "The diagram shows a condition where a nosewheel aircraft is pivoting on its nosewheel. This is known as:",
+      "topic": "Nosewheel Stability - Wheelbarrowing",
+      "image": "wheelbarrowing_diagram.png",
+      "options": [
+        "a ground loop",
+        "wheelbarrowing",
+        "a crosswind landing",
+        "weathercocking"
+      ],
+      "answer": "B",
+      "brief": "The diagram illustrates wheelbarrowing, a dangerous and unstable condition in nosewheel aircraft. It is caused by having too much weight on the nosewheel at high speed, often due to excessive forward pressure on the controls during landing.",
+      "detailed": "Wheelbarrowing is a loss of directional control specific to nosewheel aircraft. As shown in the diagram, the aircraft is being supported almost entirely by its nosewheel, with the main wheels carrying very little weight. This happens when landing too fast with excessive forward pressure on the control column. With the aircraft's Centre of Gravity now behind the main point of contact with the ground (the nosewheel), the aircraft becomes directionally unstable, similar to a tailwheel aircraft. It can then swerve violently and uncontrollably off the runway if not corrected. From Topic: Aeroplanes (Section 4.6, Figure 4.17 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "wheelbarrowing_diagram.png"
+    },
+    {
+      "question": "This diagram illustrates the effect of the spiralling propeller slipstream. The corrective action required from the pilot is to:",
+      "topic": "Propeller Slipstream Effect",
+      "image": "slipstream_effect_diagram.png",
+      "options": [
+        "apply left rudder",
+        "apply right rudder",
+        "apply left aileron",
+        "apply right aileron"
+      ],
+      "answer": "B",
+      "brief": "The diagram shows the spiralling slipstream striking the left side of the fin, which yaws the nose to the left. To counteract this left-turning tendency and keep the aircraft flying straight, the pilot must apply right rudder.",
+      "detailed": "The spiralling slipstream is a significant left-turning force, especially at high power and low airspeed. As shown, the airflow corkscrews around the fuselage and exerts a strong sideways force on the vertical fin, pushing the tail to the right and the nose to the left. The primary control for yaw is the rudder. Therefore, to maintain coordinated, straight flight, the pilot must apply pressure on the right rudder pedal to create a yawing moment to the right, which exactly cancels out the left-yawing moment from the slipstream. From Topic: Aeroplanes (Section 4.2, Figure 4.5 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "slipstream_effect_diagram.png"
+    },
+    {
+      "question": "The diagram shows the Asymmetric Blade Effect. This effect is most pronounced when the aircraft is at:",
+      "topic": "Asymmetric Blade Effect (P-Factor)",
+      "image": "p_factor_diagram.png",
+      "options": [
+        "a low angle of attack and low power",
+        "a high angle of attack and high power",
+        "a high angle of attack and low power",
+        "a low angle of attack and high power"
+      ],
+      "answer": "B",
+      "brief": "P-Factor is caused by the propeller disc being at an angle to the relative airflow. This effect is therefore most pronounced when the angle of attack is high (e.g., during takeoff or a climb) and the engine is at a high power setting.",
+      "detailed": "Asymmetric Blade Effect, or P-Factor, occurs because the down-going propeller blade has a higher angle of attack than the up-going blade when the aircraft is in a nose-high attitude. This creates more thrust on one side of the propeller disc, causing a yaw. The effect is strongest when two conditions are met: a high power setting, which makes the thrust difference more significant, and a high angle of attack, which creates the largest possible difference in the angles of attack between the two blades. This is why P-factor is a major consideration during takeoff and initial climb. From Topic: Aeroplanes (Section 4.4, Figure 4.10 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "p_factor_diagram.png"
+    },
+    {
+      "question": "The torque effect is a reaction to the engine turning the propeller. It primarily causes a tendency for the aircraft to:",
+      "topic": "Propeller Torque",
+      "options": [
+        "yaw to the left.",
+        "pitch up.",
+        "yaw to the right.",
+        "roll to the left."
+      ],
+      "answer": "D",
+      "brief": "Based on Newton's Third Law, the engine's action of turning the propeller clockwise creates an equal and opposite reaction on the airframe. This reaction is a torque that attempts to roll the aircraft in the opposite direction, which is to the left.",
+      "detailed": "Torque is a purely rotational force. The engine applies a powerful torque to the propeller shaft to make it spin. In reaction to this, the propeller exerts an equal and opposite torque on the engine mounts and the entire airframe. For virtually all single-engine Western aircraft, the propeller rotates clockwise when viewed from the cockpit. The reaction torque is therefore counter-clockwise, which results in a tendency for the aircraft to roll to the left. This effect is most noticeable on the ground, where it presses the left wheel down harder, and in the air at high power settings."
+    },
+    {
+      "question": "A pilot taxiing a nosewheel aircraft in a strong quartering tailwind from the right should use which control inputs?",
+      "topic": "Nosewheel Control",
+      "options": [
+        "Aileron into the wind (right) and elevator neutral",
+        "Aileron away from the wind (left) and elevator down (forward pressure)",
+        "Aileron away from the wind (left) and elevator neutral",
+        "Aileron into the wind (right) and elevator up (back pressure)"
+      ],
+      "answer": "B",
+      "brief": "When taxiing with a quartering tailwind, the control inputs are reversed to prevent the wind from getting under the control surfaces. The pilot should hold the aileron down on the upwind side (away from the wind) and hold the elevator down (forward pressure).",
+      "detailed": "Taxiing in a strong tailwind requires specific control inputs to maintain stability. A tailwind can get under the elevator and lift the tail, causing a loss of directional control. To prevent this, the pilot should hold the control column forward, deflecting the elevator down. Additionally, the wind can get under the upwind aileron and lift that wing. To prevent this, the pilot should use aileron to place the upwind aileron in the down position. For a quartering tailwind from the right, this means applying left aileron ('dive away from the wind'). This is a manipulated version of Revision Section 4, Question 2."
+    },
+    {
+      "question": "Which of the following is an effect of flying in ground effect?",
+      "topic": "Ground Effect",
+      "options": [
+        "The stalling angle of attack increases",
+        "Induced drag is reduced",
+        "Engine power is increased",
+        "Parasite drag is reduced"
+      ],
+      "answer": "B",
+      "brief": "The primary and most significant aerodynamic effect of flying in ground effect is a reduction in induced drag. The proximity of the ground interferes with the formation of wingtip vortices, making the aircraft more efficient.",
+      "detailed": "Ground effect occurs when an aircraft flies at an altitude less than its wingspan. The ground acts as a physical barrier that restricts the airflow's ability to circulate around the wingtips. This disruption significantly weakens the wingtip vortices. Since these vortices are the primary cause of induced drag, their reduction leads to a lower total drag for a given amount of lift. This increased efficiency is what can cause an aircraft to float during landing or to become airborne at a speed that might be insufficient to climb once out of ground effect."
+    },
+    {
+      "question": "The stability of a nosewheel aircraft on the ground is considered to be:",
+      "topic": "Nosewheel Stability",
+      "options": [
+        "inherently unstable, requiring constant rudder input.",
+        "neutral, with no tendency to straighten or swerve.",
+        "inherently stable, with a tendency to straighten out.",
+        "dependent on the amount of power being used."
+      ],
+      "answer": "C",
+      "brief": "A nosewheel aircraft is inherently stable on the ground. This is because its Centre of Gravity is located forward of the main landing gear, which creates a self-centering, castering effect that helps the aircraft track straight.",
+      "detailed": "The stability of an aircraft on the ground is determined by the position of its Centre of Gravity (CG) relative to its main wheels. In a nosewheel (tricycle gear) aircraft, the CG is located ahead of the main wheels. If the aircraft begins to yaw or swerve, the inertia of the heavy CG will act to pull the aircraft back into a straight line, similar to how a shopping cart's wheels self-straighten. This makes the aircraft directionally stable and easy to control during takeoff and landing rolls. In contrast, a tailwheel aircraft has its CG behind the main wheels, making it inherently unstable."
+    },
+    {
+      "question": "The left-turning tendency caused by the propeller disc being angled to the relative airflow is called:",
+      "topic": "Asymmetric Blade Effect (P-Factor)",
+      "options": [
+        "Torque",
+        "Slipstream",
+        "P-Factor",
+        "Gyroscopic Precession"
+      ],
+      "answer": "C",
+      "brief": "This describes the Asymmetric Blade Effect, more commonly known as P-Factor. It occurs at high angles of attack when the down-going propeller blade takes a bigger 'bite' of the air than the up-going blade, creating a yawing moment.",
+      "detailed": "P-Factor is a significant left-turning force that occurs when the aircraft is flying at a high angle of attack. In this attitude, the propeller disc is tilted upwards relative to the oncoming airflow. This means the propeller blade that is on the right side and moving downwards has a higher angle of attack and produces more thrust. The blade on the left side, moving upwards, has a lower angle of attack and produces less thrust. This asymmetry in the thrust produced by the propeller blades creates a strong yawing moment that pulls the aircraft's nose to the left."
+    },
+    {
+      "question": "Ground effect will cause the indicated airspeed indicator to:",
+      "topic": "Ground Effect",
+      "options": [
+        "read lower than the actual airspeed",
+        "read higher than the actual airspeed",
+        "stop working",
+        "fluctuate randomly"
+      ],
+      "answer": "B",
+      "brief": "When flying in close proximity to the ground, the altered airflow pattern around the aircraft can cause the pressure at the static port to be lower than the true ambient pressure. This causes the airspeed indicator to slightly over-read.",
+      "detailed": "The airspeed indicator calculates speed by measuring the difference between total pressure and static pressure. When in ground effect, the airflow is constricted between the wing and the ground, which can alter the local pressure field around the fuselage where the static port is located. This often results in the static port sensing a pressure that is slightly lower than the true atmospheric static pressure. Because the ASI thinks the static pressure is lower, the calculated difference between total and static pressure (the dynamic pressure) is higher, resulting in an indicated airspeed that is slightly higher than the actual speed."
+    },
+    {
+      "question": "The yawing motion produced by the gyroscopic effect of the propeller is known as:",
+      "topic": "Gyroscopic Effect",
+      "options": [
+        "Torque",
+        "Precession",
+        "Slipstream",
+        "P-Factor"
+      ],
+      "answer": "B",
+      "brief": "A spinning propeller acts like a gyroscope, and the force it produces in response to a pitching or yawing input is called precession. Precession causes the resultant force to act 90 degrees ahead of the applied force in the direction of rotation.",
+      "detailed": "Gyroscopic precession is a principle that applies to all rotating bodies. It states that if you apply a force to the rim of a spinning disc, the disc will not react at the point of application but will instead produce a force 90 degrees further around in the direction of rotation. For a pilot raising the tail of a tailwheel aircraft (applying a pitching force to the top of the propeller disc), the gyroscopic precession results in a yawing force to the left. This predictable effect is a key component of the left-turning tendencies."
+    },
+    {
+      "question": "Which of the four left-turning tendencies is a direct result of the engine's rotational force on the airframe?",
+      "topic": "Propeller Torque",
+      "options": [
+        "Slipstream",
+        "Gyroscopic Precession",
+        "Asymmetric Blade Effect",
+        "Torque Reaction"
+      ],
+      "answer": "D",
+      "brief": "Torque reaction is the effect caused directly by the engine's rotational force. Based on Newton's Third Law, as the engine applies a torque to spin the propeller, the propeller applies an equal and opposite torque back onto the airframe, causing it to roll.",
+      "detailed": "Torque reaction is a pure rolling moment, not a yawing one, but it contributes to the overall difficulty of controlling the aircraft at high power. It is a direct consequence of Newton's Third Law. The engine's crankshaft turns the propeller in one direction (clockwise from the cockpit). In reaction to this, the propeller exerts an equal and opposite rotational force, or torque, on the entire aircraft. This causes the aircraft to have a tendency to roll in the counter-clockwise direction, an effect which must be counteracted by the pilot, usually with aileron."
+    },
+    {
+      "question": "When taking off in a tailwheel aircraft, right rudder is required to counteract:",
+      "topic": "Controllability on Takeoff",
+      "options": [
+        "only the slipstream effect.",
+        "only the torque effect.",
+        "only P-factor.",
+        "a combination of slipstream, P-factor, torque, and gyroscopic effect."
+      ],
+      "answer": "D",
+      "brief": "During the takeoff roll in a powerful single-engine tailwheel aircraft, all four left-turning tendencies are present to some degree. The pilot must apply right rudder to counteract the combined effect of slipstream, torque, P-factor, and gyroscopic precession.",
+      "detailed": "Controlling a tailwheel aircraft on takeoff is a complex skill because the pilot must manage multiple, simultaneous forces that are all trying to yaw the aircraft to the left. The slipstream spirals around and pushes the tail right. Torque rolls the aircraft left, adding drag to the left wheel. P-factor creates more thrust on the right side of the propeller. As the tail comes up, gyroscopic precession adds another powerful yaw to the left. The pilot must use coordinated and constantly adjusting right rudder input to counteract the sum of all these forces and keep the aircraft tracking straight down the runway."
+    },
+    {
+      "question": "An aircraft will experience ground effect until it has climbed to an altitude of approximately:",
+      "topic": "Ground Effect",
+      "options": [
+        "10 feet",
+        "50 feet",
+        "200 feet",
+        "one wingspan"
+      ],
+      "answer": "D",
+      "brief": "The aerodynamic benefits of ground effect are most pronounced very close to the ground and diminish rapidly with height. As a general rule, the effect is considered to be negligible once the aircraft has reached a height equal to its own wingspan.",
+      "detailed": "Ground effect is caused by the ground interfering with the wingtip vortices that are responsible for induced drag. This interference is strongest when the wing is very close to the surface, perhaps only a few feet high. As the aircraft climbs, the vortices have more room to develop, and the influence of the ground diminishes. While there is still some measurable effect at half a wingspan, the effect is considered to have disappeared for all practical purposes by the time the aircraft reaches an altitude equal to its own wingspan. Above this height, the wing behaves as if it were in free air."
+    },
+    {
+      "question": "Which of the following is an INCORRECT statement about ground effect?",
+      "topic": "Ground Effect",
+      "options": [
+        "It reduces induced drag by restricting wingtip vortices.",
+        "It can cause the airspeed indicator to over-read.",
+        "It causes the aircraft to require a lower angle of attack for a given amount of lift.",
+        "It increases longitudinal stability by strengthening the downwash over the tail."
+      ],
+      "answer": "D",
+      "brief": "Ground effect decreases, rather than increases, longitudinal stability. The ground interferes with the normal downwash from the wings over the tailplane, making the tail less effective and causing a nose-up pitching moment.",
+      "detailed": "Ground effect has several well-documented effects on performance. It reduces induced drag by interfering with wingtip vortex formation, which is why a lower angle of attack is needed for a given amount of lift. This efficiency can cause an aircraft to float on landing. It can also alter the local static pressure, causing the ASI to over-read. However, its effect on stability is destabilizing. The ground plane reduces the amount of downwash striking the horizontal tailplane. Since the tailplane relies on this downwash to provide its balancing nose-down force, a reduction in downwash leads to a decrease in longitudinal stability. From Topic: Climbing and Descending (Section 8.4 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "ground_effect_diagram.png"
+    },
+    {
+      "question": "During the takeoff roll in a nosewheel aircraft, why is some right rudder still required?",
+      "topic": "Controllability on Takeoff",
+      "options": [
+        "Only to counteract the gyroscopic effect as the nose lifts.",
+        "To counteract the combined effects of torque and slipstream.",
+        "Only to counteract P-factor, which is very strong.",
+        "To steer the aircraft, as the nosewheel is ineffective."
+      ],
+      "answer": "B",
+      "brief": "Although a nosewheel aircraft is stable on the ground, the powerful left-turning tendencies of torque and slipstream are still present at high power. The pilot must apply right rudder to counteract these forces and maintain a straight path down the runway.",
+      "detailed": "While a nosewheel aircraft does not have the inherent instability or the gyroscopic/P-factor effects of a tailwheel aircraft during the initial ground roll, it is still subject to torque and slipstream. The torque reaction will try to roll the aircraft left, placing more weight and friction on the left wheel. More significantly, the powerful spiralling slipstream will strike the left side of the fin, creating a distinct yaw to the left. To maintain directional control and keep the aircraft tracking the centerline, the pilot must apply right rudder, especially as power is advanced to the takeoff setting. From Topic: Aeroplanes (Section 4.1 & 4.2 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "slipstream_effect_diagram.png"
+    },
+    {
+      "question": "How does Asymmetric Blade Effect (P-Factor) cause a yaw to the left?",
+      "topic": "Asymmetric Blade Effect (P-Factor)",
+      "options": [
+        "The up-going blade on the left creates more drag.",
+        "The down-going blade on the right has a higher angle of attack and produces more thrust.",
+        "The propeller disc acts like a gyroscope and precesses.",
+        "The spiralling slipstream is stronger on the left side of the aircraft."
+      ],
+      "answer": "B",
+      "brief": "P-Factor occurs when the aircraft is at a high angle of attack. This causes the down-going blade on the right to meet the air at a higher angle of attack than the up-going blade on the left, thus creating more thrust on the right side of the propeller disc.",
+      "detailed": "The thrust produced by a propeller blade is dependent on its angle of attack. When an aircraft is in a nose-high attitude, the propeller disc is tilted relative to the flight path. The blade on the right side is descending, so its own motion is combined with the aircraft's forward motion in a way that increases its angle of attack. The blade on the left side is ascending into the downward-moving air, which decreases its angle of attack. Because the right-side blade has a higher AoA, it generates more thrust. This creates an asymmetric thrust loading, with the center of thrust shifted to the right, which yaws the aircraft's nose to the left. From Topic: Aeroplanes (Section 4.4 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "p_factor_diagram.png"
+    },
+    {
+      "question": "When taxiing a tailwheel aircraft with a strong quartering tailwind from the left, the pilot should hold the controls:",
+      "topic": "Nosewheel vs Tailwheel Stability",
+      "options": [
+        "Yoke forward and turned to the right (aileron down on the left).",
+        "Yoke back and turned to the left (aileron up on the left).",
+        "Yoke forward and turned to the left (aileron down on the right).",
+        "Yoke back and turned to the right (aileron up on the right)."
+      ],
+      "answer": "A",
+      "brief": "When taxiing a tailwheel aircraft in a quartering tailwind, the rule is 'dive away from the wind'. The pilot should hold the yoke forward to keep the tail down, and turn the yoke away from the wind (right) to raise the downwind aileron.",
+      "detailed": "Taxiing a tailwheel aircraft in a strong tailwind requires specific control inputs to prevent the wind from lifting a wing or the tail. For a quartering tailwind from the left, the pilot should hold the control column forward ('dive') to deflect the elevator down, which prevents the wind from getting under it and lifting the tail. To prevent the wind from lifting the left wing, the pilot should use the ailerons to raise the aileron on the downwind (right) side. This is achieved by turning the yoke to the right ('away from the wind'). This combination of forward and right yoke is the correct technique. From Topic: Aeroplanes (Section 4.1, Figure 4.3 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "crosswind_taxi_controls.png"
+    },
+    {
+      "question": "If a pilot of a tailwheel aircraft yaws abruptly to the right while taxiing, gyroscopic precession will cause a tendency for the aircraft to:",
+      "topic": "Gyroscopic Effect",
+      "options": [
+        "pitch nose up.",
+        "pitch nose down.",
+        "roll to the right.",
+        "roll to the left."
+      ],
+      "answer": "A",
+      "brief": "An abrupt yaw to the right is like applying a force to the left side of the spinning propeller disc. Due to gyroscopic precession, the resultant force will act 90 degrees ahead, at the top of the disc, causing a nose-up pitching moment.",
+      "detailed": "This is another application of gyroscopic precession. A clockwise-rotating propeller is a gyroscope. Applying a yawing force to the right is equivalent to pushing on the left side of the propeller disc. The principle of precession states that the resultant force will manifest 90 degrees ahead in the direction of rotation. For a clockwise propeller, 90 degrees ahead of the left side is the top of the propeller disc. A force acting on the top of the disc will cause the aircraft to pitch nose-up. This is why sharp turns on the ground in a powerful tailwheel aircraft can feel unstable. From Topic: Aeroplanes (Section 4.3 - Bob Tait CPL Aerodynamics).",
+      "detailed_image": "gyroscopic_precession_diagram.png"
+    },
+    {
+      "question": "Why is it important for a pilot to maintain some back pressure on the control column after landing a nosewheel aircraft?",
+      "topic": "Nosewheel Stability",
+      "image": "nosewheel_landing_roll.png",
+      "options": [
+        "To prevent the aircraft from taking off again.",
+        "To improve aerodynamic braking and keep weight off the delicate nosewheel.",
+        "To help steer the aircraft using the elevator.",
+        "To prevent the aircraft from wheelbarrowing."
+      ],
+      "answer": "B",
+      "brief": "Maintaining back pressure after touchdown uses the elevator to create a downward force on the tail. This improves braking effectiveness by keeping weight on the main wheels and protects the nosewheel from excessive loads during the landing roll.",
+      "detailed": "After a nosewheel aircraft has touched down, it is important to manage the rollout correctly. By holding the control column back, the pilot keeps the elevator in an 'up' position. The airflow, even at low speeds, creates a downward force on this deflected elevator. This force has two benefits: first, it pushes the tail down, which pivots the aircraft on the main wheels and keeps the nosewheel light, protecting its more delicate structure from high-speed loads and runway imperfections. Second, by keeping the weight firmly on the main wheels, it ensures that the brakes are as effective as possible.",
+      "detailed_image": "nosewheel_landing_roll.png"
+    },
+    {
+      "question": "Which of the left-turning tendencies is a result of the engine's rotating mass reacting to a change in the aircraft's attitude?",
+      "topic": "Gyroscopic Effect",
+      "image": "gyroscopic_precession_diagram.png",
+      "options": [
+        "Torque Reaction",
+        "Propeller Slipstream",
+        "Asymmetric Blade Effect",
+        "Gyroscopic Effect"
+      ],
+      "answer": "D",
+      "brief": "The gyroscopic effect is unique in that it only occurs when a force attempts to change the plane of rotation of the spinning propeller. It is the reaction of this spinning mass to a pitching or yawing manoeuvre.",
+      "detailed": "While torque, slipstream, and P-factor are present in steady-state flight (like a climb), the gyroscopic effect is a transient force that only appears during a change in attitude. The spinning propeller has gyroscopic inertia, which resists being tilted. When a pilot pitches the aircraft up or down, or yaws it left or right, they are applying a force to this spinning gyroscope. The gyroscope reacts with a force of its own, known as precession, which acts 90 degrees from the point of the applied force. This is what causes the yawing motion when a taildragger's tail is raised.",
+      "detailed_image": "gyroscopic_precession_diagram.png"
+    },
+    {
+      "question": "An aircraft that becomes airborne in ground effect at a speed below its normal V_S may:",
+      "topic": "Ground Effect",
+      "image": "ground_effect_takeoff.png",
+      "options": [
+        "accelerate rapidly and climb away steeply.",
+        "experience a sudden increase in lift as it climbs.",
+        "be unable to climb out of ground effect due to increased drag.",
+        "have improved longitudinal stability."
+      ],
+      "answer": "C",
+      "brief": "If an aircraft lifts off in ground effect below its normal flying speed, it may be unable to climb once it leaves the ground effect 'cushion'. The sudden increase in induced drag as it climbs may be greater than the available thrust, preventing any further ascent.",
+      "detailed": "Ground effect creates a false sense of performance by significantly reducing induced drag. An aircraft might be able to become airborne within this effect at an airspeed that is too low to sustain flight normally. As the pilot attempts to climb, the aircraft will rise to an altitude of about one wingspan, at which point the ground effect disappears. At this moment, the induced drag increases suddenly and dramatically. If the aircraft has not accelerated to a safe climb speed (Vy), the total drag may now exceed the thrust from the engine, making it impossible for the aircraft to climb any higher.",
+      "detailed_image": "ground_effect_takeoff.png"
+    },
+    {
+      "question": "At low taxi speeds in a nosewheel aircraft, directional control is primarily maintained by:",
+      "topic": "Nosewheel Stability",
+      "image": "nosewheel_steering.png",
+      "options": [
+        "the rudder, which is very effective.",
+        "the ailerons, using adverse yaw.",
+        "the nosewheel steering system, linked to the rudder pedals.",
+        "differential braking."
+      ],
+      "answer": "C",
+      "brief": "At low speeds, there is insufficient airflow over the rudder for it to be effective. Therefore, directional control for a nosewheel aircraft on the ground is achieved through a mechanical linkage that connects the rudder pedals to the steerable nosewheel.",
+      "detailed": "A nosewheel aircraft is designed for easy ground handling. Directional control during taxiing is achieved primarily through the nosewheel steering system. The rudder pedals in the cockpit are connected by cables or pushrods not only to the rudder but also to the nosewheel assembly. When the pilot pushes a rudder pedal, it turns the nosewheel, allowing for precise steering during low-speed operations like taxiing to and from the runway. The rudder itself only becomes effective once the aircraft has gained sufficient speed during the takeoff roll for the airflow to have an effect on it.",
+      "detailed_image": "nosewheel_steering.png"
+    },
+    {
+      "question": "The tendency of a tailwheel aircraft to swerve uncontrollably on the ground is known as:",
+      "topic": "Nosewheel vs Tailwheel Stability",
+      "image": "ground_loop.png",
+      "options": [
+        "Wheelbarrowing",
+        "Weathercocking",
+        "A ground loop",
+        "P-Factor"
+      ],
+      "answer": "C",
+      "brief": "A ground loop is an uncontrolled, tight turn that can occur in tailwheel aircraft. It is caused by the inherent directional instability of having the Centre of Gravity located behind the main wheels.",
+      "detailed": "A tailwheel aircraft is inherently unstable on the ground. Its Centre of Gravity is located behind the main wheels, which act as a pivot point. If a swerve develops during the landing roll or takeoff, the inertia of the CG will try to swing around this pivot point, which tightens the turn. If the pilot does not correct this immediately and precisely with rudder, this unstable turning moment can rapidly increase, leading to a violent and uncontrolled turn known as a ground loop. This is the primary reason why tailwheel aircraft are considered more difficult to handle on the ground than nosewheel aircraft.",
+      "detailed_image": "ground_loop.png"
+    },
+    {
+      "question": "Which of the following is NOT a direct effect of extending flaps for takeoff?",
+      "topic": "Ground Effect",
+      "options": [
+        "Increased lift coefficient",
+        "Decreased stalling speed",
+        "Increased drag",
+        "Reduced ground effect"
+      ],
+      "answer": "D",
+      "brief": "Extending flaps increases the lift coefficient, which in turn decreases the stalling speed and allows for a shorter takeoff run. However, it also increases drag, but it does not reduce the beneficial effects of ground effect.",
+      "detailed": "Extending flaps for takeoff has three primary effects. It increases the wing's maximum lift coefficient (CLmax), which allows the aircraft to generate the required lift at a lower speed. This results in a lower lift-off speed and a shorter takeoff run. The trade-off is that flaps also increase drag, which can slightly reduce the initial angle of climb. Ground effect is a separate phenomenon related to the proximity of the ground; flaps do not reduce it. In fact, the combination of flaps and ground effect produces a very large amount of lift at low speed."
+    },
+    {
+      "question": "The force of torque reaction is a consequence of:",
+      "topic": "Propeller Torque",
+      "options": [
+        "Bernoulli's Principle",
+        "The Coanda Effect",
+        "Newton's Third Law of Motion",
+        "The Law of Gravity"
+      ],
+      "answer": "C",
+      "brief": "Torque reaction is a perfect illustration of Newton's Third Law. The engine applies a force (action) to turn the propeller, and the propeller applies an equal and opposite force (reaction) back onto the airframe, causing it to roll.",
+      "detailed": "Newton's Third Law states that for every action, there is an equal and opposite reaction. In this case, the 'action' is the engine's crankshaft applying a rotational force, or torque, to the propeller to make it spin in one direction (e.g., clockwise). The 'reaction' is the propeller exerting an equal and opposing torque back on the engine crankshaft and the entire aircraft. This reaction force attempts to rotate the aircraft in the opposite direction (counter-clockwise). This is why it is called torque *reaction*."
+    },
+    {
+      "question": "In a nosewheel aircraft, the Centre of Gravity is located:",
+      "topic": "Nosewheel Stability",
+      "options": [
+        "behind the main wheels, creating instability.",
+        "directly above the main wheels.",
+        "in front of the main wheels, creating stability.",
+        "at the same point as the centre of pressure."
+      ],
+      "answer": "C",
+      "brief": "The key to the directional stability of a nosewheel aircraft on the ground is that its Centre of Gravity is located forward of the main landing gear. This arrangement makes the aircraft behave like a dart or an arrow, with a natural tendency to track straight.",
+      "detailed": "The ground handling characteristics of an aircraft are determined by the relationship between its Centre of Gravity (CG) and its main wheels. A nosewheel (tricycle gear) aircraft is designed with the CG ahead of the main wheels. This creates a 'castering' effect. If the aircraft starts to swerve, the inertia of the heavy CG, being ahead of the pivot point, will pull the aircraft back into a straight line. This provides inherent directional stability and makes the aircraft very easy to control during takeoff and landing, which is a primary reason why this design is so common."
+    },
+    {
+      "question": "Asymmetric Blade Effect (P-Factor) causes a yaw to the left because the down-going blade on the right has a higher:",
+      "topic": "Asymmetric Blade Effect (P-Factor)",
+      "options": [
+        "airspeed.",
+        "angle of attack.",
+        "chord length.",
+        "surface area."
+      ],
+      "answer": "B",
+      "brief": "P-Factor is a direct result of the difference in the angle of attack between the up-going and down-going propeller blades. When the aircraft is at a high angle of attack, the down-going blade on the right has a higher effective angle of attack and thus creates more thrust.",
+      "detailed": "When an aircraft flies with its nose high, the propeller disc is tilted relative to the airflow. The total velocity of any point on a propeller blade is the sum of its rotational velocity and the aircraft's forward velocity. Because of the tilt, the down-going blade (on the right) meets the air at a higher, more effective angle of attack. The up-going blade (on the left) meets the air at a lower angle of attack. Since thrust is a function of the angle of attack, the right side of the propeller produces more thrust, which creates a yawing moment to the left."
+    },
+    {
+      "question": "Which of the following is NOT an effect of ground effect?",
+      "topic": "Ground Effect",
+      "options": [
+        "A reduction in induced drag.",
+        "A requirement for a longer takeoff distance.",
+        "A tendency for the aircraft to float during landing.",
+        "A faulty, slightly high airspeed indication."
+      ],
+      "answer": "B",
+      "brief": "Ground effect *reduces* the takeoff distance required. By reducing induced drag, it allows the aircraft to accelerate more quickly and to achieve lift-off at a lower speed than would otherwise be possible.",
+      "detailed": "Ground effect is a phenomenon that improves aircraft performance near the ground. Its primary effect is the reduction of induced drag due to the ground interfering with wingtip vortices. This increased efficiency means the aircraft requires less thrust to achieve a given speed, which shortens the takeoff roll. It also allows the aircraft to lift off at a slightly lower speed. The other options are true effects: it does cause floating on landing and can cause a slight over-reading of the airspeed indicator. From Topic: Climbing and Descending (Section 8.4 - Bob Tait CPL Aerodynamics)."
+    }
+  ]
